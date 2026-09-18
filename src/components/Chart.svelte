@@ -1,0 +1,336 @@
+<script lang="ts">
+  import { tick } from 'svelte';
+  import { eras as ERAS, byId, children, roots } from '../lib/data';
+  import { ageToPct, boundariesMa, eraOrder } from '../lib/eras';
+  import { isVisible } from '../lib/filter';
+  import { strings } from '../lib/i18n';
+  import { toggleOpen, ui } from '../lib/state.svelte';
+  import RangeNode from './RangeNode.svelte';
+
+  const kids = (id: string) => children(id);
+  const t = $derived(strings(ui.lang));
+  const visibleRoots = $derived(roots.filter((r) => isVisible(r, kids, ui.livingOnly, ui.query)));
+  // When a lineage is hovered/selected the rows dim; fade the connectors with them.
+  const activeId = $derived(ui.hoveredId ?? ui.selectedId);
+
+  const segments = eraOrder.map((k) => ({ key: k, ...ERAS[k] }));
+  const oldest = boundariesMa[0];
+  const ticks = boundariesMa.map((age) => {
+    const pct = ageToPct(age);
+    return { age, pct, pos: pct <= 1 ? 'start' : pct >= 99 ? 'end' : 'mid' };
+  });
+  // Locale-aware age formatting (e.g. Polish uses a space as thousands separator).
+  const nf = $derived(new Intl.NumberFormat(ui.lang));
+  // Vertical gridlines at every period boundary (drawn behind each row's bar).
+  const gridlines = boundariesMa
+    .slice(1, -1)
+    .map((age) => {
+      const frac = (ageToPct(age) / 100).toFixed(5);
+      const pos = `calc(var(--inset) + ${frac} * (100% - var(--inset)))`;
+      const c = 'rgb(100 116 139 / 0.13)';
+      return `linear-gradient(90deg, transparent ${pos}, ${c} ${pos}, ${c} calc(${pos} + 1px), transparent calc(${pos} + 1px))`;
+    })
+    .join(', ');
+
+  let el = $state<HTMLElement>();
+  function names(): HTMLButtonElement[] {
+    return el ? Array.from(el.querySelectorAll<HTMLButtonElement>('.name')) : [];
+  }
+  function focusAt(list: HTMLButtonElement[], i: number): void {
+    list[Math.max(0, Math.min(list.length - 1, i))]?.focus();
+  }
+  async function onKeydown(e: KeyboardEvent): Promise<void> {
+    const target = e.target as HTMLElement;
+    if (!target.classList.contains('name')) return;
+    const list = names();
+    const idx = list.indexOf(target as HTMLButtonElement);
+    const id = target.dataset.id;
+    if (!id) return;
+    switch (e.key) {
+      case 'ArrowDown':
+        e.preventDefault();
+        focusAt(list, idx + 1);
+        break;
+      case 'ArrowUp':
+        e.preventDefault();
+        focusAt(list, idx - 1);
+        break;
+      case 'Home':
+        e.preventDefault();
+        focusAt(list, 0);
+        break;
+      case 'End':
+        e.preventDefault();
+        focusAt(list, list.length - 1);
+        break;
+      case 'ArrowRight':
+        e.preventDefault();
+        if (!ui.openIds.has(id)) {
+          toggleOpen(id);
+          await tick();
+        } else {
+          focusAt(names(), names().indexOf(target as HTMLButtonElement) + 1);
+        }
+        break;
+      case 'ArrowLeft':
+        e.preventDefault();
+        if (ui.openIds.has(id)) toggleOpen(id);
+        break;
+    }
+  }
+
+  // Parent→child connectors: measured from the laid-out bars so they stay
+  // correct across expand/collapse, filtering, language and resize.
+  let links = $state<string[]>([]);
+  function measure(): void {
+    if (!el) return;
+    const base = el.getBoundingClientRect();
+    const pts = new Map<string, { x: number; y: number }>();
+    for (const w of el.querySelectorAll<HTMLElement>('.wrap[data-id]')) {
+      const id = w.dataset.id;
+      const bar = w.querySelector<HTMLElement>(':scope > .row > .bar');
+      if (!id || !bar) continue;
+      const r = bar.getBoundingClientRect();
+      pts.set(id, { x: r.left - base.left, y: r.top - base.top + r.height / 2 });
+    }
+    // Rectangular phylogram: each child hangs off a spine drawn just left of the
+    // parent's start, so even children that begin at the same time show a rib.
+    const gap = 11; // spine distance left of the parent bar
+    const r = 5; // corner radius
+    const f = (n: number) => n.toFixed(1);
+    const segs: string[] = [];
+    for (const [id, p] of pts) {
+      const pid = byId.get(id)?.parentId;
+      const pp = pid ? pts.get(pid) : undefined;
+      if (!pp) continue;
+      const bx = Math.max(3, pp.x - gap); // spine x
+      segs.push(
+        `M${f(pp.x)} ${f(pp.y)} H${f(bx + r)} Q${f(bx)} ${f(pp.y)} ${f(bx)} ${f(pp.y + r)} ` +
+          `V${f(p.y - r)} Q${f(bx)} ${f(p.y)} ${f(bx + r)} ${f(p.y)} H${f(p.x)}`,
+      );
+    }
+    links = segs;
+  }
+
+  // Re-measure after any layout-affecting state change (post-DOM update).
+  // selectedId matters: opening/closing a detail panel shifts row positions
+  // even when the total height stays the same (one panel closes, another opens).
+  $effect(() => {
+    void ui.openIds.size;
+    void ui.livingOnly;
+    void ui.query;
+    void ui.lang;
+    void ui.audience;
+    void ui.selectedId;
+    tick().then(measure);
+  });
+
+  // Re-measure on container resize (window, font load, scrollbar).
+  $effect(() => {
+    if (!el) return;
+    const ro = new ResizeObserver(() => measure());
+    ro.observe(el);
+    return () => ro.disconnect();
+  });
+</script>
+
+<section class="chart container" style="--grid:{gridlines}" aria-label={t.timelineTitle}>
+  <div class="scroll">
+    <div class="canvas">
+      <!-- Geological period bands + Ma axis (sticky), full width -->
+      <div class="head">
+        <span class="cap">{t.timelineTitle}</span>
+        <div class="bands">
+          {#each segments as s (s.key)}
+            <div class="band" style="flex:{s.span} 1 0; background:{s.color}" title={s.name[ui.lang]}>
+              {s.name[ui.lang]}
+            </div>
+          {/each}
+        </div>
+        <div class="axis" aria-hidden="true">
+          {#each ticks as tk (tk.age)}
+            <span class="tick {tk.pos}" style="left:{tk.pct.toFixed(2)}%">
+              {tk.age === oldest ? `${nf.format(tk.age)} Ma` : nf.format(tk.age)}
+            </span>
+          {/each}
+        </div>
+      </div>
+
+      <div
+        class="rows"
+        role="tree"
+        tabindex="-1"
+        aria-label="Drzewo ewolucji kręgowców"
+        bind:this={el}
+        onkeydown={onKeydown}
+        onmouseleave={() => (ui.hoveredId = null)}
+      >
+        <svg class="links" class:faded={activeId} aria-hidden="true">
+          {#each links as d (d)}
+            <path {d} />
+          {/each}
+        </svg>
+        {#if visibleRoots.length === 0}
+          <p class="empty" role="status">{t.noResults}</p>
+        {:else}
+          {#each visibleRoots as root (root.id)}
+            <RangeNode node={root} depth={0} />
+          {/each}
+        {/if}
+      </div>
+    </div>
+  </div>
+
+  <p class="sr-only">
+    {t.timelineTitle}: {segments.map((s) => s.name[ui.lang]).join(', ')}.
+  </p>
+</section>
+
+<style>
+  .chart {
+    /* Thin left rail reserved for the phylogram connectors. */
+    --inset: 16px;
+    margin-block: var(--space-4);
+    padding: var(--space-4);
+    background: var(--bg-surface);
+    border: 1px solid var(--border-subtle);
+    border-radius: var(--radius-lg);
+    box-shadow: 0 15px 35px rgb(0 0 0 / 0.6);
+  }
+  .scroll {
+    overflow-x: auto;
+  }
+  .canvas {
+    min-width: 720px;
+  }
+
+  /* Sticky header */
+  .head {
+    position: sticky;
+    top: 0;
+    z-index: 5;
+    padding-bottom: var(--space-2);
+    margin-bottom: var(--space-1);
+    background: var(--bg-surface);
+  }
+  .cap {
+    display: block;
+    margin-bottom: var(--space-1);
+    font-size: var(--fs-xs);
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+    color: var(--text-secondary);
+  }
+  .bands {
+    display: flex;
+    height: 26px;
+    /* Start at the inset so period boundaries line up with the bars. */
+    margin-left: var(--inset);
+    width: calc(100% - var(--inset));
+    overflow: hidden;
+    border: 1px solid var(--border-subtle);
+    border-radius: var(--radius-sm);
+  }
+  .band {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 0;
+    padding: 0 4px;
+    overflow: hidden;
+    font-size: 0.6rem;
+    font-weight: var(--fw-bold);
+    color: #fff;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-shadow: 0 1px 2px rgb(0 0 0 / 0.45);
+  }
+  .band + .band {
+    border-left: 1px solid rgb(0 0 0 / 0.25);
+  }
+  .axis {
+    position: relative;
+    height: 14px;
+    margin-top: 4px;
+    margin-left: var(--inset);
+    width: calc(100% - var(--inset));
+  }
+  .tick {
+    position: absolute;
+    top: 3px;
+    font-size: var(--fs-xs);
+    color: var(--text-secondary);
+    white-space: nowrap;
+    font-variant-numeric: tabular-nums;
+  }
+  .tick::before {
+    content: '';
+    position: absolute;
+    top: -4px;
+    left: 0;
+    width: 1px;
+    height: 4px;
+    background: var(--border-medium);
+  }
+  .tick.mid {
+    transform: translateX(-50%);
+  }
+  .tick.mid::before {
+    left: 50%;
+  }
+  .tick.end {
+    transform: translateX(-100%);
+  }
+  .tick.end::before {
+    left: auto;
+    right: 0;
+  }
+
+  .rows {
+    position: relative;
+  }
+  /* Parent→child lineage connectors, drawn behind the bars. */
+  .links {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 0;
+    overflow: visible;
+    transition: opacity var(--timing-normal) ease;
+  }
+  /* Recede while a lineage is highlighted so the bars stay the focus. */
+  .links.faded {
+    opacity: 0.3;
+  }
+  .links path {
+    fill: none;
+    /* A cool steel-blue, distinct from the faint neutral period gridlines. */
+    stroke: rgb(125 174 219 / 0.55);
+    stroke-width: 1.5;
+    stroke-linecap: round;
+  }
+
+  .empty {
+    padding: var(--space-6) var(--space-2);
+    color: var(--text-secondary);
+    text-align: center;
+  }
+
+  @media (max-width: 700px) {
+    .chart {
+      padding: var(--space-2);
+    }
+    .canvas {
+      min-width: 620px;
+    }
+    .band {
+      font-size: 0;
+      padding: 0;
+    }
+    .axis {
+      display: none;
+    }
+  }
+</style>

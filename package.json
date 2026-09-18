@@ -1,0 +1,29 @@
+{
+  "name": "drzewo-ewolucji",
+  "version": "1.0.0",
+  "description": "Interaktywne drzewo ewolucji kręgowców — Vite + Svelte 5 + TypeScript",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 8848 --host 127.0.0.1 --strictPort",
+    "check": "svelte-check --tsconfig ./tsconfig.json",
+    "lint": "biome check .",
+    "format": "biome format --write .",
+    "test": "vitest run",
+    "flatten": "node scripts/flatten.mjs"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "@sveltejs/vite-plugin-svelte": "^5.0.3",
+    "@types/node": "^22.20.3",
+    "axe-core": "^4.13.0",
+    "svelte": "^5.19.0",
+    "svelte-check": "^4.1.4",
+    "typescript": "^5.7.3",
+    "vite": "^6.0.7",
+    "vitest": "^2.1.8",
+    "zod": "^3.24.1"
+  }
+}

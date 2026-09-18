@@ -1,0 +1,82 @@
+{
+  "kambr": {
+    "name": {
+      "pl": "Kambr",
+      "en": "Cambrian"
+    },
+    "color": "#4f46e5",
+    "span": 53
+  },
+  "ordowik": {
+    "name": {
+      "pl": "Ordowik",
+      "en": "Ordovician"
+    },
+    "color": "#4338ca",
+    "span": 42
+  },
+  "sylur": {
+    "name": {
+      "pl": "Sylur",
+      "en": "Silurian"
+    },
+    "color": "#0284c7",
+    "span": 24
+  },
+  "dewon": {
+    "name": {
+      "pl": "Dewon",
+      "en": "Devonian"
+    },
+    "color": "#0d9488",
+    "span": 60
+  },
+  "karbon": {
+    "name": {
+      "pl": "Karbon",
+      "en": "Carboniferous"
+    },
+    "color": "#57534e",
+    "span": 60
+  },
+  "perm": {
+    "name": {
+      "pl": "Perm",
+      "en": "Permian"
+    },
+    "color": "#b45309",
+    "span": 47
+  },
+  "trias": {
+    "name": {
+      "pl": "Trias",
+      "en": "Triassic"
+    },
+    "color": "#c2410c",
+    "span": 51
+  },
+  "jura": {
+    "name": {
+      "pl": "Jura",
+      "en": "Jurassic"
+    },
+    "color": "#b91c1c",
+    "span": 56
+  },
+  "kreda": {
+    "name": {
+      "pl": "Kreda",
+      "en": "Cretaceous"
+    },
+    "color": "#be185d",
+    "span": 79
+  },
+  "wspolczesnosc": {
+    "name": {
+      "pl": "Współczesność",
+      "en": "Present"
+    },
+    "color": "#a16207",
+    "span": 66
+  }
+}

@@ -1,0 +1,55 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Interactive elements: snappier taps, no default tap flash. */
+button,
+a,
+label,
+input,
+[role="button"] {
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  margin: 0;
+  padding: 0 0 var(--space-8);
+  min-height: 100vh;
+  font-family: var(--font-sans);
+  font-size: var(--fs-base);
+  line-height: var(--lh-base);
+  background: var(--bg-page);
+  color: var(--text-primary);
+}
+
+/* Shared width so header, toolbar, timeline and tree line up. */
+.container {
+  max-width: var(--content-max);
+  margin-inline: auto;
+  padding-inline: var(--space-4);
+}
+
+/* Visually hidden but available to assistive tech. */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+  }
+}
