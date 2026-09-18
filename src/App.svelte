@@ -33,7 +33,10 @@
   <Chart />
 </main>
 
-<footer class="container">🧬 {t.footer} <span translate="no">Claude</span> (2026)</footer>
+<footer class="container">
+  🧬 {t.footer} <span translate="no">Claude</span> · <span translate="no">v{__APP_VERSION__}</span>
+  <span class="dedication">Dla Mikołaja, Tata</span>
+</footer>
 
 <style>
   header {
@@ -81,6 +84,12 @@
     color: var(--text-secondary);
     text-align: center;
     border-top: 1px solid var(--border-subtle);
+  }
+  .dedication {
+    display: block;
+    margin-top: var(--space-2);
+    font-style: italic;
+    opacity: 0.7;
   }
   @media (max-width: 700px) {
     header h1 {

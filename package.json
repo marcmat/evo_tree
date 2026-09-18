@@ -1,6 +1,6 @@
 {
   "name": "drzewo-ewolucji",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Interaktywne drzewo ewolucji kręgowców — Vite + Svelte 5 + TypeScript",
   "type": "module",
   "license": "MIT",

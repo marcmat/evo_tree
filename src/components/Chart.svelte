@@ -7,6 +7,20 @@
   import { toggleOpen, ui } from '../lib/state.svelte';
   import RangeNode from './RangeNode.svelte';
 
+  // Deepest node in the tree — connector spines nest inward (deeper = further
+  // right) relative to this, so a child's spine never sticks out left of its parent's.
+  const MAX_DEPTH = Math.max(
+    ...[...byId.values()].map((n) => {
+      let d = 0;
+      let p = n.parentId;
+      while (p) {
+        d++;
+        p = byId.get(p)?.parentId ?? null;
+      }
+      return d;
+    }),
+  );
+
   const kids = (id: string) => children(id);
   const t = $derived(strings(ui.lang));
   const visibleRoots = $derived(roots.filter((r) => isVisible(r, kids, ui.livingOnly, ui.query)));
@@ -85,30 +99,79 @@
   function measure(): void {
     if (!el) return;
     const base = el.getBoundingClientRect();
-    const pts = new Map<string, { x: number; y: number }>();
+    const pts = new Map<string, { x: number; y: number; depth: number }>();
     for (const w of el.querySelectorAll<HTMLElement>('.wrap[data-id]')) {
       const id = w.dataset.id;
       const bar = w.querySelector<HTMLElement>(':scope > .row > .bar');
       if (!id || !bar) continue;
       const r = bar.getBoundingClientRect();
-      pts.set(id, { x: r.left - base.left, y: r.top - base.top + r.height / 2 });
+      const depth = Number(w.getAttribute('aria-level') ?? 1) - 1;
+      pts.set(id, { x: r.left - base.left, y: r.top - base.top + r.height / 2, depth });
     }
-    // Rectangular phylogram: each child hangs off a spine drawn just left of the
-    // parent's start, so even children that begin at the same time show a rib.
-    const gap = 11; // spine distance left of the parent bar
-    const r = 5; // corner radius
+
+    const rail = 4;
+    const gap = 12; // desired gap: parent-bar → spine, and between adjacent spines
+    const cr = 5;   // corner radius (same curve at top and bottom of each connector)
     const f = (n: number) => n.toFixed(1);
-    const segs: string[] = [];
-    for (const [id, p] of pts) {
+
+    // Group visible children by parent (store IDs so we can look up spine positions).
+    const byParent = new Map<string, string[]>();
+    for (const [id] of pts) {
       const pid = byId.get(id)?.parentId;
-      const pp = pid ? pts.get(pid) : undefined;
-      if (!pp) continue;
-      const bx = Math.max(3, pp.x - gap); // spine x
-      segs.push(
-        `M${f(pp.x)} ${f(pp.y)} H${f(bx + r)} Q${f(bx)} ${f(pp.y)} ${f(bx)} ${f(pp.y + r)} ` +
-          `V${f(p.y - r)} Q${f(bx)} ${f(p.y)} ${f(bx + r)} ${f(p.y)} H${f(p.x)}`,
-      );
+      if (!pid || !pts.has(pid)) continue;
+      const arr = byParent.get(pid) ?? [];
+      arr.push(id);
+      byParent.set(pid, arr);
     }
+
+    // Assign spine X for each parent, deepest-first so child spines are resolved
+    // before their parent. Rule: a parent's spine must be at least `gap` to the LEFT
+    // of any direct child's spine — this produces a uniform step cascade when parent
+    // and child bars start at the same era (e.g. Tetrapodomorpha → Temnospondyli).
+    const spineX = new Map<string, number>();
+    const sortedParents = [...byParent.keys()].sort(
+      (a, b) => (pts.get(b)?.depth ?? 0) - (pts.get(a)?.depth ?? 0),
+    );
+    for (const pid of sortedParents) {
+      const pp = pts.get(pid);
+      if (!pp) continue;
+      let bx = Math.max(rail, pp.x - gap);
+      const childSpines = (byParent.get(pid) ?? [])
+        .map((cid) => spineX.get(cid))
+        .filter((x): x is number => x !== undefined);
+      if (childSpines.length > 0) {
+        const leftmostChild = Math.min(...childSpines);
+        if (bx >= leftmostChild) bx = leftmostChild - gap;
+        bx = Math.max(rail, bx);
+      }
+      spineX.set(pid, bx);
+    }
+
+    // Build SVG paths — one spine per parent, one rounded tick per child.
+    const segs: string[] = [];
+    for (const [pid, childIds] of byParent) {
+      const pp = pts.get(pid);
+      const bx = spineX.get(pid);
+      if (!pp || bx === undefined) continue;
+
+      const kids = childIds
+        .map((id) => pts.get(id)!)
+        .filter(Boolean)
+        .sort((a, b) => a.y - b.y);
+      const lastY = kids[kids.length - 1].y;
+
+      // Elbow: parent bar → top-left curve → spine down to where the last tick's curve begins.
+      segs.push(
+        `M${f(pp.x)} ${f(pp.y)} H${f(bx + cr)} Q${f(bx)} ${f(pp.y)} ${f(bx)} ${f(pp.y + cr)} V${f(lastY - cr)}`,
+      );
+      // Each child gets a rounded bottom-left tick (mirrors the top-left curve).
+      for (const c of kids) {
+        segs.push(
+          `M${f(bx)} ${f(c.y - cr)} Q${f(bx)} ${f(c.y)} ${f(bx + cr)} ${f(c.y)} H${f(c.x)}`,
+        );
+      }
+    }
+
     links = segs;
   }
 
