@@ -7,20 +7,6 @@
   import { toggleOpen, ui } from '../lib/state.svelte';
   import RangeNode from './RangeNode.svelte';
 
-  // Deepest node in the tree — connector spines nest inward (deeper = further
-  // right) relative to this, so a child's spine never sticks out left of its parent's.
-  const MAX_DEPTH = Math.max(
-    ...[...byId.values()].map((n) => {
-      let d = 0;
-      let p = n.parentId;
-      while (p) {
-        d++;
-        p = byId.get(p)?.parentId ?? null;
-      }
-      return d;
-    }),
-  );
-
   const kids = (id: string) => children(id);
   const t = $derived(strings(ui.lang));
   const visibleRoots = $derived(roots.filter((r) => isVisible(r, kids, ui.livingOnly, ui.query)));
@@ -223,7 +209,7 @@
         class="rows"
         role="tree"
         tabindex="-1"
-        aria-label="Drzewo ewolucji kręgowców"
+        aria-label={t.title}
         bind:this={el}
         onkeydown={onKeydown}
         onmouseleave={() => (ui.hoveredId = null)}

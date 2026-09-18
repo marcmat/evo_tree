@@ -1,7 +1,7 @@
 {
-  "name": "drzewo-ewolucji",
+  "name": "evo-tree",
   "version": "1.1.0",
-  "description": "Interaktywne drzewo ewolucji kręgowców — Vite + Svelte 5 + TypeScript",
+  "description": "Interactive vertebrate evolution tree — Vite + Svelte 5 + TypeScript",
   "type": "module",
   "license": "MIT",
   "scripts": {
