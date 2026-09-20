@@ -24,11 +24,11 @@
     "eventsTitle": "Wymierania i przełomy ewolucyjne",
     "massExtinction": "Wielkie wymieranie",
     "milestone": "Przełom ewolucyjny",
-    "speciesLost": "Utracone gatunki",
+    "speciesLost": "Utracone gatunki:",
     "maAgo": "mln lat temu",
     "distinction": "Czym się wyróżnia",
     "examples": "Przykłady",
-    "exactDate": "Dokładna data"
+    "exactDate": "Dokładna data:"
   },
   "en": {
     "title": "Vertebrate Evolution Tree",
@@ -55,10 +55,10 @@
     "eventsTitle": "Mass extinctions and evolutionary milestones",
     "massExtinction": "Mass extinction",
     "milestone": "Evolutionary milestone",
-    "speciesLost": "Species lost",
+    "speciesLost": "Species lost:",
     "maAgo": "million years ago",
     "distinction": "What sets it apart",
     "examples": "Examples",
-    "exactDate": "Exact date"
+    "exactDate": "Exact date:"
   }
 }

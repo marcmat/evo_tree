@@ -1,6 +1,6 @@
 <script lang="ts">
   import { eras as ERAS, children, pathIds } from '../lib/data';
-  import { eraAtMa, erasBetween, maToFrac, totalMa } from '../lib/eras';
+  import { eraAtMa, eraEndpoints, maToFrac, totalMa } from '../lib/eras';
   import { isAncestorOnly, isVisible } from '../lib/filter';
   import { strings } from '../lib/i18n';
   import type { EvoNode } from '../lib/schema';
@@ -37,7 +37,7 @@
   // Locale-aware age formatting (Polish uses a space as thousands separator).
   const nf = $derived(new Intl.NumberFormat(ui.lang));
   const rangeLabel = $derived.by(() => {
-    const eraNames = erasBetween(node.startMa, node.endMa)
+    const eraNames = eraEndpoints(node.startMa, node.endMa)
       .map((k) => ERAS[k]?.name[ui.lang])
       .filter(Boolean)
       .join(' — ');

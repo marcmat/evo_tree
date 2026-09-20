@@ -1,6 +1,6 @@
 <script lang="ts">
   import { eras as ERAS } from '../lib/data';
-  import { eraAtMa, erasBetween } from '../lib/eras';
+  import { eraAtMa, eraEndpoints } from '../lib/eras';
   import { strings } from '../lib/i18n';
   import type { EvoNode } from '../lib/schema';
   import { ui } from '../lib/state.svelte';
@@ -11,7 +11,7 @@
   const text = $derived(node.detail[ui.audience][ui.lang]);
   const nf = $derived(new Intl.NumberFormat(ui.lang));
   const eraNames = $derived(
-    erasBetween(node.startMa, node.endMa)
+    eraEndpoints(node.startMa, node.endMa)
       .map((k) => ERAS[k]?.name[ui.lang])
       .filter(Boolean)
       .join(' — '),

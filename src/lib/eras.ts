@@ -32,3 +32,13 @@ export function eraAtMa(ma: number): string {
 export function erasBetween(startMa: number, endMa: number): string[] {
   return eraOrder.filter((k) => eras[k].startMa > endMa && eras[k].endMa < startMa);
 }
+
+/**
+ * Just the first and last era of a range (or the single one it sits in). A clade
+ * like Synapsida spans six periods, and naming every one of them buries the two
+ * that actually place it in time.
+ */
+export function eraEndpoints(startMa: number, endMa: number): string[] {
+  const all = erasBetween(startMa, endMa);
+  return all.length < 2 ? all : [all[0], all[all.length - 1]];
+}

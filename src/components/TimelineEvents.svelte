@@ -75,18 +75,12 @@
         <span class="badge {active.kind}">{kindLabel(active.kind)}</span>
       </p>
       <p class="tip-body">{active.detail[ui.audience][ui.lang]}</p>
-      <dl class="tip-stats">
-        <div>
-          <dt>{t.exactDate}</dt>
-          <dd>{nf.format(active.ma)} Ma</dd>
-        </div>
+      <p class="tip-stats">
+        <span class="badge {active.kind}">{t.exactDate} {nf.format(active.ma)} Ma</span>
         {#if active.severity !== null}
-          <div>
-            <dt>{t.speciesLost}</dt>
-            <dd>{active.severity}%</dd>
-          </div>
+          <span class="badge {active.kind}">{t.speciesLost} {active.severity}%</span>
         {/if}
-      </dl>
+      </p>
     </div>
   {/if}
 </div>
@@ -228,32 +222,15 @@
     line-height: var(--lh-base);
     color: var(--text-primary);
   }
-  /* The hard figures, pulled out of the prose and set at the foot of the window.
-     A description list rather than paragraphs, because that is what these are:
-     labelled values. Figures are the emphasis — caption small, number large. */
+  /* The hard figures close the window as pills, reusing the same .badge chip as
+     the kind label above and echoing the "Okres:" chips on a group panel, so the
+     three read as one family rather than three inventions. */
   .tip-stats {
     display: flex;
-    gap: var(--space-5);
+    flex-wrap: wrap;
+    gap: var(--space-2);
     margin: 0;
-    padding-top: var(--space-2);
-    border-top: 1px solid var(--border-medium);
-  }
-  .tip-stats div {
-    display: flex;
-    flex-direction: column;
-  }
-  .tip-stats dt {
-    font-size: var(--fs-xs);
-    text-transform: uppercase;
-    letter-spacing: 0.4px;
-    color: var(--text-secondary);
-  }
-  .tip-stats dd {
-    margin: 2px 0 0;
-    font-size: var(--fs-md);
-    font-weight: var(--fw-bold);
     font-variant-numeric: tabular-nums;
-    color: var(--text-primary);
   }
 
   /* Measured, not guessed: the tightest pair in a lane is end-Permian →
