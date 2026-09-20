@@ -15,7 +15,10 @@
 
 <svelte:window
   onkeydown={(e) => {
-    if (e.key === 'Escape') ui.selectedId = null;
+    if (e.key === 'Escape') {
+      ui.selectedId = null;
+      ui.pinnedEventId = null;
+    }
   }}
 />
 
@@ -35,7 +38,7 @@
 
 <footer class="container">
   🧬 {t.footer} <span translate="no">Claude</span> · <span translate="no">v{__APP_VERSION__}</span>
-  <span class="dedication">Dla Mikołaja, Tata</span>
+  <span class="dedication">Mikołaj, twój praprapra…dziadek był rybą. Serio. — Tata</span>
 </footer>
 
 <style>
@@ -85,11 +88,13 @@
     text-align: center;
     border-top: 1px solid var(--border-subtle);
   }
+  /* No opacity here: dimming --text-secondary drops contrast below the 4.5:1
+     threshold against --bg-page. Italic alone sets the dedication apart. */
   .dedication {
     display: block;
     margin-top: var(--space-2);
     font-style: italic;
-    opacity: 0.7;
+    text-wrap: balance;
   }
   @media (max-width: 700px) {
     header h1 {
