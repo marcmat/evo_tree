@@ -72,3 +72,51 @@ describe('image manifest integrity', () => {
     }
   });
 });
+
+describe('each group has its own picture', () => {
+  const images = ImagesSchema.parse(imagesJson);
+  const nodes = NodesSchema.parse(nodesJson);
+
+  // Three parents wore their child's face: Ceratopsia showed Triceratops, which
+  // belongs to Ceratopsidae drawn directly beneath it. Same failure as a clade
+  // borrowing its subgroup's examples, but pictures were never guarded for it.
+  it('no two groups share the same source file', () => {
+    const bySource = new Map<string, string[]>();
+    for (const [id, v] of Object.entries(images)) {
+      const seen = bySource.get(v.sourceUrl) ?? [];
+      seen.push(id);
+      bySource.set(v.sourceUrl, seen);
+    }
+    const shared = [...bySource.entries()]
+      .filter(([, ids]) => ids.length > 1)
+      .map(([url, ids]) => `${ids.join(' + ')} → ${url}`);
+    expect(shared).toEqual([]);
+  });
+
+  // A picture pinned before the tree grew can end up showing an animal that has
+  // since been given its own branch. The subject must still be one the group
+  // itself claims, not one that moved into a descendant.
+  it('a picture subject is not claimed by a descendant group', () => {
+    const childrenOf = (id: string) => nodes.filter((n) => n.parentId === id);
+    const descendantsOf = (id: string): typeof nodes => {
+      const out: typeof nodes = [];
+      const walk = (i: string) => {
+        for (const c of childrenOf(i)) {
+          out.push(c);
+          walk(c.id);
+        }
+      };
+      walk(id);
+      return out;
+    };
+    const stolen: string[] = [];
+    for (const [id, v] of Object.entries(images)) {
+      const below = descendantsOf(id).flatMap((d) =>
+        d.examples.en.split(',').map((s) => s.trim().toLowerCase()),
+      );
+      const subject = v.subject.trim().toLowerCase();
+      if (below.some((e) => e === subject)) stolen.push(`${id} pictures "${v.subject}"`);
+    }
+    expect(stolen).toEqual([]);
+  });
+});

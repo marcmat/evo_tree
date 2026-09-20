@@ -41,7 +41,6 @@ const FILE_OVERRIDES = {
   prosauropoda: 'File:Plateosaurus picture.png',
   pterosauria: 'File:Pterodactylus BMMS7 life.png',
   rhynchosauria: 'File:Rhynchosaurus articeps.png',
-  theropoda: 'File:Tyrannosaurus rex Reconstruction by Nobu Tamura.jpg',
   thyreophora: "File:Nobu Tamura's Scutellosaurus Mirrored.jpg",
   // Ancient stand-ins the ranking could not find on its own.
   lacertilia: 'File:Schoenesmahl.png',

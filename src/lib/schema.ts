@@ -62,8 +62,9 @@ export const EventsSchema = z.array(EventSchema);
  * is machine-written, and merging the two invites conflicts on every re-run.
  */
 export const ImageSchema = z.object({
-  /** Filename under public/species/ — jpg or png, whichever Commons served. */
-  file: z.string().regex(/^[a-z]+\.(jpg|png)$/),
+  /** Filename under public/species/. All WebP: scripts/normalize-images.mjs converts
+      whatever Commons served into one format and one frame. */
+  file: z.string().regex(/^[a-z]+\.webp$/),
   /** The animal pictured; used as the alt text. */
   subject: z.string().min(1),
   // The next three are what CC BY and CC BY-SA require us to publish. They are
