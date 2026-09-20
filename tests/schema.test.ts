@@ -149,3 +149,36 @@ describe('split rationale', () => {
     expect(clashes).toEqual([]);
   });
 });
+
+describe('examples belong to the group itself', () => {
+  const nodes = NodesSchema.parse(nodesJson);
+  const childrenOf = (id: string) => nodes.filter((n) => n.parentId === id);
+  const descendantsOf = (id: string): typeof nodes => {
+    const out: typeof nodes = [];
+    const walk = (i: string) => {
+      for (const c of childrenOf(i)) {
+        out.push(c);
+        walk(c.id);
+      }
+    };
+    walk(id);
+    return out;
+  };
+  const listed = (text: string) => text.split(',').map((s) => s.trim());
+
+  // A clade that illustrates itself with its subgroups' members says nothing
+  // about itself: Archosauria listed a crocodile, a tyrannosaur and a stork,
+  // all of which are drawn as separate branches directly beneath it. An
+  // internal node must name basal forms that sit outside those branches.
+  it('an internal node does not borrow examples from its subgroups', () => {
+    const borrowed: string[] = [];
+    for (const n of nodes) {
+      if (childrenOf(n.id).length === 0) continue;
+      const below = new Set(descendantsOf(n.id).flatMap((d) => listed(d.examples.pl)));
+      for (const own of listed(n.examples.pl)) {
+        if (below.has(own)) borrowed.push(`${n.id} borrows "${own}"`);
+      }
+    }
+    expect(borrowed).toEqual([]);
+  });
+});

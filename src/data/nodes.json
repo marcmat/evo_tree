@@ -167,8 +167,8 @@
       }
     },
     "examples": {
-      "pl": "Entelognathus, Dunkleosteus",
-      "en": "Entelognathus, Dunkleosteus"
+      "pl": "Entelognathus, Acanthodes, Climatius",
+      "en": "Entelognathus, Acanthodes, Climatius"
     },
     "startMa": 444,
     "endMa": 0,
@@ -351,8 +351,8 @@
       }
     },
     "examples": {
-      "pl": "Latimeria, Eusthenopteron",
-      "en": "Coelacanth, Eusthenopteron"
+      "pl": "Guiyu, Psarolepis, Onychodus",
+      "en": "Guiyu, Psarolepis, Onychodus"
     },
     "startMa": 419,
     "endMa": 0,
@@ -535,8 +535,8 @@
       }
     },
     "examples": {
-      "pl": "Żaba trawna, Traszka, Salamandra plamista",
-      "en": "Common frog, Newt, Fire salamander"
+      "pl": "Gerobatrachus, Triadobatrachus",
+      "en": "Gerobatrachus, Triadobatrachus"
     },
     "startMa": 270,
     "endMa": 0,
@@ -627,8 +627,8 @@
       }
     },
     "examples": {
-      "pl": "Dimetrodon, Lystrozaur, człowiek",
-      "en": "Dimetrodon, Lystrosaurus, humans"
+      "pl": "Archaeothyris, Echinerpeton",
+      "en": "Archaeothyris, Echinerpeton"
     },
     "startMa": 312,
     "endMa": 0,
@@ -719,8 +719,8 @@
       }
     },
     "examples": {
-      "pl": "Cynognathus, Thrinaxodon, Morganucodon",
-      "en": "Cynognathus, Thrinaxodon, Morganucodon"
+      "pl": "Cynognathus, Thrinaxodon, Procynosuchus",
+      "en": "Cynognathus, Thrinaxodon, Procynosuchus"
     },
     "startMa": 260,
     "endMa": 150,
@@ -765,8 +765,8 @@
       }
     },
     "examples": {
-      "pl": "Człowiek, Wieloryb, Nietoperz, Dziobak",
-      "en": "Humans, Whales, Bats, Platypus"
+      "pl": "Morganucodon, Sinoconodon, Hadrocodium",
+      "en": "Morganucodon, Sinoconodon, Hadrocodium"
     },
     "startMa": 225,
     "endMa": 0,
@@ -811,8 +811,8 @@
       }
     },
     "examples": {
-      "pl": "Żółw, Krokodyl, Wróbel, Tyranozaur",
-      "en": "Turtles, Crocodiles, Sparrows, Tyrannosaurus"
+      "pl": "Captorhinus, Petrolacosaurus, Mesosaurus",
+      "en": "Captorhinus, Petrolacosaurus, Mesosaurus"
     },
     "startMa": 315,
     "endMa": 0,
@@ -903,8 +903,8 @@
       }
     },
     "examples": {
-      "pl": "Plesiosaurus, Nothosaurus, Placodus",
-      "en": "Plesiosaurus, Nothosaurus, Placodus"
+      "pl": "Pachypleurosaurus, Keichousaurus",
+      "en": "Pachypleurosaurus, Keichousaurus"
     },
     "startMa": 248,
     "endMa": 66,
@@ -995,8 +995,8 @@
       }
     },
     "examples": {
-      "pl": "Hatteria, Jaszczurka zwinka, Pyton",
-      "en": "Tuatara, Sand lizard, Python"
+      "pl": "Marmoretta, Sophineta, Kuehneosaurus",
+      "en": "Marmoretta, Sophineta, Kuehneosaurus"
     },
     "startMa": 240,
     "endMa": 0,
@@ -1087,8 +1087,8 @@
       }
     },
     "examples": {
-      "pl": "Gekon, Kobra, Waran z Komodo",
-      "en": "Geckos, Cobras, Komodo dragon"
+      "pl": "Amfisbeny, Dibamidy",
+      "en": "Amphisbaenians, Dibamids"
     },
     "startMa": 167,
     "endMa": 0,
@@ -1133,8 +1133,8 @@
       }
     },
     "examples": {
-      "pl": "Krokodyl nilowy, Tyranozaur, Bocian",
-      "en": "Nile crocodile, Tyrannosaurus, Storks"
+      "pl": "Euparkeria, Proterosuchus, Erythrosuchus",
+      "en": "Euparkeria, Proterosuchus, Erythrosuchus"
     },
     "startMa": 250,
     "endMa": 0,
@@ -1225,8 +1225,8 @@
       }
     },
     "examples": {
-      "pl": "Tyranozaur, Triceratops, Diplodok",
-      "en": "Tyrannosaurus, Triceratops, Diplodocus"
+      "pl": "Nyasasaurus, Eodromaeus",
+      "en": "Nyasasaurus, Eodromaeus"
     },
     "startMa": 233,
     "endMa": 0,
@@ -1639,8 +1639,8 @@
       }
     },
     "examples": {
-      "pl": "Słoń, Pies, Człowiek, Wieloryb",
-      "en": "Elephants, Dogs, Humans, Whales"
+      "pl": "Protungulatum, Zalambdalestes",
+      "en": "Protungulatum, Zalambdalestes"
     },
     "startMa": 100,
     "endMa": 0,
@@ -1823,8 +1823,8 @@
       }
     },
     "examples": {
-      "pl": "Diplodok, Brachiozaur, Plateozaur",
-      "en": "Diplodocus, Brachiosaurus, Plateosaurus"
+      "pl": "Saturnalia, Panphagia",
+      "en": "Saturnalia, Panphagia"
     },
     "startMa": 233,
     "endMa": 66,
@@ -1869,8 +1869,8 @@
       }
     },
     "examples": {
-      "pl": "Triceratops, Stegozaur, Iguanodon",
-      "en": "Triceratops, Stegosaurus, Iguanodon"
+      "pl": "Lesothosaurus, Pisanosaurus, Heterodontosaurus",
+      "en": "Lesothosaurus, Pisanosaurus, Heterodontosaurus"
     },
     "startMa": 228,
     "endMa": 66,
@@ -1915,8 +1915,8 @@
       }
     },
     "examples": {
-      "pl": "Tyranozaur, Welociraptor, Orzeł",
-      "en": "Tyrannosaurus, Velociraptor, Eagles"
+      "pl": "Tyranozaur, Welociraptor, Allozaur",
+      "en": "Tyrannosaurus, Velociraptor, Allosaurus"
     },
     "startMa": 231,
     "endMa": 0,
@@ -2007,8 +2007,8 @@
       }
     },
     "examples": {
-      "pl": "Stegozaur, Ankylozaur, Scelidosaurus",
-      "en": "Stegosaurus, Ankylosaurus, Scelidosaurus"
+      "pl": "Scutellosaurus, Scelidosaurus, Emausaurus",
+      "en": "Scutellosaurus, Scelidosaurus, Emausaurus"
     },
     "startMa": 192,
     "endMa": 66,
@@ -2237,8 +2237,8 @@
       }
     },
     "examples": {
-      "pl": "Plesiosaurus, Elasmosaurus, Liopleurodon",
-      "en": "Plesiosaurus, Elasmosaurus, Liopleurodon"
+      "pl": "Rhomaleosaurus, Macroplata",
+      "en": "Rhomaleosaurus, Macroplata"
     },
     "startMa": 201,
     "endMa": 66,
@@ -2467,8 +2467,8 @@
       }
     },
     "examples": {
-      "pl": "Tyranozaur, Diplodok, Wróbel",
-      "en": "Tyrannosaurus, Diplodocus, Sparrows"
+      "pl": "Herrerasaurus, Staurikosaurus, Chindesaurus",
+      "en": "Herrerasaurus, Staurikosaurus, Chindesaurus"
     },
     "startMa": 233,
     "endMa": 0,
@@ -2651,8 +2651,8 @@
       }
     },
     "examples": {
-      "pl": "Ankylozaur, Edmontonia, Sauropelta",
-      "en": "Ankylosaurus, Edmontonia, Sauropelta"
+      "pl": "Gargoyleosaurus, Gastonia, Minmi",
+      "en": "Gargoyleosaurus, Gastonia, Minmi"
     },
     "startMa": 168,
     "endMa": 66,
@@ -3019,8 +3019,8 @@
       }
     },
     "examples": {
-      "pl": "Słoń, Leniwiec, Pancernik",
-      "en": "Elephants, Sloths, Armadillos"
+      "pl": "Ocepeia, Eritherium",
+      "en": "Ocepeia, Eritherium"
     },
     "startMa": 95,
     "endMa": 0,
@@ -3065,8 +3065,8 @@
       }
     },
     "examples": {
-      "pl": "Człowiek, Wilk, Koń, Nietoperz",
-      "en": "Humans, Wolves, Horses, Bats"
+      "pl": "Purgatorius, Hyopsodus",
+      "en": "Purgatorius, Hyopsodus"
     },
     "startMa": 95,
     "endMa": 0,
@@ -3111,8 +3111,8 @@
       }
     },
     "examples": {
-      "pl": "Lystrozaur, Inostrancevia, Trinaxodon",
-      "en": "Lystrosaurus, Inostrancevia, Thrinaxodon"
+      "pl": "Biarmosuchus, Moschops, Titanophoneus",
+      "en": "Biarmosuchus, Moschops, Titanophoneus"
     },
     "startMa": 270,
     "endMa": 0,
