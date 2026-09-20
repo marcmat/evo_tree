@@ -25,11 +25,23 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npm run check
+      - run: npm run lint
       - run: npm test
+
+      # Stamp the deployed build so the footer identifies the exact commit.
+      # Semver build metadata: 1.2.0+a1b2c3d. Bumping the base version stays a
+      # manual edit of package.json, in step with the semantic commit that makes it.
+      - name: Resolve site version
+        id: version
+        run: |
+          base=$(node -p "require('./package.json').version")
+          echo "value=${base}+${GITHUB_SHA::7}" >> "$GITHUB_OUTPUT"
+
       - run: npm run build
         env:
           # GitHub Pages project site is served from /<repo>/.
           VITE_BASE: /${{ github.event.repository.name }}/
+          VITE_APP_VERSION: ${{ steps.version.outputs.value }}
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
