@@ -60,9 +60,6 @@
       <span class="tag" aria-hidden="true">
         <span>{lines[0]}</span>
         {#if lines[1]}<span>{lines[1]}</span>{/if}
-        <span class="stat">
-          {nf.format(ev.ma)} Ma{ev.severity !== null ? ` · ${ev.severity}%` : ''}
-        </span>
       </span>
     </button>
   {/each}
@@ -78,9 +75,18 @@
         <span class="badge {active.kind}">{kindLabel(active.kind)}</span>
       </p>
       <p class="tip-body">{active.detail[ui.audience][ui.lang]}</p>
-      {#if active.severity !== null}
-        <p class="tip-meta">{t.speciesLost} {active.severity}%</p>
-      {/if}
+      <dl class="tip-stats">
+        <div>
+          <dt>{t.exactDate}</dt>
+          <dd>{nf.format(active.ma)} Ma</dd>
+        </div>
+        {#if active.severity !== null}
+          <div>
+            <dt>{t.speciesLost}</dt>
+            <dd>{active.severity}%</dd>
+          </div>
+        {/if}
+      </dl>
     </div>
   {/if}
 </div>
@@ -88,7 +94,7 @@
 <style>
   .events {
     position: relative;
-    height: 98px;
+    height: 78px;
     margin-top: 2px;
   }
 
@@ -114,7 +120,7 @@
     top: 0;
   }
   .marker.milestone {
-    top: 52px;
+    top: 40px;
   }
   .marker:hover,
   .marker:focus-visible {
@@ -152,15 +158,6 @@
        instead of being washed out — same reasoning as the tooltip badge. */
     background: rgb(0 0 0 / 0.3);
   }
-  /* Date, and the share of species lost where there is one. Set apart by weight
-     and figure spacing rather than by dimming — reducing opacity on an already
-     small accent colour is what pushed this below 4.5:1 once before. */
-  .tag .stat {
-    font-weight: var(--fw-normal);
-    font-variant-numeric: tabular-nums;
-    letter-spacing: 0.2px;
-  }
-
   .marker.extinction .glyph,
   .marker.extinction .tag {
     color: var(--accent-extinct);
@@ -231,19 +228,40 @@
     line-height: var(--lh-base);
     color: var(--text-primary);
   }
-  .tip-meta {
+  /* The hard figures, pulled out of the prose and set at the foot of the window.
+     A description list rather than paragraphs, because that is what these are:
+     labelled values. Figures are the emphasis — caption small, number large. */
+  .tip-stats {
+    display: flex;
+    gap: var(--space-5);
     margin: 0;
+    padding-top: var(--space-2);
+    border-top: 1px solid var(--border-medium);
+  }
+  .tip-stats div {
+    display: flex;
+    flex-direction: column;
+  }
+  .tip-stats dt {
     font-size: var(--fs-xs);
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
     color: var(--text-secondary);
   }
+  .tip-stats dd {
+    margin: 2px 0 0;
+    font-size: var(--fs-md);
+    font-weight: var(--fw-bold);
+    font-variant-numeric: tabular-nums;
+    color: var(--text-primary);
+  }
 
-  /* Measured, not guessed. The tightest pair in a lane is end-Permian →
-     end-Triassic (252 vs 201 Ma); the date/severity line is wider than either
-     name line, so it sets the chip width. Gap is 21.7px at a 1440px viewport,
-     6.5px at 1280px, and hits zero near 1210px. Cut over at 1370px and drop to
-     glyph-only below it — every figure stays reachable through the tooltip and
-     the aria-label, and the lane shrinks back to one row of glyphs. */
-  @media (max-width: 1370px) {
+  /* Measured, not guessed: the tightest pair in a lane is end-Permian →
+     end-Triassic (252 vs 201 Ma). Its gap is 34px at a 1440px viewport and 15px
+     at 1240px, reaching zero near 1080px. Cut over at 1240px and drop to
+     glyph-only below it — the name stays reachable through the tooltip and the
+     aria-label, and the lane shrinks back to one row of glyphs. */
+  @media (max-width: 1240px) {
     .tag {
       display: none;
     }

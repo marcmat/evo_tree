@@ -95,6 +95,7 @@ export const I18nStringsSchema = z.object({
   maAgo: z.string(),
   distinction: z.string(),
   examples: z.string(),
+  exactDate: z.string(),
 });
 export type I18nStrings = z.infer<typeof I18nStringsSchema>;
 export const I18nSchema = z.object({ pl: I18nStringsSchema, en: I18nStringsSchema });
