@@ -27,11 +27,10 @@ export const NodesSchema = z.array(NodeSchema);
 export const EventSchema = z
   .object({
     id: z.string().min(1),
-    /** When it happened — for a drawn-out crisis, when it began (the older edge). */
+    /** A single point on the scale. A drawn-out crisis is pinned to the pulse that
+        matters for the groups shown — the Late Devonian sits at Hangenberg, not
+        Kellwasser — and its duration is carried by the description instead. */
     ma: z.number().min(0),
-    /** Younger edge of a protracted event, e.g. the Late Devonian ran 372→359 Ma
-        across two pulses. null for events short enough to read as a single moment. */
-    endMa: z.number().min(0).nullable(),
     kind: z.enum(['extinction', 'milestone']),
     severity: z.number().min(0).max(100).nullable(),
     /** Node whose startMa this milestone must match; null for extinctions. */
@@ -45,9 +44,6 @@ export const EventSchema = z
   })
   .refine((e) => (e.kind === 'extinction' ? typeof e.severity === 'number' : e.severity === null), {
     message: 'severity must be a number for extinctions and null for milestones',
-  })
-  .refine((e) => e.endMa === null || e.endMa < e.ma, {
-    message: 'endMa is the younger edge, so it must be smaller than ma',
   });
 export type EvoEvent = z.infer<typeof EventSchema>;
 export const EventsSchema = z.array(EventSchema);

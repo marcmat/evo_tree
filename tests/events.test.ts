@@ -88,28 +88,22 @@ describe('event integrity', () => {
     }
   });
 
-  it('a protracted event has a younger endMa than its ma', () => {
-    for (const e of events) {
-      if (e.endMa !== null) expect(e.endMa, `${e.id}`).toBeLessThan(e.ma);
-    }
-  });
-
-  // The Late Devonian was a ~13 Myr crisis: the Kellwasser pulse opens it at 372 Ma
-  // and the Hangenberg pulse closes it at 359 Ma. Placoderms survived the first and
-  // died in the second, so their last appearance must fall inside the window — a
-  // point marker at 372 alone contradicted where their bar actually ends.
-  it('the Late Devonian window contains the placoderm last appearance', () => {
+  // The Late Devonian ran in pulses across ~13 Myr. The marker is pinned to the
+  // terminal Hangenberg pulse rather than the opening Kellwasser one, because that
+  // is where the placoderms actually go; anchoring it at 372 Ma left the scale
+  // disagreeing with where their bar ends. The duration lives in the description.
+  it('the Late Devonian marker lands exactly where the placoderms end', () => {
     const devonian = events.find((e) => e.id === 'late-devonian');
     const placoderms = nodes.find((n) => n.id === 'placodermi');
-    expect(devonian?.endMa, 'late-devonian must be a span').not.toBeNull();
-    expect(placoderms?.endMa).toBeLessThanOrEqual(devonian?.ma ?? 0);
-    expect(placoderms?.endMa).toBeGreaterThanOrEqual(devonian?.endMa ?? 0);
+    expect(devonian?.ma).toBe(placoderms?.endMa);
   });
 
+  // 359 rather than the more commonly cited 372 for the Late Devonian: see the
+  // Hangenberg reasoning above. The other four are the standard boundary dates.
   it('the Big Five mass extinctions are all present with the expected dates', () => {
     const extinctions = events.filter((e) => e.kind === 'extinction');
     const byMa = new Set(extinctions.map((e) => e.ma));
-    expect(byMa).toEqual(new Set([444, 372, 252, 201, 66]));
+    expect(byMa).toEqual(new Set([444, 359, 252, 201, 66]));
     expect(extinctions).toHaveLength(5);
   });
 });

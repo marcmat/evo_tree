@@ -2,7 +2,6 @@
   {
     "id": "cambrian-explosion",
     "ma": 538,
-    "endMa": null,
     "kind": "milestone",
     "severity": null,
     "anchorNodeId": "chordata",
@@ -38,7 +37,6 @@
   {
     "id": "end-ordovician",
     "ma": 444,
-    "endMa": null,
     "kind": "extinction",
     "severity": 85,
     "anchorNodeId": null,
@@ -74,7 +72,6 @@
   {
     "id": "first-jaws",
     "ma": 444,
-    "endMa": null,
     "kind": "milestone",
     "severity": null,
     "anchorNodeId": "gnathostomata",
@@ -110,7 +107,6 @@
   {
     "id": "move-onto-land",
     "ma": 397,
-    "endMa": null,
     "kind": "milestone",
     "severity": null,
     "anchorNodeId": "tetrapodomorpha",
@@ -145,8 +141,7 @@
   },
   {
     "id": "late-devonian",
-    "ma": 372,
-    "endMa": 359,
+    "ma": 359,
     "kind": "extinction",
     "severity": 75,
     "anchorNodeId": null,
@@ -174,15 +169,14 @@
         "en": "It wasn't one blow but a whole run of bad years for ocean life. Huge coral reefs disappeared, along with many armoured fish like the placoderms."
       },
       "adults": {
-        "pl": "Zdarzenie Kellwasser i towarzyszące mu epizody beztlenowe zniszczyły globalne systemy rafowe i doprowadziły do wymarcia ok. 75% gatunków, w tym większości Placodermi. Wśród przyczyn wymienia się niedobór tlenu w oceanach i możliwy wpływ ekspansji roślin lądowych na erozję i eutrofizację.",
-        "en": "The Kellwasser event and accompanying oceanic anoxia destroyed global reef systems and drove roughly 75% of species extinct, including most placoderms. Proposed causes include ocean oxygen depletion and the possible role of expanding land plants in erosion and eutrophication."
+        "pl": "Kryzys późnodewoński rozciągnął się na ok. 13 mln lat i przebiegł w kilku impulsach: zdarzenie Kellwasser (~372 Ma) zniszczyło globalne systemy rafowe, a końcowy impuls Hangenberg (~359 Ma) na granicy dewonu i karbonu dobił m.in. Placodermi. Łącznie wymarło ok. 75% gatunków. Wśród przyczyn wymienia się niedotlenienie oceanów i wpływ ekspansji roślin lądowych na erozję i eutrofizację.",
+        "en": "The Late Devonian crisis unfolded over some 13 million years in several pulses: the Kellwasser event (~372 Ma) destroyed global reef systems, and the terminal Hangenberg pulse (~359 Ma) at the Devonian-Carboniferous boundary finished off the placoderms. Around 75% of species were lost. Suggested drivers include ocean anoxia and the effect of spreading land plants on erosion and eutrophication."
       }
     }
   },
   {
     "id": "amniotic-egg",
     "ma": 318,
-    "endMa": null,
     "kind": "milestone",
     "severity": null,
     "anchorNodeId": "amniota",
@@ -218,7 +212,6 @@
   {
     "id": "end-permian",
     "ma": 252,
-    "endMa": null,
     "kind": "extinction",
     "severity": 81,
     "anchorNodeId": null,
@@ -254,7 +247,6 @@
   {
     "id": "first-flight",
     "ma": 228,
-    "endMa": null,
     "kind": "milestone",
     "severity": null,
     "anchorNodeId": "pterosauria",
@@ -290,7 +282,6 @@
   {
     "id": "end-triassic",
     "ma": 201,
-    "endMa": null,
     "kind": "extinction",
     "severity": 80,
     "anchorNodeId": null,
@@ -326,7 +317,6 @@
   {
     "id": "first-birds",
     "ma": 150,
-    "endMa": null,
     "kind": "milestone",
     "severity": null,
     "anchorNodeId": "aves",
@@ -362,7 +352,6 @@
   {
     "id": "placental-radiation",
     "ma": 100,
-    "endMa": null,
     "kind": "milestone",
     "severity": null,
     "anchorNodeId": "placentalia",
@@ -398,7 +387,6 @@
   {
     "id": "k-pg",
     "ma": 66,
-    "endMa": null,
     "kind": "extinction",
     "severity": 76,
     "anchorNodeId": null,

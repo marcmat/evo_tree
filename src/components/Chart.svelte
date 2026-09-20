@@ -23,14 +23,6 @@
       ? `calc(var(--inset) + ${maToFrac(activeEvent.ma).toFixed(4)} * (100% - var(--inset)))`
       : '',
   );
-  // A protracted event (endMa set) is drawn as a band rather than a hairline, so
-  // the chart shows the whole window groups were dying in — the Late Devonian
-  // crisis is why the placoderm bar ends at its younger edge, not at its start.
-  const eventBandWidth = $derived(
-    activeEvent?.endMa != null
-      ? `calc(${(maToFrac(activeEvent.endMa) - maToFrac(activeEvent.ma)).toFixed(4)} * (100% - var(--inset)))`
-      : '',
-  );
 
   const segments = eraOrder.map((k) => ({ key: k, span: ERAS[k].startMa - ERAS[k].endMa, ...ERAS[k] }));
   const oldest = boundariesMa[0];
@@ -240,12 +232,7 @@
           {/each}
         </svg>
         {#if activeEvent}
-          <div
-            class="event-line {activeEvent.kind}"
-            class:band={eventBandWidth !== ''}
-            style="left:{eventLineLeft}{eventBandWidth ? `; width:${eventBandWidth}` : ''}"
-            aria-hidden="true"
-          ></div>
+          <div class="event-line {activeEvent.kind}" style="left:{eventLineLeft}" aria-hidden="true"></div>
         {/if}
         {#if visibleRoots.length === 0}
           <p class="empty" role="status">{t.noResults}</p>
@@ -404,22 +391,12 @@
     z-index: 0;
   }
   .event-line.extinction {
-    color: var(--accent-extinct);
     background: var(--accent-extinct);
     opacity: 0.5;
   }
   .event-line.milestone {
-    color: var(--accent-node);
     background: var(--accent-node);
     opacity: 0.5;
-  }
-  /* A protracted event widens into a band. Declared after the colour rules so it
-     wins the opacity — same specificity, so source order decides. Crisp edges keep
-     the younger boundary readable as "this is where the bars stop". */
-  .event-line.band {
-    width: auto;
-    opacity: 0.16;
-    border-inline: 1px solid currentColor;
   }
 
   .empty {
