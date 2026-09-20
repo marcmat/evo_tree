@@ -41,6 +41,11 @@
         <span>{t.extinctIn} {extinctLabel}</span>
       {/if}
     </div>
+
+    <p class="examples">
+      <span class="label">{t.examples}</span>
+      {node.examples[ui.lang]}
+    </p>
   </div>
 </div>
 
@@ -110,6 +115,25 @@
     flex-wrap: wrap;
     gap: var(--space-2);
     font-size: var(--fs-xs);
+  }
+
+  /* Closes the panel with something concrete to picture — kept quieter than the
+     distinction callout so it reads as a footnote, not a second headline. */
+  .examples {
+    margin: var(--space-3) 0 0;
+    padding-top: var(--space-2);
+    font-size: var(--fs-sm);
+    line-height: var(--lh-base);
+    color: var(--text-primary);
+    border-top: 1px solid var(--border-subtle);
+  }
+  .examples .label {
+    margin-right: var(--space-2);
+    font-size: var(--fs-xs);
+    font-weight: var(--fw-bold);
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+    color: var(--text-secondary);
   }
   .meta span {
     padding: 2px 10px;

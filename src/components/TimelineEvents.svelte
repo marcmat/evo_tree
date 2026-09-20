@@ -60,6 +60,9 @@
       <span class="tag" aria-hidden="true">
         <span>{lines[0]}</span>
         {#if lines[1]}<span>{lines[1]}</span>{/if}
+        <span class="stat">
+          {nf.format(ev.ma)} Ma{ev.severity !== null ? ` · ${ev.severity}%` : ''}
+        </span>
       </span>
     </button>
   {/each}
@@ -85,7 +88,7 @@
 <style>
   .events {
     position: relative;
-    height: 78px;
+    height: 98px;
     margin-top: 2px;
   }
 
@@ -111,7 +114,7 @@
     top: 0;
   }
   .marker.milestone {
-    top: 40px;
+    top: 52px;
   }
   .marker:hover,
   .marker:focus-visible {
@@ -149,6 +152,15 @@
        instead of being washed out — same reasoning as the tooltip badge. */
     background: rgb(0 0 0 / 0.3);
   }
+  /* Date, and the share of species lost where there is one. Set apart by weight
+     and figure spacing rather than by dimming — reducing opacity on an already
+     small accent colour is what pushed this below 4.5:1 once before. */
+  .tag .stat {
+    font-weight: var(--fw-normal);
+    font-variant-numeric: tabular-nums;
+    letter-spacing: 0.2px;
+  }
+
   .marker.extinction .glyph,
   .marker.extinction .tag {
     color: var(--accent-extinct);
@@ -225,12 +237,13 @@
     color: var(--text-secondary);
   }
 
-  /* Measured, not guessed: with two-line badges the tightest pair in a lane is
-     end-Permian → end-Triassic (252 vs 201 Ma). Its gap is 34px at a 1440px
-     viewport, 15px at 1240px, and reaches zero near 1080px. Cut over at 1240px
-     and drop to glyph-only below it — the name stays reachable through the
-     tooltip and the aria-label, and the lane shrinks back to one row of glyphs. */
-  @media (max-width: 1240px) {
+  /* Measured, not guessed. The tightest pair in a lane is end-Permian →
+     end-Triassic (252 vs 201 Ma); the date/severity line is wider than either
+     name line, so it sets the chip width. Gap is 21.7px at a 1440px viewport,
+     6.5px at 1280px, and hits zero near 1210px. Cut over at 1370px and drop to
+     glyph-only below it — every figure stays reachable through the tooltip and
+     the aria-label, and the lane shrinks back to one row of glyphs. */
+  @media (max-width: 1370px) {
     .tag {
       display: none;
     }

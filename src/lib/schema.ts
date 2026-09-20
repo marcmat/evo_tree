@@ -20,7 +20,10 @@ export const NodeSchema = z
         against two in Sauropsida — so it gets its own callout rather than being
         buried mid-paragraph in `detail`. */
     distinction: AudienceText,
-    examples: Localized.nullable(),
+    /** Representative members, shown at the foot of the detail panel. Required:
+        every clade has something recognisable to point at, a fossil genus if not
+        a living animal, and an empty list would leave the panel trailing off. */
+    examples: Localized,
   })
   .refine((n) => n.startMa > n.endMa, {
     message: 'startMa must be after endMa (a range cannot be empty or inverted)',
@@ -91,6 +94,7 @@ export const I18nStringsSchema = z.object({
   speciesLost: z.string(),
   maAgo: z.string(),
   distinction: z.string(),
+  examples: z.string(),
 });
 export type I18nStrings = z.infer<typeof I18nStringsSchema>;
 export const I18nSchema = z.object({ pl: I18nStringsSchema, en: I18nStringsSchema });

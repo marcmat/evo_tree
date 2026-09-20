@@ -28,7 +28,10 @@
         "en": "Chordates form a tripartite clade comprising cephalochordates, urochordates, and vertebrates, sharing four synapomorphies: notochord, dorsal hollow nerve cord, pharyngeal slits, and a post-anal tail. Cambrian fossils such as Pikaia from the Burgess Shale document the clade’s early diversification."
       }
     },
-    "examples": null,
+    "examples": {
+      "pl": "Pikaia, Haikouichthys",
+      "en": "Pikaia, Haikouichthys"
+    },
     "startMa": 538,
     "endMa": 0,
     "distinction": {
@@ -163,7 +166,10 @@
         "en": "Gnathostomata evolved when the anterior hyoid arch was co-opted to form jaw bones. Synapomorphies include paired appendages, ribs, V(D)J immune recombination, and differentiated teeth. The clade diversified rapidly during the Silurian and Devonian."
       }
     },
-    "examples": null,
+    "examples": {
+      "pl": "Entelognathus, Dunkleosteus",
+      "en": "Entelognathus, Dunkleosteus"
+    },
     "startMa": 444,
     "endMa": 0,
     "distinction": {
@@ -206,7 +212,10 @@
         "en": "Placodermi is an extinct class of armoured fishes that dominated Devonian seas. The group included apex predators (Dunkleosteus, with shearing bone-plates instead of teeth), benthic forms, and suspension feeders. They went extinct during the Hangenberg extinction event at the Devonian–Carboniferous boundary, leaving no living descendants."
       }
     },
-    "examples": null,
+    "examples": {
+      "pl": "Dunkleosteus, Bothriolepis, Coccosteus",
+      "en": "Dunkleosteus, Bothriolepis, Coccosteus"
+    },
     "startMa": 438,
     "endMa": 359,
     "distinction": {
@@ -341,7 +350,10 @@
         "en": "The key synapomorphy of Sarcopterygii is a fin endoskeleton composed of elements homologous to the stylopodium (humerus/femur) and zeugopodium (radius–ulna / tibia–fibula), surrounded by muscles. The sister clade Actinopterygii has only dermal rays (lepidotrichia). This innovation was the prerequisite for the transition to land."
       }
     },
-    "examples": null,
+    "examples": {
+      "pl": "Latimeria, Eusthenopteron",
+      "en": "Coelacanth, Eusthenopteron"
+    },
     "startMa": 419,
     "endMa": 0,
     "distinction": {
@@ -430,7 +442,10 @@
         "en": "Key synapomorphies of Tetrapodomorpha: liberation of the pectoral girdle from the skull (neck), elaborated paired fin endoskeleton with wrist-like elements (Tiktaalik roseae ~375 Ma demonstrated the full set: humerus, radius, ulna + distal elements). Ribs provided body support beyond buoyancy. Includes the direct lineage to Tetrapoda."
       }
     },
-    "examples": null,
+    "examples": {
+      "pl": "Tiktaalik, Acanthostega, Ichthyostega",
+      "en": "Tiktaalik, Acanthostega, Ichthyostega"
+    },
     "startMa": 397,
     "endMa": 0,
     "distinction": {
@@ -473,7 +488,10 @@
         "en": "Temnospondyli is the largest clade of early tetrapods (~300 families, Carboniferous–Triassic), including Mastodonsaurus and Trematops. Their relationship to Lissamphibia is debated: some phylogeneticists derive modern amphibians from temnospondyls; others prefer their derivation from lepospondyls."
       }
     },
-    "examples": null,
+    "examples": {
+      "pl": "Mastodonsaurus, Eryops, Koolasuchus",
+      "en": "Mastodonsaurus, Eryops, Koolasuchus"
+    },
     "startMa": 330,
     "endMa": 120,
     "distinction": {
@@ -516,7 +534,10 @@
         "en": "The key evolutionary constraint of Lissamphibia: permeable skin enables gas and water-ion exchange but requires permanent moisture. Anamniote eggs lack chorion, amnion, and allantois — they must be deposited in water or very moist environments. This constraint distinguishes amphibians from amniotes and prevented their full conquest of land."
       }
     },
-    "examples": null,
+    "examples": {
+      "pl": "Żaba trawna, Traszka, Salamandra plamista",
+      "en": "Common frog, Newt, Fire salamander"
+    },
     "startMa": 270,
     "endMa": 0,
     "distinction": {
@@ -559,7 +580,10 @@
         "en": "The key innovation of Amniota is four extra-embryonic membranes (amnion, chorion, allantois, yolk sac) protecting the embryo from desiccation. This allowed independence from aquatic environments and colonisation of continental interiors. Further synapomorphies include keratinised skin and kidneys capable of concentrating urine."
       }
     },
-    "examples": null,
+    "examples": {
+      "pl": "Hylonomus, Paleothyris",
+      "en": "Hylonomus, Paleothyris"
+    },
     "startMa": 318,
     "endMa": 0,
     "distinction": {
@@ -602,7 +626,10 @@
         "en": "Synapsids are defined by a single temporal fenestra. Pelycosaurs (Carboniferous–Permian) formed the first radiation — large, ectothermic. Therapsids (Permian–Triassic) showed progressive mammalian features: differentiated teeth, secondary bony palate, reduction of postdentary jaw bones. Cynodonts are the immediate precursors of mammals."
       }
     },
-    "examples": null,
+    "examples": {
+      "pl": "Dimetrodon, Lystrozaur, człowiek",
+      "en": "Dimetrodon, Lystrosaurus, humans"
+    },
     "startMa": 312,
     "endMa": 0,
     "distinction": {
@@ -645,7 +672,10 @@
         "en": "Pelycosaurs are a paraphyletic assemblage of basal synapsids including Caseasauria, Varanopidae, and Sphenacomorpha. The most famous, Dimetrodon, bore a sail of elongated neural spines, likely thermoregulatory or communicative. They were extinguished in the end-Permian mass extinction (251.9 Ma)."
       }
     },
-    "examples": null,
+    "examples": {
+      "pl": "Dimetrodon, Edaphosaurus",
+      "en": "Dimetrodon, Edaphosaurus"
+    },
     "startMa": 308,
     "endMa": 252,
     "distinction": {
@@ -688,7 +718,10 @@
         "en": "Cynodonts (Permian–Jurassic) show progressive mammalian features: secondary bony palate, socketed teeth, incisor/canine/molar differentiation, reduction of the jaw to the dentary, enlarged braincase, and possible endothermy and hair in advanced forms. The clade includes Cynognathus, Thrinaxodon, and the lineage leading to Mammalia."
       }
     },
-    "examples": null,
+    "examples": {
+      "pl": "Cynognathus, Thrinaxodon, Morganucodon",
+      "en": "Cynognathus, Thrinaxodon, Morganucodon"
+    },
     "startMa": 260,
     "endMa": 150,
     "distinction": {
@@ -731,7 +764,10 @@
         "en": "Mammalia is defined by three middle ear ossicles (malleus, incus, stapes), mammary glands, endothermy, and hair. The class comprises Monotremata (platypus, echidna), Marsupialia, and Placentalia. Adaptive radiation followed the K–Pg extinction (66 Ma). The class contains ~6,500 living species."
       }
     },
-    "examples": null,
+    "examples": {
+      "pl": "Człowiek, Wieloryb, Nietoperz, Dziobak",
+      "en": "Humans, Whales, Bats, Platypus"
+    },
     "startMa": 225,
     "endMa": 0,
     "distinction": {
@@ -774,7 +810,10 @@
         "en": "Sauropsida encompasses all living reptiles and birds plus their extinct relatives. The distinguishing feature from synapsids is diapsid skull architecture (or its secondary modifications). The clade includes Lepidosauria, Testudines, Archosauria, and extinct marine groups."
       }
     },
-    "examples": null,
+    "examples": {
+      "pl": "Żółw, Krokodyl, Wróbel, Tyranozaur",
+      "en": "Turtles, Crocodiles, Sparrows, Tyrannosaurus"
+    },
     "startMa": 315,
     "endMa": 0,
     "distinction": {
@@ -817,7 +856,10 @@
         "en": "Ichthyosaurs (Triassic–Cretaceous) are a convergence with cetaceans: fusiform body, dorsal fin, lunate homocercal tail, viviparity, and large eyes for deep-water hunting. Stenopterygius reached 4 m. They went extinct in the Late Cretaceous (~90 Ma), before the K–Pg event."
       }
     },
-    "examples": null,
+    "examples": {
+      "pl": "Ichthyosaurus, Stenopterygius, Shonisaurus",
+      "en": "Ichthyosaurus, Stenopterygius, Shonisaurus"
+    },
     "startMa": 250,
     "endMa": 90,
     "distinction": {
@@ -860,7 +902,10 @@
         "en": "Sauropterygia is a clade of early Mesozoic marine reptiles including Plesiosauria (long-necked Plesiosauridae; short-necked Pliosauridae), Nothosauria, and Placodontia. Plesiosaurs were likely viviparous. They went extinct at the K–Pg boundary (66 Ma)."
       }
     },
-    "examples": null,
+    "examples": {
+      "pl": "Plesiosaurus, Nothosaurus, Placodus",
+      "en": "Plesiosaurus, Nothosaurus, Placodus"
+    },
     "startMa": 248,
     "endMa": 66,
     "distinction": {
@@ -949,7 +994,10 @@
         "en": "Lepidosauria is characterised by transverse cleavage of the palate, acrodont or pleurodont teeth, and ecdysis (skin shedding en bloc). Sister to Archosauria. The clade contains ~11,000 species."
       }
     },
-    "examples": null,
+    "examples": {
+      "pl": "Hatteria, Jaszczurka zwinka, Pyton",
+      "en": "Tuatara, Sand lizard, Python"
+    },
     "startMa": 240,
     "endMa": 0,
     "distinction": {
@@ -1038,7 +1086,10 @@
         "en": "Key synapomorphy of Squamata: streptostylic quadrate (movable quadrate bone) producing cranial kinesis. Sister clade Rhynchocephalia (tuatara) retained primitive acinetyism. Jacobson’s organ (vomeronasal) as primary chemosensor — forked tongue collects chemical particles and inserts into the organ. Hemipenes in males. Ecdysis hormonally controlled."
       }
     },
-    "examples": null,
+    "examples": {
+      "pl": "Gekon, Kobra, Waran z Komodo",
+      "en": "Geckos, Cobras, Komodo dragon"
+    },
     "startMa": 167,
     "endMa": 0,
     "distinction": {
@@ -1081,7 +1132,10 @@
         "en": "Archosauromorpha is a broad group including Archosauria and their basal relatives (Trilophosauria, Tanystropheidae, Proterochampsidae). Crown Archosauria is defined by the antorbital fenestra, mandibular fossa, and perforated acetabulum. They split into Pseudosuchia (crocodile line) and Avemetatarsalia (bird line)."
       }
     },
-    "examples": null,
+    "examples": {
+      "pl": "Krokodyl nilowy, Tyranozaur, Bocian",
+      "en": "Nile crocodile, Tyrannosaurus, Storks"
+    },
     "startMa": 250,
     "endMa": 0,
     "distinction": {
@@ -1170,7 +1224,10 @@
         "en": "Non-avian dinosaurs were the dominant terrestrial vertebrates for 165 million years. They divide into Ornithischia and Saurischia. Many were likely endothermic and feathered. They were extinguished by the Chicxulub asteroid impact (66 Ma) causing an impact winter. Their only surviving descendants are birds."
       }
     },
-    "examples": null,
+    "examples": {
+      "pl": "Tyranozaur, Triceratops, Diplodok",
+      "en": "Tyrannosaurus, Triceratops, Diplodocus"
+    },
     "startMa": 233,
     "endMa": 0,
     "distinction": {
@@ -1489,7 +1546,10 @@
         "en": "Multituberculata was the most diverse and long-lived mammal lineage of the Mesozoic (~165–35 Ma; over 130 Ma of succession). Their name derives from characteristic multi-cusped molars for grinding seeds — an ecological niche taken over only in the Eocene by Rodentia, which ultimately displaced them to extinction. Phylogenetically placed as sister to Theria or within Allotheria; unrelated to Rodentia (morphological convergence)."
       }
     },
-    "examples": null,
+    "examples": {
+      "pl": "Ptilodus, Taeniolabis",
+      "en": "Ptilodus, Taeniolabis"
+    },
     "startMa": 168,
     "endMa": 35,
     "distinction": {
@@ -1532,7 +1592,10 @@
         "en": "Eutriconodonta are early Mesozoic mammals (Triassic–Cretaceous, ~235–100 Ma) characterised by tricuspid teeth with three cusps in a row. They went extinct before the end of the Cretaceous. Repenomamus giganticus (~125 Ma, Yixian Formation, China) reached ~1 m in length and is the first documented case of a mammal preying on dinosaurs (Psittacosaurus in gut). The phylogenetic position of Eutriconodonta remains debated: some analyses place them as basal Mammalia, others outside the crown."
       }
     },
-    "examples": null,
+    "examples": {
+      "pl": "Repenomamus, Jeholodens",
+      "en": "Repenomamus, Jeholodens"
+    },
     "startMa": 160,
     "endMa": 94,
     "distinction": {
@@ -1575,7 +1638,10 @@
         "en": "Placentalia are defined by the chorioallantoic placenta enabling extended gestation. The clade includes ~20 orders and ~6,000 species. Major radiation followed K–Pg (66 Ma). Phylogenetically split into Atlantogenata (Afrotheria + Xenarthra) and Boreoeutheria (Euarchontoglires + Laurasiatheria)."
       }
     },
-    "examples": null,
+    "examples": {
+      "pl": "Słoń, Pies, Człowiek, Wieloryb",
+      "en": "Elephants, Dogs, Humans, Whales"
+    },
     "startMa": 100,
     "endMa": 0,
     "distinction": {
@@ -1756,7 +1822,10 @@
         "en": "Sauropodomorpha splits into basal forms (Triassic, bipedal, 1–10 m) and Sauropoda (Jurassic–Cretaceous, quadrupedal giants). Pillar-like legs, pneumatised neck vertebrae, peg-like teeth for leaf-stripping. Argentinosaurus (~80 t) is likely the largest land animal in history."
       }
     },
-    "examples": null,
+    "examples": {
+      "pl": "Diplodok, Brachiozaur, Plateozaur",
+      "en": "Diplodocus, Brachiosaurus, Plateosaurus"
+    },
     "startMa": 233,
     "endMa": 66,
     "distinction": {
@@ -1799,7 +1868,10 @@
         "en": "Ornithischia (Triassic–Cretaceous) is defined by a posteriorly directed pubis like birds (independently evolved!), a predentary bone in the lower jaw, and cranial ornamentation. Exclusively herbivorous. Split into Thyreophora (armoured), Ornithopoda, and Marginocephalia (horned + dome-headed)."
       }
     },
-    "examples": null,
+    "examples": {
+      "pl": "Triceratops, Stegozaur, Iguanodon",
+      "en": "Triceratops, Stegosaurus, Iguanodon"
+    },
     "startMa": 228,
     "endMa": 66,
     "distinction": {
@@ -1842,7 +1914,10 @@
         "en": "Theropoda (Triassic–present) is a bipedal clade with pneumatised bones, grasping hands (3 functional digits), and typically carnivorous diet. Key groups: Ceratosauria, Carnosauria (Allosaurus), Coelurosauria (Tyrannosauridae + Maniraptora → Aves). Feathers confirmed by fossils in Maniraptora."
       }
     },
-    "examples": null,
+    "examples": {
+      "pl": "Tyranozaur, Welociraptor, Orzeł",
+      "en": "Tyrannosaurus, Velociraptor, Eagles"
+    },
     "startMa": 231,
     "endMa": 0,
     "distinction": {
@@ -1931,7 +2006,10 @@
         "en": "Thyreophora splits into Stegosauria (Jurassic; dorsal plates and tail spines; Stegosaurus) and Ankylosauria (Jurassic–Cretaceous; massive body armour, tail club; Ankylosaurus). Both groups are quadrupedal herbivores. Armour from bony osteoderms — convergent with placoderm armour."
       }
     },
-    "examples": null,
+    "examples": {
+      "pl": "Stegozaur, Ankylozaur, Scelidosaurus",
+      "en": "Stegosaurus, Ankylosaurus, Scelidosaurus"
+    },
     "startMa": 192,
     "endMa": 66,
     "distinction": {
@@ -2158,7 +2236,10 @@
         "en": "Plesiosauria (Triassic–Cretaceous) is a cladistically monophyletic sauropterygian clade with four flipper-like limbs (four-winged propulsion). Likely viviparous. Went extinct at K–Pg (66 Ma). Split into Plesiosauroidea (long-necked) and Pliosauroidea (short-necked, large head)."
       }
     },
-    "examples": null,
+    "examples": {
+      "pl": "Plesiosaurus, Elasmosaurus, Liopleurodon",
+      "en": "Plesiosaurus, Elasmosaurus, Liopleurodon"
+    },
     "startMa": 201,
     "endMa": 66,
     "distinction": {
@@ -2385,7 +2466,10 @@
         "en": "Saurischia (Seeley 1887) is defined by a triradiate pelvis with the pubis pointing forward — opposite to Ornithischia. Key innovation in the Sauropodomorpha lineage: cervical vertebra pneumatisation enabling gigantism without critical mass increase. Theropoda lineage: bipedality, progressive miniaturisation leading to Avialae. Paradox: Aves belong to Saurischia despite convergent pelvis morphology with Ornithischia."
       }
     },
-    "examples": null,
+    "examples": {
+      "pl": "Tyranozaur, Diplodok, Wróbel",
+      "en": "Tyrannosaurus, Diplodocus, Sparrows"
+    },
     "startMa": 233,
     "endMa": 0,
     "distinction": {
@@ -2566,7 +2650,10 @@
         "en": "Ankylosauria splits according to defensive strategy: Ankylosauridae evolved an osteodermal tail club (active weapon; biomechanically capable of breaking a predator's bone) with fused tail vertebrae for rigidity. Nodosauridae lack a club — enlarged shoulder and lateral spines instead. Both clades: dorsal ostoderm armour; in advanced forms — armoured eyelids."
       }
     },
-    "examples": null,
+    "examples": {
+      "pl": "Ankylozaur, Edmontonia, Sauropelta",
+      "en": "Ankylosaurus, Edmontonia, Sauropelta"
+    },
     "startMa": 168,
     "endMa": 66,
     "distinction": {
@@ -2931,7 +3018,10 @@
         "en": "Atlantogenata (molecular analyses) unites Afrotheria and Xenarthra as the sister group to Boreoeutheria. It reflects Gondwanan isolation: ancestors of both clades split as Africa and South America drifted from Laurasia. Atlantogenata/Boreoeutheria split ~90–100 Ma."
       }
     },
-    "examples": null,
+    "examples": {
+      "pl": "Słoń, Leniwiec, Pancernik",
+      "en": "Elephants, Sloths, Armadillos"
+    },
     "startMa": 95,
     "endMa": 0,
     "distinction": {
@@ -2974,7 +3064,10 @@
         "en": "Boreoeutheria (~94% of placentals) is the sister clade to Atlantogenata, diverging ~90–100 Ma. Defined molecularly; no strong morphological synapomorphies due to rapid internal radiation. Internal split: Euarchontoglires (primatoid + glires strategies) and Laurasiatheria (rapid Laurasian post-K-Pg radiation)."
       }
     },
-    "examples": null,
+    "examples": {
+      "pl": "Człowiek, Wilk, Koń, Nietoperz",
+      "en": "Humans, Wolves, Horses, Bats"
+    },
     "startMa": 95,
     "endMa": 0,
     "distinction": {
@@ -3017,7 +3110,10 @@
         "en": "Therapsida evolved from pelycosaurs in the early Permian (~270 Ma). Key synapomorphies: upright limb posture (columnar rather than sprawled), tooth differentiation (heterodonty). Three main lineages: Gorgonopsia (Permian apex predators), Dicynodontia (dominant Permian-Triassic herbivores with tusks and beak), Cynodontia (the lineage leading to Mammalia). Therapsid radiation dominated terrestrial faunas from the middle Permian through the Triassic."
       }
     },
-    "examples": null,
+    "examples": {
+      "pl": "Lystrozaur, Inostrancevia, Trinaxodon",
+      "en": "Lystrosaurus, Inostrancevia, Thrinaxodon"
+    },
     "startMa": 270,
     "endMa": 0,
     "distinction": {
