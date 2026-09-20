@@ -30,7 +30,17 @@
     },
     "examples": null,
     "startMa": 538,
-    "endMa": 0
+    "endMa": 0,
+    "distinction": {
+      "kids": {
+        "pl": "Mają w środku ciała elastyczną strunę, która trzyma ciało w kupie i pozwala pływać wyginając się na boki.",
+        "en": "They have a springy rod inside the body that holds it together and lets them swim by bending side to side."
+      },
+      "adults": {
+        "pl": "Notochord, grzbietowa cewa nerwowa, szczeliny gardłowe i ogon zaogonowy — cztery synapomorfie obecne przynajmniej w stadium zarodkowym.",
+        "en": "Notochord, dorsal hollow nerve cord, pharyngeal slits and a post-anal tail — four synapomorphies present at least in the embryo."
+      }
+    }
   },
   {
     "parentId": "chordata",
@@ -66,7 +76,17 @@
       "en": "Amphioxus, Sea squirts"
     },
     "startMa": 518,
-    "endMa": 0
+    "endMa": 0,
+    "distinction": {
+      "kids": {
+        "pl": "Nigdy nie wykształciły głowy ani czaszki — struna zostaje im na całe życie.",
+        "en": "They never evolved a head or a skull — the rod stays with them for life."
+      },
+      "adults": {
+        "pl": "Brak czaszki i mózgowia; notochord zachowany dożywotnio. To stan wyjściowy, od którego odcięły się kręgowce.",
+        "en": "No cranium or brain proper; the notochord is retained lifelong. This is the baseline state vertebrates departed from."
+      }
+    }
   },
   {
     "parentId": "chordata",
@@ -102,7 +122,17 @@
       "en": "Lampreys, Hagfishes"
     },
     "startMa": 518,
-    "endMa": 0
+    "endMa": 0,
+    "distinction": {
+      "kids": {
+        "pl": "Mają już twardą czaszkę, ale ich pysk to okrągła przyssawka — nie potrafią gryźć.",
+        "en": "They already have a hard skull, but their mouth is a round sucker — they cannot bite."
+      },
+      "adults": {
+        "pl": "Czaszka obecna, szczęki nieobecne. Łuki skrzelowe pozostają wyłącznie oddechowe, bez przekształcenia przedniego w aparat gębowy.",
+        "en": "Cranium present, jaws absent. The branchial arches stay purely respiratory, with no anterior arch co-opted into a mouth."
+      }
+    }
   },
   {
     "parentId": "chordata",
@@ -135,7 +165,17 @@
     },
     "examples": null,
     "startMa": 444,
-    "endMa": 0
+    "endMa": 0,
+    "distinction": {
+      "kids": {
+        "pl": "Pierwszy łuk skrzelowy zamienił im się w ruchome szczęki — od tej pory można gryźć.",
+        "en": "Their first gill arch turned into movable jaws — from now on, biting is possible."
+      },
+      "adults": {
+        "pl": "Przedni łuk skrzelowy przekształcony w szczękę i żuchwę. Wtórnie: parzyste płetwy, żebra i rekombinacja V(D)J.",
+        "en": "The anterior branchial arch reworked into upper and lower jaws. Secondarily: paired fins, ribs and V(D)J recombination."
+      }
+    }
   },
   {
     "parentId": "gnathostomata",
@@ -168,7 +208,17 @@
     },
     "examples": null,
     "startMa": 438,
-    "endMa": 359
+    "endMa": 359,
+    "distinction": {
+      "kids": {
+        "pl": "Głowę i tułów miały zakute w kościane płyty jak w zbroję, a zamiast zębów ostre krawędzie kości.",
+        "en": "Head and trunk were encased in bony plates like armour, with sharp bone edges instead of teeth."
+      },
+      "adults": {
+        "pl": "Pancerz z płyt kości skórnej okrywający głowę i obręcz barkową; brak prawdziwych zębów — krawędzie tnące tworzą gnathalia.",
+        "en": "A shield of dermal bone plates over head and shoulder girdle; no true teeth — the cutting edges are bony gnathal plates."
+      }
+    }
   },
   {
     "parentId": "gnathostomata",
@@ -204,7 +254,17 @@
       "en": "Sharks, Rays"
     },
     "startMa": 430,
-    "endMa": 0
+    "endMa": 0,
+    "distinction": {
+      "kids": {
+        "pl": "Ich szkielet jest z chrząstki, nie z kości — miękki i giętki jak twój nos.",
+        "en": "Their skeleton is cartilage, not bone — soft and bendy like your nose."
+      },
+      "adults": {
+        "pl": "Endoszkielet chrzęstny (wtórnie zredukowany, nie pierwotny) i łuski plakoidalne o budowie zęba. Ampułki Lorenziniego do elektrorecepcji.",
+        "en": "A cartilaginous endoskeleton (secondarily reduced, not primitive) and tooth-like placoid scales. Ampullae of Lorenzini for electroreception."
+      }
+    }
   },
   {
     "parentId": "gnathostomata",
@@ -240,7 +300,17 @@
       "en": "Trout, Goldfish, Tuna"
     },
     "startMa": 425,
-    "endMa": 0
+    "endMa": 0,
+    "distinction": {
+      "kids": {
+        "pl": "Ich płetwy to wachlarze rozpięte na cienkich kostnych promieniach — żadnych mięśni w środku.",
+        "en": "Their fins are fans stretched on thin bony rays — no muscle inside them."
+      },
+      "adults": {
+        "pl": "Płetwy wsparte na lepidotrichiach — cienkich promieniach kostnych — bez mięśniowego trzonu i bez kości długich w płetwie.",
+        "en": "Fins supported by lepidotrichia — thin bony rays — with no muscular lobe and no long bones inside the fin."
+      }
+    }
   },
   {
     "parentId": "gnathostomata",
@@ -273,7 +343,17 @@
     },
     "examples": null,
     "startMa": 419,
-    "endMa": 0
+    "endMa": 0,
+    "distinction": {
+      "kids": {
+        "pl": "W płetwach mają mięso i grube kości, więc mogą się nimi odpychać od dna.",
+        "en": "Their fins contain muscle and thick bones, so they can push off the bottom with them."
+      },
+      "adults": {
+        "pl": "Płetwa mięsista z jedną kością proksymalną (humerus/femur) — układ, z którego wyprowadza się kończyna czworonoga.",
+        "en": "A fleshy lobed fin with a single proximal bone (humerus/femur) — the arrangement the tetrapod limb is derived from."
+      }
+    }
   },
   {
     "parentId": "sarcopterygii",
@@ -309,7 +389,17 @@
       "en": "Coelacanth, Australian lungfish"
     },
     "startMa": 409,
-    "endMa": 0
+    "endMa": 0,
+    "distinction": {
+      "kids": {
+        "pl": "Zostały w wodzie, ale wykształciły płuca — potrafią łyknąć powietrza, gdy woda się psuje.",
+        "en": "They stayed in the water but evolved lungs — they can gulp air when the water goes bad."
+      },
+      "adults": {
+        "pl": "Zachowały płetwy jako płetwy i pozostały wodne, wykształcając oddychanie powietrzem (Dipnoi) bez przejścia na ląd.",
+        "en": "They kept their fins as fins and stayed aquatic, evolving air-breathing (Dipnoi) without moving onto land."
+      }
+    }
   },
   {
     "parentId": "sarcopterygii",
@@ -342,7 +432,17 @@
     },
     "examples": null,
     "startMa": 397,
-    "endMa": 0
+    "endMa": 0,
+    "distinction": {
+      "kids": {
+        "pl": "Kości w płetwie ułożyły się jak w ręce: jedna, potem dwie, potem palce. I dostały szyję.",
+        "en": "The bones in the fin lined up like an arm: one, then two, then fingers. And they got a neck."
+      },
+      "adults": {
+        "pl": "Układ humerus–radius/ulna–autopodium oraz szyja oddzielająca głowę od obręczy barkowej; płetwa staje się kończyną.",
+        "en": "The humerus–radius/ulna–autopodium pattern plus a neck separating head from shoulder girdle; the fin becomes a limb."
+      }
+    }
   },
   {
     "parentId": "tetrapodomorpha",
@@ -375,7 +475,17 @@
     },
     "examples": null,
     "startMa": 330,
-    "endMa": 120
+    "endMa": 120,
+    "distinction": {
+      "kids": {
+        "pl": "Wyszły na ląd, ale jajka wciąż muszą składać w wodzie — dlatego nigdy nie odeszły od brzegu.",
+        "en": "They came onto land, but still had to lay eggs in water — so they never left the shore."
+      },
+      "adults": {
+        "pl": "Jajo bezosłonowe wymagające środowiska wodnego i larwa z metamorfozą; uzależnienie od wody na etapie rozrodu.",
+        "en": "A shell-less egg requiring water and a larval stage with metamorphosis; reproduction remained tied to water."
+      }
+    }
   },
   {
     "parentId": "temnospondyli",
@@ -408,7 +518,17 @@
     },
     "examples": null,
     "startMa": 270,
-    "endMa": 0
+    "endMa": 0,
+    "distinction": {
+      "kids": {
+        "pl": "Oddychają skórą, dlatego musi być mokra. I przechodzą przemianę: z kijanki w dorosłego.",
+        "en": "They breathe through their skin, so it must stay wet. And they transform: from tadpole to adult."
+      },
+      "adults": {
+        "pl": "Przepuszczalna skóra z wymianą gazową i gruczołami śluzowymi oraz jadowymi, zęby dwudzielne i larwalna metamorfoza.",
+        "en": "Permeable skin doing gas exchange with mucous and poison glands, pedicellate teeth, and larval metamorphosis."
+      }
+    }
   },
   {
     "parentId": "tetrapodomorpha",
@@ -441,7 +561,17 @@
     },
     "examples": null,
     "startMa": 318,
-    "endMa": 0
+    "endMa": 0,
+    "distinction": {
+      "kids": {
+        "pl": "Wynalazły jajko ze skorupką i własnym zapasem wody — można je złożyć choćby na pustyni.",
+        "en": "They invented an egg with a shell and its own water supply — it can be laid even in a desert."
+      },
+      "adults": {
+        "pl": "Cztery błony płodowe (owodnia, kosmówka, omocznia, pęcherzyk żółtkowy) uniezależniające rozród od wody; do tego skóra rogowa i nerki zagęszczające mocz.",
+        "en": "Four extra-embryonic membranes (amnion, chorion, allantois, yolk sac) freeing reproduction from water; plus keratinised skin and urine-concentrating kidneys."
+      }
+    }
   },
   {
     "parentId": "amniota",
@@ -474,7 +604,17 @@
     },
     "examples": null,
     "startMa": 312,
-    "endMa": 0
+    "endMa": 0,
+    "distinction": {
+      "kids": {
+        "pl": "Za każdym okiem mają JEDNĄ dziurę w czaszce — tędy przechodzi mięsień zaciskający szczękę. My też ją mamy.",
+        "en": "Behind each eye they have ONE hole in the skull — the jaw muscle runs through it. We have it too."
+      },
+      "adults": {
+        "pl": "Pojedyncza fenestra skroniowa w pozycji dolnoskroniowej. To ta jedna cecha dzieli owodniowce na dwie linie: nasza ma jeden otwór, gadzia dwa.",
+        "en": "A single, laterally placed temporal fenestra. This one feature splits the amniotes in two: our line has one opening, the reptile line has two."
+      }
+    }
   },
   {
     "parentId": "synapsida",
@@ -507,7 +647,17 @@
     },
     "examples": null,
     "startMa": 308,
-    "endMa": 252
+    "endMa": 252,
+    "distinction": {
+      "kids": {
+        "pl": "Nogi wystawały im na boki jak u jaszczurki, a wszystkie zęby wyglądały tak samo.",
+        "en": "Their legs stuck out sideways like a lizard, and all their teeth looked the same."
+      },
+      "adults": {
+        "pl": "Bazalny stopień synapsydów: postawa rozpostarta, uzębienie słabo zróżnicowane, brak podniebienia wtórnego. Wielu przedstawicieli z żaglem grzbietowym.",
+        "en": "The basal synapsid grade: sprawling posture, poorly differentiated teeth, no secondary palate. Many bore a dorsal sail."
+      }
+    }
   },
   {
     "parentId": "therapsida",
@@ -540,7 +690,17 @@
     },
     "examples": null,
     "startMa": 260,
-    "endMa": 150
+    "endMa": 150,
+    "distinction": {
+      "kids": {
+        "pl": "Dostały podniebienie, więc mogły jeść i oddychać naraz — a do tego futro i wąsy.",
+        "en": "They got a palate, so they could eat and breathe at once — plus fur and whiskers."
+      },
+      "adults": {
+        "pl": "Podniebienie wtórne kostne, dominacja kości zębowej w żuchwie i powiększona puszka mózgowa; linia prowadząca bezpośrednio do Mammalia.",
+        "en": "A secondary bony palate, dentary dominance in the lower jaw and an enlarged braincase; the line leading directly to Mammalia."
+      }
+    }
   },
   {
     "parentId": "cynodontia",
@@ -573,7 +733,17 @@
     },
     "examples": null,
     "startMa": 225,
-    "endMa": 0
+    "endMa": 0,
+    "distinction": {
+      "kids": {
+        "pl": "Karmią młode mlekiem, mają futro, a trzy malutkie kostki w uchu robią z nich najlepszych słuchaczy.",
+        "en": "They feed their young milk, have fur, and three tiny ear bones make them superb listeners."
+      },
+      "adults": {
+        "pl": "Trzy kosteczki słuchowe (młoteczek, kowadełko, strzemiączko) powstałe z kości żuchwy gadów, gruczoły mlekowe, włosy i stałocieplność.",
+        "en": "Three middle ear ossicles (malleus, incus, stapes) derived from reptilian jaw bones, mammary glands, hair and endothermy."
+      }
+    }
   },
   {
     "parentId": "amniota",
@@ -606,7 +776,17 @@
     },
     "examples": null,
     "startMa": 315,
-    "endMa": 0
+    "endMa": 0,
+    "distinction": {
+      "kids": {
+        "pl": "Za każdym okiem mają DWIE dziury w czaszce — o jedną więcej niż my. Stąd poszły gady, dinozaury i ptaki.",
+        "en": "Behind each eye they have TWO holes in the skull — one more than us. Reptiles, dinosaurs and birds came from here."
+      },
+      "adults": {
+        "pl": "Czaszka diapsydowa z dwiema fenestrami skroniowymi (górną i dolną), wtórnie modyfikowana lub zarastana u żółwi i części linii.",
+        "en": "A diapsid skull with two temporal fenestrae (upper and lower), secondarily modified or closed in turtles and some lineages."
+      }
+    }
   },
   {
     "parentId": "sauropsida",
@@ -639,7 +819,17 @@
     },
     "examples": null,
     "startMa": 250,
-    "endMa": 90
+    "endMa": 90,
+    "distinction": {
+      "kids": {
+        "pl": "Gady, które wróciły do morza tak dokładnie, że wyglądają jak delfiny — i rodzą żywe młode w wodzie.",
+        "en": "Reptiles that returned to the sea so completely they look like dolphins — and give birth in the water."
+      },
+      "adults": {
+        "pl": "Skrajna konwergencja z waleniami: ciało wrzecionowate, płetwa grzbietowa, ogon homocerkalny i żyworodność; ogromne oczodoły do polowania w głębi.",
+        "en": "Extreme convergence with cetaceans: a fusiform body, dorsal fin, lunate tail and viviparity; huge orbits for deep-water hunting."
+      }
+    }
   },
   {
     "parentId": "sauropsida",
@@ -672,7 +862,17 @@
     },
     "examples": null,
     "startMa": 248,
-    "endMa": 66
+    "endMa": 66,
+    "distinction": {
+      "kids": {
+        "pl": "Ich łapy zamieniły się w wiosła — pływały machając nimi jak skrzydłami pod wodą.",
+        "en": "Their legs turned into paddles — they swam by flapping them like wings underwater."
+      },
+      "adults": {
+        "pl": "Przebudowa obręczy i kończyn w aparat wiosłowy z hiperfalangią; obręcz barkowa i miedniczna wzmocnione jako płyty brzuszne.",
+        "en": "Girdles and limbs reworked into a paddling apparatus with hyperphalangy; the shoulder and pelvic girdles reinforced as ventral plates."
+      }
+    }
   },
   {
     "parentId": "sauropsida",
@@ -708,7 +908,17 @@
       "en": "Sea turtles, Tortoises"
     },
     "startMa": 220,
-    "endMa": 0
+    "endMa": 0,
+    "distinction": {
+      "kids": {
+        "pl": "Ich żebra i kręgi zrosły się w pancerz — mają szkielet na zewnątrz ciała.",
+        "en": "Their ribs and vertebrae fused into a shell — their skeleton is on the outside."
+      },
+      "adults": {
+        "pl": "Karapaks powstały ze zrośnięcia żeber, kręgów i kości skórnych oraz plastron z obręczy barkowej przesuniętej do wnętrza klatki — unikat wśród kręgowców.",
+        "en": "A carapace formed by fusing ribs, vertebrae and dermal bone, plus a plastron, with the shoulder girdle shifted inside the ribcage — unique among vertebrates."
+      }
+    }
   },
   {
     "parentId": "sauropsida",
@@ -741,7 +951,17 @@
     },
     "examples": null,
     "startMa": 240,
-    "endMa": 0
+    "endMa": 0,
+    "distinction": {
+      "kids": {
+        "pl": "Zrzucają skórę w całości, jednym kawałkiem, zamiast po kawałku jak my.",
+        "en": "They shed their skin whole, in one piece, instead of in flakes like us."
+      },
+      "adults": {
+        "pl": "Ekdyza całej warstwy rogowej naskórka jednorazowo oraz poprzeczna szczelina kloaki; zęby akrodontyczne lub pleurodontyczne.",
+        "en": "Ecdysis of the entire horny epidermal layer at once, and a transverse cloacal slit; acrodont or pleurodont teeth."
+      }
+    }
   },
   {
     "parentId": "lepidosauria",
@@ -777,7 +997,17 @@
       "en": "Tuatara (Sphenodon)"
     },
     "startMa": 238,
-    "endMa": 0
+    "endMa": 0,
+    "distinction": {
+      "kids": {
+        "pl": "Zęby mają przyrośnięte do krawędzi szczęki i nie odrastają — ścierają się przez całe życie.",
+        "en": "Their teeth are fused to the jaw edge and never regrow — they just wear down for life."
+      },
+      "adults": {
+        "pl": "Uzębienie akrodontyczne trwale zrośnięte z kością, bez wymiany zębów, oraz kompletny dolny łuk jarzmowy zachowany z czaszki diapsydowej.",
+        "en": "Acrodont teeth permanently fused to the bone with no replacement, and a complete lower temporal bar retained from the diapsid skull."
+      }
+    }
   },
   {
     "parentId": "lepidosauria",
@@ -810,7 +1040,17 @@
     },
     "examples": null,
     "startMa": 167,
-    "endMa": 0
+    "endMa": 0,
+    "distinction": {
+      "kids": {
+        "pl": "Rozłączyły kości czaszki, więc mogą otworzyć pysk szerzej niż własna głowa.",
+        "en": "They unhitched their skull bones, so they can open wider than their own head."
+      },
+      "adults": {
+        "pl": "Kinetyzm czaszki dzięki ruchomej kości kwadratowej (streptostylia) i redukcji dolnego łuku jarzmowego; hemipenisy u samców.",
+        "en": "Skull kinesis from a mobile quadrate (streptostyly) and reduction of the lower temporal bar; males bear hemipenes."
+      }
+    }
   },
   {
     "parentId": "sauropsida",
@@ -843,7 +1083,17 @@
     },
     "examples": null,
     "startMa": 250,
-    "endMa": 0
+    "endMa": 0,
+    "distinction": {
+      "kids": {
+        "pl": "Mają dziurę w czaszce przed okiem, żeby głowa była lżejsza, a zęby osadzone głęboko w dziąśle.",
+        "en": "They have a hole in the skull in front of the eye to lighten the head, and teeth set deep in sockets."
+      },
+      "adults": {
+        "pl": "Fenestra przedoczodołowa i dół żuchwowy odciążające czaszkę oraz tekodontyczne osadzenie zębów w zębodołach.",
+        "en": "An antorbital fenestra and mandibular fenestra lightening the skull, plus thecodont teeth set in sockets."
+      }
+    }
   },
   {
     "parentId": "archosauria",
@@ -879,7 +1129,17 @@
       "en": "Crocodiles, Alligators, Gharials"
     },
     "startMa": 205,
-    "endMa": 0
+    "endMa": 0,
+    "distinction": {
+      "kids": {
+        "pl": "Dostały podniebienie z kości, więc mogą oddychać, trzymając zdobycz pod wodą w pysku.",
+        "en": "They got a bony palate, so they can breathe while holding prey underwater in their mouth."
+      },
+      "adults": {
+        "pl": "Podniebienie wtórne przesuwające nozdrza tylne ku tyłowi, serce czterodzielne z zastawką dwuodpływową oraz postawa od rozpostartej po wyprostowaną.",
+        "en": "A secondary palate shifting the choanae backwards, a four-chambered heart with a shunt, and a posture ranging from sprawling to erect."
+      }
+    }
   },
   {
     "parentId": "archosauria",
@@ -912,7 +1172,17 @@
     },
     "examples": null,
     "startMa": 233,
-    "endMa": 0
+    "endMa": 0,
+    "distinction": {
+      "kids": {
+        "pl": "Postawiły nogi prosto pod sobą jak słupy — dlatego mogły urosnąć tak wielkie.",
+        "en": "They set their legs straight underneath like pillars — that is why they could grow so huge."
+      },
+      "adults": {
+        "pl": "Perforowana panewka stawu biodrowego i główka kości udowej skierowana przyśrodkowo — w pełni wyprostowana postawa parasagittalna.",
+        "en": "A perforated acetabulum and an inturned femoral head — a fully erect, parasagittal stance."
+      }
+    }
   },
   {
     "parentId": "theropoda",
@@ -948,7 +1218,17 @@
       "en": "Sparrows, Eagles, Chickens, Penguins"
     },
     "startMa": 150,
-    "endMa": 0
+    "endMa": 0,
+    "distinction": {
+      "kids": {
+        "pl": "Pióra przestały służyć tylko do ogrzewania i zaczęły nosić w powietrzu. Do tego widełki w piersi.",
+        "en": "Feathers stopped being just for warmth and started carrying them through the air. Plus a wishbone."
+      },
+      "adults": {
+        "pl": "Pióra konturowe o asymetrycznej chorągiewce umożliwiające lot czynny, furkula i mostek z grzebieniem jako przyczep mięśni lotnych.",
+        "en": "Asymmetric pennaceous feathers enabling powered flight, a furcula, and a keeled sternum anchoring the flight muscles."
+      }
+    }
   },
   {
     "parentId": "lissamphibia",
@@ -984,7 +1264,17 @@
       "en": "Common frog, Common toad, Tree frog, Cane toad"
     },
     "startMa": 250,
-    "endMa": 0
+    "endMa": 0,
+    "distinction": {
+      "kids": {
+        "pl": "Straciły ogon i dostały długie tylne nogi — zamiast chodzić, skaczą.",
+        "en": "They lost the tail and got long hind legs — instead of walking, they jump."
+      },
+      "adults": {
+        "pl": "Utrata ogona u postaci dorosłej, zrośnięte kości podudzia i wydłużony staw skokowy — aparat skoczny; kręgosłup skrócony do 5–9 kręgów.",
+        "en": "Loss of the adult tail, fused lower leg bones and an elongated ankle — a jumping apparatus; the spine is shortened to 5-9 vertebrae."
+      }
+    }
   },
   {
     "parentId": "lissamphibia",
@@ -1020,7 +1310,17 @@
       "en": "Fire salamander, Alpine newt, Axolotl"
     },
     "startMa": 157,
-    "endMa": 0
+    "endMa": 0,
+    "distinction": {
+      "kids": {
+        "pl": "Zatrzymały ogon i cztery podobne nóżki — wyglądają jak jaszczurka, ale są mokre.",
+        "en": "They kept the tail and four similar legs — they look like a lizard, but wet."
+      },
+      "adults": {
+        "pl": "Zachowany ogon u dorosłych i cztery kończyny zbliżonej długości; częsta neotenia (dojrzewanie płciowe w formie larwalnej) i regeneracja kończyn.",
+        "en": "An adult tail retained and four limbs of similar length; neoteny (breeding in larval form) and limb regeneration are common."
+      }
+    }
   },
   {
     "parentId": "lissamphibia",
@@ -1056,7 +1356,17 @@
       "en": "Tropical caecilian"
     },
     "startMa": 183,
-    "endMa": 0
+    "endMa": 0,
+    "distinction": {
+      "kids": {
+        "pl": "Zupełnie straciły nogi i ryją w ziemi jak dżdżownice. Mają czułek między okiem a nosem.",
+        "en": "They lost their legs entirely and burrow like earthworms. They have a tentacle between eye and nostril."
+      },
+      "adults": {
+        "pl": "Całkowita utrata kończyn i obręczy, zesztywniała czaszka przystosowana do rycia oraz chemoreceptorowy czułek w bruździe oczodołowej.",
+        "en": "Complete loss of limbs and girdles, a consolidated skull built for burrowing, and a chemosensory tentacle in the orbital groove."
+      }
+    }
   },
   {
     "parentId": "mammalia",
@@ -1092,7 +1402,17 @@
       "en": "Platypus, Short-beaked echidna"
     },
     "startMa": 145,
-    "endMa": 0
+    "endMa": 0,
+    "distinction": {
+      "kids": {
+        "pl": "Jedyne ssaki, które składają jaja. Mleko wypacają przez skórę — nie mają sutków.",
+        "en": "The only mammals that lay eggs. They sweat milk through the skin — they have no nipples."
+      },
+      "adults": {
+        "pl": "Owipariczność zachowana wśród ssaków oraz wydzielanie mleka polami gruczołowymi bez brodawek sutkowych; obecna kloaka.",
+        "en": "Oviparity retained among mammals, and milk secreted through glandular patches without nipples; a cloaca is present."
+      }
+    }
   },
   {
     "parentId": "mammalia",
@@ -1128,7 +1448,17 @@
       "en": "Red kangaroo, Koala, Wombat, Tasmanian devil"
     },
     "startMa": 125,
-    "endMa": 0
+    "endMa": 0,
+    "distinction": {
+      "kids": {
+        "pl": "Dzidziuś rodzi się malutki jak fasolka i resztę rozwoju kończy w torbie na brzuchu mamy.",
+        "en": "The baby is born tiny as a bean and finishes developing in a pouch on its mother."
+      },
+      "adults": {
+        "pl": "Bardzo krótka ciąża zakończona urodzeniem wysoce niedojrzałego noworodka, który kończy rozwój przy sutku, zwykle w torbie lęgowej.",
+        "en": "A very short gestation ending in a highly altricial newborn that completes development at the teat, usually inside a pouch."
+      }
+    }
   },
   {
     "parentId": "mammalia",
@@ -1161,7 +1491,17 @@
     },
     "examples": null,
     "startMa": 168,
-    "endMa": 35
+    "endMa": 35,
+    "distinction": {
+      "kids": {
+        "pl": "Ich zęby trzonowe miały mnóstwo guzków do mielenia nasion — jak u dzisiejszych gryzoni.",
+        "en": "Their molars had lots of cusps for grinding seeds — like modern rodents."
+      },
+      "adults": {
+        "pl": "Zęby policzkowe z wieloma rzędami guzków i powiększony ząb przedtrzonowy tnący; najdłużej trwający klad ssaków, przetrwał K–Pg.",
+        "en": "Cheek teeth with multiple rows of cusps and an enlarged blade-like premolar; the longest-lived mammal clade, it survived the K-Pg."
+      }
+    }
   },
   {
     "parentId": "mammalia",
@@ -1194,7 +1534,17 @@
     },
     "examples": null,
     "startMa": 160,
-    "endMa": 94
+    "endMa": 94,
+    "distinction": {
+      "kids": {
+        "pl": "Guzki w ich zębach stały w jednym rzędzie, jak trzy czubki na grzbiecie piły.",
+        "en": "The cusps on their teeth stood in a single row, like three points on a saw blade."
+      },
+      "adults": {
+        "pl": "Trzy główne guzki ustawione liniowo na zębach trzonowych — układ prymitywny wobec trybosfenicznego wzorca ssaków żyworodnych.",
+        "en": "Three main cusps arranged in a line on the molars — primitive relative to the tribosphenic pattern of therian mammals."
+      }
+    }
   },
   {
     "parentId": "mammalia",
@@ -1227,7 +1577,17 @@
     },
     "examples": null,
     "startMa": 100,
-    "endMa": 0
+    "endMa": 0,
+    "distinction": {
+      "kids": {
+        "pl": "Dziecko rośnie długo w brzuchu mamy, karmione przez łożysko, i rodzi się już całkiem sprawne.",
+        "en": "The baby grows for a long time inside the mother, fed through a placenta, and is born ready to go."
+      },
+      "adults": {
+        "pl": "Łożysko kosmówkowo-omoczniowe umożliwiające długą ciążę i zaawansowany rozwój wewnątrzmaciczny; brak kości torbowych.",
+        "en": "A chorioallantoic placenta enabling long gestation and advanced development in utero; epipubic bones are absent."
+      }
+    }
   },
   {
     "parentId": "squamata",
@@ -1263,7 +1623,17 @@
       "en": "Gecko, Chameleon, Monitor lizard, Agama, Sand lizard"
     },
     "startMa": 160,
-    "endMa": 0
+    "endMa": 0,
+    "distinction": {
+      "kids": {
+        "pl": "Zachowały cztery nogi i ruchome powieki — mogą mrugać, czego wąż nie potrafi.",
+        "en": "They kept four legs and movable eyelids — they can blink, which a snake cannot."
+      },
+      "adults": {
+        "pl": "Plezjomorficzny stopień Squamata: zachowane kończyny i ruchome powieki, obecny otwór uszny zewnętrzny. Grupa parafiletyczna wobec węży.",
+        "en": "The plesiomorphic squamate grade: limbs and movable eyelids retained, external ear opening present. Paraphyletic with respect to snakes."
+      }
+    }
   },
   {
     "parentId": "squamata",
@@ -1299,7 +1669,17 @@
       "en": "Reticulated python, King cobra, Common viper, Boa constrictor"
     },
     "startMa": 100,
-    "endMa": 0
+    "endMa": 0,
+    "distinction": {
+      "kids": {
+        "pl": "Straciły nogi i powieki, za to ich szczęki rozchodzą się tak, że połykają zdobycz większą od siebie.",
+        "en": "They lost legs and eyelids, but their jaws spread so wide they swallow prey bigger than themselves."
+      },
+      "adults": {
+        "pl": "Całkowita redukcja kończyn, zrośnięta przezroczysta powieka (brille) i rozłączone spojenie żuchwy umożliwiające połykanie dużej zdobyczy.",
+        "en": "Complete limb reduction, a fused transparent eyelid (brille), and an unfused mandibular symphysis allowing large prey to be swallowed."
+      }
+    }
   },
   {
     "parentId": "archosauria",
@@ -1335,7 +1715,17 @@
       "en": "Pterodactyl, Pteranodon, Quetzalcoatlus"
     },
     "startMa": 228,
-    "endMa": 66
+    "endMa": 66,
+    "distinction": {
+      "kids": {
+        "pl": "Rozciągnęły skórę na jednym, bardzo długim czwartym palcu — i pierwsze na świecie wzbiły się w powietrze.",
+        "en": "They stretched skin over one very long fourth finger — and were the first in the world to take to the air."
+      },
+      "adults": {
+        "pl": "Błona lotna (brachiopatagium) rozpięta na skrajnie wydłużonym palcu IV oraz kość pteroidalna sterująca propatagium; pierwszy aktywny lot wśród kręgowców.",
+        "en": "A flight membrane (brachiopatagium) spanning an extremely elongated digit IV, plus a pteroid bone controlling the propatagium; the first powered flight among vertebrates."
+      }
+    }
   },
   {
     "parentId": "saurischia",
@@ -1368,7 +1758,17 @@
     },
     "examples": null,
     "startMa": 233,
-    "endMa": 66
+    "endMa": 66,
+    "distinction": {
+      "kids": {
+        "pl": "Mała główka na bardzo długiej szyi — mogły sięgać do koron drzew, nie ruszając się z miejsca.",
+        "en": "A small head on a very long neck — they could reach treetops without moving."
+      },
+      "adults": {
+        "pl": "Wydłużenie szyi przy zmniejszonej czaszce oraz zęby listkowate do obrywania liści bez żucia; roślinożerność obligatoryjna.",
+        "en": "An elongated neck with a reduced skull, and leaf-shaped teeth for stripping foliage without chewing; obligate herbivory."
+      }
+    }
   },
   {
     "parentId": "dinosauria",
@@ -1401,7 +1801,17 @@
     },
     "examples": null,
     "startMa": 228,
-    "endMa": 66
+    "endMa": 66,
+    "distinction": {
+      "kids": {
+        "pl": "Ich kość łonowa skierowała się do tyłu, robiąc miejsce na wielki brzuch do trawienia roślin.",
+        "en": "Their pubis turned backwards, making room for a big gut to digest plants."
+      },
+      "adults": {
+        "pl": "Pubis skierowany opistopubicznie (niezależnie od ptaków) oraz nieparzysta kość przedzębowa tworząca dziób; wyłącznie roślinożerne.",
+        "en": "An opisthopubic pubis (evolved independently of birds) and an unpaired predentary bone forming a beak; exclusively herbivorous."
+      }
+    }
   },
   {
     "parentId": "saurischia",
@@ -1434,7 +1844,17 @@
     },
     "examples": null,
     "startMa": 231,
-    "endMa": 0
+    "endMa": 0,
+    "distinction": {
+      "kids": {
+        "pl": "Kości mają puste w środku, a w dłoni trzy chwytne palce — lekkie, szybkie drapieżniki.",
+        "en": "Their bones are hollow inside and the hand has three grasping fingers — light, fast hunters."
+      },
+      "adults": {
+        "pl": "Pneumatyzacja kości długich i kręgów, trójpalczasta chwytna ręka oraz zęby ziftodontyczne; obligatoryjna dwunożność.",
+        "en": "Pneumatised long bones and vertebrae, a three-fingered grasping hand and ziphodont teeth; obligate bipedality."
+      }
+    }
   },
   {
     "parentId": "ornithischia",
@@ -1470,7 +1890,17 @@
       "en": "Triceratops, Protoceratops, Styracosaurus, Centrosaurus"
     },
     "startMa": 169,
-    "endMa": 66
+    "endMa": 66,
+    "distinction": {
+      "kids": {
+        "pl": "Mają dodatkową kość na czubku pyska, której nie ma żaden inny dinozaur — i kostną kryzę na karku.",
+        "en": "They have an extra bone on the snout tip that no other dinosaur has — and a bony frill at the neck."
+      },
+      "adults": {
+        "pl": "Kość rostralna — nieparzysty element dzioba nieobecny u pozostałych dinozaurów — oraz kryza ciemieniowo-łuskowa.",
+        "en": "The rostral bone — an unpaired beak element absent in all other dinosaurs — plus a parieto-squamosal frill."
+      }
+    }
   },
   {
     "parentId": "ornithischia",
@@ -1503,7 +1933,17 @@
     },
     "examples": null,
     "startMa": 192,
-    "endMa": 66
+    "endMa": 66,
+    "distinction": {
+      "kids": {
+        "pl": "Wyhodowały rzędy kostnych płytek wrośniętych w skórę — nosiły zbroję zrobioną ze skóry.",
+        "en": "They grew rows of bony plates embedded in the skin — armour made out of skin."
+      },
+      "adults": {
+        "pl": "Osteodermy ułożone w podłużne rzędy wzdłuż grzbietu, formowane niezależnie od szkieletu wewnętrznego.",
+        "en": "Osteoderms arranged in longitudinal rows along the back, formed independently of the internal skeleton."
+      }
+    }
   },
   {
     "parentId": "ornithischia",
@@ -1539,7 +1979,17 @@
       "en": "Iguanodon, Parasaurolophus, Edmontosaurus, Maiasaura"
     },
     "startMa": 164,
-    "endMa": 66
+    "endMa": 66,
+    "distinction": {
+      "kids": {
+        "pl": "Zamiast pancerza postawiły na zęby — setki zębów ułożonych w tarkę do mielenia liści.",
+        "en": "Instead of armour they went for teeth — hundreds of them forming a grater for leaves."
+      },
+      "adults": {
+        "pl": "Baterie zębowe: ciasno upakowane, stale wymieniane zęby tworzące powierzchnię rozcierającą, przy braku osteoderm.",
+        "en": "Dental batteries: tightly packed, continuously replaced teeth forming a grinding surface, with no osteoderms."
+      }
+    }
   },
   {
     "parentId": "therapsida",
@@ -1575,7 +2025,17 @@
       "en": "Lystrosaurus, Dicynodon, Kannemeyeria"
     },
     "startMa": 270,
-    "endMa": 201
+    "endMa": 201,
+    "distinction": {
+      "kids": {
+        "pl": "Straciły prawie wszystkie zęby — zostały im dwa kły i rogowy dziób do ścinania roślin.",
+        "en": "They lost nearly all their teeth — just two tusks and a horny beak for cropping plants."
+      },
+      "adults": {
+        "pl": "Redukcja uzębienia do pary kłów przy rogowym dziobie oraz staw żuchwowy umożliwiający ruch przód–tył (propalinalny) do rozcierania pokarmu.",
+        "en": "Dentition reduced to a pair of tusks beside a horny beak, with a jaw joint allowing fore-and-aft (propalinal) grinding."
+      }
+    }
   },
   {
     "parentId": "sauropterygia",
@@ -1611,7 +2071,17 @@
       "en": "Placodus, Henodus, Placochelys"
     },
     "startMa": 247,
-    "endMa": 201
+    "endMa": 201,
+    "distinction": {
+      "kids": {
+        "pl": "Miały płaskie zęby jak kamienie młyńskie — do miażdżenia muszli małży.",
+        "en": "They had flat teeth like millstones — for crushing shellfish."
+      },
+      "adults": {
+        "pl": "Uzębienie durofagiczne: spłaszczone zęby podniebienne i szczękowe tworzące płyty miażdżące; część form z pancerzem osteodermalnym.",
+        "en": "Durophagous dentition: flattened palatal and maxillary teeth forming crushing plates; some forms bore osteoderm armour."
+      }
+    }
   },
   {
     "parentId": "sauropterygia",
@@ -1647,7 +2117,17 @@
       "en": "Nothosaurus, Lariosaurus"
     },
     "startMa": 247,
-    "endMa": 201
+    "endMa": 201,
+    "distinction": {
+      "kids": {
+        "pl": "Jeszcze wychodziły na brzeg jak dzisiejsze foki — miały palce spięte błoną, nie prawdziwe płetwy.",
+        "en": "They still hauled out on shore like seals — with webbed toes, not true flippers."
+      },
+      "adults": {
+        "pl": "Forma amfibiotyczna: kończyny z zachowanymi palcami i błoną pławną zamiast wiosła, zdolność do wychodzenia na ląd.",
+        "en": "An amphibious form: limbs retaining separate digits and webbing rather than a paddle, still able to come ashore."
+      }
+    }
   },
   {
     "parentId": "sauropterygia",
@@ -1680,7 +2160,17 @@
     },
     "examples": null,
     "startMa": 201,
-    "endMa": 66
+    "endMa": 66,
+    "distinction": {
+      "kids": {
+        "pl": "Całkiem zerwały z lądem — rodziły żywe młode w morzu i pływały czterema płetwami naraz.",
+        "en": "They broke with land entirely — bearing live young at sea and swimming with all four flippers."
+      },
+      "adults": {
+        "pl": "Pełna adaptacja morska: cztery hydroskrzydła o podobnej wielkości, hiperfalangia i żyworodność potwierdzona skamieniałościami.",
+        "en": "Full marine adaptation: four similarly sized hydrofoil flippers, hyperphalangy, and viviparity confirmed by fossils."
+      }
+    }
   },
   {
     "parentId": "plesiosauria",
@@ -1716,7 +2206,17 @@
       "en": "Elasmosaurus, Plesiosaurus, Cryptoclidus"
     },
     "startMa": 199,
-    "endMa": 66
+    "endMa": 66,
+    "distinction": {
+      "kids": {
+        "pl": "Postawiły na bardzo długą szyję i małą główkę — łowiły drobne ryby z zasadzki.",
+        "en": "They went for a very long neck and small head — ambushing small fish."
+      },
+      "adults": {
+        "pl": "Wydłużenie szyi do kilkudziesięciu kręgów przy zmniejszonej czaszce; strategia chwytania drobnej zdobyczy ruchem samej szyi.",
+        "en": "A neck elongated to dozens of vertebrae with a reduced skull; a strategy of catching small prey by moving the neck alone."
+      }
+    }
   },
   {
     "parentId": "plesiosauria",
@@ -1752,7 +2252,17 @@
       "en": "Kronosaurus, Pliosaurus, Liopleurodon"
     },
     "startMa": 199,
-    "endMa": 95
+    "endMa": 95,
+    "distinction": {
+      "kids": {
+        "pl": "Poszły w odwrotną stronę: krótka szyja i ogromna głowa z zębami jak sztylety.",
+        "en": "They went the opposite way: a short neck and an enormous head with dagger teeth."
+      },
+      "adults": {
+        "pl": "Skrócenie szyi przy hipertrofii czaszki; szczytowi drapieżcy mezozoicznych mórz o sile zgryzu przewyższającej współczesne krokodyle.",
+        "en": "A shortened neck with a hypertrophied skull; apex predators of Mesozoic seas with a bite exceeding modern crocodiles."
+      }
+    }
   },
   {
     "parentId": "squamata",
@@ -1788,7 +2298,17 @@
       "en": "Mosasaurus, Tylosaurus, Plotosaurus"
     },
     "startMa": 98,
-    "endMa": 66
+    "endMa": 66,
+    "distinction": {
+      "kids": {
+        "pl": "Poszły z lądu z powrotem do morza — łapy zmieniły w płetwy, a ogon dostał płetwę jak u rekina.",
+        "en": "They went from land back to the sea — legs became flippers and the tail gained a shark-like fin."
+      },
+      "adults": {
+        "pl": "Wtórne przystosowanie morskie łuskonośnych: kończyny przekształcone w wiosła z hiperfalangią i ogon z dolnym płatem; żyworodność.",
+        "en": "A secondary marine adaptation within squamates: limbs reworked into paddles with hyperphalangy and a downturned tail fluke; viviparous."
+      }
+    }
   },
   {
     "parentId": "archosauria",
@@ -1824,7 +2344,17 @@
       "en": "Rhynchosaurus, Hyperodapedon"
     },
     "startMa": 247,
-    "endMa": 201
+    "endMa": 201,
+    "distinction": {
+      "kids": {
+        "pl": "Miały dziób jak papuga i podniebienie wyłożone zębami — rozcierały twarde rośliny jak w moździerzu.",
+        "en": "They had a parrot-like beak and a palate paved with teeth — grinding tough plants as in a mortar."
+      },
+      "adults": {
+        "pl": "Przedszczęka w formie dzioba oraz płyty zębowe na podniebieniu i żuchwie działające na zasadzie noża w szczelinie; wyspecjalizowana roślinożerność triasu.",
+        "en": "A beak-like premaxilla and tooth plates on palate and mandible working like a blade in a groove; specialised Triassic herbivory."
+      }
+    }
   },
   {
     "parentId": "dinosauria",
@@ -1857,7 +2387,17 @@
     },
     "examples": null,
     "startMa": 233,
-    "endMa": 0
+    "endMa": 0,
+    "distinction": {
+      "kids": {
+        "pl": "Zatrzymały kość łonową skierowaną do przodu, jak u jaszczurki — stąd nazwa.",
+        "en": "They kept the pubis pointing forwards, like a lizard — hence the name."
+      },
+      "adults": {
+        "pl": "Zachowany propubiczny układ miednicy oraz wydłużona szyja z esowatym wygięciem; klad obejmujący zarówno zauropodomorfy, jak i teropody.",
+        "en": "A retained propubic pelvis and an elongated, S-curved neck; the clade containing both sauropodomorphs and theropods."
+      }
+    }
   },
   {
     "parentId": "sauropodomorpha",
@@ -1893,7 +2433,17 @@
       "en": "Plateosaurus, Massospondylus, Riojasaurus"
     },
     "startMa": 233,
-    "endMa": 180
+    "endMa": 180,
+    "distinction": {
+      "kids": {
+        "pl": "Jeszcze nie były olbrzymami — chodziły na dwóch nogach i miały chwytne łapy z pazurem.",
+        "en": "They were not giants yet — they walked on two legs and had grasping hands with a claw."
+      },
+      "adults": {
+        "pl": "Bazalny stopień zauropodomorfów: fakultatywna dwunożność i zachowana chwytna ręka z powiększonym pazurem kciuka.",
+        "en": "The basal sauropodomorph grade: facultative bipedality and a retained grasping hand with an enlarged thumb claw."
+      }
+    }
   },
   {
     "parentId": "sauropodomorpha",
@@ -1929,7 +2479,17 @@
       "en": "Brachiosaurus, Diplodocus, Brontosaurus, Argentinosaurus"
     },
     "startMa": 201,
-    "endMa": 66
+    "endMa": 66,
+    "distinction": {
+      "kids": {
+        "pl": "Przeszły na cztery słupowate nogi, a kości wypełniły powietrzem, żeby dało się urosnąć tak ogromnym.",
+        "en": "They moved onto four pillar-like legs and filled their bones with air, so they could grow so vast."
+      },
+      "adults": {
+        "pl": "Obligatoryjna czworonożność z kolumnowymi kończynami oraz pneumatyzacja kręgów szyjnych i tułowiowych workami powietrznymi — warunek gigantyzmu.",
+        "en": "Obligate quadrupedality on columnar limbs, plus pneumatisation of the cervical and dorsal vertebrae by air sacs — the precondition for gigantism."
+      }
+    }
   },
   {
     "parentId": "thyreophora",
@@ -1965,7 +2525,17 @@
       "en": "Stegosaurus, Kentrosaurus, Huayangosaurus"
     },
     "startMa": 165,
-    "endMa": 125
+    "endMa": 125,
+    "distinction": {
+      "kids": {
+        "pl": "Ich płyty sterczą pionowo wzdłuż grzbietu, a na końcu ogona mają kolce.",
+        "en": "Their plates stand upright along the back, and the tail ends in spikes."
+      },
+      "adults": {
+        "pl": "Osteodermy w postaci pionowych płyt w dwóch szeregach przykręgosłupowych oraz kolce ogonowe (thagomizer) jako broń.",
+        "en": "Osteoderms as upright plates in two paravertebral rows, plus tail spikes (the thagomizer) used as a weapon."
+      }
+    }
   },
   {
     "parentId": "thyreophora",
@@ -1998,7 +2568,17 @@
     },
     "examples": null,
     "startMa": 168,
-    "endMa": 66
+    "endMa": 66,
+    "distinction": {
+      "kids": {
+        "pl": "Poszły w drugą stronę: płaskie, przy ziemi, obłożone pancerzem z góry jak czołg.",
+        "en": "They went the other way: low and flat, plated over the top like a tank."
+      },
+      "adults": {
+        "pl": "Osteodermy zrośnięte w spójną tarczę grzbietową przy niskiej, szerokiej sylwetce i skostniałych powiekach.",
+        "en": "Osteoderms fused into a coherent dorsal shield, with a low, broad build and ossified eyelids."
+      }
+    }
   },
   {
     "parentId": "ankylosauria",
@@ -2034,7 +2614,17 @@
       "en": "Ankylosaurus, Euoplocephalus, Pinacosaurus"
     },
     "startMa": 122,
-    "endMa": 66
+    "endMa": 66,
+    "distinction": {
+      "kids": {
+        "pl": "Na końcu ogona mają kostną maczugę, którą mogły łamać nogi drapieżnikom.",
+        "en": "Their tail ends in a bony club that could break a predator legs."
+      },
+      "adults": {
+        "pl": "Zrośnięte osteodermy terminalne ogona tworzące maczugę, usztywnioną ścięgnami kręgów ogonowych.",
+        "en": "Fused terminal tail osteoderms forming a club, stiffened by ossified tendons along the caudal vertebrae."
+      }
+    }
   },
   {
     "parentId": "ankylosauria",
@@ -2070,7 +2660,17 @@
       "en": "Edmontonia, Sauropelta, Borealopelta"
     },
     "startMa": 155,
-    "endMa": 66
+    "endMa": 66,
+    "distinction": {
+      "kids": {
+        "pl": "Maczugi nie miały — zamiast niej wielkie kolce sterczące z boków i barków.",
+        "en": "They had no club — instead, big spikes jutting from the flanks and shoulders."
+      },
+      "adults": {
+        "pl": "Brak maczugi ogonowej przy rozbudowanych kolcach barkowych i bocznych; węższa czaszka niż u ankylozaurydów.",
+        "en": "No tail club, with elaborate shoulder and lateral spines instead; a narrower skull than in ankylosaurids."
+      }
+    }
   },
   {
     "parentId": "ornithischia",
@@ -2106,7 +2706,17 @@
       "en": "Pachycephalosaurus, Stygimoloch, Dracorex"
     },
     "startMa": 133,
-    "endMa": 66
+    "endMa": 66,
+    "distinction": {
+      "kids": {
+        "pl": "Kość na czubku głowy zgrubiała im do kilkunastu centymetrów — czaszka jak kask.",
+        "en": "The bone on top of their head thickened to several centimetres — a skull like a helmet."
+      },
+      "adults": {
+        "pl": "Silnie pogrubiona kość ciemieniowo-czołowa tworząca kopułę, często z wieńcem guzków; interpretowana jako struktura do walk wewnątrzgatunkowych.",
+        "en": "A greatly thickened frontoparietal forming a dome, often ringed with tubercles; interpreted as a structure for intraspecific combat."
+      }
+    }
   },
   {
     "parentId": "atlantogenata",
@@ -2142,7 +2752,17 @@
       "en": "Elephant, Manatee, Hyrax"
     },
     "startMa": 95,
-    "endMa": 0
+    "endMa": 0,
+    "distinction": {
+      "kids": {
+        "pl": "Wszystkie wywodzą się z Afryki — słoń, ryjkonos i krowa morska to bliscy kuzyni.",
+        "en": "All of them come from Africa — the elephant, the sengi and the sea cow are close cousins."
+      },
+      "adults": {
+        "pl": "Klad afrykański wyróżniony na podstawie danych molekularnych, nie morfologii; cechy wspólne to m.in. opóźniona erupcja zębów i wysoka liczba kręgów piersiowo-lędźwiowych.",
+        "en": "An African clade recognised from molecular data rather than morphology; shared traits include delayed tooth eruption and a high thoracolumbar vertebral count."
+      }
+    }
   },
   {
     "parentId": "atlantogenata",
@@ -2178,7 +2798,17 @@
       "en": "Sloth, Anteater, Armadillo"
     },
     "startMa": 95,
-    "endMa": 0
+    "endMa": 0,
+    "distinction": {
+      "kids": {
+        "pl": "Mają dodatkowe zaczepy między kręgami, które usztywniają grzbiet do kopania.",
+        "en": "They have extra joints between their vertebrae that stiffen the back for digging."
+      },
+      "adults": {
+        "pl": "Stawy kserartralne — dodatkowe połączenia na kręgach lędźwiowych — oraz redukcja lub utrata szkliwa i zróżnicowania zębów.",
+        "en": "Xenarthrous joints — extra articulations on the lumbar vertebrae — plus reduced or lost enamel and tooth differentiation."
+      }
+    }
   },
   {
     "parentId": "boreoeutheria",
@@ -2214,7 +2844,17 @@
       "en": "Chimpanzee, Gorilla, Mouse, Rat, Rabbit"
     },
     "startMa": 88,
-    "endMa": 0
+    "endMa": 0,
+    "distinction": {
+      "kids": {
+        "pl": "Tu należą naczelne i gryzonie — małpy, myszy, wiewiórki i zające. I ludzie.",
+        "en": "Primates and rodents belong here — monkeys, mice, squirrels and hares. And humans."
+      },
+      "adults": {
+        "pl": "Klad łączący Euarchonta (naczelne, wiewiórecznikowate) z Glires (gryzonie, zajęczaki), ustalony na podstawie danych molekularnych.",
+        "en": "A clade uniting Euarchonta (primates, treeshrews) with Glires (rodents, lagomorphs), established from molecular data."
+      }
+    }
   },
   {
     "parentId": "boreoeutheria",
@@ -2250,7 +2890,17 @@
       "en": "Lion, Whale, Horse, Hedgehog, Pangolin"
     },
     "startMa": 88,
-    "endMa": 0
+    "endMa": 0,
+    "distinction": {
+      "kids": {
+        "pl": "Najbardziej różnorodna grupa ssaków — są tu i nietoperze, i wieloryby, i psy, i konie.",
+        "en": "The most varied mammal group — bats, whales, dogs and horses are all in here."
+      },
+      "adults": {
+        "pl": "Najbardziej zróżnicowany ekologicznie klad łożyskowców: Chiroptera, Cetartiodactyla, Perissodactyla, Carnivora i Eulipotyphla.",
+        "en": "The most ecologically diverse placental clade: Chiroptera, Cetartiodactyla, Perissodactyla, Carnivora and Eulipotyphla."
+      }
+    }
   },
   {
     "parentId": "placentalia",
@@ -2283,7 +2933,17 @@
     },
     "examples": null,
     "startMa": 95,
-    "endMa": 0
+    "endMa": 0,
+    "distinction": {
+      "kids": {
+        "pl": "Ich przodkowie zostali na południu, gdy kontynenty się rozjeżdżały — w Afryce i Ameryce Południowej.",
+        "en": "Their ancestors stayed south as the continents drifted apart — in Africa and South America."
+      },
+      "adults": {
+        "pl": "Linia gondwańska łożyskowców, rozdzielona od boreoeutherii przez rozpad Pangei; grupuje Afrotheria i Xenarthra.",
+        "en": "The Gondwanan placental lineage, separated from Boreoeutheria by the break-up of Pangaea; it groups Afrotheria and Xenarthra."
+      }
+    }
   },
   {
     "parentId": "placentalia",
@@ -2316,7 +2976,17 @@
     },
     "examples": null,
     "startMa": 95,
-    "endMa": 0
+    "endMa": 0,
+    "distinction": {
+      "kids": {
+        "pl": "Ich przodkowie zostali na północy — stąd wzięły się i nietoperze, i wieloryby, i my.",
+        "en": "Their ancestors stayed north — bats, whales and we ourselves all came from here."
+      },
+      "adults": {
+        "pl": "Linia laurazjatycka łożyskowców, siostrzana wobec Atlantogenata; obejmuje Euarchontoglires i Laurasiatheria.",
+        "en": "The Laurasian placental lineage, sister to Atlantogenata; it comprises Euarchontoglires and Laurasiatheria."
+      }
+    }
   },
   {
     "id": "therapsida",
@@ -2349,7 +3019,17 @@
     },
     "examples": null,
     "startMa": 270,
-    "endMa": 0
+    "endMa": 0,
+    "distinction": {
+      "kids": {
+        "pl": "Podstawiły nogi prosto pod tułów i mogły biegać zamiast się czołgać. Zęby zaczęły się różnić.",
+        "en": "They put their legs straight under the body and could run instead of crawling. Their teeth started to differ."
+      },
+      "adults": {
+        "pl": "Postawa parasagittalna (kończyny pod tułowiem) i heterodontyzm — zróżnicowanie uzębienia na siekacze, kły i zęby policzkowe.",
+        "en": "A parasagittal posture (limbs under the body) and heterodonty — teeth differentiated into incisors, canines and cheek teeth."
+      }
+    }
   },
   {
     "id": "gorgonopsia",
@@ -2385,6 +3065,16 @@
       "en": "Inostrancevia, Lycaenops, Rubidgea"
     },
     "startMa": 265,
-    "endMa": 252
+    "endMa": 252,
+    "distinction": {
+      "kids": {
+        "pl": "Miały kły jak szable — najdłuższe zęby permu. Były szczytowymi drapieżnikami swoich czasów.",
+        "en": "They had sabre-like canines — the longest teeth of the Permian. They were the apex predators of their day."
+      },
+      "adults": {
+        "pl": "Hipertrofia kłów górnych przy silnie zredukowanym uzębieniu policzkowym; wyspecjalizowana drapieżność szczytowa późnego permu.",
+        "en": "Hypertrophied upper canines with strongly reduced cheek dentition; specialised Late Permian apex predation."
+      }
+    }
   }
 ]

@@ -15,6 +15,11 @@ export const NodeSchema = z
     name: Localized,
     short: AudienceText,
     detail: AudienceText,
+    /** The derived trait that makes this its own branch. Where a group has siblings
+        this is the contrast that split them — one temporal fenestra in Synapsida
+        against two in Sauropsida — so it gets its own callout rather than being
+        buried mid-paragraph in `detail`. */
+    distinction: AudienceText,
     examples: Localized.nullable(),
   })
   .refine((n) => n.startMa > n.endMa, {
@@ -85,6 +90,7 @@ export const I18nStringsSchema = z.object({
   milestone: z.string(),
   speciesLost: z.string(),
   maAgo: z.string(),
+  distinction: z.string(),
 });
 export type I18nStrings = z.infer<typeof I18nStringsSchema>;
 export const I18nSchema = z.object({ pl: I18nStringsSchema, en: I18nStringsSchema });

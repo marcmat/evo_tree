@@ -112,3 +112,40 @@ describe('dates (Ma)', () => {
     }
   });
 });
+
+describe('split rationale', () => {
+  const nodes = NodesSchema.parse(nodesJson);
+
+  it('every group states what sets it apart, in both languages and registers', () => {
+    const blank: string[] = [];
+    for (const n of nodes) {
+      for (const aud of ['kids', 'adults'] as const) {
+        for (const lang of ['pl', 'en'] as const) {
+          if (n.distinction[aud][lang].trim().length === 0) blank.push(`${n.id}.${aud}.${lang}`);
+        }
+      }
+    }
+    expect(blank).toEqual([]);
+  });
+
+  // The point of the field is the contrast between branches: if two siblings carry
+  // the same text it explains neither, which is exactly what copy-paste produces.
+  it('siblings do not share a distinction', () => {
+    const byParent = new Map<string, typeof nodes>();
+    for (const n of nodes) {
+      if (n.parentId === null) continue;
+      const arr = byParent.get(n.parentId) ?? [];
+      arr.push(n);
+      byParent.set(n.parentId, arr);
+    }
+    const clashes: string[] = [];
+    for (const [parent, siblings] of byParent) {
+      if (siblings.length < 2) continue;
+      for (const aud of ['kids', 'adults'] as const) {
+        const texts = siblings.map((s) => s.distinction[aud].pl);
+        if (new Set(texts).size !== texts.length) clashes.push(`${parent} (${aud})`);
+      }
+    }
+    expect(clashes).toEqual([]);
+  });
+});

@@ -31,6 +31,10 @@
   <svg class="icon" viewBox="0 0 64 64" aria-hidden="true"><use href={`#${node.icon}`} /></svg>
   <div class="body">
     <p>{text}</p>
+    <p class="distinction">
+      <span class="label">{t.distinction}</span>
+      {node.distinction[ui.audience][ui.lang]}
+    </p>
     <div class="meta">
       <span>{t.eraRange} {rangeLabel}{eraNames ? ` (${eraNames})` : ''}</span>
       {#if node.status === 'extinct'}
@@ -79,6 +83,28 @@
     line-height: var(--lh-base);
     color: var(--text-primary);
   }
+  /* The trait that split this branch off, set apart from the narrative text —
+     the accent rail carries the emphasis without another heading level. */
+  .distinction {
+    margin: 0 0 var(--space-3);
+    padding: var(--space-2) var(--space-3);
+    font-size: var(--fs-sm);
+    line-height: var(--lh-base);
+    color: var(--text-primary);
+    background: rgb(56 189 248 / 0.07);
+    border-left: 3px solid var(--accent-node);
+    border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  }
+  .distinction .label {
+    display: block;
+    margin-bottom: 2px;
+    font-size: var(--fs-xs);
+    font-weight: var(--fw-bold);
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+    color: var(--text-accent);
+  }
+
   .meta {
     display: flex;
     flex-wrap: wrap;
