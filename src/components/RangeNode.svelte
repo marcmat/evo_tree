@@ -166,8 +166,20 @@
     border-radius: var(--radius-sm);
     transition: opacity var(--timing-slow) ease;
   }
-  .row.dimmed {
-    opacity: 0.26;
+  /* Fading a whole row with opacity fades the label and its backdrop together,
+     which compresses the contrast between them — a white name on a pale Cenozoic
+     bar fell to 2.3:1. So the bar recedes on its own, and the name switches to a
+     secondary colour read against the page rather than against the faded bar. */
+  .row.dimmed .bar {
+    opacity: 0.3;
+  }
+  .row.dimmed .name {
+    color: var(--text-secondary);
+    text-shadow: none;
+  }
+  .row.dimmed .chevron,
+  .row.dimmed .dot {
+    opacity: 0.45;
   }
 
   .bar {

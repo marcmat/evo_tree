@@ -1,4 +1,14 @@
 {
+  "acipenseriformes": {
+    "file": "acipenseriformes.jpg",
+    "subject": "Acipenser",
+    "author": "Krüger",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Acipenser_sturio.jpg",
+    "width": 500,
+    "height": 149
+  },
   "actinopterygii": {
     "file": "actinopterygii.jpg",
     "subject": "Cheirolepis",
@@ -48,6 +58,16 @@
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hylonomus_BW.jpg",
     "width": 500,
     "height": 211
+  },
+  "anguimorpha": {
+    "file": "anguimorpha.jpg",
+    "subject": "Komodo dragon",
+    "author": "Charles J. Sharp",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Komodo_dragon_(Varanus_komodoensis).jpg",
+    "width": 500,
+    "height": 394
   },
   "ankylosauria": {
     "file": "ankylosauria.png",
@@ -99,6 +119,26 @@
     "width": 500,
     "height": 375
   },
+  "batoidea": {
+    "file": "batoidea.jpg",
+    "subject": "Manta",
+    "author": "Daniel Sasse",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Giant_oceanic_manta_ray.jpg",
+    "width": 500,
+    "height": 333
+  },
+  "booidea": {
+    "file": "booidea.jpg",
+    "subject": "Titanoboa",
+    "author": "Nobu Tamura email:nobu.tamura@yahoo.com www.palaeocritti.com",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Titanoboa_NT.jpg",
+    "width": 500,
+    "height": 302
+  },
   "boreoeutheria": {
     "file": "boreoeutheria.jpg",
     "subject": "Purgatorius",
@@ -108,6 +148,16 @@
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Purgatorius_BW.jpg",
     "width": 500,
     "height": 324
+  },
+  "carnivora": {
+    "file": "carnivora.png",
+    "subject": "Smilodon",
+    "author": "Dantheman9758 at English Wikipedia",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Smilodon_fatalis_image_gbu0oxgbu0oxgbu0.png",
+    "width": 500,
+    "height": 289
   },
   "cephalochordata": {
     "file": "cephalochordata.jpg",
@@ -129,6 +179,16 @@
     "width": 500,
     "height": 333
   },
+  "ceratopsidae": {
+    "file": "ceratopsidae.jpg",
+    "subject": "Triceratops",
+    "author": "Martinvl",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:TriceratopsFernForest.jpg",
+    "width": 500,
+    "height": 333
+  },
   "ceratosauria": {
     "file": "ceratosauria.jpg",
     "subject": "Ceratosaurus",
@@ -138,6 +198,26 @@
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ceratosaurus_NT.jpg",
     "width": 500,
     "height": 239
+  },
+  "cetartiodactyla": {
+    "file": "cetartiodactyla.png",
+    "subject": "Basilosaurus",
+    "author": "Dominik Hammelsbruch",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Basilosaurus_cetoides.png",
+    "width": 500,
+    "height": 433
+  },
+  "chiroptera": {
+    "file": "chiroptera.jpg",
+    "subject": "Icaronycteris",
+    "author": "Nobu Tamura",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Icaronycteris_by_N_Tamura.jpg",
+    "width": 500,
+    "height": 375
   },
   "chondrichthyes": {
     "file": "chondrichthyes.jpg",
@@ -179,6 +259,16 @@
     "width": 500,
     "height": 247
   },
+  "colubroidea": {
+    "file": "colubroidea.jpg",
+    "subject": "Common viper",
+    "author": "Charles J. Sharp",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Common_European_viper_(Vipera_berus)_female_Pieniny.jpg",
+    "width": 500,
+    "height": 250
+  },
   "crocodylomorpha": {
     "file": "crocodylomorpha.jpg",
     "subject": "Protosuchus",
@@ -188,6 +278,16 @@
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Protosuchus_BW.jpg",
     "width": 500,
     "height": 271
+  },
+  "cryptodira": {
+    "file": "cryptodira.jpg",
+    "subject": "Archelon",
+    "author": "Nobu Tamura (http://spinops.blogspot.com)",
+    "license": "CC BY 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Archelon_BW.jpg",
+    "width": 500,
+    "height": 369
   },
   "cynodontia": {
     "file": "cynodontia.jpg",
@@ -219,6 +319,16 @@
     "width": 500,
     "height": 250
   },
+  "diplodocoidea": {
+    "file": "diplodocoidea.jpg",
+    "subject": "Diplodocus",
+    "author": "Elekes Andor",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Diplodocus_(2).jpg",
+    "width": 500,
+    "height": 375
+  },
   "dromaeosauridae": {
     "file": "dromaeosauridae.jpg",
     "subject": "Deinonychus",
@@ -248,6 +358,26 @@
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Repenomamus_BW.jpg",
     "width": 500,
     "height": 341
+  },
+  "galloanserae": {
+    "file": "galloanserae.jpg",
+    "subject": "Gastornis",
+    "author": "Huhu Uet",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gastornis_02.jpg",
+    "width": 500,
+    "height": 388
+  },
+  "gekkota": {
+    "file": "gekkota.jpg",
+    "subject": "Gekko gecko",
+    "author": "LensOfTheNorth",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Baby_Tokay_gecko.jpg",
+    "width": 500,
+    "height": 810
   },
   "gnathostomata": {
     "file": "gnathostomata.png",
@@ -279,6 +409,26 @@
     "width": 500,
     "height": 457
   },
+  "hadrosauridae": {
+    "file": "hadrosauridae.png",
+    "subject": "Parasaurolophus",
+    "author": "Connor Ashbridge",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Life_reconstruction_of_Parasaurolophus_walkeri.png",
+    "width": 500,
+    "height": 180
+  },
+  "holocephali": {
+    "file": "holocephali.jpg",
+    "subject": "Chimaera",
+    "author": "Etrusko25",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chimaera_monstrosa_Sardinia.jpg",
+    "width": 500,
+    "height": 236
+  },
   "ichthyosauria": {
     "file": "ichthyosauria.png",
     "subject": "Stenopterygius",
@@ -289,6 +439,26 @@
     "width": 500,
     "height": 186
   },
+  "iguania": {
+    "file": "iguania.jpg",
+    "subject": "Iguana",
+    "author": "Rjcastillo",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Iguana_V.jpg",
+    "width": 500,
+    "height": 332
+  },
+  "iguanodontia": {
+    "file": "iguanodontia.jpg",
+    "subject": "Iguanodon",
+    "author": "Nobu Tamura email:nobu.tamura@yahoo.com http://spinops.blogspot.com/",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Iguanodon_new_NT.jpg",
+    "width": 500,
+    "height": 253
+  },
   "lacertilia": {
     "file": "lacertilia.png",
     "subject": "Schoenesmahl",
@@ -298,6 +468,16 @@
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Schoenesmahl.png",
     "width": 500,
     "height": 287
+  },
+  "lagomorpha": {
+    "file": "lagomorpha.jpg",
+    "subject": "Palaeolagus",
+    "author": "Nobu Tamura email:nobu.tamura@yahoo.com https://spinops.blogspot.com/ https://paleoexhibit.blogspot.com/",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Palaeolagus_NT_small.jpg",
+    "width": 500,
+    "height": 375
   },
   "laurasiatheria": {
     "file": "laurasiatheria.jpg",
@@ -389,6 +569,16 @@
     "width": 302,
     "height": 320
   },
+  "neoaves": {
+    "file": "neoaves.jpg",
+    "subject": "Titanis",
+    "author": "Dmitry Bogdanov",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Life_reconstruction_of_the_terror_bird_Titanis_walleri.jpg",
+    "width": 500,
+    "height": 932
+  },
   "nodosauria": {
     "file": "nodosauria.png",
     "subject": "Edmontonia",
@@ -439,6 +629,16 @@
     "width": 500,
     "height": 300
   },
+  "palaeognathae": {
+    "file": "palaeognathae.jpg",
+    "subject": "Aepyornis",
+    "author": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aepyornis_white_background.jpg",
+    "width": 221,
+    "height": 276
+  },
   "pelycosauria": {
     "file": "pelycosauria.jpg",
     "subject": "Dimetrodon",
@@ -448,6 +648,16 @@
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dimetrodon_teutonis_life_restoration_by_Sebastian_Brandt_(Reco-Brandt).jpg",
     "width": 500,
     "height": 333
+  },
+  "perissodactyla": {
+    "file": "perissodactyla.jpg",
+    "subject": "Paraceratherium",
+    "author": "Dmitry Bogdanov",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Indricotherium11.jpg",
+    "width": 500,
+    "height": 322
   },
   "placentalia": {
     "file": "placentalia.png",
@@ -499,6 +709,16 @@
     "width": 500,
     "height": 313
   },
+  "pleurodira": {
+    "file": "pleurodira.jpg",
+    "subject": "Matamata",
+    "author": "NasserHalaweh",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chelidae_Chelus_fimbriata_2.jpg",
+    "width": 500,
+    "height": 375
+  },
   "pliosauroidea": {
     "file": "pliosauroidea.jpg",
     "subject": "Kronosaurus",
@@ -509,6 +729,26 @@
     "width": 500,
     "height": 357
   },
+  "polypteriformes": {
+    "file": "polypteriformes.jpg",
+    "subject": "Senegal bichir",
+    "author": "5snake5",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Polypterus_senegalus_-_Senegal-Fl%C3%B6sselhecht_-_Albino.jpg",
+    "width": 500,
+    "height": 270
+  },
+  "primates": {
+    "file": "primates.png",
+    "subject": "Darwinius",
+    "author": "Triloboii",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Darwinius_masillae_Life_Reconstruction.png",
+    "width": 500,
+    "height": 1181
+  },
   "prosauropoda": {
     "file": "prosauropoda.png",
     "subject": "Plateosaurus",
@@ -518,6 +758,16 @@
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Plateosaurus_picture.png",
     "width": 500,
     "height": 365
+  },
+  "protoceratopsidae": {
+    "file": "protoceratopsidae.jpg",
+    "subject": "Protoceratops",
+    "author": "Nobu Tamura (http://spinops.blogspot.com)",
+    "license": "CC BY 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Protoceratops_BW.jpg",
+    "width": 500,
+    "height": 259
   },
   "pterosauria": {
     "file": "pterosauria.png",
@@ -548,6 +798,16 @@
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rhynchosaurus_articeps.png",
     "width": 500,
     "height": 206
+  },
+  "rodentia": {
+    "file": "rodentia.jpg",
+    "subject": "Ceratogaulus",
+    "author": "Петр Меньшиков",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ceratogaulus_anecdotus.jpg",
+    "width": 500,
+    "height": 296
   },
   "sarcopterygii": {
     "file": "sarcopterygii.jpg",
@@ -609,6 +869,16 @@
     "width": 500,
     "height": 172
   },
+  "selachimorpha": {
+    "file": "selachimorpha.png",
+    "subject": "Otodus megalodon",
+    "author": "EvolutionIncarnate",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:O._megalodon_reconstruction_2025.png",
+    "width": 500,
+    "height": 281
+  },
   "serpentes": {
     "file": "serpentes.jpg",
     "subject": "Dinilysia",
@@ -648,6 +918,16 @@
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Archaeothyris_BW.jpg",
     "width": 500,
     "height": 317
+  },
+  "teleostei": {
+    "file": "teleostei.jpg",
+    "subject": "Xiphactinus",
+    "author": "Johnson Mortimer",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Xiphactinus_by_johnson_mortimer-dae88nl.jpg",
+    "width": 500,
+    "height": 436
   },
   "temnospondyli": {
     "file": "temnospondyli.jpg",
@@ -708,6 +988,16 @@
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nobu_Tamura%27s_Scutellosaurus_Mirrored.jpg",
     "width": 500,
     "height": 151
+  },
+  "titanosauria": {
+    "file": "titanosauria.jpg",
+    "subject": "Argentinosaurus",
+    "author": "Nobu Tamura (http://spinops.blogspot.com)",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Argentinosaurus_BW.jpg",
+    "width": 500,
+    "height": 208
   },
   "troodontidae": {
     "file": "troodontidae.jpg",

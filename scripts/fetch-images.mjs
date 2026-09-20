@@ -47,6 +47,20 @@ const FILE_OVERRIDES = {
   lacertilia: 'File:Schoenesmahl.png',
   squamata: 'File:Cryptolacerta.png',
   sauropterygia: 'File:Keichousaurus BW.jpg',
+  // New branches whose automatic pick landed on bones, or on a namesake:
+  // "Diplodocus" returned a band, "Stingray" an aircraft.
+  palaeognathae: 'File:Aepyornis white background.jpg',
+  neoaves: 'File:Life reconstruction of the terror bird Titanis walleri.jpg',
+  carnivora: 'File:Smilodon fatalis image gbu0oxgbu0oxgbu0.png',
+  chiroptera: 'File:Icaronycteris by N Tamura.jpg',
+  primates: 'File:Darwinius masillae Life Reconstruction.png',
+  rodentia: 'File:Ceratogaulus anecdotus.jpg',
+  diplodocoidea: 'File:Diplodocus (2).jpg',
+  acipenseriformes: 'File:Acipenser sturio.jpg',
+  batoidea: 'File:Giant oceanic manta ray.jpg',
+  holocephali: 'File:Chimaera monstrosa Sardinia.jpg',
+  gekkota: 'File:Baby Tokay gecko.jpg',
+  pleurodira: 'File:Chelidae Chelus fimbriata 2.jpg',
   // Replacements for pictures that showed only a head, sat too dark, or were
   // nineteenth-century paintings rather than current restorations.
   afrotheria: 'File:Moeritherium NT crop.jpg',
@@ -61,7 +75,13 @@ const FILE_OVERRIDES = {
 };
 
 /** Subject for pins whose filename leads with the artist, not the genus. */
-const PIN_SUBJECTS = { thyreophora: 'Scutellosaurus' };
+const PIN_SUBJECTS = {
+  thyreophora: 'Scutellosaurus',
+  neoaves: 'Titanis',
+  pleurodira: 'Matamata',
+  batoidea: 'Manta',
+  gekkota: 'Gekko gecko',
+};
 
 /**
  * The picture has to show a whole living animal. Bones, isolated body parts and
@@ -98,6 +118,24 @@ const SUBJECT_OVERRIDES = {
   serpentes: 'Dinilysia',
   crocodylomorpha: 'Protosuchus',
   aves: 'Archaeopteryx',
+  // New branches: an extinct member where one has good art, otherwise the
+  // group's own examples carry the search.
+  palaeognathae: 'Aepyornis',
+  galloanserae: 'Gastornis',
+  neoaves: 'Phorusrhacos',
+  carnivora: 'Smilodon',
+  cetartiodactyla: 'Basilosaurus',
+  chiroptera: 'Icaronycteris',
+  perissodactyla: 'Paraceratherium',
+  primates: 'Notharctus',
+  rodentia: 'Ceratogaulus',
+  lagomorpha: 'Palaeolagus',
+  teleostei: 'Xiphactinus',
+  selachimorpha: 'Otodus megalodon',
+  holocephali: 'Helicoprion',
+  booidea: 'Titanoboa',
+  cryptodira: 'Archelon',
+  pleurodira: 'Stupendemys',
 };
 
 /**

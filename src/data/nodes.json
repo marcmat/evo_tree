@@ -259,8 +259,8 @@
       }
     },
     "examples": {
-      "pl": "Rekiny, Płaszczki",
-      "en": "Sharks, Rays"
+      "pl": "Cladoselache, Stethacanthus",
+      "en": "Cladoselache, Stethacanthus"
     },
     "startMa": 430,
     "endMa": 0,
@@ -273,6 +273,144 @@
         "pl": "Endoszkielet chrzęstny (wtórnie zredukowany, nie pierwotny) i łuski plakoidalne o budowie zęba. Ampułki Lorenziniego do elektrorecepcji.",
         "en": "A cartilaginous endoskeleton (secondarily reduced, not primitive) and tooth-like placoid scales. Ampullae of Lorenzini for electroreception."
       }
+    }
+  },
+  {
+    "parentId": "chondrichthyes",
+    "id": "selachimorpha",
+    "startMa": 200,
+    "endMa": 0,
+    "status": "survived",
+    "icon": "ic-shark",
+    "name": {
+      "pl": "Rekiny",
+      "en": "Sharks"
+    },
+    "short": {
+      "kids": {
+        "pl": "Drapieżcy z zębami w kilku rzędach naraz — zużyty wypada, kolejny wysuwa się z tyłu.",
+        "en": "Hunters with teeth in several rows at once — a worn one drops out, the next slides in."
+      },
+      "adults": {
+        "pl": "Selachimorpha: chrzęstnoszkieletowe o wrzecionowatym ciele, bocznych szczelinach skrzelowych i polifiodontyzmie.",
+        "en": "Selachimorpha: chondrichthyans with a fusiform body, lateral gill slits and polyphyodont dentition."
+      }
+    },
+    "detail": {
+      "kids": {
+        "pl": "Zęby rosną im w kilku rzędach jak na taśmie produkcyjnej — gdy przedni się wyłamie, następny przesuwa się na jego miejsce w ciągu paru dni. Jeden rekin zużywa przez życie kilkanaście tysięcy zębów.",
+        "en": "Their teeth grow in several rows like a conveyor belt — when a front one snaps off, the next moves up within days. A single shark gets through tens of thousands of teeth in a lifetime."
+      },
+      "adults": {
+        "pl": "Selachimorpha zachowuje boczne położenie szczelin skrzelowych, ciało wrzecionowate i ogon heterocerkalny. Uzębienie polifiodontyczne wymieniane jest w ciągłym cyklu taśmowym. Wraz z Batoidea tworzy Elasmobranchii.",
+        "en": "Selachimorpha retains laterally placed gill slits, a fusiform body and a heterocercal tail. The polyphyodont dentition is replaced on a continuous conveyor cycle. Together with Batoidea it forms Elasmobranchii."
+      }
+    },
+    "distinction": {
+      "kids": {
+        "pl": "Zęby w kilku rzędach, wymieniane jak na taśmie.",
+        "en": "Teeth in several rows, replaced as if on a conveyor."
+      },
+      "adults": {
+        "pl": "Boczne szczeliny skrzelowe i ciało wrzecionowate, w przeciwieństwie do spłaszczonych płaszczek.",
+        "en": "Laterally placed gill slits and a fusiform body, as against the flattened batoids."
+      }
+    },
+    "examples": {
+      "pl": "Żarłacz biały, Rekin wielorybi, Żarłacz tygrysi",
+      "en": "Great white shark, Whale shark, Tiger shark"
+    }
+  },
+  {
+    "parentId": "chondrichthyes",
+    "id": "batoidea",
+    "startMa": 200,
+    "endMa": 0,
+    "status": "survived",
+    "icon": "ic-shark",
+    "name": {
+      "pl": "Płaszczki",
+      "en": "Rays and skates"
+    },
+    "short": {
+      "kids": {
+        "pl": "Spłaszczone kuzynki rekinów — płyną, machając płetwami jak skrzydłami.",
+        "en": "Flattened cousins of sharks — they swim by flapping fins like wings."
+      },
+      "adults": {
+        "pl": "Batoidea: elasmobranchy o ciele spłaszczonym grzbietobrzusznie, ze skrzelami po stronie brzusznej.",
+        "en": "Batoidea: elasmobranchs with a dorsoventrally flattened body and gill slits on the ventral side."
+      }
+    },
+    "detail": {
+      "kids": {
+        "pl": "Leżą na dnie, więc szczeliny skrzelowe przeniosły się na spód ciała — a wodę do oddychania nabierają otworem na wierzchu głowy, żeby nie wciągać piasku. Manta rozkłada „skrzydła\" na siedem metrów i szybuje w toni jak ptak.",
+        "en": "They lie on the bottom, so the gill slits moved to the underside — and they draw breathing water through a hole on top of the head to avoid sucking in sand. A manta spreads \"wings\" seven metres across and glides through open water like a bird."
+      },
+      "adults": {
+        "pl": "Batoidea cechuje spłaszczenie grzbietobrzuszne, przesunięcie szczelin skrzelowych na stronę brzuszną oraz tryskawki (spiracula) na stronie grzbietowej umożliwiające pobieranie wody przy żerowaniu bentosowym. Napęd zapewniają zwykle płetwy piersiowe, nie ogon.",
+        "en": "Batoidea is characterised by dorsoventral flattening, gill slits displaced to the ventral surface, and dorsal spiracles allowing water intake during benthic feeding. Propulsion is usually by the pectoral fins rather than the tail."
+      }
+    },
+    "distinction": {
+      "kids": {
+        "pl": "Skrzela przeniosły się na spód, a wodę nabierają otworem na wierzchu głowy.",
+        "en": "Gills moved to the underside; water comes in through a hole on top of the head."
+      },
+      "adults": {
+        "pl": "Szczeliny skrzelowe po stronie brzusznej i tryskawki grzbietowe — przystosowanie do życia na dnie.",
+        "en": "Ventral gill slits with dorsal spiracles — an adaptation to life on the bottom."
+      }
+    },
+    "examples": {
+      "pl": "Płaszczka, Manta, Raja, Ogończa",
+      "en": "Stingray, Manta, Skate, Eagle ray"
+    }
+  },
+  {
+    "parentId": "chondrichthyes",
+    "id": "holocephali",
+    "startMa": 380,
+    "endMa": 0,
+    "status": "survived",
+    "icon": "ic-shark",
+    "name": {
+      "pl": "Chimery",
+      "en": "Chimaeras"
+    },
+    "short": {
+      "kids": {
+        "pl": "Głębinowe ryby z płytami zamiast zębów i skrzelami pod jedną pokrywą.",
+        "en": "Deep-sea fish with plates instead of teeth and gills under a single cover."
+      },
+      "adults": {
+        "pl": "Holocephali: siostrzana linia elasmobranchów; szczęka zrośnięta z czaszką, zęby w postaci płyt.",
+        "en": "Holocephali: the sister lineage of elasmobranchs; the jaw fused to the skull, teeth reduced to plates."
+      }
+    },
+    "detail": {
+      "kids": {
+        "pl": "Najstarsza żyjąca linia ryb chrzęstnoszkieletowych — oddzieliła się jeszcze w dewonie. Zamiast wymienianych zębów mają trzy pary trwałych płyt do kruszenia muszli, a szczęka jest przyrośnięta do czaszki na stałe, więc nie mogą jej wysunąć.",
+        "en": "The oldest surviving lineage of cartilaginous fish — it split off back in the Devonian. Instead of replaceable teeth they have three pairs of permanent crushing plates, and the jaw is fused to the skull, so it cannot be thrust forward."
+      },
+      "adults": {
+        "pl": "Holocephali wyróżnia holostylia: całkowite zrośnięcie chrząstki podniebienno-kwadratowej z puszką mózgową, co unieruchamia szczękę. Uzębienie zredukowane do trzech par trwale rosnących płyt durofagicznych. Skrzela okryte pojedynczym fałdem skórnym.",
+        "en": "Holocephali is distinguished by holostyly: complete fusion of the palatoquadrate to the braincase, immobilising the jaw. The dentition is reduced to three pairs of ever-growing durophagous plates. The gills lie under a single skin fold."
+      }
+    },
+    "distinction": {
+      "kids": {
+        "pl": "Szczęka przyrośnięta do czaszki na stałe — nie da się jej wysunąć.",
+        "en": "A jaw fused permanently to the skull — it cannot be thrust forward."
+      },
+      "adults": {
+        "pl": "Holostylia: zrośnięcie chrząstki podniebienno-kwadratowej z puszką mózgową, przy uzębieniu w postaci płyt.",
+        "en": "Holostyly: fusion of the palatoquadrate to the braincase, with the dentition reduced to plates."
+      }
+    },
+    "examples": {
+      "pl": "Przeraźnica, Chimera dziwaczna",
+      "en": "Rabbitfish, Spotted ratfish"
     }
   },
   {
@@ -305,8 +443,8 @@
       }
     },
     "examples": {
-      "pl": "Pstrągi, Złote rybki, Tuńczyki",
-      "en": "Trout, Goldfish, Tuna"
+      "pl": "Cheirolepis, Mimipiscis",
+      "en": "Cheirolepis, Mimipiscis"
     },
     "startMa": 425,
     "endMa": 0,
@@ -319,6 +457,144 @@
         "pl": "Płetwy wsparte na lepidotrichiach — cienkich promieniach kostnych — bez mięśniowego trzonu i bez kości długich w płetwie.",
         "en": "Fins supported by lepidotrichia — thin bony rays — with no muscular lobe and no long bones inside the fin."
       }
+    }
+  },
+  {
+    "parentId": "actinopterygii",
+    "id": "polypteriformes",
+    "startMa": 100,
+    "endMa": 0,
+    "status": "survived",
+    "icon": "ic-ray-fin",
+    "name": {
+      "pl": "Wielopłetwce",
+      "en": "Bichirs"
+    },
+    "short": {
+      "kids": {
+        "pl": "Afrykańskie ryby z rzędem płetewek na grzbiecie — i z płucami.",
+        "en": "African fish with a row of little fins along the back — and lungs."
+      },
+      "adults": {
+        "pl": "Polypteriformes: najbardziej bazalny klad promieniopłetwych; płetwa grzbietowa rozbita na płetewki, płuca parzyste.",
+        "en": "Polypteriformes: the most basal actinopterygian clade; a dorsal fin split into finlets, and paired lungs."
+      }
+    },
+    "detail": {
+      "kids": {
+        "pl": "Wyglądają jak ryba sprzed dwustu milionów lat, bo niewiele się zmieniły. Oddychają parą prawdziwych płuc i potrafią wypełznąć z wody na krótki spacer — u ryby promieniopłetwej to rzadkość.",
+        "en": "They look like a fish from two hundred million years ago because they changed little. They breathe with a pair of true lungs and can haul out of the water for a short walk — a rarity in a ray-finned fish."
+      },
+      "adults": {
+        "pl": "Polypteriformes zajmuje najbardziej bazalną pozycję wśród Actinopterygii. Zachowuje płuca parzyste połączone brzusznie z przełykiem, łuski ganoidowe oraz płetwę grzbietową podzieloną na szereg oddzielnych płetewek wspartych kolcami.",
+        "en": "Polypteriformes occupies the most basal position within Actinopterygii. It retains paired lungs connected ventrally to the oesophagus, ganoid scales, and a dorsal fin divided into a series of separate spine-supported finlets."
+      }
+    },
+    "distinction": {
+      "kids": {
+        "pl": "Grzbiet w rządek osobnych płetewek, a w środku prawdziwe płuca.",
+        "en": "A back set with separate little fins, and true lungs inside."
+      },
+      "adults": {
+        "pl": "Płetwa grzbietowa rozbita na szereg płetewek oraz zachowane płuca parzyste — stan plezjomorficzny wśród promieniopłetwych.",
+        "en": "A dorsal fin split into finlets plus retained paired lungs — a plesiomorphic condition among actinopterygians."
+      }
+    },
+    "examples": {
+      "pl": "Wielopłetwiec senegalski, Trzcinnik",
+      "en": "Senegal bichir, Reedfish"
+    }
+  },
+  {
+    "parentId": "actinopterygii",
+    "id": "acipenseriformes",
+    "startMa": 200,
+    "endMa": 0,
+    "status": "survived",
+    "icon": "ic-ray-fin",
+    "name": {
+      "pl": "Jesiotrokształtne",
+      "en": "Sturgeons and paddlefishes"
+    },
+    "short": {
+      "kids": {
+        "pl": "Wielkie rzeczne ryby z chrzęstnym szkieletem i rzędami kostnych tarcz.",
+        "en": "Great river fish with a cartilage skeleton and rows of bony shields."
+      },
+      "adults": {
+        "pl": "Acipenseriformes: bazalne promieniopłetwe o wtórnie schrzęstniałym szkielecie i ogonie heterocerkalnym.",
+        "en": "Acipenseriformes: basal actinopterygians with a secondarily cartilaginous skeleton and a heterocercal tail."
+      }
+    },
+    "detail": {
+      "kids": {
+        "pl": "Ich szkielet jest w większości z chrząstki — ale to nie cecha pierwotna, tylko powrót: ich przodkowie mieli kości i je utracili. Jesiotr może dożyć stu lat i ważyć tonę, a ryj obrosły czułkami przeszukuje dno w ciemności.",
+        "en": "Their skeleton is mostly cartilage — but that is not primitive, it is a reversal: their ancestors had bone and lost it. A sturgeon can live a century and weigh a tonne, its barbel-fringed snout searching the bottom in the dark."
+      },
+      "adults": {
+        "pl": "Acipenseriformes cechuje wtórna chrzęstnienie szkieletu wewnętrznego, ogon heterocerkalny oraz rzędy kostnych tarcz (scutes) zamiast pełnego pokrycia łuskowego. Ryj wyposażony w ampułki Lorenziniego i czułki służy do elektro- i mechanorecepcji przy żerowaniu bentosowym.",
+        "en": "Acipenseriformes is characterised by a secondarily cartilaginous endoskeleton, a heterocercal tail, and rows of bony scutes instead of full scale cover. The rostrum bears ampullae of Lorenzini and barbels for electro- and mechanoreception during benthic feeding."
+      }
+    },
+    "distinction": {
+      "kids": {
+        "pl": "Wróciły do szkieletu z chrząstki, choć ich przodkowie mieli kości.",
+        "en": "They went back to a cartilage skeleton, though their ancestors had bone."
+      },
+      "adults": {
+        "pl": "Wtórne schrzęstnienie szkieletu wewnętrznego — rewersja, nie stan pierwotny — przy zachowanym ogonie heterocerkalnym.",
+        "en": "Secondary cartilaginisation of the endoskeleton — a reversal, not a primitive state — with a heterocercal tail retained."
+      }
+    },
+    "examples": {
+      "pl": "Jesiotr, Bieługa, Wiosłonos",
+      "en": "Sturgeon, Beluga, Paddlefish"
+    }
+  },
+  {
+    "parentId": "actinopterygii",
+    "id": "teleostei",
+    "startMa": 200,
+    "endMa": 0,
+    "status": "survived",
+    "icon": "ic-ray-fin",
+    "name": {
+      "pl": "Doskonałokostne",
+      "en": "Teleosts"
+    },
+    "short": {
+      "kids": {
+        "pl": "Prawie każda ryba, jaką znasz — połowa wszystkich kręgowców świata.",
+        "en": "Almost every fish you know — half of all vertebrates on Earth."
+      },
+      "adults": {
+        "pl": "Teleostei: klad obejmujący ok. 96% żyjących ryb; ruchoma szczęka wysuwana i ogon homocerkalny.",
+        "en": "Teleostei: the clade holding about 96% of living fishes; a protrusible jaw and a homocercal tail."
+      }
+    },
+    "detail": {
+      "kids": {
+        "pl": "Ich szczęka potrafi wysunąć się do przodu i zassać zdobycz jak pipeta — to dlatego ryba może złapać coś, czego nie dosięga pyskiem. Ten jeden wynalazek pozwolił im opanować każdy zbiornik wody na Ziemi, od kałuży po rów oceaniczny.",
+        "en": "Their jaw can shoot forward and suck prey in like a pipette — which is how a fish catches something its mouth cannot reach. That single invention let them take over every body of water on Earth, from puddle to ocean trench."
+      },
+      "adults": {
+        "pl": "Teleostei definiuje ruchoma, wysuwana szczęka oparta na przesuwnej kości przedszczękowej, co umożliwia żerowanie zasysające, oraz symetryczny ogon homocerkalny wsparty na uroneuraliach. Klad liczy ponad 30 000 gatunków, czyli około połowy wszystkich kręgowców.",
+        "en": "Teleostei is defined by a protrusible jaw built on a mobile premaxilla, enabling suction feeding, and a symmetrical homocercal tail supported by uroneurals. The clade holds over 30,000 species, roughly half of all vertebrates."
+      }
+    },
+    "distinction": {
+      "kids": {
+        "pl": "Szczęka wysuwa się do przodu i zasysa zdobycz jak pipeta.",
+        "en": "The jaw shoots forward and sucks prey in like a pipette."
+      },
+      "adults": {
+        "pl": "Wysuwana szczęka oparta na ruchomej kości przedszczękowej, umożliwiająca żerowanie zasysające.",
+        "en": "A protrusible jaw built on a mobile premaxilla, enabling suction feeding."
+      }
+    },
+    "examples": {
+      "pl": "Śledź, Pstrąg, Tuńczyk, Okoń",
+      "en": "Herring, Trout, Tuna, Perch"
     }
   },
   {
@@ -949,8 +1225,8 @@
       }
     },
     "examples": {
-      "pl": "Żółwie morskie, Żółwie lądowe",
-      "en": "Sea turtles, Tortoises"
+      "pl": "Proganochelys, Odontochelys",
+      "en": "Proganochelys, Odontochelys"
     },
     "startMa": 220,
     "endMa": 0,
@@ -963,6 +1239,98 @@
         "pl": "Karapaks powstały ze zrośnięcia żeber, kręgów i kości skórnych oraz plastron z obręczy barkowej przesuniętej do wnętrza klatki — unikat wśród kręgowców.",
         "en": "A carapace formed by fusing ribs, vertebrae and dermal bone, plus a plastron, with the shoulder girdle shifted inside the ribcage — unique among vertebrates."
       }
+    }
+  },
+  {
+    "parentId": "testudines",
+    "id": "cryptodira",
+    "startMa": 160,
+    "endMa": 0,
+    "status": "survived",
+    "icon": "ic-turtle",
+    "name": {
+      "pl": "Skrytoszyjne",
+      "en": "Cryptodires"
+    },
+    "short": {
+      "kids": {
+        "pl": "Chowają głowę, zginając szyję w pionie — prosto do środka pancerza.",
+        "en": "They hide the head by bending the neck vertically — straight back into the shell."
+      },
+      "adults": {
+        "pl": "Cryptodira: żółwie chowające szyję w płaszczyźnie pionowej (esowato); obejmuje wszystkie żółwie morskie.",
+        "en": "Cryptodira: turtles that withdraw the neck vertically in an S-curve; includes all sea turtles."
+      }
+    },
+    "detail": {
+      "kids": {
+        "pl": "Zginają szyję w kształt litery S w pionie i wciągają głowę prosto pod pancerz. Należą tu wszystkie żółwie lądowe, morskie i większość słodkowodnych — czyli praktycznie każdy żółw, jakiego widziałeś. Żółw słoniowy z Galapagos dożywa ponad stu lat.",
+        "en": "They bend the neck into a vertical S and draw the head straight in under the shell. All tortoises, all sea turtles and most freshwater turtles belong here — practically every turtle you have seen. A Galapagos giant tortoise lives past a hundred."
+      },
+      "adults": {
+        "pl": "Cryptodira wciąga szyję przez zgięcie w płaszczyźnie pionowej, co wymaga odmiennej budowy kręgów szyjnych niż u Pleurodira. Klad obejmuje Testudinidae, Cheloniidae, Dermochelyidae i Emydidae, a więc zdecydowaną większość żyjących żółwi.",
+        "en": "Cryptodira withdraws the neck by flexing it in the vertical plane, which requires cervical vertebrae built differently from those of Pleurodira. The clade includes Testudinidae, Cheloniidae, Dermochelyidae and Emydidae — the great majority of living turtles."
+      }
+    },
+    "distinction": {
+      "kids": {
+        "pl": "Szyja zgina się w pionie, więc głowa chowa się prosto do środka.",
+        "en": "The neck bends vertically, so the head tucks straight inside."
+      },
+      "adults": {
+        "pl": "Wciąganie szyi przez zgięcie w płaszczyźnie pionowej (esowate), odmiennie od bocznego u Pleurodira.",
+        "en": "Neck withdrawal by vertical S-flexion, as against the lateral fold of Pleurodira."
+      }
+    },
+    "examples": {
+      "pl": "Żółw błotny, Żółw morski, Żółw słoniowy",
+      "en": "European pond turtle, Sea turtle, Galapagos tortoise"
+    }
+  },
+  {
+    "parentId": "testudines",
+    "id": "pleurodira",
+    "startMa": 150,
+    "endMa": 0,
+    "status": "survived",
+    "icon": "ic-turtle",
+    "name": {
+      "pl": "Bokoszyjne",
+      "en": "Pleurodires"
+    },
+    "short": {
+      "kids": {
+        "pl": "Nie chowają głowy do środka — składają ją bokiem pod krawędź pancerza.",
+        "en": "They do not tuck the head in — they fold it sideways under the shell rim."
+      },
+      "adults": {
+        "pl": "Pleurodira: żółwie składające szyję w płaszczyźnie poziomej; wyłącznie słodkowodne, głównie gondwańskie.",
+        "en": "Pleurodira: turtles that fold the neck horizontally; exclusively freshwater, mainly Gondwanan."
+      }
+    },
+    "detail": {
+      "kids": {
+        "pl": "Ich szyja nie zgina się w pionie, więc głowy nie da się schować do środka — zamiast tego kładą ją bokiem pod brzeg pancerza, jak zamykaną klapkę. Matamata leży nieruchomo na dnie, wyglądając jak zbutwiały liść, i zasysa rybę razem z wodą.",
+        "en": "Their neck will not bend vertically, so the head cannot go inside — instead they lay it sideways under the shell rim, like a closing flap. The matamata lies motionless on the bottom looking like a rotting leaf, then sucks in a fish with a gulp of water."
+      },
+      "adults": {
+        "pl": "Pleurodira składa szyję w płaszczyźnie poziomej, chowając głowę pod krawędź karapaksu. Miednica jest zrośnięta z plastronem, co odróżnia je od Cryptodira. Występują wyłącznie w wodach słodkich Ameryki Południowej, Afryki i Australii, co odzwierciedla rozpad Gondwany.",
+        "en": "Pleurodira folds the neck horizontally, tucking the head under the carapace rim. The pelvis is fused to the plastron, unlike in Cryptodira. They occur only in fresh waters of South America, Africa and Australia, reflecting the break-up of Gondwana."
+      }
+    },
+    "distinction": {
+      "kids": {
+        "pl": "Głowa nie mieści się do środka — kładzie się bokiem pod krawędź pancerza.",
+        "en": "The head will not go inside — it lies sideways under the shell rim."
+      },
+      "adults": {
+        "pl": "Poziome składanie szyi i zrośnięcie miednicy z plastronem, odmiennie od Cryptodira.",
+        "en": "Horizontal neck folding and a pelvis fused to the plastron, unlike Cryptodira."
+      }
+    },
+    "examples": {
+      "pl": "Matamata, Żółw wielkogłowy, Żółw ozdobny",
+      "en": "Matamata, Big-headed turtle, Side-necked turtle"
     }
   },
   {
@@ -1639,8 +2007,8 @@
       }
     },
     "examples": {
-      "pl": "Gekon, Kameleon, Waran, Agama, Jaszczurka zwinka",
-      "en": "Gecko, Chameleon, Monitor lizard, Agama, Sand lizard"
+      "pl": "Ardeosaurus, Bavarisaurus",
+      "en": "Ardeosaurus, Bavarisaurus"
     },
     "startMa": 160,
     "endMa": 0,
@@ -1653,6 +2021,144 @@
         "pl": "Plezjomorficzny stopień Squamata: zachowane kończyny i ruchome powieki, obecny otwór uszny zewnętrzny. Grupa parafiletyczna wobec węży.",
         "en": "The plesiomorphic squamate grade: limbs and movable eyelids retained, external ear opening present. Paraphyletic with respect to snakes."
       }
+    }
+  },
+  {
+    "parentId": "lacertilia",
+    "id": "gekkota",
+    "startMa": 110,
+    "endMa": 0,
+    "status": "survived",
+    "icon": "ic-lizard",
+    "name": {
+      "pl": "Gekony",
+      "en": "Geckos"
+    },
+    "short": {
+      "kids": {
+        "pl": "Chodzą po suficie na palcach pokrytych milionami mikroskopijnych włosków.",
+        "en": "They walk on ceilings using toes covered in millions of microscopic hairs."
+      },
+      "adults": {
+        "pl": "Gekkota: łuskonośne z lamellami przylgowymi i, u większości, brakiem ruchomej powieki.",
+        "en": "Gekkota: squamates with adhesive lamellae and, in most, no movable eyelid."
+      }
+    },
+    "detail": {
+      "kids": {
+        "pl": "Nie mają przyssawek ani kleju. Ich palce pokrywają miliony włosków tak cienkich, że przyciągają je siły działające między pojedynczymi cząsteczkami — ta sama fizyka, która sprawia, że kurz przykleja się do ekranu. Większość nie mruga, bo nie ma powiek: oko czyści językiem.",
+        "en": "They have no suction cups and no glue. Their toes carry millions of hairs so fine that forces between individual molecules pull them in — the same physics that makes dust cling to a screen. Most never blink, having no eyelids: they clean the eye with the tongue."
+      },
+      "adults": {
+        "pl": "Gekkota cechują lamelle przylgowe pokryte szczecinkami (setae) wykorzystujące oddziaływania van der Waalsa, zrośnięta przezroczysta powieka (brille) u większości linii oraz zdolność do wokalizacji, rzadka wśród łuskonośnych.",
+        "en": "Gekkota is characterised by adhesive lamellae bearing setae that exploit van der Waals forces, a fused transparent eyelid (brille) in most lineages, and vocalisation, which is rare among squamates."
+      }
+    },
+    "distinction": {
+      "kids": {
+        "pl": "Palce trzymają się ścian siłami między cząsteczkami, bez kleju i przyssawek.",
+        "en": "Toes grip walls by forces between molecules — no glue, no suction cups."
+      },
+      "adults": {
+        "pl": "Lamelle przylgowe ze szczecinkami wykorzystującymi oddziaływania van der Waalsa.",
+        "en": "Adhesive lamellae with setae exploiting van der Waals forces."
+      }
+    },
+    "examples": {
+      "pl": "Gekon tokay, Gekon domowy, Felsuma",
+      "en": "Tokay gecko, House gecko, Day gecko"
+    }
+  },
+  {
+    "parentId": "lacertilia",
+    "id": "iguania",
+    "startMa": 120,
+    "endMa": 0,
+    "status": "survived",
+    "icon": "ic-lizard",
+    "name": {
+      "pl": "Legwany i Kameleony",
+      "en": "Iguanians"
+    },
+    "short": {
+      "kids": {
+        "pl": "Polują językiem wyrzucanym do przodu — kameleon strzela nim dalej niż sam mierzy.",
+        "en": "They hunt by shooting the tongue forward — a chameleon fires further than its own length."
+      },
+      "adults": {
+        "pl": "Iguania: łuskonośne o prymarnie językowym chwytaniu zdobyczy i uzębieniu akrodontycznym lub pleurodontycznym.",
+        "en": "Iguania: squamates with primarily lingual prey capture and acrodont or pleurodont teeth."
+      }
+    },
+    "detail": {
+      "kids": {
+        "pl": "Większość łuskonośnych łapie zdobycz szczękami, a te robią to językiem. U kameleona doprowadzono to do skrajności: język wystrzeliwuje na długość dwóch ciał w setnych częściach sekundy, a jego koniec działa jak przyssawka. Do tego oczy obracają się niezależnie od siebie.",
+        "en": "Most squamates catch prey with the jaws; these use the tongue. In a chameleon it is taken to the extreme: the tongue fires two body lengths in hundredths of a second, its tip acting as a suction cup. The eyes also swivel independently of each other."
+      },
+      "adults": {
+        "pl": "Iguania wyróżnia prymarne chwytanie zdobyczy językiem (lingual prehension), w odróżnieniu od chwytania szczękami u Scleroglossa. Obejmuje Iguanidae, Agamidae i Chamaeleonidae; u tych ostatnich język balistyczny, oczy o niezależnym ruchu i chwytne stopy zygodaktyliczne.",
+        "en": "Iguania is distinguished by primary lingual prehension, as against jaw prehension in Scleroglossa. It includes Iguanidae, Agamidae and Chamaeleonidae; in the last, a ballistic tongue, independently moving eyes and zygodactyl grasping feet."
+      }
+    },
+    "distinction": {
+      "kids": {
+        "pl": "Łapią zdobycz językiem, a nie szczękami jak reszta jaszczurek.",
+        "en": "They catch prey with the tongue, not the jaws like other lizards."
+      },
+      "adults": {
+        "pl": "Prymarne chwytanie zdobyczy językiem, w przeciwieństwie do chwytania szczękami u pozostałych łuskonośnych.",
+        "en": "Primary lingual prey prehension, in contrast to jaw prehension in other squamates."
+      }
+    },
+    "examples": {
+      "pl": "Legwan, Kameleon, Agama, Bazyliszek",
+      "en": "Iguana, Chameleon, Agama, Basilisk"
+    }
+  },
+  {
+    "parentId": "lacertilia",
+    "id": "anguimorpha",
+    "startMa": 100,
+    "endMa": 0,
+    "status": "survived",
+    "icon": "ic-lizard",
+    "name": {
+      "pl": "Warany i Padalce",
+      "en": "Anguimorphs"
+    },
+    "short": {
+      "kids": {
+        "pl": "Największe żyjące jaszczurki — i te, które zgubiły nogi, choć wężami nie są.",
+        "en": "The largest living lizards — and the ones that lost their legs without being snakes."
+      },
+      "adults": {
+        "pl": "Anguimorpha: łuskonośne o rozwidlonym języku chemoreceptorowym; w tej linii powstał jad u Toxicofera.",
+        "en": "Anguimorpha: squamates with a forked chemosensory tongue; venom arose in this line within Toxicofera."
+      }
+    },
+    "detail": {
+      "kids": {
+        "pl": "Waran z Komodo waży tyle co dorosły człowiek i tropi zdobycz rozwidlonym językiem, dokładnie jak wąż. Padalec z kolei wygląda jak wąż, ale wężem nie jest — ma ruchome powieki i otwór uszny, których wąż nie ma. Nogi zgubił zupełnie niezależnie.",
+        "en": "A Komodo dragon weighs as much as a grown man and tracks prey with a forked tongue, exactly like a snake. A slow worm, meanwhile, looks like a snake but is not one — it has movable eyelids and an ear opening, which no snake has. It lost its legs entirely independently."
+      },
+      "adults": {
+        "pl": "Anguimorpha obejmuje Varanidae, Anguidae i Helodermatidae. Cechy: rozwidlony język o funkcji chemoreceptorowej współdziałający z narządem Jacobsona, wydłużona szyja i, u części linii, gruczoły jadowe. Wtórna utrata kończyn wystąpiła niezależnie od węży.",
+        "en": "Anguimorpha comprises Varanidae, Anguidae and Helodermatidae. Traits: a forked chemosensory tongue working with Jacobson’s organ, an elongated neck and, in some lineages, venom glands. Secondary limb loss occurred independently of snakes."
+      }
+    },
+    "distinction": {
+      "kids": {
+        "pl": "Rozwidlony język do tropienia zapachu — jak u węża, ale z powiekami.",
+        "en": "A forked tongue for tracking scent — like a snake, but with eyelids."
+      },
+      "adults": {
+        "pl": "Rozwidlony język chemoreceptorowy współdziałający z narządem Jacobsona, przy zachowanych powiekach i otworze usznym.",
+        "en": "A forked chemosensory tongue working with Jacobson’s organ, with eyelids and an ear opening retained."
+      }
+    },
+    "examples": {
+      "pl": "Waran z Komodo, Padalec, Helodermа",
+      "en": "Komodo dragon, Slow worm, Gila monster"
     }
   },
   {
@@ -1685,8 +2191,8 @@
       }
     },
     "examples": {
-      "pl": "Pyton siatkowy, Kobra królewska, Żmija zygzakowata, Boa dusiciel",
-      "en": "Reticulated python, King cobra, Common viper, Boa constrictor"
+      "pl": "Dinilysia, Najash",
+      "en": "Dinilysia, Najash"
     },
     "startMa": 100,
     "endMa": 0,
@@ -1699,6 +2205,98 @@
         "pl": "Całkowita redukcja kończyn, zrośnięta przezroczysta powieka (brille) i rozłączone spojenie żuchwy umożliwiające połykanie dużej zdobyczy.",
         "en": "Complete limb reduction, a fused transparent eyelid (brille), and an unfused mandibular symphysis allowing large prey to be swallowed."
       }
+    }
+  },
+  {
+    "parentId": "serpentes",
+    "id": "booidea",
+    "startMa": 60,
+    "endMa": 0,
+    "status": "survived",
+    "icon": "ic-snake",
+    "name": {
+      "pl": "Dusiciele",
+      "en": "Boas and pythons"
+    },
+    "short": {
+      "kids": {
+        "pl": "Zabijają uściskiem, nie jadem — i mają jeszcze resztki tylnych nóg.",
+        "en": "They kill by squeezing, not venom — and still carry stubs of hind legs."
+      },
+      "adults": {
+        "pl": "Booidea: węże bazalne o zachowanych szczątkach miednicy i kończyn tylnych; konstrykcja zamiast jadu.",
+        "en": "Booidea: basal snakes retaining pelvic and hindlimb vestiges; constriction instead of venom."
+      }
+    },
+    "detail": {
+      "kids": {
+        "pl": "Po bokach kloaki mają parę ostróg — to wszystko, co zostało z tylnych nóg ich przodków. Zabijają, zaciskając zwoje przy każdym wydechu ofiary, aż ta nie może nabrać powietrza. W wardze mają dołki czułe na ciepło i „widzą\" nimi zwierzę w całkowitej ciemności.",
+        "en": "Beside the cloaca they carry a pair of spurs — all that remains of their ancestors’ hind legs. They kill by tightening their coils with each breath the prey exhales, until it cannot draw another. Heat-sensitive pits in the lip let them \"see\" an animal in total darkness."
+      },
+      "adults": {
+        "pl": "Booidea zachowuje szczątkowy pas miedniczny i kończyny tylne w postaci ostróg kloakalnych, co czyni je jednymi z bazalnych węży. Uśmiercanie przez konstrykcję polega na progresywnym zacieśnianiu zwojów w fazie wydechu ofiary. Wiele linii ma dołki termoreceptorowe w łuskach wargowych.",
+        "en": "Booidea retains a vestigial pelvic girdle and hindlimbs as cloacal spurs, marking them as basal snakes. Killing by constriction works by progressively tightening the coils during the prey’s exhalation. Many lineages bear thermoreceptive pits in the labial scales."
+      }
+    },
+    "distinction": {
+      "kids": {
+        "pl": "Ostrogi przy kloace — resztki tylnych nóg, których inne węże już nie mają.",
+        "en": "Spurs beside the cloaca — leftovers of hind legs other snakes no longer have."
+      },
+      "adults": {
+        "pl": "Zachowany szczątkowy pas miedniczny i kończyny tylne w postaci ostróg kloakalnych.",
+        "en": "A retained vestigial pelvic girdle and hindlimbs in the form of cloacal spurs."
+      }
+    },
+    "examples": {
+      "pl": "Boa dusiciel, Pyton siatkowy, Anakonda",
+      "en": "Boa constrictor, Reticulated python, Anaconda"
+    }
+  },
+  {
+    "parentId": "serpentes",
+    "id": "colubroidea",
+    "startMa": 50,
+    "endMa": 0,
+    "status": "survived",
+    "icon": "ic-snake",
+    "name": {
+      "pl": "Żmije i Zaskrońce",
+      "en": "Colubroids"
+    },
+    "short": {
+      "kids": {
+        "pl": "Węże z jadem podawanym przez zęby — u żmii składane jak scyzoryk.",
+        "en": "Snakes that deliver venom through fangs — in a viper they fold like a penknife."
+      },
+      "adults": {
+        "pl": "Colubroidea: klad obejmujący ok. 85% węży; aparat jadowy o zróżnicowanym położeniu i mechanice zębów.",
+        "en": "Colubroidea: the clade holding about 85% of snakes; a venom apparatus varying in fang position and mechanics."
+      }
+    },
+    "detail": {
+      "kids": {
+        "pl": "Żmija ma zęby jadowe tak długie, że musi je składać do podniebienia jak ostrze scyzoryka — inaczej nie zamknęłaby pyska. Kobra ma je krótsze, ale na stałe wyprostowane. A zaskroniec ma zęby dopiero z tyłu pyska i dla człowieka jest niegroźny.",
+        "en": "A viper’s fangs are so long it must fold them against the palate like a penknife blade — otherwise it could not shut its mouth. A cobra’s are shorter but permanently erect. A grass snake’s sit at the back of the mouth and are harmless to people."
+      },
+      "adults": {
+        "pl": "Colubroidea obejmuje Viperidae (zęby solenoglifowe, składane), Elapidae (proteroglifowe, stałe, przednie) i Colubridae (opistoglifowe lub aglifowe). Zróżnicowanie aparatu jadowego jest głównym kryterium podziału. Klad obejmuje zdecydowaną większość żyjących węży.",
+        "en": "Colubroidea comprises Viperidae (solenoglyphous, folding fangs), Elapidae (proteroglyphous, fixed front fangs) and Colubridae (opisthoglyphous or aglyphous). Variation in the venom apparatus is the principal division. The clade holds the great majority of living snakes."
+      }
+    },
+    "distinction": {
+      "kids": {
+        "pl": "Zęby jadowe — u żmii tak długie, że składają się do podniebienia.",
+        "en": "Venom fangs — in a viper so long they fold against the palate."
+      },
+      "adults": {
+        "pl": "Aparat jadowy z wyspecjalizowanymi zębami, u Viperidae składanymi (solenoglifia).",
+        "en": "A venom apparatus with specialised fangs, folding in Viperidae (solenoglyphy)."
+      }
+    },
+    "examples": {
+      "pl": "Żmija zygzakowata, Kobra królewska, Zaskroniec",
+      "en": "Common viper, King cobra, Grass snake"
     }
   },
   {
@@ -2237,8 +2835,8 @@
       }
     },
     "examples": {
-      "pl": "Wróble, Orły, Kury, Pingwiny",
-      "en": "Sparrows, Eagles, Chickens, Penguins"
+      "pl": "Ichthyornis, Hesperornis",
+      "en": "Ichthyornis, Hesperornis"
     },
     "startMa": 150,
     "endMa": 0,
@@ -2251,6 +2849,144 @@
         "pl": "Pióra konturowe o asymetrycznej chorągiewce umożliwiające lot czynny, furkula i mostek z grzebieniem jako przyczep mięśni lotnych.",
         "en": "Asymmetric pennaceous feathers enabling powered flight, a furcula, and a keeled sternum anchoring the flight muscles."
       }
+    }
+  },
+  {
+    "parentId": "aves",
+    "id": "palaeognathae",
+    "startMa": 70,
+    "endMa": 0,
+    "status": "survived",
+    "icon": "ic-bird",
+    "name": {
+      "pl": "Ptaki Bezgrzebieniowe",
+      "en": "Palaeognaths"
+    },
+    "short": {
+      "kids": {
+        "pl": "Wielkie ptaki, które porzuciły latanie i postawiły na bieganie.",
+        "en": "Big birds that gave up flying and took up running."
+      },
+      "adults": {
+        "pl": "Palaeognathae: bazalny klad ptaków o pierwotnym podniebieniu; w większości nielotne.",
+        "en": "Palaeognathae: the basal bird clade with a primitive palate; mostly flightless."
+      }
+    },
+    "detail": {
+      "kids": {
+        "pl": "Struś biega szybciej niż koń, a kiwi wyczuwa robaki nosem na końcu dzioba. Wszystkie straciły kil na mostku, bo przestał być potrzebny — bez mięśni do latania nie ma czego przyczepiać.",
+        "en": "An ostrich runs faster than a horse, and a kiwi smells worms with nostrils at the tip of its beak. All lost the keel on the breastbone: with no flight muscles, there is nothing left to anchor."
+      },
+      "adults": {
+        "pl": "Palaeognathae zachowuje plezjomorficzne podniebienie paleognatyczne. Nielotność wyewoluowała niezależnie w wielu liniach po wymieraniu K–Pg, wraz z utratą kilu mostka. Obejmuje Struthioniformes, Rheiformes, Casuariiformes, Apterygiformes i lotne Tinamiformes.",
+        "en": "Palaeognathae retains the plesiomorphic palaeognathous palate. Flightlessness evolved independently in several lineages after the K-Pg extinction, along with loss of the sternal keel. It includes Struthioniformes, Rheiformes, Casuariiformes, Apterygiformes and the volant Tinamiformes."
+      }
+    },
+    "distinction": {
+      "kids": {
+        "pl": "Straciły kil na mostku — bez latania nie było do czego przyczepić mięśni.",
+        "en": "They lost the keel on the breastbone — with no flight, nothing to anchor the muscles to."
+      },
+      "adults": {
+        "pl": "Podniebienie paleognatyczne o zachowanym połączeniu kości oraz wtórna utrata kilu mostka.",
+        "en": "A palaeognathous palate with retained bone connections, plus secondary loss of the sternal keel."
+      }
+    },
+    "examples": {
+      "pl": "Struś, Emu, Kiwi, Kazuar",
+      "en": "Ostrich, Emu, Kiwi, Cassowary"
+    }
+  },
+  {
+    "parentId": "aves",
+    "id": "galloanserae",
+    "startMa": 70,
+    "endMa": 0,
+    "status": "survived",
+    "icon": "ic-bird",
+    "name": {
+      "pl": "Grzebiące i Blaszkodziobe",
+      "en": "Galloanserans"
+    },
+    "short": {
+      "kids": {
+        "pl": "Kury, kaczki i gęsi — ptaki, które człowiek udomowił najwcześniej.",
+        "en": "Chickens, ducks and geese — the birds people domesticated first."
+      },
+      "adults": {
+        "pl": "Galloanserae: klad łączący Galliformes i Anseriformes, siostrzany wobec Neoaves.",
+        "en": "Galloanserae: the clade uniting Galliformes and Anseriformes, sister to Neoaves."
+      }
+    },
+    "detail": {
+      "kids": {
+        "pl": "Ich pisklęta wykluwają się już opierzone i od razu biegają — inaczej niż nagie, ślepe pisklaki wróbla. To dlatego tak łatwo je było hodować: kurczak radzi sobie sam niemal od pierwszego dnia.",
+        "en": "Their chicks hatch already feathered and run at once — unlike the bare, blind hatchlings of a sparrow. That is why they were so easy to keep: a chick manages almost from day one."
+      },
+      "adults": {
+        "pl": "Galloanserae obejmuje Galliformes (kuraki) i Anseriformes (blaszkodziobe). Większość jest zagniazdownikami o silnie rozwiniętych pisklętach. Klad ma bogaty zapis kopalny sięgający kredy (Vegavis), co czyni go jednym z najstarszych pewnych kladów ptaków współczesnych.",
+        "en": "Galloanserae comprises Galliformes and Anseriformes. Most are precocial, with well-developed hatchlings. The clade has a rich fossil record reaching into the Cretaceous (Vegavis), making it one of the oldest securely dated modern bird clades."
+      }
+    },
+    "distinction": {
+      "kids": {
+        "pl": "Pisklęta wykluwają się opierzone i od razu biegają.",
+        "en": "Chicks hatch feathered and run straight away."
+      },
+      "adults": {
+        "pl": "Zagniazdowniczość: pisklęta wykluwają się opierzone, widzące i zdolne do samodzielnego żerowania.",
+        "en": "Precociality: chicks hatch feathered, sighted and able to feed themselves."
+      }
+    },
+    "examples": {
+      "pl": "Kura, Kaczka, Gęś, Bażant",
+      "en": "Chicken, Duck, Goose, Pheasant"
+    }
+  },
+  {
+    "parentId": "aves",
+    "id": "neoaves",
+    "startMa": 70,
+    "endMa": 0,
+    "status": "survived",
+    "icon": "ic-bird",
+    "name": {
+      "pl": "Ptaki Właściwe",
+      "en": "Neoaves"
+    },
+    "short": {
+      "kids": {
+        "pl": "Ogromna większość ptaków — od kolibra po orła i pingwina.",
+        "en": "The vast majority of birds — from hummingbird to eagle to penguin."
+      },
+      "adults": {
+        "pl": "Neoaves: klad obejmujący ok. 95% żyjących gatunków ptaków, rozdzielony gwałtownie po K–Pg.",
+        "en": "Neoaves: the clade holding about 95% of living bird species, which split explosively after the K-Pg."
+      }
+    },
+    "detail": {
+      "kids": {
+        "pl": "Po zagładzie dinozaurów świat opustoszał, a te ptaki w kilka milionów lat zajęły go cały. Dlatego tak trudno ustalić, kto jest czyim kuzynem — rozeszły się niemal jednocześnie, jak rozbłysk fajerwerku.",
+        "en": "After the dinosaurs died the world emptied, and these birds filled all of it within a few million years. That is why their family tree is so hard to untangle: they split almost simultaneously, like a firework bursting."
+      },
+      "adults": {
+        "pl": "Neoaves przeszły gwałtowną radiację w ciągu ok. 10–15 mln lat po K–Pg, co pozostawiło bardzo krótkie gałęzie wewnętrzne i czyni topologię trudną do rozstrzygnięcia nawet metodami filogenomicznymi. Obejmuje m.in. Passeriformes, Accipitriformes, Strigiformes i Sphenisciformes.",
+        "en": "Neoaves underwent a rapid radiation within some 10-15 million years of the K-Pg, leaving very short internal branches and a topology that remains hard to resolve even phylogenomically. It includes Passeriformes, Accipitriformes, Strigiformes and Sphenisciformes."
+      }
+    },
+    "distinction": {
+      "kids": {
+        "pl": "Rozeszły się tak szybko po wymieraniu, że do dziś trudno ustalić pokrewieństwa.",
+        "en": "They split so fast after the extinction that their relationships are still hard to work out."
+      },
+      "adults": {
+        "pl": "Gwałtowna radiacja po K–Pg dająca bardzo krótkie gałęzie wewnętrzne, oporne na rozstrzygnięcie filogenetyczne.",
+        "en": "A post-K-Pg rapid radiation producing very short internal branches that resist phylogenetic resolution."
+      }
+    },
+    "examples": {
+      "pl": "Wróbel, Orzeł, Sowa, Pingwin",
+      "en": "Sparrow, Eagle, Owl, Penguin"
     }
   },
   {
@@ -2283,8 +3019,8 @@
       }
     },
     "examples": {
-      "pl": "Triceratops, Protoceratops, Styrakozaur, Centrozaur",
-      "en": "Triceratops, Protoceratops, Styracosaurus, Centrosaurus"
+      "pl": "Psittakozaur, Yinlong",
+      "en": "Psittacosaurus, Yinlong"
     },
     "startMa": 169,
     "endMa": 66,
@@ -2297,6 +3033,98 @@
         "pl": "Kość rostralna — nieparzysty element dzioba nieobecny u pozostałych dinozaurów — oraz kryza ciemieniowo-łuskowa.",
         "en": "The rostral bone — an unpaired beak element absent in all other dinosaurs — plus a parieto-squamosal frill."
       }
+    }
+  },
+  {
+    "parentId": "ceratopsia",
+    "id": "protoceratopsidae",
+    "startMa": 100,
+    "endMa": 66,
+    "status": "extinct",
+    "icon": "ic-dino",
+    "name": {
+      "pl": "Protoceratopsy",
+      "en": "Protoceratopsids"
+    },
+    "short": {
+      "kids": {
+        "pl": "Rogatce wielkości owcy — z kryzą, ale jeszcze bez rogów.",
+        "en": "Sheep-sized horned dinosaurs — with a frill, but no horns yet."
+      },
+      "adults": {
+        "pl": "Protoceratopsidae: bazalne ceratopsy z kryzą ciemieniowo-łuskową, bez rogów nadoczodołowych.",
+        "en": "Protoceratopsidae: basal ceratopsians with a parieto-squamosal frill but no supraorbital horns."
+      }
+    },
+    "detail": {
+      "kids": {
+        "pl": "To one dały nam słynną skamieniałość „walczących dinozaurów\" — protoceratops zastygł w uścisku z welociraptorem, zasypany osuwiskiem piasku w trakcie walki. Miały już kryzę, ale rogi dopiero miały się pojawić u ich potomków.",
+        "en": "These gave us the famous \"fighting dinosaurs\" fossil — a Protoceratops locked with a Velociraptor, buried by a collapsing dune mid-struggle. They already had the frill, but horns were still to come in their descendants."
+      },
+      "adults": {
+        "pl": "Protoceratopsidae to bazalny stopień Ceratopsia z rozwiniętą kryzą ciemieniowo-łuskową przy braku rogów nadoczodołowych i przy czworonożności fakultatywnej. Znane z licznych stanowisk mongolskich, w tym z gniazdami i okazami w pozycji życiowej.",
+        "en": "Protoceratopsidae is a basal ceratopsian grade with a developed parieto-squamosal frill but no supraorbital horns, and facultative quadrupedality. They are known from numerous Mongolian localities, including nests and specimens in life position."
+      }
+    },
+    "distinction": {
+      "kids": {
+        "pl": "Kryza już jest, rogów jeszcze nie ma.",
+        "en": "The frill is already there, the horns are not."
+      },
+      "adults": {
+        "pl": "Rozwinięta kryza ciemieniowo-łuskowa przy całkowitym braku rogów nadoczodołowych.",
+        "en": "A developed parieto-squamosal frill with supraorbital horns entirely absent."
+      }
+    },
+    "examples": {
+      "pl": "Protoceratops, Bagaceratops, Leptoceratops",
+      "en": "Protoceratops, Bagaceratops, Leptoceratops"
+    }
+  },
+  {
+    "parentId": "ceratopsia",
+    "id": "ceratopsidae",
+    "startMa": 90,
+    "endMa": 66,
+    "status": "extinct",
+    "icon": "ic-dino",
+    "name": {
+      "pl": "Ceratopsydy",
+      "en": "Ceratopsids"
+    },
+    "short": {
+      "kids": {
+        "pl": "Wielkie rogatce z kryzą jak stół i rogami dłuższymi od ludzkiej ręki.",
+        "en": "Great horned dinosaurs with a frill like a table and horns longer than a human arm."
+      },
+      "adults": {
+        "pl": "Ceratopsidae: czworonożne ceratopsy z rogami nadoczodołowymi i baterią zębową tnącą pionowo.",
+        "en": "Ceratopsidae: quadrupedal ceratopsians with supraorbital horns and a vertically shearing dental battery."
+      }
+    },
+    "detail": {
+      "kids": {
+        "pl": "Rogi triceratopsa były dłuższe niż ręka dorosłego człowieka. Ich zęby nie rozcierały pokarmu, tylko tworzyły pionowe nożyce — cięły twarde, włókniste rośliny jak sekator, zamiast je mielić.",
+        "en": "A Triceratops horn was longer than a grown man’s arm. Their teeth did not grind: they formed vertical shears, cutting tough fibrous plants like secateurs rather than milling them."
+      },
+      "adults": {
+        "pl": "Ceratopsidae cechuje obligatoryjna czworonożność, rogi nadoczodołowe i nosowe, rozbudowana kryza oraz bateria zębowa o pionowej powierzchni tnącej, odmienna od rozcierającej baterii hadrozaurów. Dzielą się na Centrosaurinae i Chasmosaurinae.",
+        "en": "Ceratopsidae is characterised by obligate quadrupedality, supraorbital and nasal horns, an elaborate frill, and a dental battery with a vertical shearing surface, unlike the grinding battery of hadrosaurs. They split into Centrosaurinae and Chasmosaurinae."
+      }
+    },
+    "distinction": {
+      "kids": {
+        "pl": "Zęby tnące pionowo jak sekator, nie mielące jak u kaczkodziobych.",
+        "en": "Teeth that shear vertically like secateurs, not grind like a hadrosaur’s."
+      },
+      "adults": {
+        "pl": "Bateria zębowa o pionowej powierzchni tnącej, w przeciwieństwie do rozcierającej baterii Hadrosauridae.",
+        "en": "A dental battery with a vertical shearing surface, as against the grinding battery of Hadrosauridae."
+      }
+    },
+    "examples": {
+      "pl": "Triceratops, Styrakozaur, Centrozaur",
+      "en": "Triceratops, Styracosaurus, Centrosaurus"
     }
   },
   {
@@ -2375,8 +3203,8 @@
       }
     },
     "examples": {
-      "pl": "Iguanodon, Parasaurolophus, Edmontosaurus, Maiasaura",
-      "en": "Iguanodon, Parasaurolophus, Edmontosaurus, Maiasaura"
+      "pl": "Hypsilofodon, Thescelosaurus",
+      "en": "Hypsilophodon, Thescelosaurus"
     },
     "startMa": 164,
     "endMa": 66,
@@ -2389,6 +3217,98 @@
         "pl": "Baterie zębowe: ciasno upakowane, stale wymieniane zęby tworzące powierzchnię rozcierającą, przy braku osteoderm.",
         "en": "Dental batteries: tightly packed, continuously replaced teeth forming a grinding surface, with no osteoderms."
       }
+    }
+  },
+  {
+    "parentId": "ornithopoda",
+    "id": "iguanodontia",
+    "startMa": 164,
+    "endMa": 66,
+    "status": "extinct",
+    "icon": "ic-dino",
+    "name": {
+      "pl": "Iguanodonty",
+      "en": "Iguanodonts"
+    },
+    "short": {
+      "kids": {
+        "pl": "Roślinożercy z kolcem zamiast kciuka i zębami ułożonymi w tarkę.",
+        "en": "Plant-eaters with a spike instead of a thumb and teeth set like a grater."
+      },
+      "adults": {
+        "pl": "Iguanodontia: ornitopody z kolcem kciukowym i baterią zębową o ruchu pleurokinetycznym.",
+        "en": "Iguanodontia: ornithopods with a thumb spike and a dental battery with pleurokinetic jaw action."
+      }
+    },
+    "detail": {
+      "kids": {
+        "pl": "Zamiast kciuka miały ostry kolec — przez długi czas naukowcy sądzili, że to róg na nosie, i tak rysowali iguanodona. Gdy żuły, szczęki rozchodziły się lekko na boki, więc zęby ścierały pokarm ruchem, jakiego nie ma żaden dzisiejszy gad.",
+        "en": "Instead of a thumb they had a sharp spike — for a long time scientists thought it was a nose horn and drew Iguanodon that way. When chewing, the jaws bowed slightly outwards, so the teeth ground food with a motion no living reptile has."
+      },
+      "adults": {
+        "pl": "Iguanodontia cechuje zmodyfikowany, kolcowaty pierwszy palec ręki oraz kineza pleurokinetyczna czaszki: podczas zwarcia szczęki rozchodzą się bocznie, umożliwiając rozcieranie pokarmu mimo braku ruchu żuchwy na boki.",
+        "en": "Iguanodontia is characterised by a modified spike-like first digit and pleurokinetic skull kinesis: on occlusion the maxillae bow outwards, allowing grinding despite the absence of lateral jaw movement."
+      }
+    },
+    "distinction": {
+      "kids": {
+        "pl": "Kolec zamiast kciuka i szczęki, które rozchodziły się przy żuciu.",
+        "en": "A spike instead of a thumb, and jaws that bowed apart when chewing."
+      },
+      "adults": {
+        "pl": "Kolcowaty pierwszy palec ręki oraz pleurokineza czaszki umożliwiająca rozcieranie pokarmu.",
+        "en": "A spike-like first digit plus skull pleurokinesis enabling a grinding chew."
+      }
+    },
+    "examples": {
+      "pl": "Iguanodon, Tenontozaur, Ouranozaur",
+      "en": "Iguanodon, Tenontosaurus, Ouranosaurus"
+    }
+  },
+  {
+    "parentId": "ornithopoda",
+    "id": "hadrosauridae",
+    "startMa": 100,
+    "endMa": 66,
+    "status": "extinct",
+    "icon": "ic-dino",
+    "name": {
+      "pl": "Kaczkodziobe",
+      "en": "Hadrosaurs"
+    },
+    "short": {
+      "kids": {
+        "pl": "Dinozaury z kaczym dziobem, grzebieniem-trąbką i tysiącem zębów naraz.",
+        "en": "Dinosaurs with a duck bill, a trumpet crest and a thousand teeth at once."
+      },
+      "adults": {
+        "pl": "Hadrosauridae: ornitopody z baterią zębową liczącą setki zębów i rurkowatym grzebieniem u lambeozaurów.",
+        "en": "Hadrosauridae: ornithopods with a dental battery of hundreds of teeth and a tubular crest in lambeosaurines."
+      }
+    },
+    "detail": {
+      "kids": {
+        "pl": "W szczękach miały nawet tysiąc zębów naraz, ciasno upakowanych w płytę do mielenia gałęzi. U parazaurolofa grzebień na głowie był pustą w środku rurą połączoną z nosem — dmuchając w nią, wydawał dźwięk jak trąba, którym zapewne nawoływał stado.",
+        "en": "Their jaws held up to a thousand teeth at once, packed into a plate for milling branches. In Parasaurolophus the head crest was a hollow tube joined to the nose — blown through, it sounded like a trumpet, probably to call the herd."
+      },
+      "adults": {
+        "pl": "Hadrosauridae wyróżnia bateria zębowa złożona z setek ciasno upakowanych, stale wymienianych zębów tworzących powierzchnię rozcierającą, oraz u Lambeosaurinae rurkowaty grzebień nadczaszkowy połączony z drogami nosowymi, interpretowany jako rezonator.",
+        "en": "Hadrosauridae is distinguished by a dental battery of hundreds of tightly packed, continuously replaced teeth forming a grinding surface, and in Lambeosaurinae a hollow supracranial crest connected to the nasal passages, interpreted as a resonator."
+      }
+    },
+    "distinction": {
+      "kids": {
+        "pl": "Grzebień na głowie był pustą rurą — trąbką do nawoływania stada.",
+        "en": "The head crest was a hollow tube — a trumpet for calling the herd."
+      },
+      "adults": {
+        "pl": "Rurkowaty grzebień nadczaszkowy połączony z drogami nosowymi, działający jako rezonator.",
+        "en": "A hollow supracranial crest joined to the nasal passages, acting as a resonator."
+      }
+    },
+    "examples": {
+      "pl": "Parazaurolof, Edmontozaur, Majazaura",
+      "en": "Parasaurolophus, Edmontosaurus, Maiasaura"
     }
   },
   {
@@ -2881,8 +3801,8 @@
       }
     },
     "examples": {
-      "pl": "Brachiozaur, Diplodok, Brontosaur, Argentinosaurus",
-      "en": "Brachiosaurus, Diplodocus, Brontosaurus, Argentinosaurus"
+      "pl": "Wulkanodon, Barapazaur",
+      "en": "Vulcanodon, Barapasaurus"
     },
     "startMa": 201,
     "endMa": 66,
@@ -2895,6 +3815,98 @@
         "pl": "Obligatoryjna czworonożność z kolumnowymi kończynami oraz pneumatyzacja kręgów szyjnych i tułowiowych workami powietrznymi — warunek gigantyzmu.",
         "en": "Obligate quadrupedality on columnar limbs, plus pneumatisation of the cervical and dorsal vertebrae by air sacs — the precondition for gigantism."
       }
+    }
+  },
+  {
+    "parentId": "sauropoda",
+    "id": "diplodocoidea",
+    "startMa": 170,
+    "endMa": 66,
+    "status": "extinct",
+    "icon": "ic-dino",
+    "name": {
+      "pl": "Diplodoki",
+      "en": "Diplodocoids"
+    },
+    "short": {
+      "kids": {
+        "pl": "Najdłuższe zwierzęta lądowe — szyja jak dźwig, ogon jak bicz.",
+        "en": "The longest land animals — a neck like a crane, a tail like a whip."
+      },
+      "adults": {
+        "pl": "Diplodocoidea: zauropody o wydłużonej, poziomej szyi i biczowatym ogonie; zęby kołkowe z przodu pyska.",
+        "en": "Diplodocoidea: sauropods with a long horizontal neck and whip-like tail; peg teeth confined to the snout tip."
+      }
+    },
+    "detail": {
+      "kids": {
+        "pl": "Ogon zwężał się w cienki bicz z kilkudziesięciu małych kręgów — prawdopodobnie strzelały nim jak z bata, a trzask mógł przekraczać prędkość dźwięku. Zęby miały tylko z przodu pyska, jak grabie do zgarniania liści.",
+        "en": "The tail tapered into a thin whip of dozens of small vertebrae — they probably cracked it, and the snap may have broken the sound barrier. Teeth sat only at the front of the mouth, like a rake for stripping leaves."
+      },
+      "adults": {
+        "pl": "Diplodocoidea cechuje szyja utrzymywana poziomo, biczowaty koniec ogona złożony z licznych zredukowanych kręgów oraz uzębienie kołkowe ograniczone do przedniej części szczęk, służące do obrywania, nie żucia. Obejmuje Diplodocidae, Dicraeosauridae i Rebbachisauridae.",
+        "en": "Diplodocoidea is marked by a horizontally held neck, a whip-like tail tip of many reduced vertebrae, and peg-like teeth restricted to the front of the jaws for stripping rather than chewing. It includes Diplodocidae, Dicraeosauridae and Rebbachisauridae."
+      }
+    },
+    "distinction": {
+      "kids": {
+        "pl": "Ogon zakończony cienkim biczem, którym mogły strzelać.",
+        "en": "A tail ending in a thin whip they could crack."
+      },
+      "adults": {
+        "pl": "Biczowaty koniec ogona z kilkudziesięciu zredukowanych kręgów oraz zęby kołkowe tylko z przodu szczęk.",
+        "en": "A whip-like tail tip of dozens of reduced vertebrae, and peg teeth only at the front of the jaws."
+      }
+    },
+    "examples": {
+      "pl": "Diplodok, Apatozaur, Amargazaur",
+      "en": "Diplodocus, Apatosaurus, Amargasaurus"
+    }
+  },
+  {
+    "parentId": "sauropoda",
+    "id": "titanosauria",
+    "startMa": 136,
+    "endMa": 66,
+    "status": "extinct",
+    "icon": "ic-dino",
+    "name": {
+      "pl": "Tytanozaury",
+      "en": "Titanosaurs"
+    },
+    "short": {
+      "kids": {
+        "pl": "Najcięższe zwierzęta, jakie chodziły po lądzie — niektóre w skórnym pancerzu.",
+        "en": "The heaviest animals ever to walk on land — some wearing skin armour."
+      },
+      "adults": {
+        "pl": "Titanosauria: ostatnia i najliczniejsza linia zauropodów; szeroki rozstaw kończyn, częste osteodermy.",
+        "en": "Titanosauria: the last and most diverse sauropod lineage; a wide-gauge stance and frequent osteoderms."
+      }
+    },
+    "detail": {
+      "kids": {
+        "pl": "Argentynozaur ważył tyle co dwanaście słoni. Chodziły szeroko rozstawionymi nogami, zostawiając ślady daleko od siebie, a niektóre miały w skórze kostne płyty — jedyne opancerzone zauropody. Przetrwały do samego końca kredy.",
+        "en": "Argentinosaurus weighed as much as twelve elephants. They walked with legs set wide apart, leaving trackways far from the midline, and some had bony plates in the skin — the only armoured sauropods. They lasted to the very end of the Cretaceous."
+      },
+      "adults": {
+        "pl": "Titanosauria wyróżnia szeroki rozstaw kończyn (wide-gauge trackways), silnie pneumatyczny szkielet osiowy i obecność osteoderm u części taksonów. Klad przetrwał do granicy K–Pg i był dominującą grupą zauropodów na Gondwanie. Argentinosaurus szacowany na 65–75 ton.",
+        "en": "Titanosauria is marked by a wide-gauge stance, a strongly pneumatised axial skeleton and osteoderms in some taxa. The clade persisted to the K-Pg boundary and dominated Gondwanan sauropod faunas. Argentinosaurus is estimated at 65-75 tonnes."
+      }
+    },
+    "distinction": {
+      "kids": {
+        "pl": "Kostne płyty w skórze — jedyne opancerzone zauropody.",
+        "en": "Bony plates in the skin — the only armoured sauropods."
+      },
+      "adults": {
+        "pl": "Szeroki rozstaw kończyn udokumentowany tropami oraz osteodermy, nieobecne u pozostałych zauropodów.",
+        "en": "A wide-gauge stance documented by trackways, plus osteoderms absent in other sauropods."
+      }
+    },
+    "examples": {
+      "pl": "Argentynozaur, Saltazaur, Rapetozaur",
+      "en": "Argentinosaurus, Saltasaurus, Rapetosaurus"
     }
   },
   {
@@ -3249,8 +4261,8 @@
       }
     },
     "examples": {
-      "pl": "Szympans, Goryl, Mysz, Szczur, Zając",
-      "en": "Chimpanzee, Gorilla, Mouse, Rat, Rabbit"
+      "pl": "Plesiadapis, Tupaja",
+      "en": "Plesiadapis, Treeshrews"
     },
     "startMa": 88,
     "endMa": 0,
@@ -3263,6 +4275,144 @@
         "pl": "Klad łączący Euarchonta (naczelne, wiewiórecznikowate) z Glires (gryzonie, zajęczaki), ustalony na podstawie danych molekularnych.",
         "en": "A clade uniting Euarchonta (primates, treeshrews) with Glires (rodents, lagomorphs), established from molecular data."
       }
+    }
+  },
+  {
+    "parentId": "euarchontoglires",
+    "id": "primates",
+    "startMa": 66,
+    "endMa": 0,
+    "status": "survived",
+    "icon": "ic-mammal",
+    "name": {
+      "pl": "Naczelne",
+      "en": "Primates"
+    },
+    "short": {
+      "kids": {
+        "pl": "Małpy, lemury i ludzie — z chwytnymi dłońmi i oczami z przodu głowy.",
+        "en": "Monkeys, lemurs and humans — with grasping hands and forward-facing eyes."
+      },
+      "adults": {
+        "pl": "Primates: klad euarchontów z przeciwstawnym kciukiem, paznokciami i widzeniem stereoskopowym.",
+        "en": "Primates: the euarchontan clade with an opposable thumb, nails and stereoscopic vision."
+      }
+    },
+    "detail": {
+      "kids": {
+        "pl": "Oczy przesunięte do przodu dają widzenie przestrzenne — potrafisz ocenić, jak daleko jest gałąź. Do tego paznokcie zamiast pazurów i kciuk, który dotyka pozostałych palców. Wszystko to sprzęt do życia w koronach drzew, którym my dziś trzymamy długopis.",
+        "en": "Eyes shifted to the front give depth perception — you can judge how far the branch is. Add nails instead of claws, and a thumb that touches the other fingers. All of it is kit for life in the treetops, which we now use to hold a pen."
+      },
+      "adults": {
+        "pl": "Primates definiuje zbieżne ustawienie oczodołów dające widzenie stereoskopowe, przeciwstawny paluch i kciuk, płaskie paznokcie zamiast pazurów oraz powiększony stosunek masy mózgu do ciała. Dzielą się na Strepsirrhini i Haplorhini; do tych drugich należy Homo sapiens.",
+        "en": "Primates are defined by convergent orbits giving stereoscopic vision, an opposable hallux and pollex, flat nails instead of claws, and an enlarged brain-to-body ratio. They split into Strepsirrhini and Haplorhini, the latter including Homo sapiens."
+      }
+    },
+    "distinction": {
+      "kids": {
+        "pl": "Oczy z przodu głowy i kciuk, który dotyka pozostałych palców.",
+        "en": "Eyes at the front of the head and a thumb that touches the other fingers."
+      },
+      "adults": {
+        "pl": "Zbieżne oczodoły dające widzenie stereoskopowe oraz przeciwstawny kciuk z płaskim paznokciem.",
+        "en": "Convergent orbits giving stereoscopic vision, plus an opposable thumb bearing a flat nail."
+      }
+    },
+    "examples": {
+      "pl": "Człowiek, Szympans, Lemur, Makak",
+      "en": "Human, Chimpanzee, Lemur, Macaque"
+    }
+  },
+  {
+    "parentId": "euarchontoglires",
+    "id": "rodentia",
+    "startMa": 60,
+    "endMa": 0,
+    "status": "survived",
+    "icon": "ic-mammal",
+    "name": {
+      "pl": "Gryzonie",
+      "en": "Rodents"
+    },
+    "short": {
+      "kids": {
+        "pl": "Najliczniejsze ssaki świata — z siekaczami, które rosną przez całe życie.",
+        "en": "The most numerous mammals on Earth — with incisors that grow for life."
+      },
+      "adults": {
+        "pl": "Rodentia: klad o jednej parze stale odrastających siekaczy i braku kłów; ok. 40% gatunków ssaków.",
+        "en": "Rodentia: the clade with one pair of ever-growing incisors and no canines; about 40% of mammal species."
+      }
+    },
+    "detail": {
+      "kids": {
+        "pl": "Ich siekacze nigdy nie przestają rosnąć, więc muszą je stale ścierać gryzieniem — bóbr ścina tym drzewa. Przednia strona zęba jest twarda, tylna miękka, dzięki czemu ścierają się nierówno i same się ostrzą jak dłuto.",
+        "en": "Their incisors never stop growing, so they must wear them down by gnawing — a beaver fells trees with them. The front of the tooth is hard, the back soft, so they wear unevenly and sharpen themselves like a chisel."
+      },
+      "adults": {
+        "pl": "Rodentia definiuje jedna para stale rosnących siekaczy w każdej szczęce, diastema po usunięciu kłów oraz szkliwo ograniczone do przedniej powierzchni siekacza, co daje samoostrzenie. Obejmuje ok. 2500 gatunków, czyli blisko 40% wszystkich ssaków.",
+        "en": "Rodentia is defined by a single pair of ever-growing incisors in each jaw, a diastema where the canines are absent, and enamel restricted to the anterior face of the incisor, giving self-sharpening. It holds some 2,500 species, close to 40% of all mammals."
+      }
+    },
+    "distinction": {
+      "kids": {
+        "pl": "Siekacze, które nigdy nie przestają rosnąć i same się ostrzą.",
+        "en": "Incisors that never stop growing and sharpen themselves."
+      },
+      "adults": {
+        "pl": "Stale odrastające siekacze ze szkliwem tylko na przedniej powierzchni, co wymusza samoostrzenie.",
+        "en": "Ever-growing incisors with enamel only on the anterior face, which forces self-sharpening."
+      }
+    },
+    "examples": {
+      "pl": "Mysz, Wiewiórka, Bóbr, Kapibara",
+      "en": "Mouse, Squirrel, Beaver, Capybara"
+    }
+  },
+  {
+    "parentId": "euarchontoglires",
+    "id": "lagomorpha",
+    "startMa": 53,
+    "endMa": 0,
+    "status": "survived",
+    "icon": "ic-mammal",
+    "name": {
+      "pl": "Zajęczaki",
+      "en": "Lagomorphs"
+    },
+    "short": {
+      "kids": {
+        "pl": "Zające i króliki — mają dodatkową parę siekaczy schowaną za pierwszą.",
+        "en": "Hares and rabbits — with a second pair of incisors hidden behind the first."
+      },
+      "adults": {
+        "pl": "Lagomorpha: klad z drugą, kołkowatą parą siekaczy górnych za pierwszą; koprofagia obligatoryjna.",
+        "en": "Lagomorpha: the clade with a second, peg-like pair of upper incisors behind the first; obligate coprophagy."
+      }
+    },
+    "detail": {
+      "kids": {
+        "pl": "Wyglądają jak duże gryzonie, ale mają za przednimi siekaczami drugą, malutką parę — i po tym się je odróżnia. Zjadają też własne miękkie odchody, żeby przepuścić pokarm przez jelito drugi raz i wyciągnąć z trawy to, co za pierwszym razem uciekło.",
+        "en": "They look like big rodents, but behind the front incisors sits a second, tiny pair — and that is how you tell them apart. They also eat their own soft droppings, passing food through the gut twice to get what the grass withheld the first time."
+      },
+      "adults": {
+        "pl": "Lagomorpha wyróżnia druga para kołkowatych siekaczy górnych (peg teeth) tuż za pierwszą, czego brak u gryzoni, oraz obligatoryjna cekotrofia umożliwiająca powtórne przetrawienie celulozy. Obejmuje Leporidae i Ochotonidae.",
+        "en": "Lagomorpha is distinguished by a second pair of peg-like upper incisors directly behind the first, absent in rodents, and by obligate caecotrophy allowing cellulose to be digested twice. It comprises Leporidae and Ochotonidae."
+      }
+    },
+    "distinction": {
+      "kids": {
+        "pl": "Druga, malutka para siekaczy schowana tuż za pierwszą.",
+        "en": "A second, tiny pair of incisors tucked behind the first."
+      },
+      "adults": {
+        "pl": "Druga para kołkowatych siekaczy górnych za pierwszą — cecha nieobecna u gryzoni.",
+        "en": "A second pair of peg-like upper incisors behind the first — absent in rodents."
+      }
+    },
+    "examples": {
+      "pl": "Zając, Królik, Szczekuszka",
+      "en": "Hare, Rabbit, Pika"
     }
   },
   {
@@ -3295,8 +4445,8 @@
       }
     },
     "examples": {
-      "pl": "Lew, Wieloryb, Koń, Jeż, Łuskowiec",
-      "en": "Lion, Whale, Horse, Hedgehog, Pangolin"
+      "pl": "Jeż, Łuskowiec, Kret",
+      "en": "Hedgehogs, Pangolins, Moles"
     },
     "startMa": 88,
     "endMa": 0,
@@ -3309,6 +4459,190 @@
         "pl": "Najbardziej zróżnicowany ekologicznie klad łożyskowców: Chiroptera, Cetartiodactyla, Perissodactyla, Carnivora i Eulipotyphla.",
         "en": "The most ecologically diverse placental clade: Chiroptera, Cetartiodactyla, Perissodactyla, Carnivora and Eulipotyphla."
       }
+    }
+  },
+  {
+    "parentId": "laurasiatheria",
+    "id": "carnivora",
+    "startMa": 60,
+    "endMa": 0,
+    "status": "survived",
+    "icon": "ic-mammal",
+    "name": {
+      "pl": "Drapieżne",
+      "en": "Carnivorans"
+    },
+    "short": {
+      "kids": {
+        "pl": "Psy, koty, niedźwiedzie i foki — z parą nożycowych zębów w szczęce.",
+        "en": "Dogs, cats, bears and seals — with a pair of scissor teeth in the jaw."
+      },
+      "adults": {
+        "pl": "Carnivora: klad laurazjaterów zdefiniowany przez zęby łamacze (P4 górny i M1 dolny).",
+        "en": "Carnivora: the laurasiatherian clade defined by carnassial teeth (upper P4 and lower M1)."
+      }
+    },
+    "detail": {
+      "kids": {
+        "pl": "Mają parę zębów, które mijają się jak ostrza nożyczek i tną mięso oraz ścięgna. Ten jeden wynalazek działa tak dobrze, że przetrwał u psa, kota i foki — mimo że jedno poluje w lesie, a drugie pod wodą.",
+        "en": "They have a pair of teeth that pass each other like scissor blades, shearing meat and sinew. That one invention works so well it survives in dog, cat and seal alike — though one hunts in forests and another underwater."
+      },
+      "adults": {
+        "pl": "Carnivora definiuje para zębów łamaczy: czwarty przedtrzonowiec górny i pierwszy trzonowiec dolny, działające na zasadzie nożyc. Dzielą się na Feliformia i Caniformia; ta druga obejmuje wtórnie wodne Pinnipedia. Uzębienie łamaczowe bywa wtórnie zredukowane u form wszystkożernych.",
+        "en": "Carnivora is defined by the carnassial pair: the upper fourth premolar and lower first molar, working as shears. They divide into Feliformia and Caniformia, the latter including the secondarily aquatic Pinnipedia. The carnassial dentition is secondarily reduced in omnivorous forms."
+      }
+    },
+    "distinction": {
+      "kids": {
+        "pl": "Para zębów, które mijają się jak ostrza nożyczek.",
+        "en": "A pair of teeth that pass each other like scissor blades."
+      },
+      "adults": {
+        "pl": "Zęby łamacze — górny P4 i dolny M1 działające jako para tnąca.",
+        "en": "Carnassial teeth — the upper P4 and lower M1 acting as a shearing pair."
+      }
+    },
+    "examples": {
+      "pl": "Lew, Wilk, Niedźwiedź, Foka",
+      "en": "Lion, Wolf, Bear, Seal"
+    }
+  },
+  {
+    "parentId": "laurasiatheria",
+    "id": "cetartiodactyla",
+    "startMa": 55,
+    "endMa": 0,
+    "status": "survived",
+    "icon": "ic-mammal",
+    "name": {
+      "pl": "Parzystokopytne i Walenie",
+      "en": "Cetartiodactyls"
+    },
+    "short": {
+      "kids": {
+        "pl": "Krowy, świnie i jelenie — a razem z nimi wieloryby i delfiny.",
+        "en": "Cows, pigs and deer — and with them whales and dolphins."
+      },
+      "adults": {
+        "pl": "Cetartiodactyla: klad łączący Artiodactyla z Cetacea, poświadczony kością skokową o podwójnym bloczku.",
+        "en": "Cetartiodactyla: the clade uniting Artiodactyla with Cetacea, evidenced by the double-pulley astragalus."
+      }
+    },
+    "detail": {
+      "kids": {
+        "pl": "Wieloryb jest bliższym kuzynem hipopotama niż hipopotam krowie. Brzmi absurdalnie, ale u najstarszych wielorybów zachowała się ta sama kostka w kostce — z dwoma bloczkami zamiast jednego — co u jelenia. To ona zdradziła, skąd przyszły.",
+        "en": "A whale is a closer cousin to a hippo than a hippo is to a cow. It sounds absurd, but the oldest whales kept the same ankle bone — with two pulleys instead of one — that a deer has. That bone gave away where they came from."
+      },
+      "adults": {
+        "pl": "Cetartiodactyla łączy Artiodactyla i Cetacea na podstawie danych molekularnych, potwierdzonych morfologicznie przez kość skokową o podwójnym bloczku u archeocetów (Pakicetus, Rodhocetus). Hippopotamidae są najbliższą żyjącą grupą siostrzaną waleni.",
+        "en": "Cetartiodactyla unites Artiodactyla and Cetacea on molecular grounds, corroborated morphologically by the double-pulley astragalus in archaeocetes (Pakicetus, Rodhocetus). Hippopotamidae are the closest living sister group of whales."
+      }
+    },
+    "distinction": {
+      "kids": {
+        "pl": "Kostka w kostce z dwoma bloczkami — ta sama u jelenia i u pradawnego wieloryba.",
+        "en": "An ankle bone with two pulleys — the same in a deer and in an ancient whale."
+      },
+      "adults": {
+        "pl": "Kość skokowa o podwójnym bloczku (astragalus dwuwypukły), zachowana nawet u wczesnych waleni.",
+        "en": "A double-pulley astragalus, retained even in the earliest whales."
+      }
+    },
+    "examples": {
+      "pl": "Krowa, Świnia, Wieloryb, Delfin",
+      "en": "Cow, Pig, Whale, Dolphin"
+    }
+  },
+  {
+    "parentId": "laurasiatheria",
+    "id": "chiroptera",
+    "startMa": 52,
+    "endMa": 0,
+    "status": "survived",
+    "icon": "ic-mammal",
+    "name": {
+      "pl": "Nietoperze",
+      "en": "Bats"
+    },
+    "short": {
+      "kids": {
+        "pl": "Jedyne ssaki, które naprawdę latają — na skórze rozpiętej między palcami.",
+        "en": "The only mammals that truly fly — on skin stretched between their fingers."
+      },
+      "adults": {
+        "pl": "Chiroptera: jedyne ssaki zdolne do lotu aktywnego; błona lotna rozpięta na wydłużonych palcach II–V.",
+        "en": "Chiroptera: the only mammals capable of powered flight, with a membrane spanning elongated digits II-V."
+      }
+    },
+    "detail": {
+      "kids": {
+        "pl": "Pterozaur rozpiął skrzydło na jednym palcu, ptak na całej ręce — a nietoperz na czterech rozcapierzonych palcach naraz. Trzy różne rozwiązania tego samego problemu. Do tego większość z nich widzi uszami: wysyła pisk i słucha echa.",
+        "en": "A pterosaur stretched its wing on one finger, a bird on the whole arm — and a bat on four spread fingers at once. Three different answers to the same problem. Most of them also see with their ears: they squeak and listen to the echo."
+      },
+      "adults": {
+        "pl": "Chiroptera to jedyny klad ssaków z lotem aktywnym. Patagium rozpięte jest na skrajnie wydłużonych kościach śródręcza i palcach II–V. Echolokacja krtaniowa występuje u większości linii; jej jedno- lub wielokrotne powstanie pozostaje przedmiotem sporu.",
+        "en": "Chiroptera is the only mammalian clade with powered flight. The patagium spans greatly elongated metacarpals and digits II-V. Laryngeal echolocation occurs in most lineages; whether it arose once or several times remains disputed."
+      }
+    },
+    "distinction": {
+      "kids": {
+        "pl": "Skrzydło rozpięte na czterech palcach naraz — inaczej niż u ptaka i pterozaura.",
+        "en": "A wing spread over four fingers at once — unlike a bird or a pterosaur."
+      },
+      "adults": {
+        "pl": "Błona lotna rozpięta na wydłużonych palcach II–V, w odróżnieniu od palca IV u pterozaurów i kończyny u ptaków.",
+        "en": "A flight membrane on elongated digits II-V, as against digit IV in pterosaurs and the whole forelimb in birds."
+      }
+    },
+    "examples": {
+      "pl": "Nietoperz, Rudawka, Podkowiec",
+      "en": "Bats, Flying foxes, Horseshoe bats"
+    }
+  },
+  {
+    "parentId": "laurasiatheria",
+    "id": "perissodactyla",
+    "startMa": 56,
+    "endMa": 0,
+    "status": "survived",
+    "icon": "ic-mammal",
+    "name": {
+      "pl": "Nieparzystokopytne",
+      "en": "Perissodactyls"
+    },
+    "short": {
+      "kids": {
+        "pl": "Konie, nosorożce i tapiry — ciężar ciała niosą na środkowym palcu.",
+        "en": "Horses, rhinos and tapirs — their weight rides on the middle toe."
+      },
+      "adults": {
+        "pl": "Perissodactyla: kopytne o osi kończyny przechodzącej przez palec trzeci; fermentacja jelitowa.",
+        "en": "Perissodactyla: ungulates with the limb axis through digit III, and hindgut fermentation."
+      }
+    },
+    "detail": {
+      "kids": {
+        "pl": "Koń stoi na jednym palcu każdej nogi — kopyto to powiększony paznokieć palca środkowego. Pozostałe palce skurczyły się i zniknęły. Trawią też inaczej niż krowa: nie przeżuwają, tylko fermentują trawę w jelicie.",
+        "en": "A horse stands on one toe per foot — the hoof is the enlarged nail of the middle toe. The other toes shrank away. They also digest differently from a cow: no chewing the cud, just fermenting grass in the gut."
+      },
+      "adults": {
+        "pl": "Perissodactyla cechuje mezaksoniczna budowa kończyny (oś przez palec III) oraz fermentacja w jelicie ślepym i okrężnicy zamiast przedżołądkowej. Obejmuje Equidae, Rhinocerotidae i Tapiridae. Grupa była znacznie bogatsza w paleogenie, obejmując m.in. Brontotheriidae.",
+        "en": "Perissodactyla is characterised by a mesaxonic limb (axis through digit III) and caecal-colonic rather than foregut fermentation. It comprises Equidae, Rhinocerotidae and Tapiridae. The group was far richer in the Palaeogene, including Brontotheriidae."
+      }
+    },
+    "distinction": {
+      "kids": {
+        "pl": "Ciężar na jednym środkowym palcu — kopyto to jego paznokieć.",
+        "en": "Weight on a single middle toe — the hoof is its nail."
+      },
+      "adults": {
+        "pl": "Oś kończyny przechodząca przez palec trzeci (mezaksonia), przy redukcji palców bocznych.",
+        "en": "A limb axis through digit III (mesaxony), with the lateral digits reduced."
+      }
+    },
+    "examples": {
+      "pl": "Koń, Nosorożec, Tapir, Zebra",
+      "en": "Horse, Rhinoceros, Tapir, Zebra"
     }
   },
   {
