@@ -1,5 +1,6 @@
 <script lang="ts">
   import { eras as ERAS } from '../lib/data';
+  import { eraAtMa, erasBetween } from '../lib/eras';
   import { strings } from '../lib/i18n';
   import type { EvoNode } from '../lib/schema';
   import { ui } from '../lib/state.svelte';
@@ -8,12 +9,18 @@
 
   const t = $derived(strings(ui.lang));
   const text = $derived(node.detail[ui.audience][ui.lang]);
+  const nf = $derived(new Intl.NumberFormat(ui.lang));
   const eraNames = $derived(
-    node.eras
+    erasBetween(node.startMa, node.endMa)
       .map((k) => ERAS[k]?.name[ui.lang])
       .filter(Boolean)
       .join(' — '),
   );
+  const rangeLabel = $derived(`${nf.format(node.startMa)}–${nf.format(node.endMa)} Ma`);
+  const extinctLabel = $derived.by(() => {
+    const eraName = ERAS[eraAtMa(node.endMa)]?.name[ui.lang];
+    return `${nf.format(node.endMa)} Ma${eraName ? ` (${eraName})` : ''}`;
+  });
 </script>
 
 <div
@@ -25,12 +32,9 @@
   <div class="body">
     <p>{text}</p>
     <div class="meta">
-      {#if node.eras.length}<span>{t.eraRange} {eraNames}</span>{/if}
-      {#if node.status === 'survived' && node.examples}
-        <span>{t.today} {node.examples[ui.lang]}</span>
-      {/if}
-      {#if node.status === 'extinct' && node.extinctIn}
-        <span>{t.extinctIn} {node.extinctIn[ui.lang]}</span>
+      <span>{t.eraRange} {rangeLabel}{eraNames ? ` (${eraNames})` : ''}</span>
+      {#if node.status === 'extinct'}
+        <span>{t.extinctIn} {extinctLabel}</span>
       {/if}
     </div>
   </div>

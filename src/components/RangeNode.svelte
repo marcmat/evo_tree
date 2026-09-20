@@ -1,6 +1,6 @@
 <script lang="ts">
   import { eras as ERAS, children, pathIds } from '../lib/data';
-  import { eraOffset, totalMa } from '../lib/eras';
+  import { eraAtMa, erasBetween, maToFrac, totalMa } from '../lib/eras';
   import { isAncestorOnly, isVisible } from '../lib/filter';
   import { strings } from '../lib/i18n';
   import type { EvoNode } from '../lib/schema';
@@ -23,23 +23,27 @@
 
   // Range bar geometry as fractions (0–1) of the time axis, mapped into the
   // inset scale so a thin left rail is free for the phylogram connectors.
-  const first = $derived(node.eras[0]);
-  const last = $derived(node.eras[node.eras.length - 1]);
-  const startFrac = $derived(eraOffset[first].start / totalMa);
-  const widthFrac = $derived(Math.max((eraOffset[last].end - eraOffset[first].start) / totalMa, 0.007));
+  const startFrac = $derived(maToFrac(node.startMa));
+  const widthFrac = $derived(Math.max((node.startMa - node.endMa) / totalMa, 0.007));
   const barLeft = $derived(`calc(var(--inset) + ${startFrac.toFixed(4)} * (100% - var(--inset)))`);
   const barWidth = $derived(`calc(${widthFrac.toFixed(4)} * (100% - var(--inset)))`);
+  const startEra = $derived(eraAtMa(node.startMa));
+  const endEra = $derived(eraAtMa(node.endMa));
   const fill = $derived(
-    ERAS[first].color === ERAS[last].color
-      ? ERAS[first].color
-      : `linear-gradient(90deg, ${ERAS[first].color}, ${ERAS[last].color})`,
+    startEra === endEra
+      ? ERAS[startEra].color
+      : `linear-gradient(90deg, ${ERAS[startEra].color}, ${ERAS[endEra].color})`,
   );
-  const rangeLabel = $derived(
-    node.eras
+  // Locale-aware age formatting (Polish uses a space as thousands separator).
+  const nf = $derived(new Intl.NumberFormat(ui.lang));
+  const rangeLabel = $derived.by(() => {
+    const eraNames = erasBetween(node.startMa, node.endMa)
       .map((k) => ERAS[k]?.name[ui.lang])
       .filter(Boolean)
-      .join(' — '),
-  );
+      .join(' — ');
+    const range = `${nf.format(node.startMa)}–${nf.format(node.endMa)} Ma`;
+    return eraNames ? `${range} (${eraNames})` : range;
+  });
 
   // Ancestor-path highlight (hover beats persistent selection).
   const activeId = $derived(ui.hoveredId ?? ui.selectedId);
@@ -54,8 +58,10 @@
   // length, dot colour). Expose them as text so screen-reader users get the data.
   const statusText = $derived.by(() => {
     if (node.status === 'survived' && node.examples) return `${t.today} ${node.examples[ui.lang]}`;
-    if (node.status === 'extinct' && node.extinctIn) return `${t.extinctIn} ${node.extinctIn[ui.lang]}`;
-    if (node.status === 'extinct') return t.extinct;
+    if (node.status === 'extinct') {
+      const eraName = ERAS[eraAtMa(node.endMa)]?.name[ui.lang];
+      return `${t.extinctIn} ${nf.format(node.endMa)} Ma${eraName ? ` (${eraName})` : ''}`;
+    }
     return '';
   });
   const ariaLabel = $derived(

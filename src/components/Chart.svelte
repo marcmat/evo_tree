@@ -1,19 +1,30 @@
 <script lang="ts">
   import { tick } from 'svelte';
-  import { eras as ERAS, byId, children, roots } from '../lib/data';
-  import { ageToPct, boundariesMa, eraOrder } from '../lib/eras';
+  import { eras as ERAS, byId, children, eventById, roots } from '../lib/data';
+  import { ageToPct, boundariesMa, eraOrder, maToFrac } from '../lib/eras';
   import { isVisible } from '../lib/filter';
   import { strings } from '../lib/i18n';
   import { toggleOpen, ui } from '../lib/state.svelte';
   import RangeNode from './RangeNode.svelte';
+  import TimelineEvents from './TimelineEvents.svelte';
 
   const kids = (id: string) => children(id);
   const t = $derived(strings(ui.lang));
   const visibleRoots = $derived(roots.filter((r) => isVisible(r, kids, ui.livingOnly, ui.query)));
   // When a lineage is hovered/selected the rows dim; fade the connectors with them.
   const activeId = $derived(ui.hoveredId ?? ui.selectedId);
+  // The transient vertical marker line: only while an event marker is
+  // hovered/focused/pinned, so it doesn't compete visually with the
+  // always-on lineage connectors.
+  const activeEventId = $derived(ui.hoveredEventId ?? ui.pinnedEventId);
+  const activeEvent = $derived(activeEventId ? (eventById.get(activeEventId) ?? null) : null);
+  const eventLineLeft = $derived(
+    activeEvent
+      ? `calc(var(--inset) + ${maToFrac(activeEvent.ma).toFixed(4)} * (100% - var(--inset)))`
+      : '',
+  );
 
-  const segments = eraOrder.map((k) => ({ key: k, ...ERAS[k] }));
+  const segments = eraOrder.map((k) => ({ key: k, span: ERAS[k].startMa - ERAS[k].endMa, ...ERAS[k] }));
   const oldest = boundariesMa[0];
   const ticks = boundariesMa.map((age) => {
     const pct = ageToPct(age);
@@ -196,6 +207,7 @@
             </div>
           {/each}
         </div>
+        <TimelineEvents />
         <div class="axis" aria-hidden="true">
           {#each ticks as tk (tk.age)}
             <span class="tick {tk.pos}" style="left:{tk.pct.toFixed(2)}%">
@@ -219,6 +231,9 @@
             <path {d} />
           {/each}
         </svg>
+        {#if activeEvent}
+          <div class="event-line {activeEvent.kind}" style="left:{eventLineLeft}" aria-hidden="true"></div>
+        {/if}
         {#if visibleRoots.length === 0}
           <p class="empty" role="status">{t.noResults}</p>
         {:else}
@@ -359,6 +374,29 @@
     stroke: rgb(125 174 219 / 0.55);
     stroke-width: 1.5;
     stroke-linecap: round;
+  }
+
+  /* Transient marker line: only rendered while a timeline event is active
+     (hovered/focused/pinned). Deliberately z-index: 0, the same paint level
+     as .links (also 0) and the bars (z-index: auto, i.e. also level 0) — at
+     that shared level, paint order follows DOM order, and this element sits
+     right after .links and before all bars in markup, giving exactly
+     "below bars, above connectors" without out-ranking the bars entirely. */
+  .event-line {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+    pointer-events: none;
+    z-index: 0;
+  }
+  .event-line.extinction {
+    background: var(--accent-extinct);
+    opacity: 0.5;
+  }
+  .event-line.milestone {
+    background: var(--accent-node);
+    opacity: 0.5;
   }
 
   .empty {

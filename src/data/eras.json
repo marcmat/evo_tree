@@ -5,7 +5,8 @@
       "en": "Cambrian"
     },
     "color": "#4f46e5",
-    "span": 53
+    "startMa": 538,
+    "endMa": 485
   },
   "ordowik": {
     "name": {
@@ -13,7 +14,8 @@
       "en": "Ordovician"
     },
     "color": "#4338ca",
-    "span": 42
+    "startMa": 485,
+    "endMa": 443
   },
   "sylur": {
     "name": {
@@ -21,7 +23,8 @@
       "en": "Silurian"
     },
     "color": "#0284c7",
-    "span": 24
+    "startMa": 443,
+    "endMa": 419
   },
   "dewon": {
     "name": {
@@ -29,7 +32,8 @@
       "en": "Devonian"
     },
     "color": "#0d9488",
-    "span": 60
+    "startMa": 419,
+    "endMa": 359
   },
   "karbon": {
     "name": {
@@ -37,7 +41,8 @@
       "en": "Carboniferous"
     },
     "color": "#57534e",
-    "span": 60
+    "startMa": 359,
+    "endMa": 299
   },
   "perm": {
     "name": {
@@ -45,7 +50,8 @@
       "en": "Permian"
     },
     "color": "#b45309",
-    "span": 47
+    "startMa": 299,
+    "endMa": 252
   },
   "trias": {
     "name": {
@@ -53,7 +59,8 @@
       "en": "Triassic"
     },
     "color": "#c2410c",
-    "span": 51
+    "startMa": 252,
+    "endMa": 201
   },
   "jura": {
     "name": {
@@ -61,7 +68,8 @@
       "en": "Jurassic"
     },
     "color": "#b91c1c",
-    "span": 56
+    "startMa": 201,
+    "endMa": 145
   },
   "kreda": {
     "name": {
@@ -69,14 +77,16 @@
       "en": "Cretaceous"
     },
     "color": "#be185d",
-    "span": 79
+    "startMa": 145,
+    "endMa": 66
   },
-  "wspolczesnosc": {
+  "kenozoik": {
     "name": {
-      "pl": "Współczesność",
-      "en": "Present"
+      "pl": "Kenozoik",
+      "en": "Cenozoic"
     },
     "color": "#a16207",
-    "span": 66
+    "startMa": 66,
+    "endMa": 0
   }
 }

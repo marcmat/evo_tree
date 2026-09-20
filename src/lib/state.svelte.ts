@@ -1,6 +1,6 @@
 import { SvelteSet } from 'svelte/reactivity';
 import { AUDIENCES, type Audience, LANGS, type Lang } from './constants';
-import { nodes } from './data';
+import { events, nodes } from './data';
 
 function pick<T extends string>(value: string | null, allowed: readonly T[], fallback: T): T {
   return value && (allowed as readonly string[]).includes(value) ? (value as T) : fallback;
@@ -9,6 +9,7 @@ function pick<T extends string>(value: string | null, allowed: readonly T[], fal
 const params = new URLSearchParams(location.search);
 const allIds = nodes.map((n) => n.id);
 const idSet = new Set(allIds);
+const eventIdSet = new Set(events.map((e) => e.id));
 
 function initLang(): Lang {
   return pick(params.get('lang') ?? localStorage.getItem('lang'), LANGS, 'pl');
@@ -30,6 +31,10 @@ function initSelected(): string | null {
   const sel = params.get('sel');
   return sel && idSet.has(sel) ? sel : null;
 }
+function initPinnedEvent(): string | null {
+  const ev = params.get('ev');
+  return ev && eventIdSet.has(ev) ? ev : null;
+}
 
 /** Single reactive UI store. Default: fully expanded tree. */
 export const ui = $state({
@@ -42,25 +47,32 @@ export const ui = $state({
   hoveredId: null as string | null,
   // Roving tabindex: the single tree item that is in the Tab order.
   focusedId: (nodes.find((n) => n.parentId === null)?.id ?? null) as string | null,
+  // Timeline event (extinction/milestone) marker interaction — same
+  // hover-beats-persistent-selection pattern as hoveredId/selectedId above.
+  hoveredEventId: null as string | null,
+  pinnedEventId: initPinnedEvent(),
 });
 
 /* ---- persistence + shareable URL (deep-links every stateful control) ---- */
 $effect.root(() => {
   $effect(() => {
-    localStorage.setItem('lang', ui.lang);
-    localStorage.setItem('audience', ui.audience);
     localStorage.setItem('livingOnly', String(ui.livingOnly));
 
     const url = new URL(location.href);
     const p = url.searchParams;
-    p.set('lang', ui.lang);
-    p.set('aud', ui.audience);
+    // Language and audience are fixed (see constants.ts). Strip the old params
+    // instead of writing them, so a stale ?lang=en link cannot leave the address
+    // bar claiming a setting the app is not honouring.
+    p.delete('lang');
+    p.delete('aud');
     if (ui.livingOnly) p.set('living', '1');
     else p.delete('living');
     if (ui.query) p.set('q', ui.query);
     else p.delete('q');
     if (ui.selectedId) p.set('sel', ui.selectedId);
     else p.delete('sel');
+    if (ui.pinnedEventId) p.set('ev', ui.pinnedEventId);
+    else p.delete('ev');
 
     const collapsed = allIds.filter((id) => !ui.openIds.has(id));
     if (collapsed.length) p.set('c', collapsed.join(','));
@@ -88,6 +100,11 @@ export function collapseAll(): void {
 /** Clicking a name selects it (drives both the detail panel and the ancestor-path highlight). */
 export function selectNode(id: string): void {
   ui.selectedId = ui.selectedId === id ? null : id;
+}
+
+/** Clicking a timeline event marker pins its tooltip open (toggle), like selectNode. */
+export function selectEvent(id: string): void {
+  ui.pinnedEventId = ui.pinnedEventId === id ? null : id;
 }
 
 // Snapshot of open state taken when a search begins, restored when it ends.

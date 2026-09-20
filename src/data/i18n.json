@@ -20,7 +20,12 @@
     "skipToContent": "Przejdź do treści",
     "noResults": "Brak wyników dla tego wyszukiwania.",
     "lifespanHint": "Pasek przy nazwie pokazuje, kiedy dana grupa żyła (wg skali powyżej).",
-    "footer": "Drzewo życia kręgowców · Treść uproszczona, edukacyjna · Powered by"
+    "footer": "Drzewo życia kręgowców · Treść uproszczona, edukacyjna · Powered by",
+    "eventsTitle": "Wymierania i przełomy ewolucyjne",
+    "massExtinction": "Wielkie wymieranie",
+    "milestone": "Przełom ewolucyjny",
+    "speciesLost": "Utracone gatunki:",
+    "maAgo": "mln lat temu"
   },
   "en": {
     "title": "Vertebrate Evolution Tree",
@@ -43,6 +48,11 @@
     "skipToContent": "Skip to content",
     "noResults": "No matches for this search.",
     "lifespanHint": "The bar next to a name shows when the group lived (against the scale above).",
-    "footer": "Vertebrate tree of life · Simplified educational content · Powered by"
+    "footer": "Vertebrate tree of life · Simplified educational content · Powered by",
+    "eventsTitle": "Mass extinctions and evolutionary milestones",
+    "massExtinction": "Mass extinction",
+    "milestone": "Evolutionary milestone",
+    "speciesLost": "Species lost:",
+    "maAgo": "million years ago"
   }
 }

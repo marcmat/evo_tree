@@ -1,0 +1,422 @@
+[
+  {
+    "id": "cambrian-explosion",
+    "ma": 538,
+    "kind": "milestone",
+    "severity": null,
+    "anchorNodeId": "chordata",
+    "shortName": {
+      "pl": "Eksplozja kambryjska",
+      "en": "Cambrian explosion"
+    },
+    "name": {
+      "pl": "Eksplozja kambryjska",
+      "en": "Cambrian explosion"
+    },
+    "short": {
+      "kids": {
+        "pl": "Nagle pojawiły się wszystkie główne kształty zwierząt, w tym nasi przodkowie.",
+        "en": "Suddenly all the main animal body plans appeared — including our ancestors."
+      },
+      "adults": {
+        "pl": "W ciągu ok. 20 mln lat powstała większość współczesnych typów zwierząt, w tym pierwsze strunowce.",
+        "en": "Within roughly 20 million years, most modern animal phyla appeared, including the first chordates."
+      }
+    },
+    "detail": {
+      "kids": {
+        "pl": "W kambrze życie w oceanach nagle „wybuchło” różnorodnością. Powstały twarde pancerze, oczy i pierwsze strunowce, jak maleńka Pikaia — daleki przodek wszystkich kręgowców, także nas!",
+        "en": "In the Cambrian, ocean life suddenly \"exploded\" with diversity. Hard shells, eyes, and the first chordates appeared — like tiny Pikaia, a distant ancestor of all vertebrates, including us!"
+      },
+      "adults": {
+        "pl": "Eksplozja kambryjska to gwałtowna radiacja większości współczesnych typów zwierzęcych w ciągu geologicznie krótkiego okresu. Wśród nowych form pojawiły się pierwsze strunowce (Chordata), reprezentowane m.in. przez Pikaię — punkt wyjścia linii prowadzącej do wszystkich kręgowców.",
+        "en": "The Cambrian explosion was a rapid radiation of most modern animal phyla within a geologically brief interval. Among the new forms were the first chordates (Chordata), represented by animals like Pikaia — the starting point of the lineage leading to all vertebrates."
+      }
+    }
+  },
+  {
+    "id": "end-ordovician",
+    "ma": 444,
+    "kind": "extinction",
+    "severity": 85,
+    "anchorNodeId": null,
+    "shortName": {
+      "pl": "Wymieranie ordowickie",
+      "en": "Ordovician extinction"
+    },
+    "name": {
+      "pl": "Wymieranie ordowickie",
+      "en": "End-Ordovician extinction"
+    },
+    "short": {
+      "kids": {
+        "pl": "Zlodowacenie zabiło prawie wszystko w oceanach.",
+        "en": "An ice age nearly emptied the oceans."
+      },
+      "adults": {
+        "pl": "Zlodowacenie i spadek poziomu mórz zgładziły ok. 85% gatunków morskich.",
+        "en": "Glaciation and falling sea levels wiped out about 85% of marine species."
+      }
+    },
+    "detail": {
+      "kids": {
+        "pl": "Świat nagle się oziębił, lód skuł ocean, poziom wody opadł i wiele morskich stworzeń straciło dom. To było najstarsze z Wielkiej Piątki wymierań.",
+        "en": "The world suddenly turned cold, ice locked up the ocean, sea levels dropped, and many sea creatures lost their home. This was the oldest of the Big Five extinctions."
+      },
+      "adults": {
+        "pl": "Krótkotrwałe zlodowacenie kontynentu Gondwana obniżyło poziom mórz i zaburzyło obieg składników odżywczych, prowadząc do wymarcia ok. 85% gatunków morskich — głównie bezkręgowców szelfowych. Kręgowce były wówczas nieliczne i słabo zróżnicowane.",
+        "en": "A brief glaciation of the Gondwana continent lowered sea levels and disrupted nutrient cycling, killing roughly 85% of marine species — mostly shelf-dwelling invertebrates. Vertebrates were still rare and poorly diversified at the time."
+      }
+    }
+  },
+  {
+    "id": "first-jaws",
+    "ma": 444,
+    "kind": "milestone",
+    "severity": null,
+    "anchorNodeId": "gnathostomata",
+    "shortName": {
+      "pl": "Pierwsze szczęki",
+      "en": "First jaws"
+    },
+    "name": {
+      "pl": "Pierwsze szczęki",
+      "en": "First jaws"
+    },
+    "short": {
+      "kids": {
+        "pl": "Ryby zdobyły szczęki i mogły wreszcie gryźć.",
+        "en": "Fish evolved jaws and could finally bite."
+      },
+      "adults": {
+        "pl": "Ewolucja szczęk z łuków skrzelowych umożliwiła aktywne drapieżnictwo.",
+        "en": "Jaws evolved from gill arches, enabling active predation."
+      }
+    },
+    "detail": {
+      "kids": {
+        "pl": "Wcześniej ryby mogły tylko ssać albo filtrować jedzenie. Gdy pojawiły się szczęki — przerobione z łuków skrzelowych — można było wreszcie gryźć i polować. To wielki krok dla żuchwowców, do których należymy i my!",
+        "en": "Before this, fish could only suck in or filter their food. Once jaws appeared — reworked from gill arches — animals could finally bite and hunt. It was a huge step for the jawed vertebrates, a group that includes us too!"
+      },
+      "adults": {
+        "pl": "Gnathostomata (żuchwowce) powstały przez przekształcenie przedniego łuku skrzelowego w aparat szczękowy, co umożliwiło aktywne chwytanie i rozdrabnianie pokarmu. Ta innowacja leży u podstaw sukcesu ewolucyjnego niemal wszystkich współczesnych kręgowców poza minogami i śluzicami.",
+        "en": "Gnathostomata (jawed vertebrates) arose when the foremost gill arch was remodelled into a jaw apparatus, enabling active prey capture and food processing. This innovation underlies the evolutionary success of nearly all living vertebrates except lampreys and hagfish."
+      }
+    }
+  },
+  {
+    "id": "move-onto-land",
+    "ma": 397,
+    "kind": "milestone",
+    "severity": null,
+    "anchorNodeId": "tetrapodomorpha",
+    "shortName": {
+      "pl": "Wyjście na ląd",
+      "en": "Onto land"
+    },
+    "name": {
+      "pl": "Wyjście na ląd",
+      "en": "The move onto land"
+    },
+    "short": {
+      "kids": {
+        "pl": "Ryby o mocnych płetwach zaczęły raczkować po lądzie.",
+        "en": "Fish with sturdy fins started crawling onto land."
+      },
+      "adults": {
+        "pl": "Tetrapodomorpha rozwinęły płetwy przypominające kończyny, przydatne w płytkiej wodzie i na lądzie.",
+        "en": "Tetrapodomorphs evolved limb-like fins for moving through shallow water and onto land."
+      }
+    },
+    "detail": {
+      "kids": {
+        "pl": "Niektóre ryby miały grube, mięsiste płetwy, którymi mogły się podpierać. Powoli zaczęły wypełzać z wody na bagniste brzegi, szukając jedzenia albo uciekając przed drapieżnikami. To pierwszy krok w stronę zwierząt lądowych — także nas.",
+        "en": "Some fish had thick, fleshy fins they could push themselves up on. They slowly started crawling out of the water onto muddy shores, looking for food or escaping predators. This was the first step toward land animals — including us."
+      },
+      "adults": {
+        "pl": "Tetrapodomorpha (m.in. Tiktaalik) rozwinęły masywne płetwy z elementami szkieletowymi homologicznymi do kończyn tetrapodów, umożliwiające poruszanie się w płytkich, zarośniętych wodach dewonu i okazjonalne wyjścia na ląd. To ewolucyjny prekursor pełnej tetrapodyzacji.",
+        "en": "Tetrapodomorphs (including Tiktaalik) evolved robust fins with skeletal elements homologous to tetrapod limbs, allowing movement through the shallow, vegetated waters of the Devonian and occasional forays onto land. This was the evolutionary precursor to full tetrapod locomotion."
+      }
+    }
+  },
+  {
+    "id": "late-devonian",
+    "ma": 372,
+    "kind": "extinction",
+    "severity": 75,
+    "anchorNodeId": null,
+    "shortName": {
+      "pl": "Wymieranie dewońskie",
+      "en": "Devonian extinction"
+    },
+    "name": {
+      "pl": "Wymieranie późnodewońskie",
+      "en": "Late Devonian extinction"
+    },
+    "short": {
+      "kids": {
+        "pl": "Fala wymierań zmiotła rafy i wiele ryb pancernych.",
+        "en": "A wave of extinctions wiped out reefs and many armoured fish."
+      },
+      "adults": {
+        "pl": "Seria kryzysów (zdarzenie Kellwasser) zgładziła ok. 75% gatunków, głównie rafotwórczych.",
+        "en": "A series of crises (the Kellwasser event) killed about 75% of species, mostly reef-builders."
+      }
+    },
+    "detail": {
+      "kids": {
+        "pl": "To nie było jedno uderzenie, tylko cała seria złych lat dla życia w morzu. Zniknęły ogromne rafy koralowe i wiele opancerzonych ryb, jak placodermy.",
+        "en": "It wasn't one blow but a whole run of bad years for ocean life. Huge coral reefs disappeared, along with many armoured fish like the placoderms."
+      },
+      "adults": {
+        "pl": "Zdarzenie Kellwasser i towarzyszące mu epizody beztlenowe zniszczyły globalne systemy rafowe i doprowadziły do wymarcia ok. 75% gatunków, w tym większości Placodermi. Wśród przyczyn wymienia się niedobór tlenu w oceanach i możliwy wpływ ekspansji roślin lądowych na erozję i eutrofizację.",
+        "en": "The Kellwasser event and accompanying oceanic anoxia destroyed global reef systems and drove roughly 75% of species extinct, including most placoderms. Proposed causes include ocean oxygen depletion and the possible role of expanding land plants in erosion and eutrophication."
+      }
+    }
+  },
+  {
+    "id": "amniotic-egg",
+    "ma": 318,
+    "kind": "milestone",
+    "severity": null,
+    "anchorNodeId": "amniota",
+    "shortName": {
+      "pl": "Jajo owodniowe",
+      "en": "Amniotic egg"
+    },
+    "name": {
+      "pl": "Jajo owodniowe",
+      "en": "The amniotic egg"
+    },
+    "short": {
+      "kids": {
+        "pl": "Zwierzęta zdobyły jajko, które można znosić z dala od wody.",
+        "en": "Animals evolved an egg that could be laid far from water."
+      },
+      "adults": {
+        "pl": "Owodniowce rozwinęły jajo z błonami chroniącymi zarodek, uniezależniając rozród od wody.",
+        "en": "Amniotes evolved an egg with protective membranes, freeing reproduction from water."
+      }
+    },
+    "detail": {
+      "kids": {
+        "pl": "Do tej pory zwierzęta musiały składać jajka w wodzie albo w wilgotnym błocie, inaczej wysychały. Owodniowce wynalazły jajko z twardą, nieprzepuszczalną skorupką i własnym „basenikiem” w środku. Mogły więc żyć i rozmnażać się daleko w głębi lądu.",
+        "en": "Until then, animals had to lay their eggs in water or damp mud, or they'd dry out. Amniotes invented an egg with a tough, waterproof shell and its own little \"pool\" inside. That let them live and breed deep inland."
+      },
+      "adults": {
+        "pl": "Kluczową synapomorfią Amniota jest jajo z błonami pozazarodkowymi (owodnia, kosmówka, allantois, pęcherzyk żółtkowy), zapewniającymi wymianę gazową i ochronę przed odwodnieniem bez środowiska wodnego. Innowacja ta otworzyła drogę do kolonizacji lądu przez linie prowadzące do gadów, ptaków i ssaków.",
+        "en": "The key synapomorphy of Amniota is an egg with extra-embryonic membranes (amnion, chorion, allantois, yolk sac) providing gas exchange and desiccation protection without an aquatic environment. This innovation opened the way for the lineages leading to reptiles, birds, and mammals to colonise land."
+      }
+    }
+  },
+  {
+    "id": "end-permian",
+    "ma": 252,
+    "kind": "extinction",
+    "severity": 81,
+    "anchorNodeId": null,
+    "shortName": {
+      "pl": "Wymieranie permskie",
+      "en": "Permian extinction"
+    },
+    "name": {
+      "pl": "Wielkie wymieranie permskie",
+      "en": "End-Permian extinction"
+    },
+    "short": {
+      "kids": {
+        "pl": "Największa katastrofa w historii życia — zginęło niemal wszystko.",
+        "en": "The biggest disaster in the history of life — almost everything died."
+      },
+      "adults": {
+        "pl": "Erupcje syberyjskich trapów wywołały najgłębszy kryzys biotyczny fanerozoiku (ok. 81% gatunków).",
+        "en": "Siberian Traps eruptions triggered the deepest biotic crisis of the Phanerozoic (about 81% of species)."
+      }
+    },
+    "detail": {
+      "kids": {
+        "pl": "Ogromne wulkany w dzisiejszej Syberii buchały lawą i trującymi gazami przez setki tysięcy lat. Ocieplenie, kwaśne deszcze i brak tlenu w morzach zabiły niemal całe ówczesne życie — to był koniec ery paleozoicznej.",
+        "en": "Giant volcanoes in what is now Siberia poured out lava and poison gas for hundreds of thousands of years. Warming, acid rain, and oxygen-starved seas killed almost all life on Earth — it marked the end of the Paleozoic era."
+      },
+      "adults": {
+        "pl": "Wielkoskalowy wulkanizm syberyjskich trapów uwolnił ogromne ilości CO₂ i SO₂, wywołując gwałtowne ocieplenie, zakwaszenie oceanów i rozległą anoksję. Zginęło ok. 81% gatunków, w tym większość synapsydów pelikozaurycznych i gorgonopsów — granica permu i triasu wyznacza koniec ery paleozoicznej.",
+        "en": "Massive Siberian Traps volcanism released huge quantities of CO₂ and SO₂, driving abrupt warming, ocean acidification, and widespread anoxia. About 81% of species died, including most pelycosaur-grade synapsids and gorgonopsians — the Permian–Triassic boundary marks the end of the Paleozoic era."
+      }
+    }
+  },
+  {
+    "id": "first-flight",
+    "ma": 228,
+    "kind": "milestone",
+    "severity": null,
+    "anchorNodeId": "pterosauria",
+    "shortName": {
+      "pl": "Pierwszy lot",
+      "en": "First flight"
+    },
+    "name": {
+      "pl": "Pierwszy napędzany lot",
+      "en": "First powered flight"
+    },
+    "short": {
+      "kids": {
+        "pl": "Pterozaury jako pierwsze kręgowce wzbiły się w powietrze o własnych siłach.",
+        "en": "Pterosaurs became the first vertebrates to fly under their own power."
+      },
+      "adults": {
+        "pl": "Pterozaury rozwinęły błonę skrzydłową rozpiętą na wydłużonym czwartym palcu.",
+        "en": "Pterosaurs evolved a wing membrane stretched over an elongated fourth finger."
+      }
+    },
+    "detail": {
+      "kids": {
+        "pl": "Zanim jeszcze były ptaki, latały pterozaury! Miały skrzydła zrobione ze skóry rozciągniętej na bardzo długim jednym palcu. To one jako pierwsze kręgowce nauczyły się machać skrzydłami i naprawdę latać, a nie tylko szybować.",
+        "en": "Before there were even birds, pterosaurs were flying! They had wings made of skin stretched over one very long finger. They were the first vertebrates to learn to flap and truly fly, not just glide."
+      },
+      "adults": {
+        "pl": "Pterosauria wykształciły błonę patagium rozpiętą głównie na drastycznie wydłużonym IV palcu dłoni, w połączeniu z lekkim, pneumatyzowanym szkieletem i silną muskulaturą lotną. To pierwszy udokumentowany przypadek aktywnego, napędzanego lotu wśród kręgowców, niezależny ewolucyjnie od lotu ptaków i nietoperzy.",
+        "en": "Pterosaurs evolved a patagium membrane spanning a dramatically elongated fourth finger, combined with a lightweight, pneumatised skeleton and powerful flight musculature. This is the earliest documented case of active, powered flight among vertebrates, evolved independently of bird and bat flight."
+      }
+    }
+  },
+  {
+    "id": "end-triassic",
+    "ma": 201,
+    "kind": "extinction",
+    "severity": 80,
+    "anchorNodeId": null,
+    "shortName": {
+      "pl": "Wymieranie triasowe",
+      "en": "Triassic extinction"
+    },
+    "name": {
+      "pl": "Wymieranie triasowe",
+      "en": "End-Triassic extinction"
+    },
+    "short": {
+      "kids": {
+        "pl": "Otworzyła się droga dla dinozaurów, gdy zginęli ich konkurenci.",
+        "en": "It opened the way for dinosaurs once their rivals died out."
+      },
+      "adults": {
+        "pl": "Wulkanizm CAMP zgładził ok. 80% gatunków, uwalniając niszę dla dinozaurów.",
+        "en": "CAMP volcanism killed about 80% of species, freeing the niche for dinosaurs."
+      }
+    },
+    "detail": {
+      "kids": {
+        "pl": "Kolejne wielkie wulkany, tym razem przy rozpadającej się Pangei, znów zmieniły klimat. Zginęło mnóstwo dużych gadów, które rywalizowały z dinozaurami — od tej pory dinozaury mogły się rozwinąć.",
+        "en": "More giant volcanoes, this time as the supercontinent Pangaea was splitting apart, changed the climate again. Many large reptiles that competed with dinosaurs died out — from then on, dinosaurs were free to take over."
+      },
+      "adults": {
+        "pl": "Wulkanizm Centralnoatlantyckiej Prowincji Magmowej (CAMP), związanej z rozpadem Pangei, uwolnił CO₂ w ilościach wywołujących ocieplenie i zakwaszenie oceanów. Zginęło ok. 80% gatunków, w tym konkurencyjne wobec dinozaurów grupy archozaurów, co otworzyło im drogę do dominacji w jurze.",
+        "en": "Volcanism of the Central Atlantic Magmatic Province (CAMP), linked to the breakup of Pangaea, released enough CO₂ to trigger warming and ocean acidification. About 80% of species died, including archosaur groups that had rivalled dinosaurs, clearing the way for dinosaur dominance in the Jurassic."
+      }
+    }
+  },
+  {
+    "id": "first-birds",
+    "ma": 150,
+    "kind": "milestone",
+    "severity": null,
+    "anchorNodeId": "aves",
+    "shortName": {
+      "pl": "Pierwsze ptaki",
+      "en": "First birds"
+    },
+    "name": {
+      "pl": "Pierwsze ptaki",
+      "en": "First birds"
+    },
+    "short": {
+      "kids": {
+        "pl": "Archeopteryks pokazał, że dinozaury mogą mieć pióra i latać.",
+        "en": "Archaeopteryx showed that dinosaurs could have feathers and fly."
+      },
+      "adults": {
+        "pl": "Archaeopteryx łączy cechy dinozaurów teropodów z lotem — najstarszy znany przedstawiciel Aves.",
+        "en": "Archaeopteryx combines theropod dinosaur traits with flight — the earliest known member of Aves."
+      }
+    },
+    "detail": {
+      "kids": {
+        "pl": "Archeopteryks wyglądał trochę jak mały dinozaur z zębami i pazurami, ale miał też pióra i potrafił latać. Pokazuje, że ptaki to tak naprawdę dinozaury, które przetrwały do dziś — zerknij na wróbla za oknem, to żywy dinozaur!",
+        "en": "Archaeopteryx looked a bit like a small dinosaur with teeth and claws, but it also had feathers and could fly. It shows that birds are really dinosaurs that survived to the present — look at a sparrow outside your window, that's a living dinosaur!"
+      },
+      "adults": {
+        "pl": "Archaeopteryx lithographica, znany z górnojurajskich wapieni litograficznych Solnhofen, łączy cechy plezjomorficzne teropodów (zęby, pazury, długi ogon kostny) z asymetrycznymi piórami lotnymi homologicznymi do współczesnych ptaków. Stanowi kluczowy dowód na wywodzenie się Aves z teropodowych dinozaurów.",
+        "en": "Archaeopteryx lithographica, known from the Upper Jurassic Solnhofen limestones, combines plesiomorphic theropod traits (teeth, claws, a long bony tail) with asymmetric flight feathers homologous to those of modern birds. It is key evidence that Aves descend from theropod dinosaurs."
+      }
+    }
+  },
+  {
+    "id": "placental-radiation",
+    "ma": 100,
+    "kind": "milestone",
+    "severity": null,
+    "anchorNodeId": "placentalia",
+    "shortName": {
+      "pl": "Radiacja łożyskowców",
+      "en": "Placental radiation"
+    },
+    "name": {
+      "pl": "Radiacja ssaków łożyskowych",
+      "en": "Placental mammal radiation"
+    },
+    "short": {
+      "kids": {
+        "pl": "Ssaki łożyskowe zaczęły się różnicować na grupy, z których wywodzimy się i my.",
+        "en": "Placental mammals began branching into groups — including the one we belong to."
+      },
+      "adults": {
+        "pl": "Placentalia zaczęły się dywersyfikować w kredzie, jeszcze obok dinozaurów.",
+        "en": "Placentalia began diversifying in the Cretaceous, still alongside the dinosaurs."
+      }
+    },
+    "detail": {
+      "kids": {
+        "pl": "Ssaki łożyskowe, czyli te, które donaszają młode w brzuchu aż do narodzin (jak my!), zaczęły się rozdzielać na różne grupy, gdy dinozaury wciąż rządziły światem. Dopiero po ich wyginięciu ssaki naprawdę mogły się rozwinąć.",
+        "en": "Placental mammals — the ones that carry their babies inside until birth, like us! — started splitting into different groups while dinosaurs still ruled the world. It was only after the dinosaurs died out that mammals really took off."
+      },
+      "adults": {
+        "pl": "Dane molekularne i kopalne wskazują, że dywersyfikacja Placentalia na główne linie (Boreoeutheria, Atlantogenata) rozpoczęła się jeszcze w kredzie, współistniejąc z nieptasimi dinozaurami. Ich właściwa radiacja adaptacyjna nastąpiła jednak dopiero po wymieraniu K-Pg, gdy zwolniły się nisze ekologiczne.",
+        "en": "Molecular and fossil evidence indicates that Placentalia began diversifying into its major lineages (Boreoeutheria, Atlantogenata) already in the Cretaceous, coexisting with non-avian dinosaurs. Their true adaptive radiation, however, followed the K-Pg extinction, once ecological niches opened up."
+      }
+    }
+  },
+  {
+    "id": "k-pg",
+    "ma": 66,
+    "kind": "extinction",
+    "severity": 76,
+    "anchorNodeId": null,
+    "shortName": {
+      "pl": "Wymieranie kredowe",
+      "en": "K-Pg extinction"
+    },
+    "name": {
+      "pl": "Wymieranie kredowe (K-Pg)",
+      "en": "K-Pg extinction"
+    },
+    "short": {
+      "kids": {
+        "pl": "Wielka asteroida zakończyła erę nieptasich dinozaurów.",
+        "en": "A giant asteroid ended the age of non-avian dinosaurs."
+      },
+      "adults": {
+        "pl": "Uderzenie asteroidy Chicxulub zgładziło ok. 76% gatunków, w tym wszystkie nieptasie dinozaury.",
+        "en": "The Chicxulub asteroid impact wiped out about 76% of species, including all non-avian dinosaurs."
+      }
+    },
+    "detail": {
+      "kids": {
+        "pl": "10-kilometrowa skała spadła z nieba w dzisiejszym Meksyku. Wybuch, pożary i chmura pyłu zasłaniająca słońce zabiły wszystkie nieptasie dinozaury i wiele innych zwierząt. Przetrwały małe ssaki i ptaki — dziś dinozaury żyją dalej jako ptaki!",
+        "en": "A 10-kilometre rock fell from the sky onto what is now Mexico. The blast, fires, and a dust cloud blocking the sun killed all the non-avian dinosaurs and many other animals. Small mammals and birds survived — today, dinosaurs live on as birds!"
+      },
+      "adults": {
+        "pl": "Uderzenie planetoidy Chicxulub (Jukatan) wywołało falę uderzeniową, pożary na skalę globalną i długotrwałą „zimę uderzeniową” blokującą fotosyntezę. Zginęło ok. 76% gatunków, w tym wszystkie nieptasie dinozaury i mozazaury, otwierając drogę do radiacji ssaków łożyskowych.",
+        "en": "The Chicxulub asteroid impact (Yucatán) triggered a shockwave, global-scale wildfires, and a prolonged \"impact winter\" that blocked photosynthesis. About 76% of species died, including all non-avian dinosaurs and mosasaurs, clearing the way for the placental mammal radiation."
+      }
+    }
+  }
+]

@@ -2,10 +2,6 @@
   {
     "parentId": null,
     "id": "chordata",
-    "eras": [
-      "kambr",
-      "ordowik"
-    ],
     "status": null,
     "icon": "ic-lancelet",
     "name": {
@@ -33,15 +29,12 @@
       }
     },
     "examples": null,
-    "extinctIn": null
+    "startMa": 538,
+    "endMa": 0
   },
   {
     "parentId": "chordata",
     "id": "cephalochordata",
-    "eras": [
-      "kambr",
-      "wspolczesnosc"
-    ],
     "status": "survived",
     "icon": "ic-lancelet",
     "name": {
@@ -72,15 +65,12 @@
       "pl": "Lancetnik, Żachwy",
       "en": "Amphioxus, Sea squirts"
     },
-    "extinctIn": null
+    "startMa": 518,
+    "endMa": 0
   },
   {
     "parentId": "chordata",
     "id": "agnatha",
-    "eras": [
-      "kambr",
-      "wspolczesnosc"
-    ],
     "status": "survived",
     "icon": "ic-jawless",
     "name": {
@@ -111,15 +101,12 @@
       "pl": "Minogi, Śluzice",
       "en": "Lampreys, Hagfishes"
     },
-    "extinctIn": null
+    "startMa": 518,
+    "endMa": 0
   },
   {
     "parentId": "chordata",
     "id": "gnathostomata",
-    "eras": [
-      "ordowik",
-      "sylur"
-    ],
     "status": null,
     "icon": "ic-placoderm",
     "name": {
@@ -147,15 +134,12 @@
       }
     },
     "examples": null,
-    "extinctIn": null
+    "startMa": 444,
+    "endMa": 0
   },
   {
     "parentId": "gnathostomata",
     "id": "placodermi",
-    "eras": [
-      "sylur",
-      "dewon"
-    ],
     "status": "extinct",
     "icon": "ic-placoderm",
     "name": {
@@ -183,18 +167,12 @@
       }
     },
     "examples": null,
-    "extinctIn": {
-      "pl": "Dewon",
-      "en": "Devonian"
-    }
+    "startMa": 438,
+    "endMa": 359
   },
   {
     "parentId": "gnathostomata",
     "id": "chondrichthyes",
-    "eras": [
-      "sylur",
-      "wspolczesnosc"
-    ],
     "status": "survived",
     "icon": "ic-shark",
     "name": {
@@ -225,15 +203,12 @@
       "pl": "Rekiny, Płaszczki",
       "en": "Sharks, Rays"
     },
-    "extinctIn": null
+    "startMa": 430,
+    "endMa": 0
   },
   {
     "parentId": "gnathostomata",
     "id": "actinopterygii",
-    "eras": [
-      "sylur",
-      "wspolczesnosc"
-    ],
     "status": "survived",
     "icon": "ic-ray-fin",
     "name": {
@@ -264,15 +239,12 @@
       "pl": "Pstrągi, Złote rybki, Tuńczyki",
       "en": "Trout, Goldfish, Tuna"
     },
-    "extinctIn": null
+    "startMa": 425,
+    "endMa": 0
   },
   {
     "parentId": "gnathostomata",
     "id": "sarcopterygii",
-    "eras": [
-      "sylur",
-      "dewon"
-    ],
     "status": null,
     "icon": "ic-lobe-fin",
     "name": {
@@ -295,20 +267,17 @@
         "en": "Instead of thin fins, they had strong muscles and thick bones inside them. This let them push off the seafloor, and eventually try to come ashore!"
       },
       "adults": {
-        "pl": "Sarcopterygii obejmuje ryby dwudyszne (Dipnoi), trzonopłetwe (Coelacanthimorpha) oraz klade tetrapodomorfi prowadzący do kręgowców lądowych. Kluczowe ewolucje obejmują przekształcenie łuków skrzelowych w struktury oddechowe i płuca homologiczne.",
-        "en": "Sarcopterygii includes lungfishes (Dipnoi), coelacanths (Coelacanthimorpha), and the tetrapodomorph lineage leading to land vertebrates. Key evolutionary innovations include repurposing of branchial arches for air-breathing and development of homologous lungs."
+        "pl": "Kluczowa synapomorfia Sarcopterygii to endoszkielet płetwy złożony z elementów homologicznych do stylopodium (humerus/femur) i zeugopodium (radius–ulna / tibia–fibula), otoczonych mięśniami. Siostrzana Actinopterygii posiada wyłącznie promienie skórne (lepidotrichia). Ta innowacja była warunkiem koniecznym przejścia na ląd.",
+        "en": "The key synapomorphy of Sarcopterygii is a fin endoskeleton composed of elements homologous to the stylopodium (humerus/femur) and zeugopodium (radius–ulna / tibia–fibula), surrounded by muscles. The sister clade Actinopterygii has only dermal rays (lepidotrichia). This innovation was the prerequisite for the transition to land."
       }
     },
     "examples": null,
-    "extinctIn": null
+    "startMa": 419,
+    "endMa": 0
   },
   {
     "parentId": "sarcopterygii",
     "id": "coelacanthia",
-    "eras": [
-      "dewon",
-      "wspolczesnosc"
-    ],
     "status": "survived",
     "icon": "ic-lobe-fin",
     "name": {
@@ -339,14 +308,12 @@
       "pl": "Latimeria, Prapłetwiec australijski",
       "en": "Coelacanth, Australian lungfish"
     },
-    "extinctIn": null
+    "startMa": 409,
+    "endMa": 0
   },
   {
     "parentId": "sarcopterygii",
     "id": "tetrapodomorpha",
-    "eras": [
-      "dewon"
-    ],
     "status": null,
     "icon": "ic-frog",
     "name": {
@@ -359,30 +326,27 @@
         "en": "The first pioneers that began to venture from water onto land."
       },
       "adults": {
-        "pl": "Klad mięśniopłetwych najbliższy tetrapodów; obejmuje formy przejściowe woda–ląd.",
-        "en": "The sarcopterygian clade closest to tetrapods; includes water–land transitional forms."
+        "pl": "Tetrapodomorpha: pierwsza szyja (oddzielona obręcz barkowa), nadgarstki z endoszkieletem w płetwach; bezpośredni przodkowie tetrapodów.",
+        "en": "Tetrapodomorpha: first neck (freed shoulder girdle), wrist-like endoskeleton in paired fins; direct precursors to tetrapods."
       }
     },
     "detail": {
       "kids": {
-        "pl": "Pierwsi śmiałkowie, którzy opuścili wodę! Wykształcili szyję do kręcenia głową i małe łapki z nadgarstkami, żeby móc chodzić po mokrej trawie i błocie.",
-        "en": "The first brave animals to leave the water! They evolved a neck to turn their head and small legs with wrists, so they could walk on wet grass and mud."
+        "pl": "Ryby nie mają szyi — głowa jest przyklejona do tułowia. Tetrapodomorfy jako pierwsze wykształciły oddzielne kręgi szyjne i mogły kręcić głową! Do tego ich płetwy miały prawdziwe nadgarstki i mogły odpychać się od dna. Ostatni etap przed wyjściem na ląd — choć same jeszcze pływały.",
+        "en": "Fish have no neck — the head is fused to the body. Tetrapodomorphs were the first to develop separate neck vertebrae and could turn their heads! Their fins also had true wrists and could push off the bottom. The last step before coming ashore — though they still swam."
       },
       "adults": {
-        "pl": "Tetrapodomorpha obejmuje Tiktaalik roseae (ostatni wspólny przodek rybopodobny z szyją i promieniowymi płetwami) oraz pierwotne tetrapody takie jak Acanthostega i Ichthyostega. Kluczowymi innowacjami były: szyja rozdzielająca głowę od pasa barkowego, tarcze pasy kończynowe i penta-dactyl pattern.",
-        "en": "Tetrapodomorpha includes Tiktaalik roseae (the last fish-like ancestor with a neck and jointed pectoral fins) and early tetrapods such as Acanthostega and Ichthyostega. Key innovations were: a mobile neck separating head from shoulder girdle, limb girdles, and the pentadactyl limb pattern."
+        "pl": "Kluczowe synapomorfie Tetrapodomorpha: uwolnienie obręczy barkowej od czaszki (szyja), rozbudowany endoszkielet płetw parzystych z elementami nadgarstkopodobnymi (Tiktaalik roseae ~375 Ma demonstrował pełny zestaw: humerus, radius, ulna + elementy distalne). Żebra zapewniały wsparcie ciała poza wyporością wody. Obejmuje bezpośrednią linię do Tetrapoda.",
+        "en": "Key synapomorphies of Tetrapodomorpha: liberation of the pectoral girdle from the skull (neck), elaborated paired fin endoskeleton with wrist-like elements (Tiktaalik roseae ~375 Ma demonstrated the full set: humerus, radius, ulna + distal elements). Ribs provided body support beyond buoyancy. Includes the direct lineage to Tetrapoda."
       }
     },
     "examples": null,
-    "extinctIn": null
+    "startMa": 397,
+    "endMa": 0
   },
   {
     "parentId": "tetrapodomorpha",
     "id": "temnospondyli",
-    "eras": [
-      "dewon",
-      "trias"
-    ],
     "status": "extinct",
     "icon": "ic-frog",
     "name": {
@@ -410,19 +374,13 @@
       }
     },
     "examples": null,
-    "extinctIn": {
-      "pl": "Trias",
-      "en": "Triassic"
-    }
+    "startMa": 330,
+    "endMa": 120
   },
   {
     "parentId": "temnospondyli",
     "id": "lissamphibia",
-    "eras": [
-      "karbon",
-      "wspolczesnosc"
-    ],
-    "status": "survived",
+    "status": null,
     "icon": "ic-frog",
     "name": {
       "pl": "Płazy Właściwe",
@@ -430,36 +388,31 @@
     },
     "short": {
       "kids": {
-        "pl": "Żaby i salamandry — rodzą się jako kijanki, potem rosną nóżki!",
-        "en": "Frogs and salamanders — born as tadpoles, then grow legs!"
+        "pl": "Ich skóra oddycha jak płuco — ale musi być cały czas mokra. Dlatego nigdy do końca nie mogą uciec od wody!",
+        "en": "Their skin breathes like a lung — but it must stay permanently moist. That is why they can never fully escape water!"
       },
       "adults": {
-        "pl": "Lissamphibia: jedyny żyjący klad tetrapodów z prymitywnymi cechami skórnymi.",
-        "en": "Lissamphibia: the only living tetrapod clade retaining permeable skin and aquatic larval stage."
+        "pl": "Lissamphibia: skóra przepuszczalna (oddychanie skórne); jaja bez błon płodowych (anamniota); metamorfoza u większości.",
+        "en": "Lissamphibia: permeable skin enabling cutaneous respiration; anamniote eggs lacking fetal membranes; metamorphosis in most."
       }
     },
     "detail": {
       "kids": {
-        "pl": "Zwierzęta o śliskiej i wilgotnej skórze. Rodzą się w wodzie jako małe kijanki, a potem wyrastają im nóżki i wychodzą na ląd!",
-        "en": "Animals with slippery, moist skin. They are born in water as small tadpoles, then grow legs and come out onto land!"
+        "pl": "Płazy mają supermoce — oddychają przez skórę, nawet pod wodą! Ale ta zdolność ma cenę: skóra musi być stale mokra, bo inaczej wyschną i umrą. Ich jaja nie mają twardej ochronnej błony jak u gadów czy ptaków — muszą leżeć w wodzie lub bardzo mokrym miejscu.",
+        "en": "Amphibians have a superpower — they breathe through their skin, even underwater! But this ability has a price: the skin must stay permanently moist or they dry out and die. Their eggs have no hard protective membrane like reptile or bird eggs — they must lie in water or a very moist place."
       },
       "adults": {
-        "pl": "Lissamphibia obejmuje trzy rzędy: Anura (żaby, bezogonowe), Urodela (salamandry, płazinogi) i Gymnophiona (cecylia, beznożne). Cechuje je przepuszczalna skóra z gruczołami mucus i jadowymi, metamorfoza larwalna i zdolność wymiany gazowej skórnej. Wiele gatunków jest zagrożonych chytridiomycosis.",
-        "en": "Lissamphibia comprises three orders: Anura (frogs, tailless), Urodela (salamanders, newts) and Gymnophiona (caecilians, limbless). They share permeable skin with mucous and poison glands, larval metamorphosis, and cutaneous gas exchange. Many species are threatened by chytridiomycosis."
+        "pl": "Kluczowe ograniczenie ewolucyjne Lissamphibia: przepuszczalna skóra umożliwia wymianę gazową i wodno-elektrolitową, ale wymusza stałą wilgotność. Jaja anamniota pozbawione kosmówki, owodni i allantoidy — muszą być składane w wodzie lub bardzo mokrym środowisku. To ograniczenie odróżnia płazy od amniota i uniemożliwiło im pełne zdobycie lądu.",
+        "en": "The key evolutionary constraint of Lissamphibia: permeable skin enables gas and water-ion exchange but requires permanent moisture. Anamniote eggs lack chorion, amnion, and allantois — they must be deposited in water or very moist environments. This constraint distinguishes amphibians from amniotes and prevented their full conquest of land."
       }
     },
-    "examples": {
-      "pl": "Żaby, Salamandry, Cecylia",
-      "en": "Frogs, Salamanders, Caecilians"
-    },
-    "extinctIn": null
+    "examples": null,
+    "startMa": 270,
+    "endMa": 0
   },
   {
     "parentId": "tetrapodomorpha",
     "id": "amniota",
-    "eras": [
-      "karbon"
-    ],
     "status": null,
     "icon": "ic-lizard",
     "name": {
@@ -487,15 +440,12 @@
       }
     },
     "examples": null,
-    "extinctIn": null
+    "startMa": 318,
+    "endMa": 0
   },
   {
     "parentId": "amniota",
     "id": "synapsida",
-    "eras": [
-      "karbon",
-      "perm"
-    ],
     "status": null,
     "icon": "ic-pelycosaur",
     "name": {
@@ -523,15 +473,12 @@
       }
     },
     "examples": null,
-    "extinctIn": null
+    "startMa": 312,
+    "endMa": 0
   },
   {
     "parentId": "synapsida",
     "id": "pelycosauria",
-    "eras": [
-      "karbon",
-      "perm"
-    ],
     "status": "extinct",
     "icon": "ic-pelycosaur",
     "name": {
@@ -559,18 +506,12 @@
       }
     },
     "examples": null,
-    "extinctIn": {
-      "pl": "Perm",
-      "en": "Permian"
-    }
+    "startMa": 308,
+    "endMa": 252
   },
   {
-    "parentId": "synapsida",
+    "parentId": "therapsida",
     "id": "cynodontia",
-    "eras": [
-      "perm",
-      "jura"
-    ],
     "status": "extinct",
     "icon": "ic-mammal",
     "name": {
@@ -598,19 +539,13 @@
       }
     },
     "examples": null,
-    "extinctIn": {
-      "pl": "Jura",
-      "en": "Jurassic"
-    }
+    "startMa": 260,
+    "endMa": 150
   },
   {
     "parentId": "cynodontia",
     "id": "mammalia",
-    "eras": [
-      "trias",
-      "wspolczesnosc"
-    ],
-    "status": "survived",
+    "status": null,
     "icon": "ic-mammal",
     "name": {
       "pl": "Ssaki",
@@ -636,19 +571,13 @@
         "en": "Mammalia is defined by three middle ear ossicles (malleus, incus, stapes), mammary glands, endothermy, and hair. The class comprises Monotremata (platypus, echidna), Marsupialia, and Placentalia. Adaptive radiation followed the K–Pg extinction (66 Ma). The class contains ~6,500 living species."
       }
     },
-    "examples": {
-      "pl": "Psy, Koty, Ludzie, Wieloryby",
-      "en": "Dogs, Cats, Humans, Whales"
-    },
-    "extinctIn": null
+    "examples": null,
+    "startMa": 225,
+    "endMa": 0
   },
   {
     "parentId": "amniota",
     "id": "sauropsida",
-    "eras": [
-      "karbon",
-      "perm"
-    ],
     "status": null,
     "icon": "ic-lizard",
     "name": {
@@ -676,15 +605,12 @@
       }
     },
     "examples": null,
-    "extinctIn": null
+    "startMa": 315,
+    "endMa": 0
   },
   {
     "parentId": "sauropsida",
     "id": "ichthyosauria",
-    "eras": [
-      "trias",
-      "kreda"
-    ],
     "status": "extinct",
     "icon": "ic-shark",
     "name": {
@@ -712,19 +638,13 @@
       }
     },
     "examples": null,
-    "extinctIn": {
-      "pl": "Kreda",
-      "en": "Cretaceous"
-    }
+    "startMa": 250,
+    "endMa": 90
   },
   {
     "parentId": "sauropsida",
     "id": "sauropterygia",
-    "eras": [
-      "trias",
-      "kreda"
-    ],
-    "status": "extinct",
+    "status": null,
     "icon": "ic-shark",
     "name": {
       "pl": "Sauropterygi",
@@ -751,18 +671,12 @@
       }
     },
     "examples": null,
-    "extinctIn": {
-      "pl": "Kreda",
-      "en": "Cretaceous"
-    }
+    "startMa": 248,
+    "endMa": 66
   },
   {
     "parentId": "sauropsida",
     "id": "testudines",
-    "eras": [
-      "perm",
-      "wspolczesnosc"
-    ],
     "status": "survived",
     "icon": "ic-turtle",
     "name": {
@@ -793,15 +707,12 @@
       "pl": "Żółwie morskie, Żółwie lądowe",
       "en": "Sea turtles, Tortoises"
     },
-    "extinctIn": null
+    "startMa": 220,
+    "endMa": 0
   },
   {
     "parentId": "sauropsida",
     "id": "lepidosauria",
-    "eras": [
-      "perm",
-      "trias"
-    ],
     "status": null,
     "icon": "ic-lizard",
     "name": {
@@ -829,15 +740,12 @@
       }
     },
     "examples": null,
-    "extinctIn": null
+    "startMa": 240,
+    "endMa": 0
   },
   {
     "parentId": "lepidosauria",
     "id": "rhynchocephalia",
-    "eras": [
-      "trias",
-      "wspolczesnosc"
-    ],
     "status": "survived",
     "icon": "ic-lizard",
     "name": {
@@ -868,16 +776,13 @@
       "pl": "Hatteria (Tuatara)",
       "en": "Tuatara (Sphenodon)"
     },
-    "extinctIn": null
+    "startMa": 238,
+    "endMa": 0
   },
   {
     "parentId": "lepidosauria",
     "id": "squamata",
-    "eras": [
-      "jura",
-      "wspolczesnosc"
-    ],
-    "status": "survived",
+    "status": null,
     "icon": "ic-snake",
     "name": {
       "pl": "Łuskonośne",
@@ -885,37 +790,31 @@
     },
     "short": {
       "kids": {
-        "pl": "Jaszczurki i węże — zrzucają skórę jak za ciasną bluzkę!",
-        "en": "Lizards and snakes — they shed their skin like a tight shirt!"
+        "pl": "Kości czaszki ruszają się — mogą otwierać paszczę DUŻO szerzej niż ich kuzyni. I wąchają językiem!",
+        "en": "Their skull bones can move — they can open their jaws MUCH wider than their cousins. And they smell with their tongue!"
       },
       "adults": {
-        "pl": "Squamata: największy klad gadów; obejmuje jaszczurki, węże i amfisbeny.",
-        "en": "Squamata: the largest reptile clade; includes lizards, snakes, and worm lizards."
+        "pl": "Squamata: kineza czaszki (ruchomy quadratum); narząd Jacobsona jako główny chemosensor; hemipenisy u samców.",
+        "en": "Squamata: cranial kinesis (mobile quadrate); Jacobson’s organ as primary chemosensor; hemipenes in males."
       }
     },
     "detail": {
       "kids": {
-        "pl": "Zwierzęta ze lśniącą skórą z łusek. Zrzucają stary naskórek jak za ciasne ubranko, gdy tylko urosną większe!",
-        "en": "Animals with gleaming scaly skin. They shed their old skin like a too-tight outfit whenever they grow bigger!"
+        "pl": "Większość gadów ma kości czaszki sklejone na sztywno. Łuskonośne — jaszczurki i węże — mają je ruchome! Dzięki temu mogą otwierać paszczę bardzo szeroko, a węże potrafią połknąć zdobycz większą od swojej głowy. Do tego wąchają językiem: wypuszczają go, zbierają zapachy i wkładają do specjalnego organu w podniebieniu.",
+        "en": "Most reptiles have their skull bones fused rigidly. Squamates — lizards and snakes — have movable ones! This lets them open their jaws very wide, and snakes can swallow prey bigger than their own head. They also smell with their tongue: flick it out, collect scent particles, insert it into a special organ in the palate."
       },
       "adults": {
-        "pl": "Squamata to ok. 10 900 gatunków; obejmuje Lacertilia (jaszczurki — parafyletyczne), Serpentes (węże — wywodzące się z jaszczurek kopalnych), Amphisbaenia i Dibamia. Cechuje je ruchomy quadratum, językowy narząd Jacobsona, hemipenisy u samców.",
-        "en": "Squamata contains ~10,900 species; includes Lacertilia (lizards — paraphyletic), Serpentes (snakes derived from burrowing lizards), Amphisbaenia, and Dibamia. Distinguishing features include a kinetic quadrate, Jacobson’s organ for chemoreception, and hemipenes in males."
+        "pl": "Kluczowa synapomorfia Squamata: streptostyliczny quadratum (ruchoma kość kwadratowa) prowadząca do kinetyzmu czaszki. Siostrzana Rhynchocephalia (tuatara) zachowała prymitywną akinetkę. Narząd Jacobsona (vomeronasal) jako główny chemosensor — język dwudzielny zbiera cząsteczki chemiczne, insercja w organ. Hemipenia u samców. Ecdysis kontrolowana hormonalnie.",
+        "en": "Key synapomorphy of Squamata: streptostylic quadrate (movable quadrate bone) producing cranial kinesis. Sister clade Rhynchocephalia (tuatara) retained primitive acinetyism. Jacobson’s organ (vomeronasal) as primary chemosensor — forked tongue collects chemical particles and inserts into the organ. Hemipenes in males. Ecdysis hormonally controlled."
       }
     },
-    "examples": {
-      "pl": "Jaszczurki, Węże, Gekony",
-      "en": "Lizards, Snakes, Geckos"
-    },
-    "extinctIn": null
+    "examples": null,
+    "startMa": 167,
+    "endMa": 0
   },
   {
     "parentId": "sauropsida",
     "id": "archosauria",
-    "eras": [
-      "perm",
-      "trias"
-    ],
     "status": null,
     "icon": "ic-croc",
     "name": {
@@ -943,15 +842,12 @@
       }
     },
     "examples": null,
-    "extinctIn": null
+    "startMa": 250,
+    "endMa": 0
   },
   {
     "parentId": "archosauria",
     "id": "crocodylomorpha",
-    "eras": [
-      "trias",
-      "wspolczesnosc"
-    ],
     "status": "survived",
     "icon": "ic-croc",
     "name": {
@@ -982,29 +878,26 @@
       "pl": "Krokodyle, Aligatory, Gawiale",
       "en": "Crocodiles, Alligators, Gharials"
     },
-    "extinctIn": null
+    "startMa": 205,
+    "endMa": 0
   },
   {
     "parentId": "archosauria",
     "id": "dinosauria",
-    "eras": [
-      "trias",
-      "kreda"
-    ],
-    "status": "extinct",
+    "status": null,
     "icon": "ic-dino",
     "name": {
-      "pl": "Dinozaury nieptasie",
-      "en": "Non-avian dinosaurs"
+      "pl": "Dinozaury",
+      "en": "Dinosaurs"
     },
     "short": {
       "kids": {
-        "pl": "Wielkie lądowe olbrzymy z nogami pod tułowiem — wymarłe w kredzie.",
-        "en": "Great land giants with legs under their body — extinct in the Cretaceous."
+        "pl": "Dominowały przez 165 milionów lat — nogi pod tułowiem jak u ssaków!",
+        "en": "They dominated for 165 million years — legs straight under their body like mammals!"
       },
       "adults": {
-        "pl": "Dinosauria z wyłączeniem Aves; wymarły w wymieraniu K–Pg (66 Ma).",
-        "en": "Dinosauria excluding Aves; went extinct in the K–Pg mass extinction (66 Ma)."
+        "pl": "Dinosauria: klad archozaurów z perforowaną panewką biodra i pionową postawą ciała.",
+        "en": "Dinosauria: archosaur clade with a fully perforated acetabulum and upright stance."
       }
     },
     "detail": {
@@ -1018,18 +911,12 @@
       }
     },
     "examples": null,
-    "extinctIn": {
-      "pl": "Kreda",
-      "en": "Cretaceous"
-    }
+    "startMa": 233,
+    "endMa": 0
   },
   {
-    "parentId": "dinosauria",
+    "parentId": "theropoda",
     "id": "aves",
-    "eras": [
-      "jura",
-      "wspolczesnosc"
-    ],
     "status": "survived",
     "icon": "ic-bird",
     "name": {
@@ -1060,6 +947,1444 @@
       "pl": "Wróble, Orły, Kury, Pingwiny",
       "en": "Sparrows, Eagles, Chickens, Penguins"
     },
-    "extinctIn": null
+    "startMa": 150,
+    "endMa": 0
+  },
+  {
+    "parentId": "lissamphibia",
+    "id": "anura",
+    "status": "survived",
+    "icon": "ic-frog",
+    "name": {
+      "pl": "Żaby i Ropuchy",
+      "en": "Frogs & Toads"
+    },
+    "short": {
+      "kids": {
+        "pl": "Skaczą, kumkają i zamieniają się z kijanek w żabki!",
+        "en": "They jump, croak, and transform from tadpoles into frogs!"
+      },
+      "adults": {
+        "pl": "Anura: bezogonowe płazy z tylnymi kończynami do skakania i wyraźną metamorfozą.",
+        "en": "Anura: tailless amphibians with jumping hindlimbs and pronounced metamorphosis."
+      }
+    },
+    "detail": {
+      "kids": {
+        "pl": "Jedyne zwierzęta, które tak bardzo się zmieniają: jako kijanki pływają w wodzie, a potem wyrastają im cztery nóżki i skaczą po lądzie! Wiele jest trujących i ma jaskrawe kolory.",
+        "en": "The only animals that change so dramatically: as tadpoles they swim in water, then four legs grow and they hop on land! Many are poisonous and have bright colours."
+      },
+      "adults": {
+        "pl": "Anura (~7000 gatunków) cechuje brak ogona u dorosłych, wydłużone tylne kończyny i wyraźna metamorfoza. Skóra przepuszczalna do wymiany gazowej. Dendrobatidae mają gruczoły alkaloidowe. Bardzo zagrożone grzybem Batrachochytrium dendrobatidis (chytridiomykoza).",
+        "en": "Anura (~7,000 species) are defined by absence of tail in adults, elongated hindlimbs, and pronounced metamorphosis. Permeable skin enables cutaneous respiration. Dendrobatidae have alkaloid poison glands. Severely threatened by Batrachochytrium dendrobatidis (chytridiomycosis)."
+      }
+    },
+    "examples": {
+      "pl": "Żaba trawna, Ropucha szara, Rzekotka, Ropucha trzcinowa",
+      "en": "Common frog, Common toad, Tree frog, Cane toad"
+    },
+    "startMa": 250,
+    "endMa": 0
+  },
+  {
+    "parentId": "lissamphibia",
+    "id": "urodela",
+    "status": "survived",
+    "icon": "ic-frog",
+    "name": {
+      "pl": "Salamandry i Traszki",
+      "en": "Salamanders & Newts"
+    },
+    "short": {
+      "kids": {
+        "pl": "Mają ogon przez całe życie i mogą odrastać urwane nóżki!",
+        "en": "They keep their tail all their life and can regrow lost legs!"
+      },
+      "adults": {
+        "pl": "Urodela: ogonowe płazy zdolne do regeneracji kończyn; wiele neotenicznych.",
+        "en": "Urodela: tailed amphibians capable of limb regeneration; many neotenic forms."
+      }
+    },
+    "detail": {
+      "kids": {
+        "pl": "Salamandry mają ogon przez całe życie — właśnie tym różnią się od żab! Mają też supermoce: gdy drapieżnik oderwie im nogę, odrasta nowa. Aksolotl nigdy nie dorasta i cały czas wygląda jak kijanka!",
+        "en": "Salamanders keep their tail all their lives — that is what sets them apart from frogs! They also have superpowers: if a predator tears off a leg, a new one grows back. The axolotl never grows up and always looks like a tadpole!"
+      },
+      "adults": {
+        "pl": "Urodela (~700 gatunków) zachowują ogon jako dorosłe, mają cztery kończyny podobnej długości. Zdolność regeneracji kończyn zależy od blastemu. Wiele form neotenicznych (Ambystoma mexicanum — aksolotl). Proteidae żyją wiecznie wodne, inne są lądowe lub jaskiniowe.",
+        "en": "Urodela (~700 species) retain the tail in adults and have four roughly equal limbs. Limb regeneration is driven by blastema formation. Many neotenic forms (Ambystoma mexicanum — axolotl). Proteidae are permanently aquatic, others terrestrial or cave-dwelling."
+      }
+    },
+    "examples": {
+      "pl": "Salamandra plamista, Traszka górska, Aksolotl",
+      "en": "Fire salamander, Alpine newt, Axolotl"
+    },
+    "startMa": 157,
+    "endMa": 0
+  },
+  {
+    "parentId": "lissamphibia",
+    "id": "gymnophiona",
+    "status": "survived",
+    "icon": "ic-snake",
+    "name": {
+      "pl": "Cecylia",
+      "en": "Caecilians"
+    },
+    "short": {
+      "kids": {
+        "pl": "Beznożne płazy pod ziemią — wyglądają jak wielkie dżdżownice!",
+        "en": "Legless amphibians underground — they look like giant earthworms!"
+      },
+      "adults": {
+        "pl": "Gymnophiona: bezkończynowe płazy podziemne lub wodne z zredukowanymi oczami.",
+        "en": "Gymnophiona: limbless burrowing or aquatic amphibians with vestigial eyes."
+      }
+    },
+    "detail": {
+      "kids": {
+        "pl": "Tajemnicze płazy bez nóżek, które całe życie ukrywają się pod ziemią! Wyglądają jak duże, śliskie dżdżownice z maleńkimi oczkami. Większość ludzi nigdy ich nie widzi na własne oczy!",
+        "en": "Mysterious legless amphibians that spend their whole lives hiding underground! They look like big, slimy earthworms with tiny eyes. Most people never see them in person!"
+      },
+      "adults": {
+        "pl": "Gymnophiona (~200 gatunków) straciły kończyny wtórnie w toku ewolucji podziemnej. Oczy zredukowane lub ukryte pod skórą. Posiadają tentacula chemosensoryczne między okiem a nozdrzyną. Wzmocniona czaszka do drążenia. Większość żyworodnych lub składających pielęgnowane jaja.",
+        "en": "Gymnophiona (~200 species) secondarily lost their limbs during subterranean evolution. Eyes are reduced or hidden beneath skin. They have chemosensory tentacles between eye and nostril. Reinforced skull for burrowing. Most are viviparous or lay guarded eggs."
+      }
+    },
+    "examples": {
+      "pl": "Cecylia tropikalna",
+      "en": "Tropical caecilian"
+    },
+    "startMa": 183,
+    "endMa": 0
+  },
+  {
+    "parentId": "mammalia",
+    "id": "monotremata",
+    "status": "survived",
+    "icon": "ic-mammal",
+    "name": {
+      "pl": "Dziobaki i Kolczatki",
+      "en": "Platypuses & Echidnas"
+    },
+    "short": {
+      "kids": {
+        "pl": "Jedyne ssaki znoszące jajka — dziobak ma dziób jak kaczka!",
+        "en": "The only egg-laying mammals — the platypus has a beak like a duck!"
+      },
+      "adults": {
+        "pl": "Monotremata: jedyne owiparne żyjące ssaki; elektrorecepcja dziobaka.",
+        "en": "Monotremata: the only oviparous living mammals; platypus electroreception."
+      }
+    },
+    "detail": {
+      "kids": {
+        "pl": "Jedyne ssaki na świecie, które znoszą jajka zamiast rodzić żywe dzieci! Dziobak ma dziób jak kaczka, ogon jak bóbr i jadowite ostrogi na tylnych łapach. Kolczatka pokryta kolcami jak jeż.",
+        "en": "The only mammals in the world that lay eggs instead of giving birth! The platypus has a duck's bill, a beaver's tail, and venomous spurs on its hind legs. The echidna is covered in spines like a hedgehog."
+      },
+      "adults": {
+        "pl": "Monotremata (5 żyjących gatunków) dzielą z Theria futro, endotermię i gruczoły mlekowe (bez brodawek sutkowych). Składają skórzaste jajka. Dziobak (Ornithorhynchus anatinus) posiada elektrosensoryczne receptory dziobakowe do lokalizacji ofiary. Siostrzane wobec kladu Theria.",
+        "en": "Monotremata (5 living species) share fur, endothermy, and mammary glands (no nipples) with Theria. They lay leathery eggs. The platypus (Ornithorhynchus anatinus) has electrosensory bill receptors for prey detection. Sister to the clade Theria (marsupials + placentals)."
+      }
+    },
+    "examples": {
+      "pl": "Dziobak, Kolczatka krótkonosa",
+      "en": "Platypus, Short-beaked echidna"
+    },
+    "startMa": 145,
+    "endMa": 0
+  },
+  {
+    "parentId": "mammalia",
+    "id": "marsupialia",
+    "status": "survived",
+    "icon": "ic-mammal",
+    "name": {
+      "pl": "Kangury i Torbacze",
+      "en": "Kangaroos & Marsupials"
+    },
+    "short": {
+      "kids": {
+        "pl": "Mają kieszeń na brzuchu do noszenia malutkich dzidziusiów!",
+        "en": "They have a belly pouch for carrying tiny babies!"
+      },
+      "adults": {
+        "pl": "Marsupialia: ssaki z krótką ciążą i rozwojem larwy w torbie marsupium.",
+        "en": "Marsupialia: mammals with brief gestation and larval development in the marsupium."
+      }
+    },
+    "detail": {
+      "kids": {
+        "pl": "Rodzą taaaakie maleńkie dzidziusie — kangurze dziecko przy urodzeniu jest mniejsze od paznokcia! Maluszek od razu wspina się do kieszonki na brzuchu mamy i tam rośnie przez kilka miesięcy. Kangur, koala, wombat — to wszystko torbacze!",
+        "en": "They give birth to tiiiny babies — a newborn kangaroo is smaller than your fingernail! The joey immediately climbs into mum's belly pocket and grows there for several months. Kangaroo, koala, wombat — all marsupials!"
+      },
+      "adults": {
+        "pl": "Marsupialia (~330 gatunków) rodzą bardzo niedojrzałe płody (8–43 dni ciąży) dokańczające rozwój w torbie przy gruczołach mlekowych. Brak łożyska kosmówkowo-omoczniowego. Obejmuje Didelphimorphia, Dasyuromorpha (diabeł tasmański), Diprotodontia (kangury, koale, wombaty).",
+        "en": "Marsupialia (~330 species) give birth to very immature foetuses (8–43 days gestation) completing development in the pouch. They lack a chorioallantoic placenta. Includes Didelphimorphia, Dasyuromorpha (Tasmanian devil), Diprotodontia (kangaroos, koalas, wombats)."
+      }
+    },
+    "examples": {
+      "pl": "Kangur rdzawy, Koala, Wombat, Diabeł tasmański",
+      "en": "Red kangaroo, Koala, Wombat, Tasmanian devil"
+    },
+    "startMa": 125,
+    "endMa": 0
+  },
+  {
+    "parentId": "mammalia",
+    "id": "multituberculata",
+    "status": "extinct",
+    "icon": "ic-mammal",
+    "name": {
+      "pl": "Wieloguzkowce",
+      "en": "Multituberculates"
+    },
+    "short": {
+      "kids": {
+        "pl": "Gryzonie dinozaurów! 100 milionów lat obok wielkich gadów — a wyginęły dopiero po nich!",
+        "en": "Dinosaur rodents! 100 million years alongside giants — and they outlived them!"
+      },
+      "adults": {
+        "pl": "Multituberculata: najdłużej żyjąca linia ssaków mezozoiku (~165–35 Ma); zbieżna z gryzoniami, ale filogenetycznie oddzielna.",
+        "en": "Multituberculata: longest-lived Mesozoic mammal lineage (~165–35 Ma); convergent with rodents but phylogenetically distinct."
+      }
+    },
+    "detail": {
+      "kids": {
+        "pl": "Przez 100 milionów lat — całą kredę i epokę dinozaurów — te małe ssaki biegały pod nogami wielkich gadów. Jadły nasiona, owoce i owady, prawie jak dzisiejsze wiewiórki. Choć wyglądały jak gryzonie, wcale nimi nie były — to osobna gałąź ssaków, która wyginęła dopiero miliony lat PO dinozaurach!",
+        "en": "For 100 million years — through the whole age of dinosaurs — these tiny mammals ran under the feet of giant reptiles. They ate seeds, fruits and insects, much like today's squirrels. Though they looked like rodents, they were not rodents at all — a separate branch of mammals that survived millions of years AFTER the dinosaurs!"
+      },
+      "adults": {
+        "pl": "Multituberculata to najbardziej zróżnicowana i długowieczna linia ssaków mezozoiku (~165–35 Ma; ponad 130 Ma sukcesji). Nazwa pochodzi od wieloguzkowatych zębów trzonowych umożliwiających rozdrabnianie nasion — niszę ekologiczną, którą dopiero w eocenie przejęły gryzonie (Rodentia), ostatecznie wypierając Multituberculata do wymarcia. Filogenetycznie plasowane jako grupa siostrzana Theria lub Allotheria; brak bliskiego pokrewieństwa z Rodentia (konwergencja morfologiczna).",
+        "en": "Multituberculata was the most diverse and long-lived mammal lineage of the Mesozoic (~165–35 Ma; over 130 Ma of succession). Their name derives from characteristic multi-cusped molars for grinding seeds — an ecological niche taken over only in the Eocene by Rodentia, which ultimately displaced them to extinction. Phylogenetically placed as sister to Theria or within Allotheria; unrelated to Rodentia (morphological convergence)."
+      }
+    },
+    "examples": null,
+    "startMa": 168,
+    "endMa": 35
+  },
+  {
+    "parentId": "mammalia",
+    "id": "eutriconodonta",
+    "status": "extinct",
+    "icon": "ic-mammal",
+    "name": {
+      "pl": "Eutrykonodony",
+      "en": "Eutriconodonts"
+    },
+    "short": {
+      "kids": {
+        "pl": "Ssak, który jadał dinozaury! Repenomamus — prawie metrowy drapieżnik — znaleziony z kośćmi dinozaura w żołądku.",
+        "en": "A mammal that ate dinosaurs! Repenomamus — nearly a metre long — found with dinosaur bones in its stomach."
+      },
+      "adults": {
+        "pl": "Eutriconodonta: bazalne ssaki mezozoiku (~235–100 Ma); trójstożkowe uzębienie; Repenomamus giganticus — dokumentowany mięsożerca dinozaurów.",
+        "en": "Eutriconodonta: basal Mesozoic mammals (~235–100 Ma); tricuspid teeth; Repenomamus giganticus — documented dinosaur predator."
+      }
+    },
+    "detail": {
+      "kids": {
+        "pl": "Wyobraź sobie ssaka, który ZJADA dinozaury! Repenomamus giganticus miał prawie metr długości i znaleziono go z kośćmi małego dinozaura Psittacosaurus w żołądku. Eutrykonodony były drapieżnymi ssakami triasu i kredy — ostre zęby, silna szczęka — na długo przed tym, gdy pojawiły się lwy.",
+        "en": "Imagine a mammal that EATS dinosaurs! Repenomamus giganticus was nearly a metre long and was found with the bones of a small Psittacosaurus dinosaur in its stomach. Eutriconodonts were carnivorous mammals of the Triassic and Cretaceous — sharp teeth, powerful jaws — long before lions ever existed."
+      },
+      "adults": {
+        "pl": "Eutriconodonta to wczesnomezozoiczne ssaki (trias–kreda, ~235–100 Ma) z charakterystycznym uzębieniem trójstożkowym (trzy guzki ustawione szeregowo). Wymarły przed końcem kredy. Repenomamus giganticus (~125 Ma, formacja Yixian, Chiny) osiągał ok. 1 m długości i jest pierwszym udokumentowanym przypadkiem ssaka polującego na dinozaury (Psittacosaurus we wpisie). Pozycja filogenetyczna Eutriconodonta pozostaje dyskutowana: część analiz umieszcza je jako grupę bazalną Mammalia, inne — poza koroną ssaków.",
+        "en": "Eutriconodonta are early Mesozoic mammals (Triassic–Cretaceous, ~235–100 Ma) characterised by tricuspid teeth with three cusps in a row. They went extinct before the end of the Cretaceous. Repenomamus giganticus (~125 Ma, Yixian Formation, China) reached ~1 m in length and is the first documented case of a mammal preying on dinosaurs (Psittacosaurus in gut). The phylogenetic position of Eutriconodonta remains debated: some analyses place them as basal Mammalia, others outside the crown."
+      }
+    },
+    "examples": null,
+    "startMa": 160,
+    "endMa": 94
+  },
+  {
+    "parentId": "mammalia",
+    "id": "placentalia",
+    "status": null,
+    "icon": "ic-mammal",
+    "name": {
+      "pl": "Ssaki Łożyskowe",
+      "en": "Placental mammals"
+    },
+    "short": {
+      "kids": {
+        "pl": "Rodzą dojrzałe dzieci — łożysko karmi je w środku mamy.",
+        "en": "They give birth to developed young — a placenta feeds them inside mum."
+      },
+      "adults": {
+        "pl": "Placentalia: ssaki z kosmówkowo-omoczniowym łożyskiem; ok. 6000 żyjących gatunków.",
+        "en": "Placentalia: mammals with a chorioallantoic placenta; ~6,000 living species."
+      }
+    },
+    "detail": {
+      "kids": {
+        "pl": "Młode rosną w brzuchu mamy podłączone przez łożysko — specjalny organ przekazujący jedzenie i tlen. Dlatego rodzą się dużo bardziej rozwinięte niż maleńkie torbacze! Do łożyskowców należymy my, ludzie.",
+        "en": "The young grow in mum's belly connected by the placenta — a special organ delivering food and oxygen. So they are born much more developed than tiny marsupials! We humans are placental mammals."
+      },
+      "adults": {
+        "pl": "Placentalia wyróżnia kosmówkowo-omoczniowe łożysko umożliwiające długą ciążę. Obejmuje ~20 rzędów i ~6000 gatunków. Największa radiacja nastąpiła po K–Pg (66 Ma). Filogenetycznie dzielą się na Atlantogenata (Afrotheria + Xenarthra) i Boreoeutheria (Euarchontoglires + Laurasiatheria).",
+        "en": "Placentalia are defined by the chorioallantoic placenta enabling extended gestation. The clade includes ~20 orders and ~6,000 species. Major radiation followed K–Pg (66 Ma). Phylogenetically split into Atlantogenata (Afrotheria + Xenarthra) and Boreoeutheria (Euarchontoglires + Laurasiatheria)."
+      }
+    },
+    "examples": null,
+    "startMa": 100,
+    "endMa": 0
+  },
+  {
+    "parentId": "squamata",
+    "id": "lacertilia",
+    "status": "survived",
+    "icon": "ic-lizard",
+    "name": {
+      "pl": "Jaszczurki",
+      "en": "Lizards"
+    },
+    "short": {
+      "kids": {
+        "pl": "Gady z czterema nóżkami i długim ogonem — który często odrasta!",
+        "en": "Reptiles with four legs and a long tail — that often grows back!"
+      },
+      "adults": {
+        "pl": "Lacertilia: parafiletyczna grupa łuskonośnych; większość czworonożna z ruchomymi powiekami.",
+        "en": "Lacertilia: paraphyletic grouping of squamates; mostly quadrupedal with moveable eyelids."
+      }
+    },
+    "detail": {
+      "kids": {
+        "pl": "Typowe jaszczurki mają cztery nóżki, długi ogon i łuski. Wiele potrafi odrzucić ogon gdy jest w niebezpieczeństwie — i po czasie urośnie nowy! Kameleony mogą zmieniać kolor, a gekon chodzi po suficie.",
+        "en": "Typical lizards have four legs, a long tail, and scales. Many can shed their tail in danger — and a new one grows back! Chameleons can change colour, and geckos walk on ceilings."
+      },
+      "adults": {
+        "pl": "Lacertilia to parafiletyczna grupa (~6000 gatunków) obejmująca wszystkie Squamata oprócz Serpentes. Obejmuje Gekota, Iguania, Scincomorpha, Anguimorpha i Lacertidae. Warany (Varanidae) są siostrzane Serpentes. Wiele wtórnie beznogie (Anguis), różniąc się od węży ruchomymi powiekami.",
+        "en": "Lacertilia is a paraphyletic grouping (~6,000 species) of all Squamata except Serpentes. Includes Gekota, Iguania, Scincomorpha, Anguimorpha, and Lacertidae. Monitor lizards (Varanidae) are sister to Serpentes. Many are secondarily limbless (Anguis), distinguished from snakes by moveable eyelids."
+      }
+    },
+    "examples": {
+      "pl": "Gekon, Kameleon, Waran, Agama, Jaszczurka zwinka",
+      "en": "Gecko, Chameleon, Monitor lizard, Agama, Sand lizard"
+    },
+    "startMa": 160,
+    "endMa": 0
+  },
+  {
+    "parentId": "squamata",
+    "id": "serpentes",
+    "status": "survived",
+    "icon": "ic-snake",
+    "name": {
+      "pl": "Węże",
+      "en": "Snakes"
+    },
+    "short": {
+      "kids": {
+        "pl": "Jaszczurki, które straciły nóżki i poruszają się wężykując!",
+        "en": "Lizards that lost their legs and now move by slithering!"
+      },
+      "adults": {
+        "pl": "Serpentes: beznogie łuskonośne wywodzące się z kopujących jaszczurek; narząd Jacobsona.",
+        "en": "Serpentes: limbless squamates derived from burrowing lizards; Jacobson's organ."
+      }
+    },
+    "detail": {
+      "kids": {
+        "pl": "Węże to tak naprawdę jaszczurki bez nóg! Zgubili nóżki, bo zakopywali się w ziemi i nie były im potrzebne. Węszą powietrzem językiem — rozwidlony języczek przynosi zapachy prosto do specjalnego organu w pyszczku.",
+        "en": "Snakes are actually lizards without legs! They lost their legs because they burrowed in the earth and didn't need them. They sniff the air with their tongue — the forked tongue brings smells straight to a special organ in the mouth."
+      },
+      "adults": {
+        "pl": "Serpentes (~3900 gatunków) wywodzi się od kopujących jaszczurek w kredzie (~100 Ma). Całkowita redukcja kończyn, ruchoma czaszka z kinezą do połykania dużej zdobyczy, brak bębna słuchowego, narząd Jacobsona do chemorecepcji. Ok. 600 gatunków jadowitych. Obejmuje Colubridae, Viperidae, Elapidae.",
+        "en": "Serpentes (~3,900 species) is derived from burrowing lizards in the Cretaceous (~100 Ma). Complete limb reduction, highly kinetic skull for swallowing large prey, loss of the tympanic membrane, and Jacobson's organ for chemoreception. ~600 venomous species. Includes Colubridae, Viperidae, Elapidae."
+      }
+    },
+    "examples": {
+      "pl": "Pyton siatkowy, Kobra królewska, Żmija zygzakowata, Boa dusiciel",
+      "en": "Reticulated python, King cobra, Common viper, Boa constrictor"
+    },
+    "startMa": 100,
+    "endMa": 0
+  },
+  {
+    "parentId": "archosauria",
+    "id": "pterosauria",
+    "status": "extinct",
+    "icon": "ic-bird",
+    "name": {
+      "pl": "Latające Jaszczury",
+      "en": "Pterosaurs"
+    },
+    "short": {
+      "kids": {
+        "pl": "Pierwsze kręgowce, które nauczyły się naprawdę latać — skrzydło z palca!",
+        "en": "The first vertebrates that truly learned to fly — wing from a finger!"
+      },
+      "adults": {
+        "pl": "Pterosauria: pierwsza linia kręgowców z aktywnym lotem; wydłużony palec IV nośny skrzydła.",
+        "en": "Pterosauria: the first vertebrate lineage to achieve powered flight; elongated digit IV supporting the wing."
+      }
+    },
+    "detail": {
+      "kids": {
+        "pl": "Pierwsze latające kręgowce w historii Ziemi! Ich skrzydło to skóra rozciągnięta na czwartym — bardzo długim — palcu. Quetzalcoatlus był wielki jak żyrafa i miał rozpiętość skrzydeł 10 metrów!",
+        "en": "The first flying vertebrates in Earth's history! Their wing is skin stretched over the fourth — very long — finger. Quetzalcoatlus was as big as a giraffe with a 10-metre wingspan!"
+      },
+      "adults": {
+        "pl": "Pterosauria (trias–kreda) były pierwszymi kręgowcami z aktywnym lotem. Skrzydło (pteroid) rozciągnięte na bardzo wydłużonym palcu IV. Rozmiary od wróbla (Nemicolopterus) po ~10–11 m rozpiętości (Quetzalcoatlus). Kości pneumatyczne. Wymarły na granicy K–Pg (66 Ma).",
+        "en": "Pterosauria (Triassic–Cretaceous) were the first vertebrates with powered flight. The wing membrane (pteroid) was supported by a greatly elongated digit IV. Sizes ranged from sparrow (Nemicolopterus) to ~10–11 m wingspan (Quetzalcoatlus). Pneumatised bones. Went extinct at the K–Pg boundary (66 Ma)."
+      }
+    },
+    "examples": {
+      "pl": "Pterodaktyl, Pteranodon, Quetzalcoatlus",
+      "en": "Pterodactyl, Pteranodon, Quetzalcoatlus"
+    },
+    "startMa": 228,
+    "endMa": 66
+  },
+  {
+    "parentId": "saurischia",
+    "id": "sauropodomorpha",
+    "status": null,
+    "icon": "ic-dino",
+    "name": {
+      "pl": "Zauropody",
+      "en": "Sauropods"
+    },
+    "short": {
+      "kids": {
+        "pl": "Największe zwierzęta lądowe w historii — z najdłuższymi szyjami!",
+        "en": "The largest land animals in history — with the longest necks!"
+      },
+      "adults": {
+        "pl": "Sauropodomorpha: roślinożerne dinozaury z kolumnowymi nogami i wydłużoną szyją.",
+        "en": "Sauropodomorpha: herbivorous dinosaurs with pillar-like legs and an elongated neck."
+      }
+    },
+    "detail": {
+      "kids": {
+        "pl": "Rekordziści Ziemi! Argentinosaurus ważył tyle co 15 słoni i miał szyję długą jak pięciometrowy autobus. Żeby tyle zjeść, musiały jeść praktycznie bez przerwy. Ich jajeczka były wielkości melona!",
+        "en": "Earth's record-holders! Argentinosaurus weighed as much as 15 elephants and had a neck as long as a five-metre bus. To eat that much, they had to eat almost non-stop. Their eggs were the size of a melon!"
+      },
+      "adults": {
+        "pl": "Sauropodomorpha dzielą się na bazalne formy (trias, dwunożne, ok. 1–10 m) i Sauropoda (jura–kreda, czworonożne giganty). Kolumnowe nogi, pneumatyczny kręgosłup szyjny, zęby grabieżnikowe do obrywania liści. Argentinosaurus (~80 t) jest prawdopodobnie największym lądowym zwierzęciem w historii.",
+        "en": "Sauropodomorpha splits into basal forms (Triassic, bipedal, 1–10 m) and Sauropoda (Jurassic–Cretaceous, quadrupedal giants). Pillar-like legs, pneumatised neck vertebrae, peg-like teeth for leaf-stripping. Argentinosaurus (~80 t) is likely the largest land animal in history."
+      }
+    },
+    "examples": null,
+    "startMa": 233,
+    "endMa": 66
+  },
+  {
+    "parentId": "dinosauria",
+    "id": "ornithischia",
+    "status": null,
+    "icon": "ic-dino",
+    "name": {
+      "pl": "Ptasiobiodre",
+      "en": "Ornithischians"
+    },
+    "short": {
+      "kids": {
+        "pl": "Roślinożerne dinozaury — rogatce, pancerne i kaczkodziobe.",
+        "en": "Plant-eating dinosaurs — horned, armoured and duck-billed."
+      },
+      "adults": {
+        "pl": "Ornithischia: klad dinozaurów z ptasią miednicą i kością predentary; wyłącznie roślinożerne.",
+        "en": "Ornithischia: dinosaur clade with bird-like pelvis and predentary bone; exclusively herbivorous."
+      }
+    },
+    "detail": {
+      "kids": {
+        "pl": "Ptasiobiodre dinozaury były roślinożercami. Jedne miały rogi jak Triceratops, inne pancerze jak Ankylozaur, jeszcze inne kacze dzioby jak Parasaurolophus. Mimo że mają ptasie biodra, ptaki wcale od nich nie pochodzą!",
+        "en": "Bird-hipped dinosaurs were plant-eaters. Some had horns like Triceratops, others armour like Ankylosaurus, yet others had duck bills like Parasaurolophus. Despite having bird-like hips, birds do not actually descend from them!"
+      },
+      "adults": {
+        "pl": "Ornithischia (trias–kreda) wyróżnia pubis skierowany ku tyłowi jak u ptaków (niezależna ewolucja!), dodatkowy predentary w żuchwie i wyrostki ozdobieniowe czaszki. Wyłącznie roślinożerne. Dzielą się na Thyreophora (opancerzone), Ornithopoda i Marginocephalia (rogi + grubogłowe).",
+        "en": "Ornithischia (Triassic–Cretaceous) is defined by a posteriorly directed pubis like birds (independently evolved!), a predentary bone in the lower jaw, and cranial ornamentation. Exclusively herbivorous. Split into Thyreophora (armoured), Ornithopoda, and Marginocephalia (horned + dome-headed)."
+      }
+    },
+    "examples": null,
+    "startMa": 228,
+    "endMa": 66
+  },
+  {
+    "parentId": "saurischia",
+    "id": "theropoda",
+    "status": null,
+    "icon": "ic-dino",
+    "name": {
+      "pl": "Teropody",
+      "en": "Theropods"
+    },
+    "short": {
+      "kids": {
+        "pl": "Dwunożni drapieżcy — od T-Rexa po dzisiejsze ptaki!",
+        "en": "Bipedal hunters — from T-Rex to today's birds!"
+      },
+      "adults": {
+        "pl": "Theropoda: dwunożne dinozaury z kościstymi kośćmi i chwytną ręką; przodkowie Aves.",
+        "en": "Theropoda: bipedal dinosaurs with hollow bones and grasping hands; ancestors of Aves."
+      }
+    },
+    "detail": {
+      "kids": {
+        "pl": "Straszne dwunożne drapieżniki z ogromnymi zębami — ale wśród nich były też pióra! Tyranozaurus miał mini-rączki, a Velociraptor był pokryty piórami jak indyk. Właśnie z teropodów wyewoluowały wszystkie ptaki!",
+        "en": "Fearsome bipedal predators with enormous teeth — but many had feathers! Tyrannosaurus had tiny arms, and Velociraptor was covered in feathers like a turkey. And it is from theropods that all birds evolved!"
+      },
+      "adults": {
+        "pl": "Theropoda (trias–dziś) to dwunożny klad z kośćmi pneumatycznymi, chwytną ręką (3 funkcjonalne palce) i zazwyczaj drapieżną dietą. Kluczowe grupy: Ceratosauria, Carnosauria (Allosaurus), Coelurosauria (Tyrannosauridae + Maniraptora → Aves). Pióra potwierdzone skamieniałościami u Maniraptora.",
+        "en": "Theropoda (Triassic–present) is a bipedal clade with pneumatised bones, grasping hands (3 functional digits), and typically carnivorous diet. Key groups: Ceratosauria, Carnosauria (Allosaurus), Coelurosauria (Tyrannosauridae + Maniraptora → Aves). Feathers confirmed by fossils in Maniraptora."
+      }
+    },
+    "examples": null,
+    "startMa": 231,
+    "endMa": 0
+  },
+  {
+    "parentId": "ornithischia",
+    "id": "ceratopsia",
+    "status": "extinct",
+    "icon": "ic-dino",
+    "name": {
+      "pl": "Rogatce",
+      "en": "Horned dinosaurs"
+    },
+    "short": {
+      "kids": {
+        "pl": "Dinozaury z rogami i wielką kostną kryzą na głowie!",
+        "en": "Dinosaurs with horns and a huge bony frill around their neck!"
+      },
+      "adults": {
+        "pl": "Ceratopsia: klad Marginocephalia z kością rostralną i kostną kryzą ciemieniowo-łuskową.",
+        "en": "Ceratopsia: marginocephalian clade with a rostral beak bone and a parieto-squamosal frill."
+      }
+    },
+    "detail": {
+      "kids": {
+        "pl": "Rogatce miały najozdobniejsze głowy w całym świecie dinozaurów! Triceratops miał trzy wielkie rogi i kostną kryzę wielkości stołu. Rogi i kryzy służyły do obrony i do pokazów przed innymi dinozaurami.",
+        "en": "Horned dinosaurs had the most decorated heads in the entire dinosaur world! Triceratops had three huge horns and a bony frill the size of a table. Horns and frills were used for defence and for displaying to other dinosaurs."
+      },
+      "adults": {
+        "pl": "Ceratopsia (jura–kreda) cechuje rostral — dodatkowa kość dziobowa nieobecna u innych dinozaurów — oraz kostna kryza z kości ciemieniowej i łuskowej. Bazalne formy (Psittacosaurus) były dwunożne. Zaawansowane Ceratopsidae (Triceratops, Centrosaurus) czworonożne i wielkości bydła.",
+        "en": "Ceratopsia (Jurassic–Cretaceous) is defined by the rostral — an additional beak bone absent in other dinosaurs — and a bony frill from parietal and squamosal bones. Basal forms (Psittacosaurus) were bipedal. Advanced Ceratopsidae (Triceratops, Centrosaurus) were quadrupedal and cattle-sized."
+      }
+    },
+    "examples": {
+      "pl": "Triceratops, Protoceratops, Styrakozaur, Centrozaur",
+      "en": "Triceratops, Protoceratops, Styracosaurus, Centrosaurus"
+    },
+    "startMa": 169,
+    "endMa": 66
+  },
+  {
+    "parentId": "ornithischia",
+    "id": "thyreophora",
+    "status": null,
+    "icon": "ic-dino",
+    "name": {
+      "pl": "Pancerne Dinozaury",
+      "en": "Armoured dinosaurs"
+    },
+    "short": {
+      "kids": {
+        "pl": "Stegozaury i ankylozaury — z kolcami, tarczami i maczugami ogona!",
+        "en": "Stegosaurs and ankylosaurs — with spines, plates and tail clubs!"
+      },
+      "adults": {
+        "pl": "Thyreophora: klad Ornithischia z kostnymi osteoderma wzdłuż grzbietu.",
+        "en": "Thyreophora: ornithischian clade with bony osteoderms along the dorsal surface."
+      }
+    },
+    "detail": {
+      "kids": {
+        "pl": "Dinozaury w zbroi! Stegozaur miał na grzbiecie rząd kostnych tarcz wielkich jak drzwi i ostre kolce na ogonie. Ankylozaur pokryty był całkowicie kościanym pancerzem i miał ogon zakończony ogromną maczugą.",
+        "en": "Armoured dinosaurs! Stegosaurus had a row of bony plates on its back the size of doors and sharp spikes on its tail. Ankylosaurus was completely covered in bony armour and had a tail ending in a huge club."
+      },
+      "adults": {
+        "pl": "Thyreophora dzielą się na Stegosauria (jura; tarcze grzbietowe i kolce ogona; Stegosaurus) i Ankylosauria (jura–kreda; masywny pancerz, maczuga ogonowa; Ankylosaurus). Obie grupy czworonożne roślinożercy. Pancerz z osteoderma — niezależna ewolucja od zbroi plakodermi.",
+        "en": "Thyreophora splits into Stegosauria (Jurassic; dorsal plates and tail spines; Stegosaurus) and Ankylosauria (Jurassic–Cretaceous; massive body armour, tail club; Ankylosaurus). Both groups are quadrupedal herbivores. Armour from bony osteoderms — convergent with placoderm armour."
+      }
+    },
+    "examples": null,
+    "startMa": 192,
+    "endMa": 66
+  },
+  {
+    "parentId": "ornithischia",
+    "id": "ornithopoda",
+    "status": "extinct",
+    "icon": "ic-dino",
+    "name": {
+      "pl": "Kaczkodziobe",
+      "en": "Duck-billed dinosaurs"
+    },
+    "short": {
+      "kids": {
+        "pl": "Dwunożne dinozaury z kaczym dziobem i grzebieniami do trąbienia!",
+        "en": "Bipedal dinosaurs with a duck-like bill and crests for trumpeting!"
+      },
+      "adults": {
+        "pl": "Ornithopoda: klad Ornithischia z szerokim dziobem i bateriami policzkowych zębów.",
+        "en": "Ornithopoda: ornithischian clade with a broad beak and dental batteries of cheek teeth."
+      }
+    },
+    "detail": {
+      "kids": {
+        "pl": "Hadrosaury miały szerokie kacze dzioby i mogły żuć twarde rośliny jak krowy. Parasaurolophus miał na głowie długą, pustą rurę — wytwarzał nią dźwięki jak trąbka, żeby zwołać całe stado!",
+        "en": "Hadrosaurs had wide duck bills and could chew tough plants like cows. Parasaurolophus had a long hollow tube on its head — it used it to make trumpet-like sounds to call the herd!"
+      },
+      "adults": {
+        "pl": "Ornithopoda (jura–kreda) to zróżnicowany klad od małych Hypsilophodontidae do wielkich Hadrosauridae (~10 m). Hadrosaury miały setki zębów policzkowych w bateriach zębowych do żucia twardego materiału — unikatowe wśród kręgowców. Grzebienie Lambeosaurinae były prawdopodobnie rezonatorami głosowymi.",
+        "en": "Ornithopoda (Jurassic–Cretaceous) is a diverse clade from small Hypsilophodontidae to large Hadrosauridae (~10 m). Hadrosaurs had hundreds of cheek teeth in dental batteries for processing tough plant material — unique among vertebrates. The crests of Lambeosaurinae were likely vocal resonators."
+      }
+    },
+    "examples": {
+      "pl": "Iguanodon, Parasaurolophus, Edmontosaurus, Maiasaura",
+      "en": "Iguanodon, Parasaurolophus, Edmontosaurus, Maiasaura"
+    },
+    "startMa": 164,
+    "endMa": 66
+  },
+  {
+    "parentId": "therapsida",
+    "id": "dicynodontia",
+    "status": "extinct",
+    "icon": "ic-pelycosaur",
+    "name": {
+      "pl": "Dwukłowe Potwory",
+      "en": "Dicynodonts"
+    },
+    "short": {
+      "kids": {
+        "pl": "Grube roślinożercy z dwoma wielkimi kłami — przeżyli wielkie wymieranie!",
+        "en": "Stocky plant-eaters with two huge tusks — they survived the great extinction!"
+      },
+      "adults": {
+        "pl": "Dicynodontia: anomodontowe terapsydy z parą kłów i rogowym dziobem; dominowały w permie.",
+        "en": "Dicynodontia: anomodont therapsids with a pair of tusks and a horny beak; dominant in the Permian."
+      }
+    },
+    "detail": {
+      "kids": {
+        "pl": "Grube, powolne roślinożercy o tępych pyskach z dwoma ogromnymi kłami. Był ich tak dużo przed wymieraniem permskim, że to jakby dzisiejsze krowy. Lystrosaurus — jeden z nielicznych, który przeżył wymieranie!",
+        "en": "Stocky, slow plant-eaters with blunt snouts and two huge tusks. They were as common before the Permian extinction as cows are today. Lystrosaurus was one of the few survivors of the extinction!"
+      },
+      "adults": {
+        "pl": "Dicynodontia to kład Anomodontia (Therapsida) z zredukowanym uzębieniem — zachowały tylko parę kłów (tąd nazwa) lub zupełnie je utraciły, zastępując rogowym dziobem. Dominowały w późnopermskim; Lystrosaurus przeżył wymieranie K–Pg i był dominującym kręgowcem wczesnego triasu.",
+        "en": "Dicynodontia is a clade of Anomodontia (Therapsida) with reduced dentition — retaining only a pair of tusks (hence the name) or losing teeth entirely and replacing them with a horny beak. They dominated the Late Permian; Lystrosaurus survived the end-Permian extinction and was the dominant vertebrate of the Early Triassic."
+      }
+    },
+    "examples": {
+      "pl": "Lystrosaurus, Dicynodon, Kannemeyeria",
+      "en": "Lystrosaurus, Dicynodon, Kannemeyeria"
+    },
+    "startMa": 270,
+    "endMa": 201
+  },
+  {
+    "parentId": "sauropterygia",
+    "id": "placodontia",
+    "status": "extinct",
+    "icon": "ic-turtle",
+    "name": {
+      "pl": "Miażdżarki Muszli",
+      "en": "Placodonts"
+    },
+    "short": {
+      "kids": {
+        "pl": "Morskie gady z zębami jak brukowe kamienie do miażdżenia muszli.",
+        "en": "Sea reptiles with flat pebble-like teeth for crushing shellfish."
+      },
+      "adults": {
+        "pl": "Placodontia: bazalne sauropterygi z szerokim uzębieniem miażdżącym; trias.",
+        "en": "Placodontia: basal sauropterygians with broad crushing dentition; Triassic."
+      }
+    },
+    "detail": {
+      "kids": {
+        "pl": "Wyobraź sobie morskie gady, które jadły same muszle i ślimaki! Ich zęby były szerokie i płaskie jak kamienie, doskonałe do miażdżenia twardych muszli. Niektóre wyglądały jak żółwie z pancerzem!",
+        "en": "Imagine sea reptiles that ate only shells and snails! Their teeth were wide and flat like pebbles, perfect for crushing hard shells. Some even looked like turtles with a shell!"
+      },
+      "adults": {
+        "pl": "Placodontia (trias) to bazalne sauropterygi z charakterystycznymi spłaszczonymi zębami podniebiennymi i żuchwowymi do miażdżenia małży. Zaawansowane formy (Henodus, Placochelys) rozwinęły niezależnie od żółwi pancerz ze zlanych osteoderma.",
+        "en": "Placodontia (Triassic) are basal sauropterygians with characteristic flattened palatal and jaw teeth for crushing bivalves. Advanced forms (Henodus, Placochelys) independently evolved a shell from fused osteoderms — convergent with turtles."
+      }
+    },
+    "examples": {
+      "pl": "Placodus, Henodus, Placochelys",
+      "en": "Placodus, Henodus, Placochelys"
+    },
+    "startMa": 247,
+    "endMa": 201
+  },
+  {
+    "parentId": "sauropterygia",
+    "id": "nothosauria",
+    "status": "extinct",
+    "icon": "ic-shark",
+    "name": {
+      "pl": "Praplezjozaury",
+      "en": "Nothosaurs"
+    },
+    "short": {
+      "kids": {
+        "pl": "Długie, smukłe gady połowy drogi między lądowymi a morskimi.",
+        "en": "Long, slender reptiles halfway between land and sea."
+      },
+      "adults": {
+        "pl": "Nothosauria: przejściowe sauropterygi pomiędzy lądowymi przodkami a plesiosaurami.",
+        "en": "Nothosauria: transitional sauropterygians between terrestrial ancestors and plesiosaurs."
+      }
+    },
+    "detail": {
+      "kids": {
+        "pl": "Długie, smukłe gady, które wchodziły do wody jak foki — ale jeszcze mogły wyjść na ląd. Były w połowie drogi między prawdziwymi morskimi gadami a ich lądowymi przodkami.",
+        "en": "Long, slender reptiles that entered the water like seals — but could still come ashore. They were halfway between true sea reptiles and their land-dwelling ancestors."
+      },
+      "adults": {
+        "pl": "Nothosauria (trias) to kład przejściowy między lądowymi przodkami a Plesiosauria. Zachowały funkcjonalne kończyny do poruszania się na lądzie; ciało wydłużone, szyja długa, zęby do łapania ryb. Nothosaurus sięgał 4 m. Ewoluowały w plesiosaurów pod koniec triasu.",
+        "en": "Nothosauria (Triassic) is a transitional clade between terrestrial ancestors and Plesiosauria. They retained functional limbs for terrestrial locomotion; elongated body, long neck, and fish-catching teeth. Nothosaurus reached 4 m. They gave rise to plesiosaurs by the end of the Triassic."
+      }
+    },
+    "examples": {
+      "pl": "Nothosaurus, Lariosaurus",
+      "en": "Nothosaurus, Lariosaurus"
+    },
+    "startMa": 247,
+    "endMa": 201
+  },
+  {
+    "parentId": "sauropterygia",
+    "id": "plesiosauria",
+    "status": null,
+    "icon": "ic-shark",
+    "name": {
+      "pl": "Morskie Smoki",
+      "en": "Plesiosaurs"
+    },
+    "short": {
+      "kids": {
+        "pl": "Wielkie morskie gady — jedne z długą szyją, inne z ogromną głową!",
+        "en": "Great sea reptiles — some with a long neck, others with a massive head!"
+      },
+      "adults": {
+        "pl": "Plesiosauria: klad sauropterygi z płetwowymi kończynami; dwie linie — długo- i krótkoszyje.",
+        "en": "Plesiosauria: sauropterygian clade with flipper limbs; two lineages — long- and short-necked."
+      }
+    },
+    "detail": {
+      "kids": {
+        "pl": "Potwory morskie, które dzieliły się na dwa typy: jedne miały szyje tak długie, że wyglądały jak wąż połknięty przez żółwia, a inne miały ogromne głowy i krótkie szyje jak podwodny T-Rex!",
+        "en": "Sea monsters that came in two types: some had necks so long they looked like a snake swallowed by a turtle, while others had massive heads and short necks like an underwater T-Rex!"
+      },
+      "adults": {
+        "pl": "Plesiosauria (trias–kreda) to kladystycznie monofyletyczny klad sauropterygi z czterema płetwokształtnymi kończynami (cztery skrzydła do pływania). Żyworodne. Wymarły na K–Pg (66 Ma). Dzielą się na Plesiosauroidea (długoszyje) i Pliosauroidea (krótkoszyje, duże głowy).",
+        "en": "Plesiosauria (Triassic–Cretaceous) is a cladistically monophyletic sauropterygian clade with four flipper-like limbs (four-winged propulsion). Likely viviparous. Went extinct at K–Pg (66 Ma). Split into Plesiosauroidea (long-necked) and Pliosauroidea (short-necked, large head)."
+      }
+    },
+    "examples": null,
+    "startMa": 201,
+    "endMa": 66
+  },
+  {
+    "parentId": "plesiosauria",
+    "id": "plesiosauroidea",
+    "status": "extinct",
+    "icon": "ic-shark",
+    "name": {
+      "pl": "Długoszyje Morskie Smoki",
+      "en": "Long-necked plesiosaurs"
+    },
+    "short": {
+      "kids": {
+        "pl": "Szyja dłuższa niż tułów — polowały jak węże pod wodą!",
+        "en": "Neck longer than the body — they hunted like underwater snakes!"
+      },
+      "adults": {
+        "pl": "Plesiosauroidea: długoszyje plezjozaury z małą głową; Elasmosaurus, Cryptoclidus.",
+        "en": "Plesiosauroidea: long-necked plesiosaurs with a small head; Elasmosaurus, Cryptoclidus."
+      }
+    },
+    "detail": {
+      "kids": {
+        "pl": "Elasmosaurus miał szyję długą na 7 metrów — dłuższą niż całe jego ciało! Używał jej jak długiego węża, żeby łapać ryby szybkim uderzeniem z boku.",
+        "en": "Elasmosaurus had a neck 7 metres long — longer than its entire body! It used it like a long snake, catching fish with a sudden sideways strike."
+      },
+      "adults": {
+        "pl": "Plesiosauroidea obejmuje Plesiosauropoidea (Cryptoclididae, Elasmosauridae) z szyjami do 76 kręgów szyjnych. Elasmosaurus platyrurus miał 71 kręgów szyjnych — rekord wśród kręgowców. Polowały prawdopodobnie na płytkie ławice ryb i głowonogów.",
+        "en": "Plesiosauroidea includes Plesiosauropoidea (Cryptoclididae, Elasmosauridae) with necks of up to 76 cervical vertebrae. Elasmosaurus platyrurus had 71 cervical vertebrae — a vertebrate record. They likely hunted shallow schools of fish and cephalopods."
+      }
+    },
+    "examples": {
+      "pl": "Elasmosaurus, Plesiosaurus, Cryptoclidus",
+      "en": "Elasmosaurus, Plesiosaurus, Cryptoclidus"
+    },
+    "startMa": 199,
+    "endMa": 66
+  },
+  {
+    "parentId": "plesiosauria",
+    "id": "pliosauroidea",
+    "status": "extinct",
+    "icon": "ic-shark",
+    "name": {
+      "pl": "Morskie Tyranozaury",
+      "en": "Pliosaurs"
+    },
+    "short": {
+      "kids": {
+        "pl": "Krótka szyja, gigantyczna głowa z ogromną paszczą — T-Rex oceanu!",
+        "en": "Short neck, gigantic head with a massive jaw — the T-Rex of the ocean!"
+      },
+      "adults": {
+        "pl": "Pliosauroidea: krótkowszyje plezjozaury z wielką głową; Pliosaurus, Kronosaurus.",
+        "en": "Pliosauroidea: short-necked plesiosaurs with a massive head; Pliosaurus, Kronosaurus."
+      }
+    },
+    "detail": {
+      "kids": {
+        "pl": "Odwrotność plezjozaurów — krótka szyja, za to głowa jak łódka z kłami długości 30 cm! Kronosaurus był długi jak autobus szkolny i polował na wszystko w oceanie.",
+        "en": "The opposite of the long-necked plesiosaurs — short neck but a head the size of a boat with 30 cm fangs! Kronosaurus was as long as a school bus and hunted everything in the ocean."
+      },
+      "adults": {
+        "pl": "Pliosauroidea (Pliosauridae, Rhomaleosauridae) mają skróconą szyję i powiększoną czaszką adaptowaną do polowania na duże ofiary. Pliosaurus funkei (\"Predator X\") szacowany na 10–13 m. Kronosaurus queenslandicus miał 2,5-metrową głowę. Wymarły wcześniej niż Plesiosauroidea (~95 Ma).",
+        "en": "Pliosauroidea (Pliosauridae, Rhomaleosauridae) have a shortened neck and enlarged skull adapted for hunting large prey. Pliosaurus funkei (\"Predator X\") estimated at 10–13 m. Kronosaurus queenslandicus had a 2.5 m skull. Went extinct earlier than Plesiosauroidea (~95 Ma)."
+      }
+    },
+    "examples": {
+      "pl": "Kronosaurus, Pliosaurus, Liopleurodon",
+      "en": "Kronosaurus, Pliosaurus, Liopleurodon"
+    },
+    "startMa": 199,
+    "endMa": 95
+  },
+  {
+    "parentId": "squamata",
+    "id": "mosasauria",
+    "status": "extinct",
+    "icon": "ic-snake",
+    "name": {
+      "pl": "Jaszczury Kredowego Morza",
+      "en": "Mosasaurs"
+    },
+    "short": {
+      "kids": {
+        "pl": "Gigantyczne jaszczurki morskie — krewniaki waranów, nie dinozaurów!",
+        "en": "Giant sea lizards — relatives of monitor lizards, not dinosaurs!"
+      },
+      "adults": {
+        "pl": "Mosasauria: morskie wężokształtne łuskonośne; krewniaki Varanidae.",
+        "en": "Mosasauria: marine snake-like squamates; relatives of Varanidae."
+      }
+    },
+    "detail": {
+      "kids": {
+        "pl": "Mozazaury to gigantyczne jaszczurki, które wróciły do morza w kredzie! Nie dinozaury — bliżej spokrewnione z waranami i wężami. Mosasaurus był długi na 14 metrów. Pojawił się po wymarciu ichtiozaurów i zastąpił je w oceanie.",
+        "en": "Mosasaurs are giant lizards that returned to the sea in the Cretaceous! Not dinosaurs — more closely related to monitor lizards and snakes. Mosasaurus was 14 metres long. They appeared after ichthyosaurs went extinct and replaced them in the ocean."
+      },
+      "adults": {
+        "pl": "Mosasauria (kreda; ~100–66 Ma) wywodzi się od waranopodobnych jaszczurek (Aigialosauridae). Ciało wężokształtne z podwójnie zawiasową szczęką do połykania dużej zdobyczy. Tylne kończyny przekształcone w płetwy. Mosasaurus hoffmannii ok. 14 m. Wymarły na K–Pg.",
+        "en": "Mosasauria (Cretaceous; ~100–66 Ma) is derived from varanoid lizards (Aigialosauridae). Snake-like body with a doubly-hinged jaw for swallowing large prey. Hindlimbs converted to flippers. Mosasaurus hoffmannii ~14 m. Went extinct at K–Pg."
+      }
+    },
+    "examples": {
+      "pl": "Mosasaurus, Tylosaurus, Plotosaurus",
+      "en": "Mosasaurus, Tylosaurus, Plotosaurus"
+    },
+    "startMa": 98,
+    "endMa": 66
+  },
+  {
+    "parentId": "archosauria",
+    "id": "rhynchosauria",
+    "status": "extinct",
+    "icon": "ic-lizard",
+    "name": {
+      "pl": "Triasowe Ryje",
+      "en": "Rhynchosaurs"
+    },
+    "short": {
+      "kids": {
+        "pl": "Grube roślinożercy z sierpowatym dziobem — dominowały zanim przyszły dinozaury!",
+        "en": "Stocky plant-eaters with a sickle-like beak — they dominated before dinosaurs arrived!"
+      },
+      "adults": {
+        "pl": "Rhynchosauria: triasowe archozauromorfy roślinożercze z charakterystycznym dziobem.",
+        "en": "Rhynchosauria: Triassic herbivorous archosauromorphs with a characteristic hooked beak."
+      }
+    },
+    "detail": {
+      "kids": {
+        "pl": "Przed dinozaurami rządziły rynchaury! Krępe, podobne do grubych jaszczurek roślinożercy z haczykowatym dziobem do wyrywania paproci. Był ich tak dużo w triasie jak owiec na łące — aż do momentu gdy wyparły je dinozaury.",
+        "en": "Before dinosaurs, rhynchosaurs ruled! Stocky, fat-lizard-like plant-eaters with a hooked beak for ripping up ferns. They were as common in the Triassic as sheep on a meadow — until dinosaurs displaced them."
+      },
+      "adults": {
+        "pl": "Rhynchosauria (trias) to archozauromorfy spoza korony Archosauria. Charakterystyczny dwiukowy, sierpowaty dziób do skubania paproci. Były ekologicznie dominującymi roślinożercami środkowego triasu. Zastąpione przez dinozaury w późnym triasie; wymarły na przełomie trias–jura.",
+        "en": "Rhynchosauria (Triassic) are archosauromorphs outside crown Archosauria. Characteristic beak-like, sickle-shaped rostrum for cropping ferns. They were the ecologically dominant herbivores of the Middle Triassic. Replaced by dinosaurs in the Late Triassic; went extinct at the Triassic–Jurassic boundary."
+      }
+    },
+    "examples": {
+      "pl": "Rhynchosaurus, Hyperodapedon",
+      "en": "Rhynchosaurus, Hyperodapedon"
+    },
+    "startMa": 247,
+    "endMa": 201
+  },
+  {
+    "parentId": "dinosauria",
+    "id": "saurischia",
+    "status": null,
+    "icon": "ic-dino",
+    "name": {
+      "pl": "Gadziobiodre Dinozaury",
+      "en": "Saurischians"
+    },
+    "short": {
+      "kids": {
+        "pl": "Tu drzewo dinozaurów rozgałęzia się: jedna gałąź poszła w gigantów z długą szyją, druga — w drapieżniki na dwóch nogach. I ptaki!",
+        "en": "Here the dinosaur tree forks: one branch went for long-necked giants, the other for two-legged hunters — and birds!"
+      },
+      "adults": {
+        "pl": "Saurischia: trójpromieniowa miednica z pubisem skierowanym ku przodowi — kontrast do Ornithischia (pubis ku tyłowi). Tu dochodzi do rozejścia Sauropodomorpha (czworonożni roślinożercy, gigantyzm przez pneumatyzację kręgów) i Theropoda (dwunożność, linia ptaków).",
+        "en": "Saurischia: triradiate pelvis with pubis pointing forward — contrast to Ornithischia (pubis backwards). Here the divergence of Sauropodomorpha (quadrupedal herbivores, gigantism via vertebral pneumatisation) and Theropoda (bipedality, avian lineage)."
+      }
+    },
+    "detail": {
+      "kids": {
+        "pl": "W tym miejscu drzewo dinozaurów rozeszło się na dwa zupełnie inne pomysły. Jedna gałąź poszła w jak największe ciało i najdłuższą szyję — zostały zauropody. Druga gałąź postawiła na dwunożność i szybkość — zostały teropody, a z nich ptaki. Obie gałęzie łączy jedno: kość biodrowa skierowana do przodu.",
+        "en": "At this point the dinosaur tree split into two completely different ideas. One branch went for the biggest possible body and longest neck — sauropods. The other bet on two legs and speed — theropods, and from them birds. Both branches share one thing: the hip bone points forward."
+      },
+      "adults": {
+        "pl": "Saurischia (Seeley 1887) definiuje triradiatna miednica z pubisem przodem — odwrotnie do Ornithischia. Kluczowa innowacja linii Sauropodomorpha: pneumatyzacja kręgów szyjnych umożliwiająca gigantyzm bez krytycznego wzrostu masy. Linia Theropoda: dwunożność, postępowa miniaturyzacja prowadząca do Avialae. Paradoks: Aves należą do Saurischia mimo miednicy zbieżnej z Ornithischia.",
+        "en": "Saurischia (Seeley 1887) is defined by a triradiate pelvis with the pubis pointing forward — opposite to Ornithischia. Key innovation in the Sauropodomorpha lineage: cervical vertebra pneumatisation enabling gigantism without critical mass increase. Theropoda lineage: bipedality, progressive miniaturisation leading to Avialae. Paradox: Aves belong to Saurischia despite convergent pelvis morphology with Ornithischia."
+      }
+    },
+    "examples": null,
+    "startMa": 233,
+    "endMa": 0
+  },
+  {
+    "parentId": "sauropodomorpha",
+    "id": "prosauropoda",
+    "status": "extinct",
+    "icon": "ic-dino",
+    "name": {
+      "pl": "Pierwsze Długoszyje",
+      "en": "Prosauropods"
+    },
+    "short": {
+      "kids": {
+        "pl": "Dwunożni przodkowie gigantycznych zauropodów — jeszcze mniejsi!",
+        "en": "Bipedal ancestors of the giant sauropods — still smaller!"
+      },
+      "adults": {
+        "pl": "Prosauropoda: wczesne sauropodomorfy; dwunożne lub częściowo dwunożne; trias–jura.",
+        "en": "Prosauropoda: early sauropodomorphs; bipedal or semi-bipedal; Triassic–Jurassic."
+      }
+    },
+    "detail": {
+      "kids": {
+        "pl": "Pierwsi przodkowie wielkich zauropodów — ale jeszcze dużo mniejsi! Chodzili na dwóch nogach i mieli długą szyję. Płatozaur był wielkości konia. To oni pokazali, że długa szyja to świetny pomysł ewolucyjny.",
+        "en": "The first ancestors of the giant sauropods — but still much smaller! They walked on two legs and had a long neck. Plateosaurus was the size of a horse. They showed that a long neck was a great evolutionary idea."
+      },
+      "adults": {
+        "pl": "Prosauropoda (uwaga: prawdopodobnie parafiletyczne) to wcześnie rozgałęziające się sauropodomorfy triasu i jury. Obejmuje Plateosauridae (Plateosaurus, Massospondylus). Dwunożne lub częściowo dwunożne, do 10 m. Prekursorzy czworonożnych gigantów Sauropoda.",
+        "en": "Prosauropoda (note: likely paraphyletic) are early-diverging sauropodomorphs of the Triassic and Jurassic. Includes Plateosauridae (Plateosaurus, Massospondylus). Bipedal or semi-bipedal, up to 10 m. Precursors of the quadrupedal Sauropoda giants."
+      }
+    },
+    "examples": {
+      "pl": "Płatozaur, Massospondylus, Riojasaurus",
+      "en": "Plateosaurus, Massospondylus, Riojasaurus"
+    },
+    "startMa": 233,
+    "endMa": 180
+  },
+  {
+    "parentId": "sauropodomorpha",
+    "id": "sauropoda",
+    "status": "extinct",
+    "icon": "ic-dino",
+    "name": {
+      "pl": "Długoszyje Olbrzymy",
+      "en": "Sauropods"
+    },
+    "short": {
+      "kids": {
+        "pl": "Największe zwierzęta lądowe w historii Ziemi — czworonożne kolosy!",
+        "en": "The largest land animals in Earth's history — four-legged colossi!"
+      },
+      "adults": {
+        "pl": "Sauropoda: czworonożne sauropodomorfy z kolumnowymi nogami i wydłużoną szyją; do 80 ton.",
+        "en": "Sauropoda: quadrupedal sauropodomorphs with pillar-like legs and elongated neck; up to 80 tonnes."
+      }
+    },
+    "detail": {
+      "kids": {
+        "pl": "Rekordziści! Argentinosaurus ważył 80 ton i miał szyję jak pięć metrów autobusu. Diplodok był dłuższy niż trzy auta w rzędzie. Żeby wyżywić takie ciało, musiały jeść bez przerwy od rana do wieczora.",
+        "en": "Record-holders! Argentinosaurus weighed 80 tonnes and had a neck as long as five metres of a bus. Diplodocus was longer than three cars in a row. To feed such a body, they had to eat non-stop from morning to night."
+      },
+      "adults": {
+        "pl": "Sauropoda (trias–kreda) to czworonożny klad z kolumnowymi kończynami, mocno pneumatycznym kręgosłupem szyjnym (70% powietrza), zębami grabieżnikowymi lub szpatułkowatymi do zrywania liści bez żucia. Argentinosaurus (~80 t) prawdopodobnie największe zwierzę lądowe ever. Titanosauria dominowały w kredzie.",
+        "en": "Sauropoda (Triassic–Cretaceous) is a quadrupedal clade with pillar-like limbs, heavily pneumatised neck vertebrae (70% air), and peg-like or spatulate teeth for leaf-stripping without chewing. Argentinosaurus (~80 t) is likely the largest land animal ever. Titanosauria dominated the Cretaceous."
+      }
+    },
+    "examples": {
+      "pl": "Brachiozaur, Diplodok, Brontosaur, Argentinosaurus",
+      "en": "Brachiosaurus, Diplodocus, Brontosaurus, Argentinosaurus"
+    },
+    "startMa": 201,
+    "endMa": 66
+  },
+  {
+    "parentId": "thyreophora",
+    "id": "stegosauria",
+    "status": "extinct",
+    "icon": "ic-dino",
+    "name": {
+      "pl": "Dinozaury z Tarczami",
+      "en": "Stegosaurs"
+    },
+    "short": {
+      "kids": {
+        "pl": "Tarcze wzdłuż grzbietu i kolce na ogonie — własna zbroja najeżona!",
+        "en": "Plates along the back and spikes on the tail — their own spiky armour!"
+      },
+      "adults": {
+        "pl": "Stegosauria: thyreofory z rzędem kostnych tarcz grzbietowych i kolcami ogona.",
+        "en": "Stegosauria: thyreophorans with a row of dorsal bony plates and tail spines."
+      }
+    },
+    "detail": {
+      "kids": {
+        "pl": "Stegozaur miał dwa rzędy wielkich, romboidalnych tarcz wzdłuż grzbietu i cztery ostre kolce na ogonie — zwane thagomizerem. Mózg miał wielkości orzecha włoskiego! Tarcze były prawdopodobnie do ogrzewania się i komunikacji.",
+        "en": "Stegosaurus had two rows of large diamond-shaped plates along its back and four sharp spikes on its tail — called a thagomizer. Its brain was the size of a walnut! The plates were probably for thermoregulation and communication."
+      },
+      "adults": {
+        "pl": "Stegosauria (jura–wczesna kreda) cechuje alternujący lub parzysty rząd kostnych tarcz grzbietowych (osteoderma) i kolce ogonowe (thagomizer). Jura to szczyt różnorodności (Kentrosaurus, Stegosaurus). Mózg proporcjonalnie jeden z najmniejszych u dinozaurów. Wymieranie do wczesnej kredy.",
+        "en": "Stegosauria (Jurassic–Early Cretaceous) is defined by an alternating or paired row of dorsal bony plates (osteoderms) and tail spines (thagomizer). Jurassic was peak diversity (Kentrosaurus, Stegosaurus). Proportionally one of the smallest brains among dinosaurs. Extinct by the Early Cretaceous."
+      }
+    },
+    "examples": {
+      "pl": "Stegozaur, Kentrozaur, Huayangosaurus",
+      "en": "Stegosaurus, Kentrosaurus, Huayangosaurus"
+    },
+    "startMa": 165,
+    "endMa": 125
+  },
+  {
+    "parentId": "thyreophora",
+    "id": "ankylosauria",
+    "status": null,
+    "icon": "ic-dino",
+    "name": {
+      "pl": "Ankylozaury",
+      "en": "Ankylosaurs"
+    },
+    "short": {
+      "kids": {
+        "pl": "Ten sam pancerz, dwa różne pomysły obronne — jedni dorobili maczugę do ogona, drudzy kolce na bokach!",
+        "en": "Same armour, two different defensive ideas — some added a tail club, others grew lateral spines!"
+      },
+      "adults": {
+        "pl": "Ankylosauria: wspólny pancerz z osteoderma; linia dzieli się na aktywną obronę (maczuga ogonowa) vs bierną obronę z kolcami bocznymi.",
+        "en": "Ankylosauria: shared ostoderm armour; lineage splits into active defence (tail club) vs passive defence with lateral spines."
+      }
+    },
+    "detail": {
+      "kids": {
+        "pl": "Wszystkie ankylozaury miały pancerz — ale ewolucja poszła w dwie strony. Jedna gałąź dobudowała do ogona ciężką, kostną maczugę — broń aktywną do rozbijania nóg drapieżnika. Druga gałąź poszła w kolce boczne — pasywna obrona przed atakiem z boku. To klasyczny przykład jak jedna innowacja (pancerz) daje podstawę do dwóch różnych strategii.",
+        "en": "All ankylosaurs had armour — but evolution went two ways. One branch added a heavy bony club to the tail — an active weapon for breaking a predator's leg bones. The other branch went for lateral spines — passive defence against side attacks. A classic example of how one innovation (armour) spawns two different strategies."
+      },
+      "adults": {
+        "pl": "Ankylosauria rozgałęzia się według strategii obronnej: Ankylosauridae wykształciły osteodermalną maczugę ogonową (aktywna broń; biomechanicznie zdolna do złamania kości drapieżnika) ze zrośniętymi kręgami ogonowymi zapewniającymi sztywność. Nodosauridae bez maczugi — powiększone kolce barkowe i boczne. Oba klady: pancerz grzbietowy z osteoderma, u zaawansowanych form — opancerzone powieki.",
+        "en": "Ankylosauria splits according to defensive strategy: Ankylosauridae evolved an osteodermal tail club (active weapon; biomechanically capable of breaking a predator's bone) with fused tail vertebrae for rigidity. Nodosauridae lack a club — enlarged shoulder and lateral spines instead. Both clades: dorsal ostoderm armour; in advanced forms — armoured eyelids."
+      }
+    },
+    "examples": null,
+    "startMa": 168,
+    "endMa": 66
+  },
+  {
+    "parentId": "ankylosauria",
+    "id": "ankylosauridae",
+    "status": "extinct",
+    "icon": "ic-dino",
+    "name": {
+      "pl": "Ankylozaury z Maczugą",
+      "en": "Club-tailed ankylosaurs"
+    },
+    "short": {
+      "kids": {
+        "pl": "Pancerne dinozaury z ogromną maczugą na końcu ogona!",
+        "en": "Armoured dinosaurs with a huge bony club at the tip of their tail!"
+      },
+      "adults": {
+        "pl": "Ankylosauridae: ankylozaury z symetryczną maczugą ogonową; Ankylosaurus, Euoplocephalus.",
+        "en": "Ankylosauridae: ankylosaurs with a symmetrical tail club; Ankylosaurus, Euoplocephalus."
+      }
+    },
+    "detail": {
+      "kids": {
+        "pl": "Maczuga na ogonie to ich superbroń! Ważyła tyle co dorosły człowiek i uderzając w nogę drapieżnika mogła ją złamać. Ankylosaurus był niski jak sofa i szeroki jak samochód — nisko przy ziemi i nie do obrócenia.",
+        "en": "The tail club is their superweapon! It weighed as much as an adult human and could break a predator's leg bone. Ankylosaurus was as low as a sofa and as wide as a car — low to the ground and impossible to flip over."
+      },
+      "adults": {
+        "pl": "Ankylosauridae (jura–kreda) wyróżnia symetryczna maczuga ogonowa zbudowana z kilku zrośniętych osteoderma. Biomechaniczne symulacje wskazują uderzenie maczugi odpowiadające uderzeniu ciężkiego młota. Ankylosaurus magniventris (~7 m, ~8 t) — jeden z największych ankylozaurów.",
+        "en": "Ankylosauridae (Jurassic–Cretaceous) is defined by a symmetrical tail club formed from several fused osteoderms. Biomechanical simulations suggest club impacts equivalent to a heavy hammer blow. Ankylosaurus magniventris (~7 m, ~8 t) — one of the largest ankylosaurs."
+      }
+    },
+    "examples": {
+      "pl": "Ankylozaur, Euoplocephalus, Pinacosaurus",
+      "en": "Ankylosaurus, Euoplocephalus, Pinacosaurus"
+    },
+    "startMa": 122,
+    "endMa": 66
+  },
+  {
+    "parentId": "ankylosauria",
+    "id": "nodosauria",
+    "status": "extinct",
+    "icon": "ic-dino",
+    "name": {
+      "pl": "Nodozaury bez Maczugi",
+      "en": "Nodosaurs"
+    },
+    "short": {
+      "kids": {
+        "pl": "Pancerne dinozaury bez maczugi — ale z ostrymi kolcami na bokach!",
+        "en": "Armoured dinosaurs without a tail club — but with sharp spines on the sides!"
+      },
+      "adults": {
+        "pl": "Nodosauridae: ankylozaury bez maczugi ogonowej; boczne kolce u wielu form.",
+        "en": "Nodosauridae: ankylosaurs lacking a tail club; lateral spines in many forms."
+      }
+    },
+    "detail": {
+      "kids": {
+        "pl": "Nodozaury były jak żółwie z kolcami! Bez maczugi na ogonie, ale za to z ostrymi kolcami wyrastającymi z boków ciała. Borealopelta zachowała się tak dobrze, że wiemy jaki miała kolor — rdzawobrązowy z ciemniejszym grzbietem!",
+        "en": "Nodosaurs were like turtles with spines! No tail club, but with sharp spines growing from the sides of the body. Borealopelta is so well preserved that we know its colour — rusty brown with a darker back!"
+      },
+      "adults": {
+        "pl": "Nodosauridae (jura–kreda) pozbawione są maczugi ogonowej i posiadają szersze, bardziej sklepione czaszki niż Ankylosauridae. Często wyposażone w boczne kolce (Edmontonia, Sauropelta). Borealopelta markmitchelli z kredy Kanady zachowała melanosomy — możliwa rekonstrukcja barwy.",
+        "en": "Nodosauridae (Jurassic–Cretaceous) lack a tail club and have broader, more domed skulls than Ankylosauridae. Often equipped with lateral spines (Edmontonia, Sauropelta). Borealopelta markmitchelli from Cretaceous Canada preserved melanosomes — enabling colour reconstruction."
+      }
+    },
+    "examples": {
+      "pl": "Edmontonia, Sauropelta, Borealopelta",
+      "en": "Edmontonia, Sauropelta, Borealopelta"
+    },
+    "startMa": 155,
+    "endMa": 66
+  },
+  {
+    "parentId": "ornithischia",
+    "id": "pachycephalosauria",
+    "status": "extinct",
+    "icon": "ic-dino",
+    "name": {
+      "pl": "Grubogłowe Dinozaury",
+      "en": "Dome-headed dinosaurs"
+    },
+    "short": {
+      "kids": {
+        "pl": "Dinozaury z czaszką grubą jak kula do kręgli — boksowały się głowami!",
+        "en": "Dinosaurs with a skull as thick as a bowling ball — they headbutted each other!"
+      },
+      "adults": {
+        "pl": "Pachycephalosauria: marginocefale z masywnie pogrubionym sklepieniem czaszkowym.",
+        "en": "Pachycephalosauria: marginocephalians with a massively thickened cranial dome."
+      }
+    },
+    "detail": {
+      "kids": {
+        "pl": "Miały czaszki grube na 25 centymetrów — jak kaski na głowach! Walczyły między sobą uderzając się głowami o grzbiety lub boki rywali. Pachycephalosaurus miał głowę wielką jak balon i ważącą kilkanaście kilogramów.",
+        "en": "They had skulls 25 centimetres thick — like helmets on their heads! They fought by headbutting rivals in the flanks or back. Pachycephalosaurus had a head as big as a balloon weighing several kilograms."
+      },
+      "adults": {
+        "pl": "Pachycephalosauria (kreda) to dwunożne marginocefale z kopułą czaszkową z litej kości, do 25 cm grubości. Kopuła otoczona guzkami i kolcami. Debata o funkcji: walka na boki (flanki) lub frontalne boksowanie. Pachycephalosaurus wyomingensis — jedno z ostatnich przed K–Pg.",
+        "en": "Pachycephalosauria (Cretaceous) are bipedal marginocephalians with a solid bone cranial dome up to 25 cm thick. The dome is surrounded by knobs and spines. Debate over function: flank-butting or frontal head-to-head combat. Pachycephalosaurus wyomingensis — one of the last before K–Pg."
+      }
+    },
+    "examples": {
+      "pl": "Pachycephalosaurus, Stygimoloch, Dracorex",
+      "en": "Pachycephalosaurus, Stygimoloch, Dracorex"
+    },
+    "startMa": 133,
+    "endMa": 66
+  },
+  {
+    "parentId": "atlantogenata",
+    "id": "afrotheria",
+    "status": "survived",
+    "icon": "ic-mammal",
+    "name": {
+      "pl": "Ssaki z Afryki",
+      "en": "Afrotherians"
+    },
+    "short": {
+      "kids": {
+        "pl": "Afryka przez miliony lat była wyspą. Ssaki uwięzione na tej wyspie wyewoluowały osobno — i to ich łączy, nie wygląd.",
+        "en": "Africa was an island for millions of years. Mammals trapped on that island evolved in isolation — and that shared origin, not appearance, is what unites them."
+      },
+      "adults": {
+        "pl": "Afrotheria: brak synapomorfii morfologicznych — zdefiniowane wyłącznie molekularnie; radiacja w izolacji kontynentalnej Afryki ~90 Ma.",
+        "en": "Afrotheria: no morphological synapomorphies — defined exclusively by molecular data; radiation during African continental isolation ~90 Ma."
+      }
+    },
+    "detail": {
+      "kids": {
+        "pl": "Kiedy dinozaury wymierały, Afryka była odciętą wyspą — morze Tetydy oddzielało ją od Europy, a setki kilometrów oceanu od Ameryki Pd. Ssaki uwięzione na tej wyspie ewoluowały przez 60 milionów lat zupełnie osobno. Efekt: zwierzęta na pozór zupełnie różne są w rzeczywistości jedną rodziną. Genetyka to udowodniła, kiedy morfologia kompletnie by nas zmyliła.",
+        "en": "When dinosaurs were going extinct, Africa was a cut-off island — the Tethys Sea separated it from Europe, and hundreds of kilometres of ocean from South America. Mammals trapped on that island evolved for 60 million years in complete isolation. Result: animals that look completely different are actually one family. Genetics proved it when morphology would have completely misled us."
+      },
+      "adults": {
+        "pl": "Afrotheria nie ma morfologicznych synapomorfii — grupowanie wyłącznie molekularne (Murphy et al. 2001 i kolejne). Ewolucyjne wyjaśnienie: izolacja Afryki przez większość paleogenu (~60–34 Ma, morze Tetydy + rów wschodnioafrykański blokowały kontakt z Eurazją) wymusiła niezależną radiację adaptacyjną. Rezultat: konwergentna ewolucja nisz analogicznych do tych na innych kontynentach, bez wspólnego planu morfologicznego.",
+        "en": "Afrotheria has no morphological synapomorphies — grouping is exclusively molecular (Murphy et al. 2001 and subsequent studies). Evolutionary explanation: African isolation for most of the Palaeogene (~60–34 Ma, Tethys Sea + East African Rift blocked Eurasian contact) forced independent adaptive radiation. Result: convergent evolution of ecological niches analogous to those on other continents, without shared morphological body plans."
+      }
+    },
+    "examples": {
+      "pl": "Słoń, Manat, Hyraks",
+      "en": "Elephant, Manatee, Hyrax"
+    },
+    "startMa": 95,
+    "endMa": 0
+  },
+  {
+    "parentId": "atlantogenata",
+    "id": "xenarthra",
+    "status": "survived",
+    "icon": "ic-mammal",
+    "name": {
+      "pl": "Leniwce i Pancerniki",
+      "en": "Sloths & Armadillos"
+    },
+    "short": {
+      "kids": {
+        "pl": "Leniwce, pancerniki i mrówkojady — ssaki z Ameryki Południowej!",
+        "en": "Sloths, armadillos, and anteaters — mammals from South America!"
+      },
+      "adults": {
+        "pl": "Xenarthra: łożyskowce z charakterystycznymi dwuartykułowanymi kręgami lędźwiowymi.",
+        "en": "Xenarthra: placentals with characteristic xenarthrous (extra-articulated) lumbar vertebrae."
+      }
+    },
+    "detail": {
+      "kids": {
+        "pl": "Leniwce, pancerniki i mrówkojady to rodzina ksenartry — razem przez 80 milionów lat w izolowanej Ameryce Południowej. Leniwiec porusza się tak wolno, że rośnie mu na futrze zieleń z alg. Pancernik zrzuca się w kulkę. Mrówkojad nie ma zębów!",
+        "en": "Sloths, armadillos, and anteaters are the xenarthra family — together for 80 million years in isolated South America. A sloth moves so slowly that algae grow on its fur. An armadillo rolls into a ball. An anteater has no teeth!"
+      },
+      "adults": {
+        "pl": "Xenarthra (~31 gatunków) wyróżniają dodatkowe stawowe powierzchnie (xenarthrales) na kręgach lędźwiowych. Linia izolowana w Ameryce Pd. przez większość kenozoiku. Obejmuje Pilosa (leniwce + mrówkojady) i Cingulata (pancerniki). Dawne megafauny: Megatherium (leniwiec naziemny ~4t), Glyptodon (pancernik wielkości VW).",
+        "en": "Xenarthra (~31 species) are defined by additional articular facets (xenarthrales) on lumbar vertebrae. Lineage isolated in South America for most of the Cenozoic. Includes Pilosa (sloths + anteaters) and Cingulata (armadillos). Former megafauna: Megatherium (ground sloth ~4t), Glyptodon (armadillo the size of a VW)."
+      }
+    },
+    "examples": {
+      "pl": "Leniwiec, Mrówkojad, Pancernik",
+      "en": "Sloth, Anteater, Armadillo"
+    },
+    "startMa": 95,
+    "endMa": 0
+  },
+  {
+    "parentId": "boreoeutheria",
+    "id": "euarchontoglires",
+    "status": "survived",
+    "icon": "ic-mammal",
+    "name": {
+      "pl": "Naczelne i Gryzonie",
+      "en": "Euarchontoglires"
+    },
+    "short": {
+      "kids": {
+        "pl": "Tu drzewo rozgałęzia się: jedna gałąź poszła w chwytne łapy i wzrok przestrzenny, druga — w specjalne siekacze do gryzienia!",
+        "en": "Here the tree forks: one branch went for grasping hands and 3D vision, the other for specialised gnawing incisors!"
+      },
+      "adults": {
+        "pl": "Euarchontoglires: rozejście Euarchonta (chwytność, zamknięte orbity, naczelne) vs Glires (diastema, siekacze z ciągłym wzrostem, brak kłów).",
+        "en": "Euarchontoglires: divergence of Euarchonta (grasping, enclosed orbits, primates) vs Glires (diastema, ever-growing incisors, no canines)."
+      }
+    },
+    "detail": {
+      "kids": {
+        "pl": "W tym miejscu drzewo rozeszło się w dwie strony. Euarchonta — naczelne, tupaje i kolugos — postawiły na chwyt (kciuk przeciwstawny, paznokcie zamiast pazurów) i wzrok przestrzenny (oczy z przodu głowy). Glires — gryzonie i zające — postawiły na zęby: ogromne siekacze które rosną bez końca i nigdy się nie stępią, i lukę po kłach żeby efektywnie żuć. Dwie drogi z jednego przodka.",
+        "en": "At this point the tree split in two. Euarchonta — primates, treeshrews and colugos — bet on grip (opposable thumb, nails instead of claws) and 3D vision (eyes facing forward). Glires — rodents and hares — bet on teeth: huge incisors that never stop growing, and a gap where canines would be for effective chewing. Two roads from one ancestor."
+      },
+      "adults": {
+        "pl": "Euarchontoglires dzieli się na Euarchonta (Primates + Scandentia + Dermoptera; adaptacje arborealiczne, orbity częściowo lub całkowicie zamknięte, precyzja motoryczna) i Glires (Rodentia + Lagomorpha; diastema, siekacze z jednostronną emalią rosnące z otwartym korzeniem, brak kłów). Podział molekularnie silny — morfologicznie odzwierciedla dwie główne strategie żywieniowe.",
+        "en": "Euarchontoglires splits into Euarchonta (Primates + Scandentia + Dermoptera; arboreal adaptations, partly or fully enclosed orbits, fine motor precision) and Glires (Rodentia + Lagomorpha; diastema, single-sided enamel incisors with open root, absence of canines). Division molecularly strong — morphologically reflects two main feeding strategies."
+      }
+    },
+    "examples": {
+      "pl": "Szympans, Goryl, Mysz, Szczur, Zając",
+      "en": "Chimpanzee, Gorilla, Mouse, Rat, Rabbit"
+    },
+    "startMa": 88,
+    "endMa": 0
+  },
+  {
+    "parentId": "boreoeutheria",
+    "id": "laurasiatheria",
+    "status": "survived",
+    "icon": "ic-mammal",
+    "name": {
+      "pl": "Ssaki Laurazji",
+      "en": "Laurasiatherians"
+    },
+    "short": {
+      "kids": {
+        "pl": "Z jednego małego owadożercy po wymieraniu dinozaurów — miliony lat wystarczyły żeby powstały drapieżniki, wieloryby, konie i nietoperze. To jedna rodzina!",
+        "en": "From one small insect-eater after the dinosaur extinction — millions of years was enough for carnivores, whales, horses and bats to emerge. One family!"
+      },
+      "adults": {
+        "pl": "Laurasiatheria: laurazyjska radiacja po K-Pg; brak morfologicznych synapomorfii — efekt wyjątkowo szybkiej adaptacyjnej eksplozji; zdefiniowane molekularnie.",
+        "en": "Laurasiatheria: Laurasian radiation after K-Pg; no morphological synapomorphies — result of exceptionally rapid adaptive explosion; defined molecularly."
+      }
+    },
+    "detail": {
+      "kids": {
+        "pl": "66 milionów lat temu, gdy dinozaury zginęły, mały owadożerny ssak na północnych kontynentach zaczął zdobywać nowe nisze. Jego potomkowie poszli we wszystkich kierunkach: jedni stali się drapieżnikami, inni wrócili do morza i zostali wielorybami, jeszcze inni wyrośli skrzydła, a kolejni zostali końmi i krowami. Wszystkie te linie wywodzą się z tej jednej eksplozji po wymieraniu.",
+        "en": "66 million years ago, when dinosaurs died out, a small insectivorous mammal on the northern continents began claiming new niches. Its descendants went in every direction: some became carnivores, others returned to the sea and became whales, others grew wings, and still others became horses and cattle. All these lineages come from that one post-extinction explosion."
+      },
+      "adults": {
+        "pl": "Laurasiatheria definiowane molekularnie; brak jasnych morfologicznych synapomorfii — efekt wyjątkowo szybkiej radiacji po K-Pg. Laurazyjskie pochodzenie (Europameryka, Azja) kontrastuje z afrykańską izolacją Afrotheria i gondwańską Xenarthra. Radiacja ~66–55 Ma objęła skrajnie różne plany ciała bez wspólnej morfologicznej cechy definiującej.",
+        "en": "Laurasiatheria is defined molecularly; no clear morphological synapomorphies — the result of exceptionally rapid post-K-Pg radiation. Laurasian origin (Europamerica, Asia) contrasts with the African isolation of Afrotheria and Gondwanan Xenarthra. Radiation ~66–55 Ma produced extremely diverse body plans with no shared defining morphological feature."
+      }
+    },
+    "examples": {
+      "pl": "Lew, Wieloryb, Koń, Jeż, Łuskowiec",
+      "en": "Lion, Whale, Horse, Hedgehog, Pangolin"
+    },
+    "startMa": 88,
+    "endMa": 0
+  },
+  {
+    "parentId": "placentalia",
+    "id": "atlantogenata",
+    "status": null,
+    "icon": "ic-mammal",
+    "name": {
+      "pl": "Atlantogenata",
+      "en": "Atlantogenata"
+    },
+    "short": {
+      "kids": {
+        "pl": "Ssaki Afryki i Ameryki Pd. — razem zanim kontynenty się rozeszły!",
+        "en": "Mammals of Africa and South America — united before the continents split!"
+      },
+      "adults": {
+        "pl": "Atlantogenata: klad łożyskowców; Afrotheria + Xenarthra; siostrzana Boreoeutheria.",
+        "en": "Atlantogenata: placental clade; Afrotheria + Xenarthra; sister to Boreoeutheria."
+      }
+    },
+    "detail": {
+      "kids": {
+        "pl": "Kiedy Afryka i Ameryka Południowa były jeszcze częścią Gondwany, ich ssaki żyły razem. Potem kontynenty odpłynęły — ale ssaki zabrały ze sobą to pokrewieństwo. Dlatego słoń i leniwiec są bliżej spokrewnieni niż słoń i koń!",
+        "en": "When Africa and South America were still part of Gondwana, their mammals lived together. Then the continents drifted apart — but the mammals carried that kinship with them. That is why an elephant and a sloth are more closely related than an elephant and a horse!"
+      },
+      "adults": {
+        "pl": "Atlantogenata (analizy molekularne) łączy Afrotheria i Xenarthra jako grupę siostrzaną Boreoeutheria. Odzwierciedla izolację gondwańską: przodkowie obu kladów oddzielili się gdy Afryka i Ameryka Pd. dryfowały od Laurazji. Rozejście Atlantogenata/Boreoeutheria ~90–100 Ma.",
+        "en": "Atlantogenata (molecular analyses) unites Afrotheria and Xenarthra as the sister group to Boreoeutheria. It reflects Gondwanan isolation: ancestors of both clades split as Africa and South America drifted from Laurasia. Atlantogenata/Boreoeutheria split ~90–100 Ma."
+      }
+    },
+    "examples": null,
+    "startMa": 95,
+    "endMa": 0
+  },
+  {
+    "parentId": "placentalia",
+    "id": "boreoeutheria",
+    "status": null,
+    "icon": "ic-mammal",
+    "name": {
+      "pl": "Ssaki Laurazji i Północy",
+      "en": "Boreoeutheria"
+    },
+    "short": {
+      "kids": {
+        "pl": "Gdy świat się rozłamał, jedna gałąź łożyskowców osiedliła się na północy — i tam, po wymieraniu dinozaurów, rozwinęła się w prawie wszystkich dzisiejszych ssaków.",
+        "en": "When the world broke apart, one placental branch settled in the north — and there, after the dinosaur extinction, evolved into nearly all living mammals today."
+      },
+      "adults": {
+        "pl": "Boreoeutheria: klad łożyskowców laurazyjskich; ~94% gatunków Placentalia; rozejście od Atlantogenata ~90–100 Ma; tu następuje podział na dwie odrębne strategie adaptacyjne.",
+        "en": "Boreoeutheria: Laurasian placental clade; ~94% of Placentalia species; split from Atlantogenata ~90–100 Ma; here the divergence into two distinct adaptive strategies."
+      }
+    },
+    "detail": {
+      "kids": {
+        "pl": "Gdy kontynenty rozchodziły się w kredzie, jedna gałąź łożyskowców osadziła się na północnych lądach — dawnej Laurazji. Stamtąd, po wymieraniu dinozaurów, zdobyły prawie cały świat. Tu drzewo rozgałęzia się na dwie linie: jedną idącą w kierunku chwytności i dużych mózgów, drugą — w kierunku ogromnej różnorodności planów ciała.",
+        "en": "As continents drifted apart in the Cretaceous, one placental branch settled on the northern lands — ancient Laurasia. From there, after the dinosaur extinction, they conquered nearly the whole world. Here the tree forks into two lines: one heading towards grasping and large brains, the other towards enormous diversity of body plans."
+      },
+      "adults": {
+        "pl": "Boreoeutheria (~94% łożyskowców) to klad siostrzany Atlantogenata, wyodrębniony ~90–100 Ma. Definiowany molekularnie; brak silnych synapomorfii morfologicznych — efekt szybkiej wewnętrznej radiacji. Rozejście wewnętrzne: Euarchontoglires (strategie primatoid + glires) i Laurasiatheria (szybka radiacja laurazyjska po K-Pg).",
+        "en": "Boreoeutheria (~94% of placentals) is the sister clade to Atlantogenata, diverging ~90–100 Ma. Defined molecularly; no strong morphological synapomorphies due to rapid internal radiation. Internal split: Euarchontoglires (primatoid + glires strategies) and Laurasiatheria (rapid Laurasian post-K-Pg radiation)."
+      }
+    },
+    "examples": null,
+    "startMa": 95,
+    "endMa": 0
+  },
+  {
+    "id": "therapsida",
+    "parentId": "synapsida",
+    "status": null,
+    "icon": "ic-mammal",
+    "name": {
+      "pl": "Terapsydy",
+      "en": "Therapsids"
+    },
+    "short": {
+      "kids": {
+        "pl": "Wyprostowane nogi, większe mózgi — ogromny krok w stronę ssaków! Tu rozgałęziły się drapieżniki, roślinożercy i przodkowie ssaków.",
+        "en": "Upright legs, bigger brains — a huge step toward mammals! Here predators, herbivores and mammal ancestors diverged."
+      },
+      "adults": {
+        "pl": "Therapsida: zaawansowane synapsydy permu–triasu; wyprostowana postawa; linia rozgałęzia się na Gorgonopsia, Dicynodontia i Cynodontia.",
+        "en": "Therapsida: advanced Permian–Triassic synapsids; upright stance; lineage splits into Gorgonopsia, Dicynodontia and Cynodontia."
+      }
+    },
+    "detail": {
+      "kids": {
+        "pl": "Terapsydy to synapsydy 'nowej generacji' — miały wyprostowane nogi pod ciałem zamiast rozstawionych jak u jaszczurek. Mogły szybciej biegać! W tej grupie były i straszne drapieżniki jak gorgonosy, i spokojne roślinożercy jak dicynodonty, i cynodonty — przodkowie ssaków. Gdy nastała era dinozaurów, tylko cynodonty przeżyły — i to z nich powstały ssaki.",
+        "en": "Therapsids are 'next-gen' synapsids — they had upright legs beneath their body instead of sprawled out like lizards. They could run faster! This group had terrifying predators like gorgonopsids, peaceful herbivores like dicynodonts, and cynodonts — the ancestors of mammals. When the age of dinosaurs began, only cynodonts survived — and mammals descended from them."
+      },
+      "adults": {
+        "pl": "Therapsida wyewoluowały z pelykozaurów we wczesnym permie (~270 Ma). Kluczowe synapomorfie: wyprostowana postawa kończyn (kolumnowa zamiast rozpostartej), zróżnicowanie uzębienia (heterodonty). Trzy główne linie: Gorgonopsia (permskie apeksowe drapieżniki), Dicynodontia (dominujące permsko-triasowe roślinożercy z kłami i dziobem), Cynodontia (linia prowadząca do Mammalia). Radiacja terapsydów dominowała lądową faunę od środkowego permu do triasu.",
+        "en": "Therapsida evolved from pelycosaurs in the early Permian (~270 Ma). Key synapomorphies: upright limb posture (columnar rather than sprawled), tooth differentiation (heterodonty). Three main lineages: Gorgonopsia (Permian apex predators), Dicynodontia (dominant Permian-Triassic herbivores with tusks and beak), Cynodontia (the lineage leading to Mammalia). Therapsid radiation dominated terrestrial faunas from the middle Permian through the Triassic."
+      }
+    },
+    "examples": null,
+    "startMa": 270,
+    "endMa": 0
+  },
+  {
+    "id": "gorgonopsia",
+    "parentId": "therapsida",
+    "status": "extinct",
+    "icon": "ic-mammal",
+    "name": {
+      "pl": "Gorgonosy",
+      "en": "Gorgonopsids"
+    },
+    "short": {
+      "kids": {
+        "pl": "Permskie lwy z kłami szabli! Rządziły Ziemią zanim pojawił się jakikolwiek dinozaur.",
+        "en": "Permian lions with sabre teeth! They ruled Earth before any dinosaur existed."
+      },
+      "adults": {
+        "pl": "Gorgonopsia: apeksowe drapieżniki późnego permu (~265–252 Ma); kły sablopodobne; wyginęły w wymieraniu P-Tr.",
+        "en": "Gorgonopsia: late Permian apex predators (~265–252 Ma); sabre-like canines; extinct at the P-Tr boundary."
+      }
+    },
+    "detail": {
+      "kids": {
+        "pl": "Przed dinozaurami Ziemią rządziły gorgonosy — wielkie drapieżniki z ogromnymi kłami i sylwetką jak lew. Inostrancevia mogła mieć ponad 3 metry długości! Goniły dicynodonty przez permskie czerwone pustkowia. Kiedy nastało Wielkie Wymieranie na końcu permu — razem z 96% życia na Ziemi — wyginęły wszystkie. Nie doczekały żadnego dinozaura.",
+        "en": "Before the dinosaurs, Earth was ruled by gorgonopsids — huge predators with enormous fangs and a lion-like build. Inostrancevia could be over 3 metres long! They chased dicynodonts across the red Permian wastelands. When the Great Dying hit at the end of the Permian — wiping out 96% of all life on Earth — every one went extinct. They never saw a single dinosaur."
+      },
+      "adults": {
+        "pl": "Gorgonopsia to apeksowe drapieżniki późnego permu (~265–252 Ma) z silnie wydłużonymi kłami. Największe: Inostrancevia alexandri (~3.5 m, Rosja), Rubidgea (RPA). Polowały głównie na dicynodonty i inne therapsydy. Wyginęły w wymieraniu permsko-triasowym (~252 Ma), eliminującym ~96% gatunków morskich i ~70% lądowych. Brak bezpośrednich potomków — ewolucyjna linia ślepa.",
+        "en": "Gorgonopsia were apex predators of the late Permian (~265–252 Ma) with greatly enlarged canine teeth. Largest forms: Inostrancevia alexandri (~3.5 m, Russia), Rubidgea (South Africa). They preyed primarily on dicynodonts and other therapsids. All went extinct at the Permian-Triassic extinction (~252 Ma), eliminating ~96% of marine and ~70% of terrestrial species. No descendants — a complete evolutionary dead end."
+      }
+    },
+    "examples": {
+      "pl": "Inostrancevia, Lycaenops, Rubidgea",
+      "en": "Inostrancevia, Lycaenops, Rubidgea"
+    },
+    "startMa": 265,
+    "endMa": 252
   }
 ]
