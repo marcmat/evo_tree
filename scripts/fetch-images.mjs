@@ -44,11 +44,20 @@ const FILE_OVERRIDES = {
   theropoda: 'File:Tyrannosaurus rex Reconstruction by Nobu Tamura.jpg',
   thyreophora: "File:Nobu Tamura's Scutellosaurus Mirrored.jpg",
   // Ancient stand-ins the ranking could not find on its own.
-  afrotheria: 'File:Moeritherium recon.jpg',
   lacertilia: 'File:Schoenesmahl.png',
   squamata: 'File:Cryptolacerta.png',
-  cephalochordata: 'File:Cathaymyrus diacodexis.jpg',
   sauropterygia: 'File:Keichousaurus BW.jpg',
+  // Replacements for pictures that showed only a head, sat too dark, or were
+  // nineteenth-century paintings rather than current restorations.
+  afrotheria: 'File:Moeritherium NT crop.jpg',
+  ichthyosauria: 'File:Stenopterygius triscissus SW.png',
+  testudines: 'File:Proganochelys model.jpg',
+  mosasauria: 'File:Mosasaurus missouriensis NT.png',
+  ornithischia: 'File:Lesothosaurus diagnosticus.png',
+  ankylosauria: 'File:Gargoyleosaurus drinking.png',
+  cephalochordata: 'File:Branchiostoma lanceolatum.jpg',
+  // "Velociraptor" returned an F-22 fighter jet.
+  dromaeosauridae: 'File:Deinonychus BW.jpg',
 };
 
 /** Subject for pins whose filename leads with the artist, not the genus. */

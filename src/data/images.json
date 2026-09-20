@@ -12,12 +12,12 @@
   "afrotheria": {
     "file": "afrotheria.jpg",
     "subject": "Moeritherium",
-    "author": "Ghedo",
+    "author": "Nobu Tamura",
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Moeritherium_recon.jpg",
-    "width": 500,
-    "height": 457
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Moeritherium_NT_crop.jpg",
+    "width": 496,
+    "height": 233
   },
   "agnatha": {
     "file": "agnatha.jpg",
@@ -28,6 +28,16 @@
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ostracoderm_digital_recreation..jpg",
     "width": 500,
     "height": 320
+  },
+  "allosauroidea": {
+    "file": "allosauroidea.jpg",
+    "subject": "Allosaurus",
+    "author": "Fred Wierum",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Allosaurus_Juvenile_Reconstruction.jpg",
+    "width": 500,
+    "height": 347
   },
   "amniota": {
     "file": "amniota.jpg",
@@ -79,16 +89,6 @@
     "width": 500,
     "height": 210
   },
-  "atlantogenata": {
-    "file": "atlantogenata.png",
-    "subject": "Ocepeia",
-    "author": "Charléne Letenneur",
-    "license": "CC BY 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ocepeia_head_restoration_PLoS_ONE.png",
-    "width": 500,
-    "height": 383
-  },
   "aves": {
     "file": "aves.jpg",
     "subject": "Archaeopteryx",
@@ -111,13 +111,13 @@
   },
   "cephalochordata": {
     "file": "cephalochordata.jpg",
-    "subject": "Cathaymyrus",
-    "author": "Apokryltaros",
+    "subject": "Branchiostoma",
+    "author": "Hans Hillewaert",
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cathaymyrus_diacodexis.jpg",
-    "width": 371,
-    "height": 500
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Branchiostoma_lanceolatum.jpg",
+    "width": 500,
+    "height": 396
   },
   "ceratopsia": {
     "file": "ceratopsia.jpg",
@@ -128,6 +128,16 @@
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:TriceratopsFernForest.jpg",
     "width": 500,
     "height": 333
+  },
+  "ceratosauria": {
+    "file": "ceratosauria.jpg",
+    "subject": "Ceratosaurus",
+    "author": "NobuTamura email:nobu.tamura@yahoo.com",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ceratosaurus_NT.jpg",
+    "width": 500,
+    "height": 239
   },
   "chondrichthyes": {
     "file": "chondrichthyes.jpg",
@@ -158,6 +168,16 @@
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Macropoma_1848.png",
     "width": 500,
     "height": 228
+  },
+  "coelurosauria": {
+    "file": "coelurosauria.jpg",
+    "subject": "Compsognathus",
+    "author": "Nobu Tamura (http://spinops.blogspot.com)",
+    "license": "CC BY 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Compsognathus_BW.jpg",
+    "width": 500,
+    "height": 247
   },
   "crocodylomorpha": {
     "file": "crocodylomorpha.jpg",
@@ -198,6 +218,16 @@
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nyasasaurus_TD.png",
     "width": 500,
     "height": 250
+  },
+  "dromaeosauridae": {
+    "file": "dromaeosauridae.jpg",
+    "subject": "Deinonychus",
+    "author": "Nobu Tamura (http://spinops.blogspot.com)",
+    "license": "CC BY 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Deinonychus_BW.jpg",
+    "width": 500,
+    "height": 394
   },
   "euarchontoglires": {
     "file": "euarchontoglires.jpg",
@@ -250,14 +280,14 @@
     "height": 457
   },
   "ichthyosauria": {
-    "file": "ichthyosauria.jpg",
-    "subject": "Ichthyosaurus",
-    "author": "Heinrich Harder (1858–1935)",
-    "license": "Public domain",
-    "licenseUrl": "https://commons.wikimedia.org",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mosasaurus_ichthyosaurus.jpg",
+    "file": "ichthyosauria.png",
+    "subject": "Stenopterygius",
+    "author": "Slate Weasel",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Stenopterygius_triscissus_SW.png",
     "width": 500,
-    "height": 380
+    "height": 186
   },
   "lacertilia": {
     "file": "lacertilia.png",
@@ -309,6 +339,16 @@
     "width": 500,
     "height": 244
   },
+  "maniraptora": {
+    "file": "maniraptora.png",
+    "subject": "Oviraptor",
+    "author": "PaleoNeolitic",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Oviraptor_Restoration.png",
+    "width": 500,
+    "height": 345
+  },
   "marsupialia": {
     "file": "marsupialia.jpg",
     "subject": "Didelphodon",
@@ -330,14 +370,14 @@
     "height": 319
   },
   "mosasauria": {
-    "file": "mosasauria.jpg",
+    "file": "mosasauria.png",
     "subject": "Mosasaurus",
-    "author": "Heinrich Harder (1858–1935)",
-    "license": "Public domain",
-    "licenseUrl": "https://commons.wikimedia.org",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mosasaurus_ichthyosaurus.jpg",
+    "author": "Nobu Tamura email:nobu.tamura@yahoo.com http://spinops.blogspot.com/",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mosasaurus_missouriensis_NT.png",
     "width": 500,
-    "height": 380
+    "height": 277
   },
   "multituberculata": {
     "file": "multituberculata.jpg",
@@ -622,12 +662,12 @@
   "testudines": {
     "file": "testudines.jpg",
     "subject": "Proganochelys",
-    "author": "Stanton F. Fink",
-    "license": "CC BY 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Proganochelys_quenstedtii.jpg",
+    "author": "Ghedoghedo",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Proganochelys_model.jpg",
     "width": 500,
-    "height": 661
+    "height": 375
   },
   "tetrapodomorpha": {
     "file": "tetrapodomorpha.jpg",
@@ -668,6 +708,26 @@
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nobu_Tamura%27s_Scutellosaurus_Mirrored.jpg",
     "width": 500,
     "height": 151
+  },
+  "troodontidae": {
+    "file": "troodontidae.jpg",
+    "subject": "Troodon",
+    "author": "Conty",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Troodon_formosus_(feathers).JPG",
+    "width": 500,
+    "height": 335
+  },
+  "tyrannosauroidea": {
+    "file": "tyrannosauroidea.jpg",
+    "subject": "Tyrannosaurus",
+    "author": "Nobu Tamura",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tyrannosaurus_rex_Reconstruction_by_Nobu_Tamura.jpg",
+    "width": 500,
+    "height": 202
   },
   "urodela": {
     "file": "urodela.jpg",

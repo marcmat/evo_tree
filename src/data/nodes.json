@@ -1242,52 +1242,6 @@
     }
   },
   {
-    "parentId": "theropoda",
-    "id": "aves",
-    "status": "survived",
-    "icon": "ic-bird",
-    "name": {
-      "pl": "Ptaki",
-      "en": "Birds"
-    },
-    "short": {
-      "kids": {
-        "pl": "Jedyne żyjące dinozaury — z piórami i pustymi kośćmi do latania!",
-        "en": "The only living dinosaurs — with feathers and hollow bones for flight!"
-      },
-      "adults": {
-        "pl": "Aves: klad dinozaurów maniraptorowych; ok. 10 000 żyjących gatunków.",
-        "en": "Aves: maniraptoran dinosaur clade; ~10,000 living species."
-      }
-    },
-    "detail": {
-      "kids": {
-        "pl": "Jedyna grupa dinozaurów, która przetrwała! Wyrosły im pióra, a ich kości stały się puste w środku i lekkie, dzięki czemu potrafią latać w powietrzu.",
-        "en": "The only group of dinosaurs that survived! They grew feathers, and their bones became hollow and light, allowing them to fly through the air."
-      },
-      "adults": {
-        "pl": "Aves wyewoluowały z maniraptorów (Theropoda) w jurze; Archaeopteryx (ok. 150 Ma) jest kluczową formą przejściową. Synapomorfie obejmują pióra, mostek z wyrostkiem dziobiastym, kręgosłup furkularny (widełka) i pneumatyzację kości. Neornithes przeżyły K–Pg i zdywersyfikowały się w ~40 rzędów.",
-        "en": "Aves evolved from maniraptorans (Theropoda) in the Jurassic; Archaeopteryx (~150 Ma) is the key transitional form. Synapomorphies include pennaceous feathers, keeled sternum, furcula (wishbone), and pneumatised bones. Neornithes survived K–Pg and diversified into ~40 orders."
-      }
-    },
-    "examples": {
-      "pl": "Wróble, Orły, Kury, Pingwiny",
-      "en": "Sparrows, Eagles, Chickens, Penguins"
-    },
-    "startMa": 150,
-    "endMa": 0,
-    "distinction": {
-      "kids": {
-        "pl": "Pióra przestały służyć tylko do ogrzewania i zaczęły nosić w powietrzu. Do tego widełki w piersi.",
-        "en": "Feathers stopped being just for warmth and started carrying them through the air. Plus a wishbone."
-      },
-      "adults": {
-        "pl": "Pióra konturowe o asymetrycznej chorągiewce umożliwiające lot czynny, furkula i mostek z grzebieniem jako przyczep mięśni lotnych.",
-        "en": "Asymmetric pennaceous feathers enabling powered flight, a furcula, and a keeled sternum anchoring the flight muscles."
-      }
-    }
-  },
-  {
     "parentId": "lissamphibia",
     "id": "anura",
     "status": "survived",
@@ -1915,8 +1869,8 @@
       }
     },
     "examples": {
-      "pl": "Tyranozaur, Welociraptor, Allozaur",
-      "en": "Tyrannosaurus, Velociraptor, Allosaurus"
+      "pl": "Celofyz, Dilofozaur",
+      "en": "Coelophysis, Dilophosaurus"
     },
     "startMa": 231,
     "endMa": 0,
@@ -1928,6 +1882,374 @@
       "adults": {
         "pl": "Pneumatyzacja kości długich i kręgów, trójpalczasta chwytna ręka oraz zęby ziftodontyczne; obligatoryjna dwunożność.",
         "en": "Pneumatised long bones and vertebrae, a three-fingered grasping hand and ziphodont teeth; obligate bipedality."
+      }
+    }
+  },
+  {
+    "parentId": "theropoda",
+    "id": "ceratosauria",
+    "startMa": 201,
+    "endMa": 66,
+    "status": "extinct",
+    "icon": "ic-dino",
+    "name": {
+      "pl": "Ceratozaury",
+      "en": "Ceratosaurs"
+    },
+    "short": {
+      "kids": {
+        "pl": "Drapieżniki z rogami i guzami na głowie, o krótkich, słabych rączkach.",
+        "en": "Predators with horns and bumps on the head, and short, weak arms."
+      },
+      "adults": {
+        "pl": "Ceratosauria: bazalna linia teropodów z ornamentacją czaszki i silnie zredukowaną kończyną przednią.",
+        "en": "Ceratosauria: a basal theropod lineage with cranial ornament and strongly reduced forelimbs."
+      }
+    },
+    "detail": {
+      "kids": {
+        "pl": "Nosiły rogi i grzebienie na głowie — pewnie po to, żeby się popisywać przed innymi. Ich rączki skurczyły się tak bardzo, że u Karnotaura były krótsze niż ludzka dłoń i do niczego już nie służyły.",
+        "en": "They wore horns and crests on the head, probably to show off to each other. Their arms shrank so much that in Carnotaurus they were shorter than a human hand and no longer useful."
+      },
+      "adults": {
+        "pl": "Ceratosauria obejmuje Ceratosaurus, Abelisauridae (Carnotaurus, Majungasaurus) i Noasauridae. Cechy: ornamentacja czaszki, zrośnięte kości miednicy, skrajna redukcja kończyny przedniej u abelizaurydów. Dominowały na kontynentach Gondwany po rozpadzie Pangei.",
+        "en": "Ceratosauria includes Ceratosaurus, Abelisauridae (Carnotaurus, Majungasaurus) and Noasauridae. Features: cranial ornament, fused pelvic bones, extreme forelimb reduction in abelisaurids. They dominated the Gondwanan landmasses after Pangaea broke up."
+      }
+    },
+    "distinction": {
+      "kids": {
+        "pl": "Rogi na głowie i rączki tak małe, że nie dosięgały pyska.",
+        "en": "Horns on the head and arms so small they could not reach the mouth."
+      },
+      "adults": {
+        "pl": "Ornamentacja czaszki przy skrajnej redukcji kończyny przedniej — u abelizaurydów kość ramienna jest dłuższa niż cała reszta łapy.",
+        "en": "Cranial ornament combined with extreme forelimb reduction — in abelisaurids the humerus is longer than the whole rest of the arm."
+      }
+    },
+    "examples": {
+      "pl": "Ceratosaurus, Karnotaur, Majungasaurus",
+      "en": "Ceratosaurus, Carnotaurus, Majungasaurus"
+    }
+  },
+  {
+    "parentId": "theropoda",
+    "id": "allosauroidea",
+    "startMa": 175,
+    "endMa": 89,
+    "status": "extinct",
+    "icon": "ic-dino",
+    "name": {
+      "pl": "Allozaury",
+      "en": "Allosauroids"
+    },
+    "short": {
+      "kids": {
+        "pl": "Wielkie drapieżniki jury i wczesnej kredy — największe przed tyranozaurem.",
+        "en": "Great predators of the Jurassic and Early Cretaceous — the largest before Tyrannosaurus."
+      },
+      "adults": {
+        "pl": "Allosauroidea: klad wielkich tetanurów z wydłużoną czaszką i trójpalczastą, chwytną ręką.",
+        "en": "Allosauroidea: a clade of large tetanurans with an elongated skull and a three-fingered grasping hand."
+      }
+    },
+    "detail": {
+      "kids": {
+        "pl": "Zanim pojawił się tyranozaur, to one rządziły. Giganotozaur był nawet od niego dłuższy! W odróżnieniu od tyranozaura miały długie, silne ręce z trzema wielkimi pazurami, którymi przytrzymywały zdobycz.",
+        "en": "Before Tyrannosaurus appeared, these ruled. Giganotosaurus was even longer than it! Unlike Tyrannosaurus they had long, strong arms with three big claws for holding prey."
+      },
+      "adults": {
+        "pl": "Allosauroidea obejmuje Allosauridae, Carcharodontosauridae (Giganotosaurus, Carcharodontosaurus) i Metriacanthosauridae. Czaszka wydłużona i bocznie spłaszczona, zęby przypominające ostrza noża, ręka trójpalczasta z dużymi pazurami. Największe formy przekraczały 13 m.",
+        "en": "Allosauroidea includes Allosauridae, Carcharodontosauridae (Giganotosaurus, Carcharodontosaurus) and Metriacanthosauridae. The skull is long and laterally compressed, the teeth blade-like, the hand three-fingered with large claws. The largest forms exceeded 13 m."
+      }
+    },
+    "distinction": {
+      "kids": {
+        "pl": "Długie ręce z trzema wielkimi pazurami — zupełnie inaczej niż u tyranozaura.",
+        "en": "Long arms with three big claws — quite unlike Tyrannosaurus."
+      },
+      "adults": {
+        "pl": "Zachowana funkcjonalna, trójpalczasta kończyna przednia przy gigantycznych rozmiarach ciała, w przeciwieństwie do redukcji u tyranozauroidów.",
+        "en": "A functional three-fingered forelimb retained at gigantic body size, in contrast to the reduction seen in tyrannosauroids."
+      }
+    },
+    "examples": {
+      "pl": "Allozaur, Giganotozaur, Karcharodontozaur",
+      "en": "Allosaurus, Giganotosaurus, Carcharodontosaurus"
+    }
+  },
+  {
+    "parentId": "theropoda",
+    "id": "coelurosauria",
+    "startMa": 170,
+    "endMa": 0,
+    "status": null,
+    "icon": "ic-dino",
+    "name": {
+      "pl": "Celurozaury",
+      "en": "Coelurosaurs"
+    },
+    "short": {
+      "kids": {
+        "pl": "Lekkie, szybkie teropody — to w tej grupie pojawiły się pióra.",
+        "en": "Light, fast theropods — this is the group where feathers appeared."
+      },
+      "adults": {
+        "pl": "Coelurosauria: klad tetanurów obejmujący tyranozaury, maniraptory i ptaki; pierwsze pewne pióra.",
+        "en": "Coelurosauria: the tetanuran clade containing tyrannosaurs, maniraptorans and birds; the first certain feathers."
+      }
+    },
+    "detail": {
+      "kids": {
+        "pl": "Tu wydarzyła się najważniejsza rzecz w historii dinozaurów: wyrosły im pióra! Na początku wcale nie służyły do latania, tylko do ogrzewania się i do popisywania. Dopiero znacznie później któraś z tych grup nauczyła się z nich korzystać w powietrzu.",
+        "en": "The most important thing in dinosaur history happened here: they grew feathers! At first these were not for flying at all, but for warmth and for showing off. Only much later did one of these groups learn to use them in the air."
+      },
+      "adults": {
+        "pl": "Coelurosauria wyróżnia powiększona puszka mózgowa, wydłużone kończyny przednie i pierwsze potwierdzone struktury piórowe (Sinosauropteryx, Yutyrannus). Klad obejmuje Tyrannosauroidea, Ornithomimosauria, Therizinosauria i Maniraptora, a przez tę ostatnią — wszystkie żyjące ptaki.",
+        "en": "Coelurosauria is marked by an enlarged braincase, elongated forelimbs and the first confirmed feather structures (Sinosauropteryx, Yutyrannus). The clade contains Tyrannosauroidea, Ornithomimosauria, Therizinosauria and Maniraptora, and through the latter every living bird."
+      }
+    },
+    "distinction": {
+      "kids": {
+        "pl": "Pierwsze pióra w historii — jeszcze nie do latania, tylko dla ciepła.",
+        "en": "The first feathers in history — not for flight yet, just for warmth."
+      },
+      "adults": {
+        "pl": "Pierwsze potwierdzone skamieniałościami struktury piórowe oraz powiększenie mózgoczaszki względem pozostałych tetanurów.",
+        "en": "The first feather structures confirmed by fossils, plus an enlarged braincase relative to other tetanurans."
+      }
+    },
+    "examples": {
+      "pl": "Kompsognat, Sinosauropteryx, Ornitomim",
+      "en": "Compsognathus, Sinosauropteryx, Ornithomimus"
+    }
+  },
+  {
+    "parentId": "coelurosauria",
+    "id": "tyrannosauroidea",
+    "startMa": 168,
+    "endMa": 66,
+    "status": "extinct",
+    "icon": "ic-dino",
+    "name": {
+      "pl": "Tyranozaury",
+      "en": "Tyrannosauroids"
+    },
+    "short": {
+      "kids": {
+        "pl": "Zaczynały jako zwierzęta wielkości psa, skończyły jako największe drapieżniki lądu.",
+        "en": "They began dog-sized and ended as the largest land predators."
+      },
+      "adults": {
+        "pl": "Tyrannosauroidea: klad celurozaurów o zredukowanej dwupalczastej ręce i czaszce przystosowanej do miażdżenia kości.",
+        "en": "Tyrannosauroidea: a coelurosaur clade with a reduced two-fingered hand and a skull built for crushing bone."
+      }
+    },
+    "detail": {
+      "kids": {
+        "pl": "Pierwsze tyranozaury były małe jak pies i miały pióra — Guanlong ważył tyle co duży owczarek. Dopiero po stu milionach lat ich potomkowie urośli do rozmiarów tyranozaura, który potrafił zgryzać kości na miazgę.",
+        "en": "The first tyrannosaurs were dog-sized and feathered — Guanlong weighed about as much as a big sheepdog. Only after a hundred million years did their descendants grow into Tyrannosaurus, which could crush bone to pulp."
+      },
+      "adults": {
+        "pl": "Tyrannosauroidea przechodzi od małych, opierzonych form jurajskich (Guanlong, Dilong) do gigantycznych Tyrannosauridae późnej kredy. Cechy pochodne: redukcja ręki do dwóch palców, pneumatyczna i wzmocniona czaszka, zęby o przekroju banana przystosowane do osteofagii. Siła zgryzu Tyrannosaurus szacowana na najwyższą wśród lądowych kręgowców.",
+        "en": "Tyrannosauroidea runs from small feathered Jurassic forms (Guanlong, Dilong) to the giant Late Cretaceous Tyrannosauridae. Derived traits: a hand reduced to two fingers, a pneumatised and reinforced skull, and banana-sectioned teeth adapted to osteophagy. The bite force of Tyrannosaurus is estimated as the highest of any land vertebrate."
+      }
+    },
+    "distinction": {
+      "kids": {
+        "pl": "Tylko dwa palce u ręki i zęby, które kruszyły kości.",
+        "en": "Only two fingers on the hand, and teeth that crushed bone."
+      },
+      "adults": {
+        "pl": "Redukcja kończyny przedniej do dwóch funkcjonalnych palców przy jednoczesnym wzmocnieniu czaszki do osteofagii.",
+        "en": "Forelimb reduction to two functional digits, combined with a skull reinforced for bone-crushing."
+      }
+    },
+    "examples": {
+      "pl": "Tyranozaur, Guanlong, Albertozaur",
+      "en": "Tyrannosaurus, Guanlong, Albertosaurus"
+    }
+  },
+  {
+    "parentId": "coelurosauria",
+    "id": "maniraptora",
+    "startMa": 167,
+    "endMa": 0,
+    "status": null,
+    "icon": "ic-bird",
+    "name": {
+      "pl": "Maniraptory",
+      "en": "Maniraptorans"
+    },
+    "short": {
+      "kids": {
+        "pl": "Dinozaury z długimi rękami, obrotowym nadgarstkiem i prawdziwymi piórami.",
+        "en": "Dinosaurs with long arms, a swivelling wrist and true feathers."
+      },
+      "adults": {
+        "pl": "Maniraptora: klad celurozaurów z półksiężycowatą kością nadgarstka i piórami chorągiewkowymi.",
+        "en": "Maniraptora: the coelurosaur clade with a半 crescent-shaped wrist bone and pennaceous feathers."
+      }
+    },
+    "detail": {
+      "kids": {
+        "pl": "Nazwa znaczy „chwytne ręce\". W nadgarstku mają kostkę w kształcie półksiężyca, dzięki której dłoń składa się do boku — dokładnie tym samym ruchem, którym ptak składa skrzydło. Ten jeden staw był potrzebny, żeby machanie skrzydłami w ogóle stało się możliwe.",
+        "en": "The name means \"grasping hands\". In the wrist they have a half-moon-shaped bone that lets the hand fold sideways — the very same movement a bird uses to fold its wing. That one joint was what made flapping possible at all."
+      },
+      "adults": {
+        "pl": "Maniraptora definiuje półksiężycowata kość nadgarstka (semilunate carpal) umożliwiająca boczne składanie ręki, wydłużenie kończyny przedniej oraz pióra chorągiewkowe o asymetrycznej lub symetrycznej chorągiewce. Klad obejmuje Oviraptorosauria, Therizinosauria, Dromaeosauridae, Troodontidae i Avialae, a więc wszystkie żyjące ptaki.",
+        "en": "Maniraptora is defined by the semilunate carpal allowing the hand to fold sideways, elongation of the forelimb, and pennaceous feathers with symmetric or asymmetric vanes. The clade contains Oviraptorosauria, Therizinosauria, Dromaeosauridae, Troodontidae and Avialae — hence every living bird."
+      }
+    },
+    "distinction": {
+      "kids": {
+        "pl": "Kostka w nadgarstku w kształcie półksiężyca — ten sam ruch, którym ptak składa skrzydło.",
+        "en": "A half-moon wrist bone — the same movement a bird uses to fold its wing."
+      },
+      "adults": {
+        "pl": "Półksiężycowata kość nadgarstka umożliwiająca boczne składanie ręki: warunek konieczny późniejszego ruchu skrzydła.",
+        "en": "The semilunate carpal enabling sideways folding of the hand: the precondition for the later wing stroke."
+      }
+    },
+    "examples": {
+      "pl": "Owiraptor, Terizinozaur, Anchiornis",
+      "en": "Oviraptor, Therizinosaurus, Anchiornis"
+    }
+  },
+  {
+    "parentId": "maniraptora",
+    "id": "dromaeosauridae",
+    "startMa": 165,
+    "endMa": 66,
+    "status": "extinct",
+    "icon": "ic-dino",
+    "name": {
+      "pl": "Dromeozaury",
+      "en": "Dromaeosaurids"
+    },
+    "short": {
+      "kids": {
+        "pl": "Raptory — opierzone łowcy z wielkim sierpowatym pazurem na drugim palcu stopy.",
+        "en": "Raptors — feathered hunters with a huge sickle claw on the second toe."
+      },
+      "adults": {
+        "pl": "Dromaeosauridae: maniraptory z hipertroficznym pazurem sierpowatym drugiego palca i usztywnionym ogonem.",
+        "en": "Dromaeosauridae: maniraptorans with a hypertrophied sickle claw on digit II and a stiffened tail."
+      }
+    },
+    "detail": {
+      "kids": {
+        "pl": "To słynne raptory. Na drugim palcu każdej stopy miały zakrzywiony pazur, który podczas biegu trzymały uniesiony do góry, żeby go nie stępić. Ogon usztywniony ścięgnami działał jak drążek linoskoczka — pomagał utrzymać równowagę w ostrym zakręcie. I były pokryte piórami.",
+        "en": "These are the famous raptors. On the second toe of each foot they had a curved claw, held up off the ground while running so it would not blunt. A tail stiffened with tendons worked like a tightrope walker’s pole, helping them balance through a sharp turn. And they were covered in feathers."
+      },
+      "adults": {
+        "pl": "Dromaeosauridae cechuje hipertroficzny, sierpowaty pazur drugiego palca stopy utrzymywany w pozycji uniesionej, ogon usztywniony wydłużonymi zygapofizami i szewronami oraz pełne upierzenie chorągiewkowe potwierdzone u Microraptor i Zhenyuanlong. Najbliżej spokrewnione z Avialae w obrębie Paraves.",
+        "en": "Dromaeosauridae is characterised by a hypertrophied sickle claw on pedal digit II held retracted, a tail stiffened by elongated zygapophyses and chevrons, and full pennaceous plumage confirmed in Microraptor and Zhenyuanlong. They are the closest relatives of Avialae within Paraves."
+      }
+    },
+    "distinction": {
+      "kids": {
+        "pl": "Sierpowaty pazur na drugim palcu, noszony uniesiony, żeby się nie stępił.",
+        "en": "A sickle claw on the second toe, carried raised so it would not blunt."
+      },
+      "adults": {
+        "pl": "Hipertroficzny pazur sierpowaty drugiego palca stopy utrzymywany w pozycji uniesionej podczas lokomocji.",
+        "en": "A hypertrophied sickle claw on pedal digit II, held retracted during locomotion."
+      }
+    },
+    "examples": {
+      "pl": "Welociraptor, Deinonych, Mikroraptor",
+      "en": "Velociraptor, Deinonychus, Microraptor"
+    }
+  },
+  {
+    "parentId": "maniraptora",
+    "id": "troodontidae",
+    "startMa": 165,
+    "endMa": 66,
+    "status": "extinct",
+    "icon": "ic-dino",
+    "name": {
+      "pl": "Troodonty",
+      "en": "Troodontids"
+    },
+    "short": {
+      "kids": {
+        "pl": "Najbystrzejsze dinozaury — wielkie oczy, doskonały słuch i największy mózg.",
+        "en": "The brightest dinosaurs — big eyes, keen hearing and the largest brain."
+      },
+      "adults": {
+        "pl": "Troodontidae: maniraptory o najwyższym ilorazie encefalizacji wśród dinozaurów nieptasich.",
+        "en": "Troodontidae: maniraptorans with the highest encephalisation quotient among non-avian dinosaurs."
+      }
+    },
+    "detail": {
+      "kids": {
+        "pl": "Miały największy mózg w stosunku do ciała ze wszystkich dinozaurów i ogromne oczy skierowane do przodu — widziały przestrzennie, jak my. Otwory uszne były przesunięte asymetrycznie, dokładnie jak u dzisiejszej sowy, co pozwalało namierzyć zdobycz po samym dźwięku, nawet pod śniegiem.",
+        "en": "They had the largest brain for their body size of any dinosaur and huge forward-facing eyes — they saw in depth, as we do. The ear openings were offset asymmetrically, exactly as in a modern owl, letting them pin down prey by sound alone, even under snow."
+      },
+      "adults": {
+        "pl": "Troodontidae wyróżnia najwyższy wśród dinozaurów nieptasich iloraz encefalizacji, duże oczodoły skierowane frontalnie zapewniające widzenie stereoskopowe oraz asymetryczne rozmieszczenie otworów słuchowych, konwergentne z sowami. Uzębienie drobne i ząbkowane sugeruje dietę wszystkożerną lub owadożerną.",
+        "en": "Troodontidae stands out for the highest encephalisation quotient among non-avian dinosaurs, large forward-facing orbits giving stereoscopic vision, and asymmetrically placed ear openings convergent with owls. The small serrated teeth suggest an omnivorous or insectivorous diet."
+      }
+    },
+    "distinction": {
+      "kids": {
+        "pl": "Uszy osadzone niesymetrycznie — jak u sowy, żeby namierzyć zdobycz po dźwięku.",
+        "en": "Ears set asymmetrically — like an owl, to locate prey by sound."
+      },
+      "adults": {
+        "pl": "Asymetryczne rozmieszczenie otworów słuchowych umożliwiające lokalizację źródła dźwięku w pionie, konwergentne z sowami.",
+        "en": "Asymmetric ear openings allowing vertical sound localisation, convergent with owls."
+      }
+    },
+    "examples": {
+      "pl": "Troodon, Saurornitoides, Byronozaur",
+      "en": "Troodon, Saurornithoides, Byronosaurus"
+    }
+  },
+  {
+    "parentId": "maniraptora",
+    "id": "aves",
+    "status": "survived",
+    "icon": "ic-bird",
+    "name": {
+      "pl": "Ptaki",
+      "en": "Birds"
+    },
+    "short": {
+      "kids": {
+        "pl": "Jedyne żyjące dinozaury — z piórami i pustymi kośćmi do latania!",
+        "en": "The only living dinosaurs — with feathers and hollow bones for flight!"
+      },
+      "adults": {
+        "pl": "Aves: klad dinozaurów maniraptorowych; ok. 10 000 żyjących gatunków.",
+        "en": "Aves: maniraptoran dinosaur clade; ~10,000 living species."
+      }
+    },
+    "detail": {
+      "kids": {
+        "pl": "Jedyna grupa dinozaurów, która przetrwała! Wyrosły im pióra, a ich kości stały się puste w środku i lekkie, dzięki czemu potrafią latać w powietrzu.",
+        "en": "The only group of dinosaurs that survived! They grew feathers, and their bones became hollow and light, allowing them to fly through the air."
+      },
+      "adults": {
+        "pl": "Aves wyewoluowały z maniraptorów (Theropoda) w jurze; Archaeopteryx (ok. 150 Ma) jest kluczową formą przejściową. Synapomorfie obejmują pióra, mostek z wyrostkiem dziobiastym, kręgosłup furkularny (widełka) i pneumatyzację kości. Neornithes przeżyły K–Pg i zdywersyfikowały się w ~40 rzędów.",
+        "en": "Aves evolved from maniraptorans (Theropoda) in the Jurassic; Archaeopteryx (~150 Ma) is the key transitional form. Synapomorphies include pennaceous feathers, keeled sternum, furcula (wishbone), and pneumatised bones. Neornithes survived K–Pg and diversified into ~40 orders."
+      }
+    },
+    "examples": {
+      "pl": "Wróble, Orły, Kury, Pingwiny",
+      "en": "Sparrows, Eagles, Chickens, Penguins"
+    },
+    "startMa": 150,
+    "endMa": 0,
+    "distinction": {
+      "kids": {
+        "pl": "Pióra przestały służyć tylko do ogrzewania i zaczęły nosić w powietrzu. Do tego widełki w piersi.",
+        "en": "Feathers stopped being just for warmth and started carrying them through the air. Plus a wishbone."
+      },
+      "adults": {
+        "pl": "Pióra konturowe o asymetrycznej chorągiewce umożliwiające lot czynny, furkula i mostek z grzebieniem jako przyczep mięśni lotnych.",
+        "en": "Asymmetric pennaceous feathers enabling powered flight, a furcula, and a keeled sternum anchoring the flight muscles."
       }
     }
   },
