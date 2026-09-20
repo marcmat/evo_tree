@@ -123,6 +123,8 @@ export const I18nStringsSchema = z.object({
   exactDate: z.string(),
   photoBy: z.string(),
   source: z.string(),
+  enlarge: z.string(),
+  shrink: z.string(),
 });
 export type I18nStrings = z.infer<typeof I18nStringsSchema>;
 export const I18nSchema = z.object({ pl: I18nStringsSchema, en: I18nStringsSchema });

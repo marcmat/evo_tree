@@ -21,7 +21,6 @@ const MANIFEST = new URL('../src/data/images.json', import.meta.url);
  * and "Repenomamus" a size-comparison chart with a human silhouette.
  */
 const SEARCH_OVERRIDES = {
-  lacertilia: 'Gekkonidae',
   pterosauria: 'Pterodactylus',
   eutriconodonta: 'Repenomamus robustus',
 };
@@ -44,10 +43,16 @@ const FILE_OVERRIDES = {
   rhynchosauria: 'File:Rhynchosaurus articeps.png',
   theropoda: 'File:Tyrannosaurus rex Reconstruction by Nobu Tamura.jpg',
   thyreophora: "File:Nobu Tamura's Scutellosaurus Mirrored.jpg",
-  cephalochordata: 'File:Branchiostoma lanceolatum.jpg',
-  actinopterygii: 'File:Rainbow Trout (Oncorhynchus mykiss) Gavins Point.jpg',
+  // Ancient stand-ins the ranking could not find on its own.
+  afrotheria: 'File:Moeritherium recon.jpg',
+  lacertilia: 'File:Schoenesmahl.png',
+  squamata: 'File:Cryptolacerta.png',
+  cephalochordata: 'File:Cathaymyrus diacodexis.jpg',
   sauropterygia: 'File:Keichousaurus BW.jpg',
 };
+
+/** Subject for pins whose filename leads with the artist, not the genus. */
+const PIN_SUBJECTS = { thyreophora: 'Scutellosaurus' };
 
 /**
  * The picture has to show a whole living animal. Bones, isolated body parts and
@@ -59,8 +64,45 @@ const FILE_OVERRIDES = {
 const REJECT_TITLE =
   /\b(skull|skeleton|skeletal|fossil|specimen|holotype|cranium|mandible|jaw|bone|teeth|tooth|vertebra\w*|claw|slab|cast|footprint|track|egg|coprolite|size|scale|diagram|chart|cladogram|phylogen|map|restoration of the skull)\b/i;
 
-/** Titles that signal a life restoration; palaeoartists sign with initials. */
-const PREFER_TITLE = /\b(life restoration|restoration|reconstruction|NT|BW|DB|alive|in life)\b/;
+/**
+ * A living group is drawn as it looked when it branched off, not as it looks now:
+ * a photograph of a lion says nothing about early laurasiatherians, and the chart
+ * is about deep time. Each entry is an extinct representative of that group.
+ */
+const SUBJECT_OVERRIDES = {
+  agnatha: 'Cephalaspis',
+  chondrichthyes: 'Cladoselache',
+  actinopterygii: 'Cheirolepis',
+  coelacanthia: 'Macropoma',
+  anura: 'Prosalirus',
+  urodela: 'Karaurus',
+  gymnophiona: 'Eocaecilia',
+  monotremata: 'Steropodon',
+  marsupialia: 'Didelphodon',
+  afrotheria: 'Moeritherium',
+  xenarthra: 'Megatherium',
+  euarchontoglires: 'Plesiadapis',
+  laurasiatheria: 'Hyaenodon',
+  testudines: 'Proganochelys',
+  rhynchocephalia: 'Gephyrosaurus',
+  lacertilia: 'Ardeosaurus',
+  serpentes: 'Dinilysia',
+  crocodylomorpha: 'Protosuchus',
+  aves: 'Archaeopteryx',
+};
+
+/**
+ * Ranked preference for the look the panel is built around: Nobu Tamura's "BW"
+ * and "NT" series are side-profile life restorations on a plain background, which
+ * is what the reference image (Hylonomus_BW.jpg, used for Amniota) is. Higher
+ * scores win; anything unmatched falls through at zero.
+ */
+function titleScore(title) {
+  if (/\b(BW|NT)\b/.test(title)) return 3;
+  if (/\b(life restoration|reconstruction)\b/i.test(title)) return 2;
+  if (/\brestoration\b/i.test(title)) return 1;
+  return 0;
+}
 
 /**
  * Free licences only. NonCommercial and NoDerivatives are rejected before the
@@ -142,7 +184,7 @@ async function findImage(term) {
   const ranked = pages
     .filter((p) => /^image\/(jpeg|png)$/.test(p.imageinfo?.[0]?.mime ?? ''))
     .filter((p) => !REJECT_TITLE.test(p.title))
-    .sort((a, b) => Number(PREFER_TITLE.test(b.title)) - Number(PREFER_TITLE.test(a.title)));
+    .sort((a, b) => titleScore(b.title) - titleScore(a.title));
 
   for (const p of ranked) {
     const hit = toHit(p);
@@ -224,17 +266,25 @@ for (const node of nodes) {
 
   // English entries are usually the scientific name, which Commons indexes;
   // the Polish ones are common names and match far less reliably.
-  const terms = SEARCH_OVERRIDES[node.id]
-    ? [SEARCH_OVERRIDES[node.id]]
-    : node.examples.en
-        .split(',')
-        .map((s) => s.trim())
-        .filter(Boolean);
+  const terms =
+    (SEARCH_OVERRIDES[node.id] ?? SUBJECT_OVERRIDES[node.id])
+      ? [SEARCH_OVERRIDES[node.id] ?? SUBJECT_OVERRIDES[node.id]]
+      : node.examples.en
+          .split(',')
+          .map((s) => s.trim())
+          .filter(Boolean);
   let hit = null;
   let used = null;
   if (FILE_OVERRIDES[node.id]) {
     hit = await findImageByTitle(FILE_OVERRIDES[node.id]);
-    used = terms[0];
+    // Name the animal actually pinned, not the group's first example — the two
+    // diverge whenever a pin swaps in a different (usually older) genus.
+    used =
+      PIN_SUBJECTS[node.id] ??
+      hit.title
+        .replace(/^File:/, '')
+        .replace(/\.[a-z]+$/i, '')
+        .split(/[ _]/)[0];
     await sleep(350);
   }
   for (const term of hit ? [] : terms) {

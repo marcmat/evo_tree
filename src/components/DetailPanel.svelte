@@ -22,6 +22,11 @@
   // Files live in public/, so the URL must carry Vite's base — the GitHub Pages
   // project site is served from /evo_tree/, where a root-absolute path 404s.
   const base = import.meta.env.BASE_URL;
+
+  // Click to enlarge, click again to shrink. Local to the panel rather than in
+  // the shared store: only one panel is open at a time, and the enlarged state
+  // should not outlive it.
+  let zoomed = $state(false);
   const extinctLabel = $derived.by(() => {
     const eraName = ERAS[eraAtMa(node.endMa)]?.name[ui.lang];
     return `${nf.format(node.endMa)} Ma${eraName ? ` (${eraName})` : ''}`;
@@ -34,15 +39,23 @@
   style="--panel-left:calc(var(--inset) + {startFrac.toFixed(4)} * (100% - var(--inset)))"
 >
   {#if pic}
-    <figure class="pic">
-      <img
-        src={`${base}species/${pic.file}`}
-        alt={pic.subject}
-        width={pic.width}
-        height={pic.height}
-        loading="lazy"
-        decoding="async"
-      />
+    <figure class="pic" class:zoomed>
+      <button
+        type="button"
+        class="zoom"
+        aria-pressed={zoomed}
+        aria-label={`${pic.subject} — ${zoomed ? t.shrink : t.enlarge}`}
+        onclick={() => (zoomed = !zoomed)}
+      >
+        <img
+          src={`${base}species/${pic.file}`}
+          alt={pic.subject}
+          width={pic.width}
+          height={pic.height}
+          loading="lazy"
+          decoding="async"
+        />
+      </button>
       <figcaption>
         <span class="subject">{pic.subject}</span>
         <span class="credit">
@@ -111,6 +124,28 @@
     flex-shrink: 0;
     width: 160px;
     margin: 0;
+    transition: width var(--timing-normal) ease;
+  }
+  /* Enlarged in place rather than in an overlay: the panel is already a layer
+     above the chart, and a lightbox would need its own focus trap and dismissal
+     for what is a one-click peek. */
+  .pic.zoomed {
+    width: 420px;
+  }
+  .zoom {
+    display: block;
+    width: 100%;
+    padding: 0;
+    background: none;
+    border: none;
+    cursor: zoom-in;
+  }
+  .pic.zoomed .zoom {
+    cursor: zoom-out;
+  }
+  .zoom:focus-visible {
+    outline: 2px solid var(--accent-node);
+    outline-offset: 3px;
   }
   .pic img {
     /* height:auto with the width/height attributes present keeps the reserved box

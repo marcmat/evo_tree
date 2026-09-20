@@ -30,7 +30,9 @@
     "examples": "Przykłady",
     "exactDate": "Dokładna data:",
     "photoBy": "fot.",
-    "source": "źródło"
+    "source": "źródło",
+    "enlarge": "powiększ",
+    "shrink": "zmniejsz"
   },
   "en": {
     "title": "Vertebrate Evolution Tree",
@@ -63,6 +65,8 @@
     "examples": "Examples",
     "exactDate": "Exact date:",
     "photoBy": "image:",
-    "source": "source"
+    "source": "source",
+    "enlarge": "enlarge",
+    "shrink": "shrink"
   }
 }
