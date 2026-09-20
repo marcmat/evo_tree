@@ -88,6 +88,24 @@ describe('event integrity', () => {
     }
   });
 
+  it('a protracted event has a younger endMa than its ma', () => {
+    for (const e of events) {
+      if (e.endMa !== null) expect(e.endMa, `${e.id}`).toBeLessThan(e.ma);
+    }
+  });
+
+  // The Late Devonian was a ~13 Myr crisis: the Kellwasser pulse opens it at 372 Ma
+  // and the Hangenberg pulse closes it at 359 Ma. Placoderms survived the first and
+  // died in the second, so their last appearance must fall inside the window — a
+  // point marker at 372 alone contradicted where their bar actually ends.
+  it('the Late Devonian window contains the placoderm last appearance', () => {
+    const devonian = events.find((e) => e.id === 'late-devonian');
+    const placoderms = nodes.find((n) => n.id === 'placodermi');
+    expect(devonian?.endMa, 'late-devonian must be a span').not.toBeNull();
+    expect(placoderms?.endMa).toBeLessThanOrEqual(devonian?.ma ?? 0);
+    expect(placoderms?.endMa).toBeGreaterThanOrEqual(devonian?.endMa ?? 0);
+  });
+
   it('the Big Five mass extinctions are all present with the expected dates', () => {
     const extinctions = events.filter((e) => e.kind === 'extinction');
     const byMa = new Set(extinctions.map((e) => e.ma));

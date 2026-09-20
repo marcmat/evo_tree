@@ -2,6 +2,7 @@
   {
     "id": "cambrian-explosion",
     "ma": 538,
+    "endMa": null,
     "kind": "milestone",
     "severity": null,
     "anchorNodeId": "chordata",
@@ -37,6 +38,7 @@
   {
     "id": "end-ordovician",
     "ma": 444,
+    "endMa": null,
     "kind": "extinction",
     "severity": 85,
     "anchorNodeId": null,
@@ -72,6 +74,7 @@
   {
     "id": "first-jaws",
     "ma": 444,
+    "endMa": null,
     "kind": "milestone",
     "severity": null,
     "anchorNodeId": "gnathostomata",
@@ -107,6 +110,7 @@
   {
     "id": "move-onto-land",
     "ma": 397,
+    "endMa": null,
     "kind": "milestone",
     "severity": null,
     "anchorNodeId": "tetrapodomorpha",
@@ -142,6 +146,7 @@
   {
     "id": "late-devonian",
     "ma": 372,
+    "endMa": 359,
     "kind": "extinction",
     "severity": 75,
     "anchorNodeId": null,
@@ -177,6 +182,7 @@
   {
     "id": "amniotic-egg",
     "ma": 318,
+    "endMa": null,
     "kind": "milestone",
     "severity": null,
     "anchorNodeId": "amniota",
@@ -212,6 +218,7 @@
   {
     "id": "end-permian",
     "ma": 252,
+    "endMa": null,
     "kind": "extinction",
     "severity": 81,
     "anchorNodeId": null,
@@ -247,6 +254,7 @@
   {
     "id": "first-flight",
     "ma": 228,
+    "endMa": null,
     "kind": "milestone",
     "severity": null,
     "anchorNodeId": "pterosauria",
@@ -282,6 +290,7 @@
   {
     "id": "end-triassic",
     "ma": 201,
+    "endMa": null,
     "kind": "extinction",
     "severity": 80,
     "anchorNodeId": null,
@@ -317,6 +326,7 @@
   {
     "id": "first-birds",
     "ma": 150,
+    "endMa": null,
     "kind": "milestone",
     "severity": null,
     "anchorNodeId": "aves",
@@ -352,6 +362,7 @@
   {
     "id": "placental-radiation",
     "ma": 100,
+    "endMa": null,
     "kind": "milestone",
     "severity": null,
     "anchorNodeId": "placentalia",
@@ -387,6 +398,7 @@
   {
     "id": "k-pg",
     "ma": 66,
+    "endMa": null,
     "kind": "extinction",
     "severity": 76,
     "anchorNodeId": null,

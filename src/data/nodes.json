@@ -350,7 +350,7 @@
     "status": "extinct",
     "icon": "ic-frog",
     "name": {
-      "pl": "Prymitywne Płazy",
+      "pl": "Temnospondyle",
       "en": "Temnospondyls"
     },
     "short": {
@@ -647,7 +647,7 @@
     "status": null,
     "icon": "ic-shark",
     "name": {
-      "pl": "Sauropterygi",
+      "pl": "Zauropterygi",
       "en": "Sauropterygians"
     },
     "short": {
@@ -956,8 +956,8 @@
     "status": "survived",
     "icon": "ic-frog",
     "name": {
-      "pl": "Żaby i Ropuchy",
-      "en": "Frogs & Toads"
+      "pl": "Płazy bezogonowe",
+      "en": "Frogs and toads"
     },
     "short": {
       "kids": {
@@ -992,8 +992,8 @@
     "status": "survived",
     "icon": "ic-frog",
     "name": {
-      "pl": "Salamandry i Traszki",
-      "en": "Salamanders & Newts"
+      "pl": "Płazy ogoniaste",
+      "en": "Salamanders and newts"
     },
     "short": {
       "kids": {
@@ -1028,7 +1028,7 @@
     "status": "survived",
     "icon": "ic-snake",
     "name": {
-      "pl": "Cecylia",
+      "pl": "Płazy beznogie",
       "en": "Caecilians"
     },
     "short": {
@@ -1064,8 +1064,8 @@
     "status": "survived",
     "icon": "ic-mammal",
     "name": {
-      "pl": "Dziobaki i Kolczatki",
-      "en": "Platypuses & Echidnas"
+      "pl": "Stekowce",
+      "en": "Monotremes"
     },
     "short": {
       "kids": {
@@ -1100,8 +1100,8 @@
     "status": "survived",
     "icon": "ic-mammal",
     "name": {
-      "pl": "Kangury i Torbacze",
-      "en": "Kangaroos & Marsupials"
+      "pl": "Torbacze",
+      "en": "Marsupials"
     },
     "short": {
       "kids": {
@@ -1307,7 +1307,7 @@
     "status": "extinct",
     "icon": "ic-bird",
     "name": {
-      "pl": "Latające Jaszczury",
+      "pl": "Pterozaury",
       "en": "Pterosaurs"
     },
     "short": {
@@ -1343,8 +1343,8 @@
     "status": null,
     "icon": "ic-dino",
     "name": {
-      "pl": "Zauropody",
-      "en": "Sauropods"
+      "pl": "Zauropodomorfy",
+      "en": "Sauropodomorphs"
     },
     "short": {
       "kids": {
@@ -1376,7 +1376,7 @@
     "status": null,
     "icon": "ic-dino",
     "name": {
-      "pl": "Ptasiobiodre",
+      "pl": "Dinozaury ptasiomiedniczne",
       "en": "Ornithischians"
     },
     "short": {
@@ -1442,8 +1442,8 @@
     "status": "extinct",
     "icon": "ic-dino",
     "name": {
-      "pl": "Rogatce",
-      "en": "Horned dinosaurs"
+      "pl": "Ceratopsy",
+      "en": "Ceratopsians"
     },
     "short": {
       "kids": {
@@ -1457,7 +1457,7 @@
     },
     "detail": {
       "kids": {
-        "pl": "Rogatce miały najozdobniejsze głowy w całym świecie dinozaurów! Triceratops miał trzy wielkie rogi i kostną kryzę wielkości stołu. Rogi i kryzy służyły do obrony i do pokazów przed innymi dinozaurami.",
+        "pl": "Ceratopsy miały najozdobniejsze głowy w całym świecie dinozaurów! Triceratops miał trzy wielkie rogi i kostną kryzę wielkości stołu. Rogi i kryzy służyły do obrony i do pokazów przed innymi dinozaurami.",
         "en": "Horned dinosaurs had the most decorated heads in the entire dinosaur world! Triceratops had three huge horns and a bony frill the size of a table. Horns and frills were used for defence and for displaying to other dinosaurs."
       },
       "adults": {
@@ -1478,8 +1478,8 @@
     "status": null,
     "icon": "ic-dino",
     "name": {
-      "pl": "Pancerne Dinozaury",
-      "en": "Armoured dinosaurs"
+      "pl": "Tyreofory",
+      "en": "Thyreophorans"
     },
     "short": {
       "kids": {
@@ -1511,8 +1511,8 @@
     "status": "extinct",
     "icon": "ic-dino",
     "name": {
-      "pl": "Kaczkodziobe",
-      "en": "Duck-billed dinosaurs"
+      "pl": "Ornitopody",
+      "en": "Ornithopods"
     },
     "short": {
       "kids": {
@@ -1547,7 +1547,7 @@
     "status": "extinct",
     "icon": "ic-pelycosaur",
     "name": {
-      "pl": "Dwukłowe Potwory",
+      "pl": "Dicynodonty",
       "en": "Dicynodonts"
     },
     "short": {
@@ -1583,7 +1583,7 @@
     "status": "extinct",
     "icon": "ic-turtle",
     "name": {
-      "pl": "Miażdżarki Muszli",
+      "pl": "Plakodonty",
       "en": "Placodonts"
     },
     "short": {
@@ -1619,7 +1619,7 @@
     "status": "extinct",
     "icon": "ic-shark",
     "name": {
-      "pl": "Praplezjozaury",
+      "pl": "Notozaury",
       "en": "Nothosaurs"
     },
     "short": {
@@ -1655,7 +1655,7 @@
     "status": null,
     "icon": "ic-shark",
     "name": {
-      "pl": "Morskie Smoki",
+      "pl": "Plezjozaury",
       "en": "Plesiosaurs"
     },
     "short": {
@@ -1688,8 +1688,8 @@
     "status": "extinct",
     "icon": "ic-shark",
     "name": {
-      "pl": "Długoszyje Morskie Smoki",
-      "en": "Long-necked plesiosaurs"
+      "pl": "Plezjozaury właściwe",
+      "en": "Plesiosauroids"
     },
     "short": {
       "kids": {
@@ -1724,7 +1724,7 @@
     "status": "extinct",
     "icon": "ic-shark",
     "name": {
-      "pl": "Morskie Tyranozaury",
+      "pl": "Pliozaury",
       "en": "Pliosaurs"
     },
     "short": {
@@ -1760,7 +1760,7 @@
     "status": "extinct",
     "icon": "ic-snake",
     "name": {
-      "pl": "Jaszczury Kredowego Morza",
+      "pl": "Mozazaury",
       "en": "Mosasaurs"
     },
     "short": {
@@ -1796,7 +1796,7 @@
     "status": "extinct",
     "icon": "ic-lizard",
     "name": {
-      "pl": "Triasowe Ryje",
+      "pl": "Rynchozaury",
       "en": "Rhynchosaurs"
     },
     "short": {
@@ -1832,7 +1832,7 @@
     "status": null,
     "icon": "ic-dino",
     "name": {
-      "pl": "Gadziobiodre Dinozaury",
+      "pl": "Dinozaury gadziomiedniczne",
       "en": "Saurischians"
     },
     "short": {
@@ -1865,7 +1865,7 @@
     "status": "extinct",
     "icon": "ic-dino",
     "name": {
-      "pl": "Pierwsze Długoszyje",
+      "pl": "Prozauropody",
       "en": "Prosauropods"
     },
     "short": {
@@ -1901,7 +1901,7 @@
     "status": "extinct",
     "icon": "ic-dino",
     "name": {
-      "pl": "Długoszyje Olbrzymy",
+      "pl": "Zauropody",
       "en": "Sauropods"
     },
     "short": {
@@ -1937,7 +1937,7 @@
     "status": "extinct",
     "icon": "ic-dino",
     "name": {
-      "pl": "Dinozaury z Tarczami",
+      "pl": "Stegozaury",
       "en": "Stegosaurs"
     },
     "short": {
@@ -2006,8 +2006,8 @@
     "status": "extinct",
     "icon": "ic-dino",
     "name": {
-      "pl": "Ankylozaury z Maczugą",
-      "en": "Club-tailed ankylosaurs"
+      "pl": "Ankylozaurydy",
+      "en": "Ankylosaurids"
     },
     "short": {
       "kids": {
@@ -2042,7 +2042,7 @@
     "status": "extinct",
     "icon": "ic-dino",
     "name": {
-      "pl": "Nodozaury bez Maczugi",
+      "pl": "Nodozaury",
       "en": "Nodosaurs"
     },
     "short": {
@@ -2078,8 +2078,8 @@
     "status": "extinct",
     "icon": "ic-dino",
     "name": {
-      "pl": "Grubogłowe Dinozaury",
-      "en": "Dome-headed dinosaurs"
+      "pl": "Pachycefalozaury",
+      "en": "Pachycephalosaurs"
     },
     "short": {
       "kids": {
@@ -2114,7 +2114,7 @@
     "status": "survived",
     "icon": "ic-mammal",
     "name": {
-      "pl": "Ssaki z Afryki",
+      "pl": "Afrotery",
       "en": "Afrotherians"
     },
     "short": {
@@ -2150,8 +2150,8 @@
     "status": "survived",
     "icon": "ic-mammal",
     "name": {
-      "pl": "Leniwce i Pancerniki",
-      "en": "Sloths & Armadillos"
+      "pl": "Szczerbaki",
+      "en": "Xenarthrans"
     },
     "short": {
       "kids": {
@@ -2186,7 +2186,7 @@
     "status": "survived",
     "icon": "ic-mammal",
     "name": {
-      "pl": "Naczelne i Gryzonie",
+      "pl": "Euarchontoglires",
       "en": "Euarchontoglires"
     },
     "short": {
@@ -2222,7 +2222,7 @@
     "status": "survived",
     "icon": "ic-mammal",
     "name": {
-      "pl": "Ssaki Laurazji",
+      "pl": "Laurazjatery",
       "en": "Laurasiatherians"
     },
     "short": {
@@ -2291,8 +2291,8 @@
     "status": null,
     "icon": "ic-mammal",
     "name": {
-      "pl": "Ssaki Laurazji i Północy",
-      "en": "Boreoeutheria"
+      "pl": "Boreoeutheria",
+      "en": "Boreoeutherians"
     },
     "short": {
       "kids": {
@@ -2357,8 +2357,8 @@
     "status": "extinct",
     "icon": "ic-mammal",
     "name": {
-      "pl": "Gorgonosy",
-      "en": "Gorgonopsids"
+      "pl": "Gorgonopsy",
+      "en": "Gorgonopsians"
     },
     "short": {
       "kids": {

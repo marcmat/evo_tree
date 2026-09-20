@@ -22,6 +22,11 @@
   function leftFor(ma: number): string {
     return `calc(var(--inset) + ${maToFrac(ma).toFixed(4)} * (100% - var(--inset)))`;
   }
+  /** Width of the bracket drawn for a protracted event, from its older to its
+      younger edge — same inset-mapped arithmetic the range bars use. */
+  function widthBetween(fromMa: number, toMa: number): string {
+    return `calc(${(maToFrac(toMa) - maToFrac(fromMa)).toFixed(4)} * (100% - var(--inset)))`;
+  }
   function kindLabel(kind: EvoEvent['kind']): string {
     return kind === 'extinction' ? t.massExtinction : t.milestone;
   }
@@ -43,6 +48,14 @@
 <div class="events" aria-label={t.eventsTitle}>
   {#each sorted as ev (ev.id)}
     {@const lines = badgeLines(ev.shortName[ui.lang])}
+    {#if ev.endMa !== null}
+      <span
+        class="span {ev.kind}"
+        class:active={activeId === ev.id}
+        style="left:{leftFor(ev.ma)}; width:{widthBetween(ev.ma, ev.endMa)}"
+        aria-hidden="true"
+      ></span>
+    {/if}
     <button
       type="button"
       class="marker {ev.kind}"
@@ -107,6 +120,40 @@
     transform: translateX(-12px);
     z-index: 2;
   }
+  /* Bracket spanning a protracted event, drawn under the button (z-index 1 vs 2)
+     and non-interactive, so it never steals a click from the marker it belongs to.
+     Sits at the vertical centre of its lane's 24px glyph box. */
+  .span {
+    position: absolute;
+    height: 2px;
+    pointer-events: none;
+    background: currentColor;
+    opacity: 0.45;
+    z-index: 1;
+    transition: opacity var(--timing-fast) ease;
+  }
+  .span.active {
+    opacity: 0.9;
+  }
+  /* Tick closing the younger edge — marks where the crisis actually ended. */
+  .span::after {
+    content: '';
+    position: absolute;
+    top: -3px;
+    right: 0;
+    width: 2px;
+    height: 8px;
+    background: currentColor;
+  }
+  .span.extinction {
+    top: 11px;
+    color: var(--accent-extinct);
+  }
+  .span.milestone {
+    top: 51px;
+    color: var(--accent-node);
+  }
+
   .marker.extinction {
     top: 0;
   }
