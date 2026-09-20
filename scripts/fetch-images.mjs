@@ -36,7 +36,31 @@ const FILE_OVERRIDES = {
   sauropodomorpha: 'File:Saturnalia tupiniquim.jpg',
   archosauria: 'File:Euparkeria white background.png',
   gnathostomata: 'File:Entelognathus.png',
+  // Groups whose museum mounts and specimen plates carry titles the reject list
+  // cannot see — named after a city or an accession number rather than "skeleton".
+  placentalia: 'File:Protungulatum.png',
+  prosauropoda: 'File:Plateosaurus picture.png',
+  pterosauria: 'File:Pterodactylus BMMS7 life.png',
+  rhynchosauria: 'File:Rhynchosaurus articeps.png',
+  theropoda: 'File:Tyrannosaurus rex Reconstruction by Nobu Tamura.jpg',
+  thyreophora: "File:Nobu Tamura's Scutellosaurus Mirrored.jpg",
+  cephalochordata: 'File:Branchiostoma lanceolatum.jpg',
+  actinopterygii: 'File:Rainbow Trout (Oncorhynchus mykiss) Gavins Point.jpg',
+  sauropterygia: 'File:Keichousaurus BW.jpg',
 };
+
+/**
+ * The picture has to show a whole living animal. Bones, isolated body parts and
+ * figures are rejected outright rather than merely ranked down: a child looking at
+ * "Temnospondyle" should see the creature, not a skull in a vitrine, and a group
+ * left without any picture falls back to the sprite icon — which is a better
+ * outcome than a photograph of a rock.
+ */
+const REJECT_TITLE =
+  /\b(skull|skeleton|skeletal|fossil|specimen|holotype|cranium|mandible|jaw|bone|teeth|tooth|vertebra\w*|claw|slab|cast|footprint|track|egg|coprolite|size|scale|diagram|chart|cladogram|phylogen|map|restoration of the skull)\b/i;
+
+/** Titles that signal a life restoration; palaeoartists sign with initials. */
+const PREFER_TITLE = /\b(life restoration|restoration|reconstruction|NT|BW|DB|alive|in life)\b/;
 
 /**
  * Free licences only. NonCommercial and NoDerivatives are rejected before the
@@ -111,19 +135,16 @@ async function findImage(term) {
     iiurlwidth: String(THUMB_WIDTH),
   });
   const pages = Object.values(data?.query?.pages ?? {});
-  // The generator returns pages in arbitrary key order; restore search ranking,
-  // then push figures to the back. Size-comparison charts, skeletal diagrams and
-  // cladograms rank high on Commons but show a silhouette or a line drawing
-  // rather than the animal — "Repenomamus SIZE.png" outranked the restoration.
-  // A penalty rather than a filter, so a group with nothing else still gets one.
-  const isFigure = (t) => /\b(size|scale|diagram|chart|cladogram|phylogen|map|skeletal)\b/i.test(t);
-  pages.sort(
-    (a, b) =>
-      Number(isFigure(a.title)) - Number(isFigure(b.title)) || (a.index ?? 0) - (b.index ?? 0),
-  );
+  // The generator returns pages in arbitrary key order; restore search ranking
+  // before applying our own preferences.
+  pages.sort((a, b) => (a.index ?? 0) - (b.index ?? 0));
 
-  for (const p of pages) {
-    if (!/^image\/(jpeg|png)$/.test(p.imageinfo?.[0]?.mime ?? '')) continue;
+  const ranked = pages
+    .filter((p) => /^image\/(jpeg|png)$/.test(p.imageinfo?.[0]?.mime ?? ''))
+    .filter((p) => !REJECT_TITLE.test(p.title))
+    .sort((a, b) => Number(PREFER_TITLE.test(b.title)) - Number(PREFER_TITLE.test(a.title)));
+
+  for (const p of ranked) {
     const hit = toHit(p);
     if (hit) return hit;
   }

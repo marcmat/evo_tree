@@ -44,11 +44,14 @@
         decoding="async"
       />
       <figcaption>
-        {t.photoBy}
-        {pic.author} ·
-        <a href={pic.licenseUrl} target="_blank" rel="noopener noreferrer license">{pic.license}</a>
-        ·
-        <a href={pic.sourceUrl} target="_blank" rel="noopener noreferrer">{t.source}</a>
+        <span class="subject">{pic.subject}</span>
+        <span class="credit">
+          {t.photoBy}
+          {pic.author} ·
+          <a href={pic.licenseUrl} target="_blank" rel="noopener noreferrer license">{pic.license}</a>
+          ·
+          <a href={pic.sourceUrl} target="_blank" rel="noopener noreferrer">{t.source}</a>
+        </span>
       </figcaption>
     </figure>
   {:else}
@@ -119,13 +122,26 @@
     border: 1px solid var(--border-medium);
     border-radius: var(--radius-md);
   }
+  .pic figcaption {
+    margin-top: var(--space-1);
+    line-height: 1.4;
+  }
+  /* Names the animal, which is the one thing the picture cannot say for itself —
+     the panel heading is the clade, not the creature shown. */
+  .pic .subject {
+    display: block;
+    font-size: var(--fs-sm);
+    font-weight: var(--fw-medium);
+    font-style: italic;
+    color: var(--text-primary);
+  }
   /* Author, licence and a link back to the file — the attribution CC BY and
      CC BY-SA require. Small, but at full --text-secondary: dimming it further
      would drop it under 4.5:1, which is how the footer dedication broke once. */
-  .pic figcaption {
-    margin-top: var(--space-1);
+  .pic .credit {
+    display: block;
+    margin-top: 2px;
     font-size: var(--fs-xs);
-    line-height: 1.4;
     color: var(--text-secondary);
   }
   .pic figcaption a {

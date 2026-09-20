@@ -2,12 +2,12 @@
   "actinopterygii": {
     "file": "actinopterygii.jpg",
     "subject": "Trout",
-    "author": "Mike Anderson",
-    "license": "CC BY-SA 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Female_Rainbow_Trout_in_hand.JPG",
+    "author": "USFWS Mountain Prairie",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rainbow_Trout_(Oncorhynchus_mykiss)_Gavins_Point.jpg",
     "width": 500,
-    "height": 223
+    "height": 195
   },
   "afrotheria": {
     "file": "afrotheria.jpg",
@@ -292,12 +292,12 @@
   "lissamphibia": {
     "file": "lissamphibia.jpg",
     "subject": "Gerobatrachus",
-    "author": "https://www.si.edu/object/gerobatrachus-hottoni-anderson-et-al-2008:nmnhpaleobiology_3577932",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gerobatrachus_hottoni_Anderson_et_al.,_2008.jpg",
+    "author": "Nobu Tamura (http://spinops.blogspot.com)",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gerobatrachus_NT.jpg",
     "width": 500,
-    "height": 333
+    "height": 355
   },
   "mammalia": {
     "file": "mammalia.jpg",
@@ -342,12 +342,12 @@
   "multituberculata": {
     "file": "multituberculata.jpg",
     "subject": "Ptilodus",
-    "author": "Nobu Tamura (http://spinops.blogspot.com)",
+    "author": "Nobu Tamura",
     "license": "CC BY 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ptilodus_skull_BW.jpg",
-    "width": 500,
-    "height": 349
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ptilodus_Restoration.jpg",
+    "width": 302,
+    "height": 320
   },
   "nodosauria": {
     "file": "nodosauria.png",
@@ -402,32 +402,32 @@
   "pelycosauria": {
     "file": "pelycosauria.jpg",
     "subject": "Dimetrodon",
-    "author": "H. Zell",
-    "license": "CC BY-SA 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dimetrodon_incisivum_01.jpg",
+    "author": "TB0815",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dimetrodon_teutonis_life_restoration_by_Sebastian_Brandt_(Reco-Brandt).jpg",
     "width": 500,
-    "height": 310
+    "height": 333
   },
   "placentalia": {
     "file": "placentalia.png",
     "subject": "Protungulatum",
-    "author": "https://www.si.edu/object/protungulatum-sp:nmnhpaleobiology_3428503",
+    "author": "Antonio Rares Mihaila",
     "license": "CC0",
     "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Protungulatum_donnae.png",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Protungulatum.png",
     "width": 500,
-    "height": 219
+    "height": 384
   },
   "placodermi": {
     "file": "placodermi.jpg",
     "subject": "Dunkleosteus",
-    "author": "ДиБгд",
+    "author": "Russell K. Engelman",
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dunkleosteus_spp.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dunkleosteus_terrelli_2024_reconstruction.jpg",
     "width": 500,
-    "height": 354
+    "height": 275
   },
   "placodontia": {
     "file": "placodontia.jpg",
@@ -470,24 +470,24 @@
     "height": 357
   },
   "prosauropoda": {
-    "file": "prosauropoda.jpg",
+    "file": "prosauropoda.png",
     "subject": "Plateosaurus",
-    "author": "FunkMonk",
-    "license": "CC BY-SA 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Plateosaurus_Skelett_2.jpg",
+    "author": "Dropzink",
+    "license": "CC BY-SA 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Plateosaurus_picture.png",
     "width": 500,
-    "height": 297
+    "height": 365
   },
   "pterosauria": {
-    "file": "pterosauria.jpg",
+    "file": "pterosauria.png",
     "subject": "Pterodactylus",
-    "author": "Tiia Monto",
-    "license": "CC BY-SA 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pterodactylus_kochi_2.jpg",
+    "author": "Matthew Martyniuk",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pterodactylus_BMMS7_life.png",
     "width": 500,
-    "height": 307
+    "height": 235
   },
   "rhynchocephalia": {
     "file": "rhynchocephalia.jpg",
@@ -500,14 +500,14 @@
     "height": 358
   },
   "rhynchosauria": {
-    "file": "rhynchosauria.jpg",
+    "file": "rhynchosauria.png",
     "subject": "Rhynchosaurus",
-    "author": "G. Scharf",
-    "license": "Public domain",
-    "licenseUrl": "https://commons.wikimedia.org",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rhynchosaurus_articeps.jpg",
+    "author": "SeismicShrimp",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rhynchosaurus_articeps.png",
     "width": 500,
-    "height": 579
+    "height": 206
   },
   "sarcopterygii": {
     "file": "sarcopterygii.jpg",
@@ -552,22 +552,22 @@
   "sauropsida": {
     "file": "sauropsida.jpg",
     "subject": "Captorhinus",
-    "author": "Didier Descouens",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Captorhinus_aguti_p.jpg",
+    "author": "Nobu Tamura (http://spinops.blogspot.com)",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Captorhinus_BW.jpg",
     "width": 500,
-    "height": 369
+    "height": 142
   },
   "sauropterygia": {
     "file": "sauropterygia.jpg",
     "subject": "Pachypleurosaurus",
-    "author": "Ghedoghedo",
-    "license": "CC BY-SA 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Neusticosaurus_pusillus.JPG",
+    "author": "Nobu Tamura (http://spinops.blogspot.com)",
+    "license": "CC BY 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Keichousaurus_BW.jpg",
     "width": 500,
-    "height": 197
+    "height": 172
   },
   "serpentes": {
     "file": "serpentes.jpg",
@@ -590,14 +590,14 @@
     "height": 300
   },
   "stegosauria": {
-    "file": "stegosauria.jpg",
+    "file": "stegosauria.png",
     "subject": "Stegosaurus",
-    "author": "Mike Pennington",
-    "license": "CC BY-SA 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Stegosaurus_skeleton_at_National_Museum_of_Scotland.jpg",
+    "author": "Fred Wierum",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Stegosaurus_stenops_Life_Reconstruction.png",
     "width": 500,
-    "height": 377
+    "height": 241
   },
   "synapsida": {
     "file": "synapsida.jpg",
@@ -612,12 +612,12 @@
   "temnospondyli": {
     "file": "temnospondyli.jpg",
     "subject": "Mastodonsaurus",
-    "author": "Ghedoghedo",
-    "license": "CC BY-SA 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mastodonsaurus_giganteus.JPG",
+    "author": "ДиБгд at Russian Wikipedia",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mastodonsaurus_DB.jpg",
     "width": 500,
-    "height": 547
+    "height": 357
   },
   "testudines": {
     "file": "testudines.jpg",
@@ -652,22 +652,22 @@
   "theropoda": {
     "file": "theropoda.jpg",
     "subject": "Tyrannosaurus",
-    "author": "Copyright © 2005 David Monniaux",
-    "license": "CC BY-SA 3.0",
-    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Palais_de_la_Decouverte_Tyrannosaurus_rex_p1050042.jpg",
+    "author": "Nobu Tamura",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tyrannosaurus_rex_Reconstruction_by_Nobu_Tamura.jpg",
     "width": 500,
-    "height": 323
+    "height": 202
   },
   "thyreophora": {
     "file": "thyreophora.jpg",
     "subject": "Scutellosaurus",
-    "author": "A Cynical Idealist",
-    "license": "CC BY 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Scutellosaurus_display.png",
-    "width": 58719,
-    "height": 10365
+    "author": "Nobu Tamura",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nobu_Tamura%27s_Scutellosaurus_Mirrored.jpg",
+    "width": 500,
+    "height": 151
   },
   "urodela": {
     "file": "urodela.jpg",
