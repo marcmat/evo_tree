@@ -15,20 +15,6 @@
 
 <div class="outer">
   <div class="toolbar container" role="toolbar" aria-label={t.title}>
-    <div class="seg" role="group" aria-label="PL / EN">
-      <button class:active={ui.lang === 'pl'} onclick={() => (ui.lang = 'pl')}>PL</button>
-      <button class:active={ui.lang === 'en'} onclick={() => (ui.lang = 'en')}>EN</button>
-    </div>
-
-    <div class="seg" role="group" aria-label="{t.kids} / {t.adults}">
-      <button class:active={ui.audience === 'kids'} onclick={() => (ui.audience = 'kids')}>
-        {t.kids}
-      </button>
-      <button class:active={ui.audience === 'adults'} onclick={() => (ui.audience = 'adults')}>
-        {t.adults}
-      </button>
-    </div>
-
     <label class="living">
       <input type="checkbox" name="livingOnly" bind:checked={ui.livingOnly} />
       {t.livingOnly}
@@ -75,38 +61,6 @@
     align-items: center;
     gap: var(--space-3);
     padding-block: var(--space-3);
-  }
-
-  .seg {
-    display: inline-flex;
-    overflow: hidden;
-    background: var(--bg-surface);
-    border: 1px solid var(--border-medium);
-    border-radius: var(--radius-md);
-  }
-  .seg button {
-    padding: var(--space-2) var(--space-3);
-    font: var(--fw-medium) var(--fs-sm) / 1 var(--font-sans);
-    color: var(--text-secondary);
-    background: transparent;
-    border: none;
-    cursor: pointer;
-    transition:
-      background var(--timing-fast),
-      color var(--timing-fast);
-  }
-  .seg button:hover:not(.active) {
-    background: var(--bg-surface2);
-    color: var(--text-primary);
-  }
-  .seg button.active {
-    color: var(--text-accent);
-    background: var(--bg-surface3);
-    font-weight: var(--fw-bold);
-  }
-  .seg button:focus-visible {
-    outline: 2px solid var(--accent-node);
-    outline-offset: -2px;
   }
 
   .living {
