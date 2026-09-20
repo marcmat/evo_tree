@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { eras as ERAS } from '../lib/data';
+  import { eras as ERAS, images } from '../lib/data';
   import { eraAtMa, eraEndpoints } from '../lib/eras';
   import { strings } from '../lib/i18n';
   import type { EvoNode } from '../lib/schema';
@@ -17,6 +17,11 @@
       .join(' — '),
   );
   const rangeLabel = $derived(`${nf.format(node.startMa)}–${nf.format(node.endMa)} Ma`);
+  // Not every group has a freely-licensed picture; those fall back to the sprite.
+  const pic = $derived(images[node.id] ?? null);
+  // Files live in public/, so the URL must carry Vite's base — the GitHub Pages
+  // project site is served from /evo_tree/, where a root-absolute path 404s.
+  const base = import.meta.env.BASE_URL;
   const extinctLabel = $derived.by(() => {
     const eraName = ERAS[eraAtMa(node.endMa)]?.name[ui.lang];
     return `${nf.format(node.endMa)} Ma${eraName ? ` (${eraName})` : ''}`;
@@ -28,7 +33,27 @@
   id={`detail-${node.id}`}
   style="--panel-left:calc(var(--inset) + {startFrac.toFixed(4)} * (100% - var(--inset)))"
 >
-  <svg class="icon" viewBox="0 0 64 64" aria-hidden="true"><use href={`#${node.icon}`} /></svg>
+  {#if pic}
+    <figure class="pic">
+      <img
+        src={`${base}species/${pic.file}`}
+        alt={pic.subject}
+        width={pic.width}
+        height={pic.height}
+        loading="lazy"
+        decoding="async"
+      />
+      <figcaption>
+        {t.photoBy}
+        {pic.author} ·
+        <a href={pic.licenseUrl} target="_blank" rel="noopener noreferrer license">{pic.license}</a>
+        ·
+        <a href={pic.sourceUrl} target="_blank" rel="noopener noreferrer">{t.source}</a>
+      </figcaption>
+    </figure>
+  {:else}
+    <svg class="icon" viewBox="0 0 64 64" aria-hidden="true"><use href={`#${node.icon}`} /></svg>
+  {/if}
   <div class="body">
     <p>{text}</p>
     <p class="distinction">
@@ -77,6 +102,38 @@
     background: rgb(56 189 248 / 0.12);
     border: 1px solid rgb(56 189 248 / 0.25);
     border-radius: 50%;
+  }
+
+  .pic {
+    flex-shrink: 0;
+    width: 160px;
+    margin: 0;
+  }
+  .pic img {
+    /* height:auto with the width/height attributes present keeps the reserved box
+       at the file's real aspect ratio, so nothing jumps when the bytes land. */
+    width: 100%;
+    height: auto;
+    display: block;
+    background: var(--bg-surface);
+    border: 1px solid var(--border-medium);
+    border-radius: var(--radius-md);
+  }
+  /* Author, licence and a link back to the file — the attribution CC BY and
+     CC BY-SA require. Small, but at full --text-secondary: dimming it further
+     would drop it under 4.5:1, which is how the footer dedication broke once. */
+  .pic figcaption {
+    margin-top: var(--space-1);
+    font-size: var(--fs-xs);
+    line-height: 1.4;
+    color: var(--text-secondary);
+  }
+  .pic figcaption a {
+    color: var(--text-secondary);
+    text-decoration: underline;
+  }
+  .pic figcaption a:hover {
+    color: var(--text-primary);
   }
   .body {
     flex: 1;

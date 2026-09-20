@@ -28,7 +28,9 @@
     "maAgo": "mln lat temu",
     "distinction": "Czym się wyróżnia",
     "examples": "Przykłady",
-    "exactDate": "Dokładna data:"
+    "exactDate": "Dokładna data:",
+    "photoBy": "fot.",
+    "source": "źródło"
   },
   "en": {
     "title": "Vertebrate Evolution Tree",
@@ -59,6 +61,8 @@
     "maAgo": "million years ago",
     "distinction": "What sets it apart",
     "examples": "Examples",
-    "exactDate": "Exact date:"
+    "exactDate": "Exact date:",
+    "photoBy": "image:",
+    "source": "source"
   }
 }
