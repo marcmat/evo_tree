@@ -10,9 +10,27 @@
     <meta name="color-scheme" content="dark" />
     <meta name="theme-color" content="#090d16" />
     <title>Drzewo Ewolucji Kręgowców</title>
+    <link rel="preconnect" href="https://gc.zgo.at" />
   </head>
   <body>
     <div id="app"></div>
     <script type="module" src="/src/main.ts"></script>
+    <!--
+      Visit counting. Renders nothing: there is no badge, banner or counter on
+      the page, and no consent notice is needed because nothing is written to
+      the visitor's browser — no cookie, no localStorage. GoatCounter keeps no
+      IP address; it hashes site + IP + User-Agent in memory for a few hours to
+      tell repeat visits apart, then discards it.
+
+      Loaded async so it never blocks the tree, and count.js ignores local
+      addresses by default, so `npm run dev` and `npm run preview` do not
+      register. Explicit https rather than the protocol-relative `//` in the
+      snippet upstream publishes — the site is https-only.
+    -->
+    <script
+      data-goatcounter="https://marcmat.goatcounter.com/count"
+      async
+      src="https://gc.zgo.at/count.js"
+    ></script>
   </body>
 </html>
