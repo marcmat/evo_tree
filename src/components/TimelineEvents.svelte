@@ -41,6 +41,8 @@
 </script>
 
 <div class="events" aria-label={t.eventsTitle}>
+  <!-- aria-controls only while this marker's tooltip is rendered; pointing at a
+       tooltip that does not exist yet reads as a broken relationship. -->
   {#each sorted as ev (ev.id)}
     {@const lines = badgeLines(ev.shortName[ui.lang])}
     <button
@@ -49,7 +51,7 @@
       style="left:{leftFor(ev.ma)}"
       aria-label={ariaLabelFor(ev)}
       aria-expanded={activeId === ev.id}
-      aria-controls={`event-tip-${ev.id}`}
+      aria-controls={activeId === ev.id ? `event-tip-${ev.id}` : undefined}
       onmouseenter={() => setHover(ev.id)}
       onmouseleave={() => setHover(null)}
       onfocus={() => setHover(ev.id)}
@@ -246,9 +248,9 @@
       height: 64px;
     }
   }
-  @media (max-width: 700px) {
-    .events {
-      display: none;
-    }
-  }
+  /* Below 700px the badges are already gone (see above) and the chart scrolls
+     horizontally inside a 620px canvas, which leaves roughly 60px per marker
+     across two lanes — enough for the glyphs. Hiding the lane outright used to
+     remove the extinctions and milestones from mobile altogether, with nothing
+     standing in for them. */
 </style>

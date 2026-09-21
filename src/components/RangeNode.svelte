@@ -41,7 +41,8 @@
       .map((k) => ERAS[k]?.name[ui.lang])
       .filter(Boolean)
       .join(' — ');
-    const range = `${nf.format(node.startMa)}–${nf.format(node.endMa)} Ma`;
+    // Non-breaking space before the unit so "66 Ma" never wraps mid-figure.
+    const range = `${nf.format(node.startMa)}–${nf.format(node.endMa)}\u00a0Ma`;
     return eraNames ? `${range} (${eraNames})` : range;
   });
 
@@ -97,7 +98,6 @@
     class:on-path={onPath}
     class:is-current={isCurrent}
     class:dimmed
-    title={shortTxt}
     onmouseenter={() => (ui.hoveredId = node.id)}
   >
     <div
@@ -129,6 +129,12 @@
         ></span>
       {/if}
 
+      <!-- aria-controls is set only while the panel exists: a permanent
+           reference points at nothing for all 105 rows at rest, which assistive
+           tech reads as a broken relationship. `title` moved here off the row
+           wrapper, where it was reachable by mouse alone; on the button it
+           becomes the accessible description, and the fuller `detail` text is
+           one click away. -->
       <button
         class="name"
         class:detail-open={detailOpen}
@@ -136,7 +142,8 @@
         tabindex={ui.focusedId === node.id ? 0 : -1}
         aria-label={ariaLabel}
         aria-expanded={detailOpen}
-        aria-controls={`detail-${node.id}`}
+        aria-controls={detailOpen ? `detail-${node.id}` : undefined}
+        title={shortTxt}
         onfocus={() => (ui.focusedId = node.id)}
         onclick={() => selectNode(node.id)}
       >
@@ -214,6 +221,7 @@
   }
 
   .chevron {
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -226,6 +234,22 @@
     border: none;
     border-radius: var(--radius-sm);
     cursor: pointer;
+    transition: background var(--timing-fast);
+  }
+  /* The visible chip stays 16px so the row rhythm is unchanged, but the pointer
+     target is extended to the 24x24 WCAG 2.2 minimum. A pseudo-element is used
+     rather than padding so the extra area costs no layout space. */
+  .chevron::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 24px;
+    height: 24px;
+    transform: translate(-50%, -50%);
+  }
+  .chevron:hover {
+    background: rgb(0 0 0 / 0.5);
   }
   .chevron svg {
     transition: transform var(--timing-normal) ease;

@@ -14,7 +14,10 @@
 </script>
 
 <div class="outer">
-  <div class="toolbar container" role="toolbar" aria-label={t.title}>
+  <!-- role="group", not "toolbar": the toolbar role promises arrow-key roving
+       focus between the controls, which this does not implement. Tab order is
+       the honest contract for four independent controls. -->
+  <div class="toolbar container" role="group" aria-label={t.title}>
     <label class="living">
       <input type="checkbox" name="livingOnly" bind:checked={ui.livingOnly} />
       {t.livingOnly}
@@ -67,6 +70,9 @@
     display: flex;
     align-items: center;
     gap: var(--space-2);
+    /* The label is the hit target for the 14px checkbox inside it, so it carries
+       the 24px WCAG 2.2 minimum rather than the input. */
+    min-height: 24px;
     font-size: var(--fs-sm);
     color: var(--text-secondary);
     cursor: pointer;

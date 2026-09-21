@@ -16,7 +16,7 @@
       .filter(Boolean)
       .join(' — '),
   );
-  const rangeLabel = $derived(`${nf.format(node.startMa)}–${nf.format(node.endMa)} Ma`);
+  const rangeLabel = $derived(`${nf.format(node.startMa)}–${nf.format(node.endMa)}\u00a0Ma`);
   // Not every group has a freely-licensed picture; those fall back to the sprite.
   const pic = $derived(images[node.id] ?? null);
   // Files live in public/, so the URL must carry Vite's base — the GitHub Pages
@@ -29,7 +29,7 @@
   let zoomed = $state(false);
   const extinctLabel = $derived.by(() => {
     const eraName = ERAS[eraAtMa(node.endMa)]?.name[ui.lang];
-    return `${nf.format(node.endMa)} Ma${eraName ? ` (${eraName})` : ''}`;
+    return `${nf.format(node.endMa)}\u00a0Ma${eraName ? ` (${eraName})` : ''}`;
   });
 </script>
 
@@ -120,11 +120,12 @@
     border-radius: 50%;
   }
 
+  /* No width transition: animating width reflows the panel (and the connector
+     overlay measured from it) on every frame. The zoom is a single step. */
   .pic {
     flex-shrink: 0;
     width: 160px;
     margin: 0;
-    transition: width var(--timing-normal) ease;
   }
   /* Enlarged in place rather than in an overlay: the panel is already a layer
      above the chart, and a lightbox would need its own focus trap and dismissal
@@ -142,6 +143,11 @@
   }
   .pic.zoomed .zoom {
     cursor: zoom-out;
+  }
+  /* The cursor change alone is not feedback on touch, and says nothing on a
+     trackpad where the cursor is already over the image. */
+  .zoom:hover img {
+    border-color: var(--accent-node);
   }
   .zoom:focus-visible {
     outline: 2px solid var(--accent-node);

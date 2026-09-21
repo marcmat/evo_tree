@@ -263,6 +263,9 @@
   }
   .scroll {
     overflow-x: auto;
+    /* Without this, reaching either end of the horizontal scroll hands the
+       gesture to the browser, which reads it as back/forward navigation. */
+    overscroll-behavior-x: contain;
   }
   .canvas {
     min-width: 720px;
@@ -412,12 +415,11 @@
     .canvas {
       min-width: 620px;
     }
+    /* Tightened, not blanked. At font-size 0 the era names survived only in the
+       `title`, which does nothing on touch; they now keep the desktop size, the
+       narrow bands ellipsize, and the sr-only list still names all ten. */
     .band {
-      font-size: 0;
-      padding: 0;
-    }
-    .axis {
-      display: none;
+      padding: 0 2px;
     }
   }
 </style>

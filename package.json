@@ -1,6 +1,6 @@
 {
   "name": "evo-tree",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "Interactive vertebrate evolution tree — Vite + Svelte 5 + TypeScript",
   "type": "module",
   "license": "MIT",
