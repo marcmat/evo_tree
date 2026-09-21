@@ -33,14 +33,10 @@ const SEARCH_OVERRIDES = {
  */
 const FILE_OVERRIDES = {
   sauropodomorpha: 'File:Saturnalia tupiniquim.jpg',
-  archosauria: 'File:Euparkeria white background.png',
   gnathostomata: 'File:Entelognathus.png',
   // Groups whose museum mounts and specimen plates carry titles the reject list
   // cannot see — named after a city or an accession number rather than "skeleton".
   placentalia: 'File:Protungulatum.png',
-  prosauropoda: 'File:Plateosaurus picture.png',
-  pterosauria: 'File:Pterodactylus BMMS7 life.png',
-  rhynchosauria: 'File:Rhynchosaurus articeps.png',
   thyreophora: "File:Nobu Tamura's Scutellosaurus Mirrored.jpg",
   // Ancient stand-ins the ranking could not find on its own.
   lacertilia: 'File:Schoenesmahl.png',
@@ -51,35 +47,90 @@ const FILE_OVERRIDES = {
   palaeognathae: 'File:Aepyornis white background.jpg',
   neoaves: 'File:Life reconstruction of the terror bird Titanis walleri.jpg',
   carnivora: 'File:Smilodon fatalis image gbu0oxgbu0oxgbu0.png',
-  chiroptera: 'File:Icaronycteris by N Tamura.jpg',
-  primates: 'File:Darwinius masillae Life Reconstruction.png',
-  rodentia: 'File:Ceratogaulus anecdotus.jpg',
-  diplodocoidea: 'File:Diplodocus (2).jpg',
   acipenseriformes: 'File:Acipenser sturio.jpg',
-  batoidea: 'File:Giant oceanic manta ray.jpg',
-  holocephali: 'File:Chimaera monstrosa Sardinia.jpg',
-  gekkota: 'File:Baby Tokay gecko.jpg',
-  pleurodira: 'File:Chelidae Chelus fimbriata 2.jpg',
   // Replacements for pictures that showed only a head, sat too dark, or were
   // nineteenth-century paintings rather than current restorations.
   afrotheria: 'File:Moeritherium NT crop.jpg',
-  ichthyosauria: 'File:Stenopterygius triscissus SW.png',
-  testudines: 'File:Proganochelys model.jpg',
   mosasauria: 'File:Mosasaurus missouriensis NT.png',
-  ornithischia: 'File:Lesothosaurus diagnosticus.png',
-  ankylosauria: 'File:Gargoyleosaurus drinking.png',
   cephalochordata: 'File:Branchiostoma lanceolatum.jpg',
+  // Switched to the house style — a side profile of the whole animal on a plain
+  // background, matching the Hylonomus reference the panel was built around.
+  // Picked by eye, not by filename: an "NT"/"BW" suffix says who drew it, not
+  // what the drawing contains. Files carrying that suffix turned out to include
+  // blue human scale figures (Lesothosaurus, Fodonyx, Herrerasaurus), a stamped
+  // plate number (Nyasasaurus NT) and full photoreal habitat scenes (Euparkeria
+  // NT small), so every candidate here was opened and looked at.
+  chordata: 'File:202010 Pikaia gracilens.png',
+  dicynodontia: 'File:Lystrosaurus BW.jpg',
+  diplodocoidea: 'File:Diplodocus BW.jpg',
+  ichthyosauria: 'File:Stenopterygius BW.jpg',
+  ornithischia: 'File:Lesothosaurus diagnosticus.png',
+  pachycephalosauria: 'File:Dracorex BW.jpg',
+  placodermi: 'File:Dunkleosteus BW.jpg',
+  plesiosauria: 'File:Rhomaleosaurus NT.jpg',
+  pliosauroidea: 'File:Kronosaurus BW.jpg',
+  primates: 'File:Darwinius NT.jpg',
+  rhynchosauria: 'File:Rhynchosaurus articeps.png',
+  sauropoda: 'File:Brachiosaurus BW.jpg',
+  stegosauria: 'File:Stegosaurus BW.jpg',
+  therapsida: 'File:Biarmosuchus BW.jpg',
+  // Kept on their pre-existing files: the house-style candidate was worse in
+  // each case — a habitat photo-render for Euparkeria, a plate number over
+  // Nyasasaurus, a bloodied carcass under Herrerasaurus, a second animal beside
+  // Mastodonsaurus. Pinned explicitly so a re-run cannot drift back.
+  archosauria: 'File:Euparkeria white background.png',
+  dinosauria: 'File:Nyasasaurus TD.png',
+  saurischia: 'File:Herrerasaurus ischigualastensis Illustration.jpg',
+  temnospondyli: 'File:Mastodonsaurus DB.jpg',
+  // Second style pass. These were a photograph of a living animal, a photograph
+  // of a museum model, a drawing in some other idiom, a head with no body, or a
+  // picture with a person in it — a scuba diver beside the manta, a palm holding
+  // the gecko, a hand behind the bat, a scale figure next to the shark.
+  anguimorpha: 'File:Varanus priscus BW.jpg',
+  ankylosauria: 'File:Polacanthus TD.png',
+  aves: 'File:Ichthyornis BW.jpg',
+  ceratopsia: 'File:Psittacosaurus mongoliensis whole BW.jpg',
+  ceratopsidae: 'File:Centrosaurus BW.jpg',
+  chiroptera: 'File:Onychonycteris NT small.jpg',
+  galloanserae: 'File:Vegavis restoration.jpg',
+  holocephali: 'File:Helicoprion NT small.jpg',
+  pelycosauria: 'File:Dimetrodon BW.jpg',
+  polypteriformes: 'File:Bawitius restoration.png',
+  prosauropoda: 'File:Massospondylus BW.jpg',
+  pterosauria: 'File:Rhamphorhynchus DB.jpg',
+  rhynchocephalia: 'File:Planocephalosaurus robinsonae.png',
+  rodentia: 'File:Palaeocastor BW.jpg',
+  selachimorpha: 'File:Cretoxyrhina mantelli.png',
+  testudines: 'File:Thaichelys ruchae life restoration.png',
+  // Five living groups with no freely-licensed restoration of an extinct member:
+  // geckos, iguanians, advanced snakes, rays and side-necked turtles. They keep a
+  // present-day animal, but one photographed against plain white, so the panel
+  // reads as one set even though these five break the "show it in its own era"
+  // rule that SUBJECT_OVERRIDES applies everywhere else.
+  batoidea: 'File:Thornback ray on a white background.jpg',
+  colubroidea: 'File:Crotalinae white background.jpg',
+  gekkota:
+    'File:Hemidactylus platyurus (Flat-tailed House Gecko) on white background, focus stacking.jpg',
+  iguania: 'File:Iguana marina (Amblyrhynchus cristatus) white background.JPG',
+  pleurodira: 'File:N222 Sowerby & Lear 1872 (pelomedusa subrufa) white background.jpg',
   // "Velociraptor" returned an F-22 fighter jet.
   dromaeosauridae: 'File:Deinonychus BW.jpg',
 };
 
-/** Subject for pins whose filename leads with the artist, not the genus. */
+/** Subject for pins whose filename leads with something other than the genus —
+    the artist, an upload date, a plate number, or the describing author. The
+    subject is printed under the picture, so it has to be the animal's name. */
 const PIN_SUBJECTS = {
+  chordata: 'Pikaia', // filename leads with an upload date
   thyreophora: 'Scutellosaurus',
   neoaves: 'Titanis',
-  pleurodira: 'Matamata',
-  batoidea: 'Manta',
-  gekkota: 'Gekko gecko',
+  pleurodira: 'Pelomedusa', // filename leads with an 1872 plate number
+  batoidea: 'Raja clavata',
+  gekkota: 'Hemidactylus platyurus',
+  iguania: 'Amblyrhynchus cristatus', // filename leads with the Spanish name
+  colubroidea: 'Crotalus',
+  ceratopsia: 'Psittacosaurus',
+  anguimorpha: 'Varanus priscus', // "priscus" reads as a licence word and is dropped
 };
 
 /**
@@ -111,12 +162,12 @@ const SUBJECT_OVERRIDES = {
   xenarthra: 'Megatherium',
   euarchontoglires: 'Plesiadapis',
   laurasiatheria: 'Hyaenodon',
-  testudines: 'Proganochelys',
-  rhynchocephalia: 'Gephyrosaurus',
+  testudines: 'Thaichelys',
+  rhynchocephalia: 'Planocephalosaurus',
   lacertilia: 'Ardeosaurus',
   serpentes: 'Dinilysia',
   crocodylomorpha: 'Protosuchus',
-  aves: 'Archaeopteryx',
+  aves: 'Ichthyornis',
   // New branches: an extinct member where one has good art, otherwise the
   // group's own examples carry the search.
   palaeognathae: 'Aepyornis',
@@ -124,17 +175,17 @@ const SUBJECT_OVERRIDES = {
   neoaves: 'Phorusrhacos',
   carnivora: 'Smilodon',
   cetartiodactyla: 'Basilosaurus',
-  chiroptera: 'Icaronycteris',
+  chiroptera: 'Onychonycteris',
   perissodactyla: 'Paraceratherium',
   primates: 'Notharctus',
-  rodentia: 'Ceratogaulus',
+  rodentia: 'Palaeocastor',
   lagomorpha: 'Palaeolagus',
   teleostei: 'Xiphactinus',
-  selachimorpha: 'Otodus megalodon',
+  selachimorpha: 'Cretoxyrhina',
   holocephali: 'Helicoprion',
   booidea: 'Titanoboa',
   cryptodira: 'Archelon',
-  pleurodira: 'Stupendemys',
+  pleurodira: 'Pelomedusa',
 };
 
 /**
